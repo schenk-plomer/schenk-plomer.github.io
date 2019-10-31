@@ -1,0 +1,29 @@
+---
+label: Header
+hide_body: true
+fields:
+- type: file
+  name: logo
+  label: Logo
+- type: textarea
+  name: email
+  label: Email
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: file
+  name: icon_email
+  label: Icon Email
+- type: textarea
+  name: tel
+  label: Tel
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: file
+  name: icon_tel
+  label: Icon Tel
+pages:
+- content/global/header.md

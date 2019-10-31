@@ -1,0 +1,29 @@
+{{ $currentPage := . }}
+<div id="breadcrumbsInline">
+          {{ range .Site.Menus.main }}
+            {{ if ($currentPage.HasMenuCurrent "main" .) }}
+              <a href="{{ .URL }}" title="{{ .Title }}">{{replaceRE "\\[.+\\]" "" .Name}}</a>
+              {{ if .HasChildren }}
+                {{range .Children}}
+                  {{ if ($currentPage.HasMenuCurrent "main" .) }}
+                    <a href="{{ .URL }}" title="{{ .Title }}">{{replaceRE "\\[.+\\]" "" .Name}}</a>
+                    {{ if .HasChildren }}
+                      {{range .Children}}
+                        {{ if ($currentPage.HasMenuCurrent "main" .) }}
+                          <a href="{{ .URL }}" title="{{ .Title }}">{{replaceRE "\\[.+\\]" "" .Name}}</a>
+                          {{ if .HasChildren }}
+                            {{range .Children}}
+                              {{ if ($currentPage.HasMenuCurrent "main" .) }}
+                                <a href="{{ .URL }}" title="{{ .Title }}">{{replaceRE "\\[.+\\]" "" .Name}}</a>
+                              {{end}}
+                            {{end}}
+                          {{end}}
+                        {{end}}
+                      {{end}}
+                    {{end}}
+                  {{end}}
+                {{end}}
+              {{end}}
+            {{end}}
+          {{ end }}
+</div>

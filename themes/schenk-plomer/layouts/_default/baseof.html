@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default " de " }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ block "title" . }}{{ .Site.Title }} {{ with .Params.Title }} |
+    {{replaceRE "\\[.+\\]" "" .}}{{ end }}{{ end }}</title>
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <link rel="shortcut icon" type="image/ico" href="/favicon.png">
+  <meta name="viewport" content="width=device-width,user-scalable=no">
+  <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/36f80a6a-527c-46cd-bafa-53070bcc525e.css" />
+  <link rel="stylesheet" href="{{ $.Site.BaseURL }}/lib/semantic.min.css">
+  <link rel="stylesheet" href="{{ $.Site.BaseURL }}/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="{{ $.Site.BaseURL }}/lib/jquery.min.js"></script>
+  <script type="text/javascript" src="{{ $.Site.BaseURL }}/lib/cloudinary-core-shrinkwrap.min.js"></script>
+</head>
+
+<body>
+  {{ partial "header.html" . }}
+  <main role="main">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+
+  <script type="text/javascript" src="{{ $.Site.BaseURL }}/lib/semantic.min.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      const scrElems = ["header",'#home'];
+      let scr = false;
+      $(window).scroll(function () {
+        const supportPageOffset = window.pageXOffset !== undefined;
+        const isCSS1Compat = ((document.compatMode || '') === 'CSS1Compat');
+        const y = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
+        if ((y > 0) !== scr) {
+          scr = y > 0;
+          if (scr) {
+            scrElems.forEach(function (v) {
+              $(v).addClass('scrolled').removeClass('unscrolled');
+            });
+          } else {
+            scrElems.forEach(function (v) {
+              $(v).removeClass('scrolled').addClass('unscrolled');
+            })
+          }
+        }
+      });
+      $('.headermenuitem a').click(function(){
+        $('.headermenuitem').removeClass('active');
+        $(this).parent().addClass('active');
+        $('#headermenumobil').removeClass('mobvis');
+      });
+      $('#mntbt').click(function () {
+        if ($('#headermenumobil').hasClass('mobvis')) {
+          $('#headermenumobil').removeClass('mobvis');
+          $('#mntbt i').addClass('bars');
+          $('#mntbt i').removeClass('remove');
+        } else {
+          $('#headermenumobil').addClass('mobvis');
+          $('#mntbt i').removeClass('bars');
+          $('#mntbt i').addClass('remove');
+        }
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    var cl = cloudinary.Cloudinary.new({ cloud_name: "b-coding" });
+    cl.responsive();
+  </script>
+</body>
+
+</html>

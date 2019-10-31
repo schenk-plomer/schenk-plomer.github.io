@@ -1,0 +1,130 @@
+{{ define "main" }}
+{{$p:=.}}
+<div id="home">
+  {{with .Params.ueber_uns}}
+
+  <div class="headimg"
+    style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}) center center no-repeat; background-size:cover;">
+  </div>
+  <section id="sec-{{.interner_linkname}}">
+    <div class="spm" id="{{.interner_linkname}}"></div>
+    <div class="ui container">
+      {{partial "titleSubtitle" (dict "top" true "title" .titel "subtitle" .untertitel)}}
+      <div class="ccontent">
+        {{.content|safeHTML}}
+      </div>
+    </div>
+  </section>
+  {{end}}
+  {{with .Params.produkte}}
+  <section id="sec-{{.interner_linkname}}">
+      <div class="spm" id="{{.interner_linkname}}"></div>
+    <div id="tc" class="ui container">
+      {{partial "titleSubtitle" (dict "top" false "title" .titel "subtitle" .untertitel)}}
+      <div class="ccontent">
+        {{.content|safeHTML}}
+      </div>
+    </div>
+    <div class="ui container">
+      <div id="plist" class="ui grid two column">
+        {{range .produkte}}
+        <div class="prod column">
+          <div class="ui grid stackable">
+            {{if eq .bild_rechts true}}
+            <div class="column left tx six wide">
+              {{partial "titleSubtitle" (dict "sub" true "title" .titel "subtitle" .untertitel)}}
+              <a class="infobutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
+            </div>
+            <div class="column img ten wide">
+              <img src="{{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}" />
+            </div>
+            {{else}}
+            <div class="column img ten wide">
+              <img src="{{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}" />
+            </div>
+            <div class="column right tx six wide">
+              {{partial "titleSubtitle" (dict "sub" true "title" .titel "subtitle" .untertitel)}}
+              <a class="infobutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
+            </div>
+            {{end}}
+          </div>
+        </div>
+        {{end}}
+      </div>
+    </div>
+    {{with .produktarten}}
+    <div id="pac" class="ui container">
+      <div class="ui three column grid stackable">
+        {{range .element}}
+        <div class="column">
+          <img src="{{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}" />
+          <h3>{{.titel}}</h3>
+          <div>{{.content|safeHTML}}</div>
+        </div>
+        {{end}}
+      </div>
+      <h4>{{.titel_content_unten}}</h4>
+      <div>{{.content_unten|safeHTML}}</div>
+      <a class="infobutton" href="{{.button_link}}">{{.buttonbeschriftung}}</a>
+    </div>
+    {{end}}
+  </section>
+  {{end}}
+  {{with .Params.service}}
+  <section id="sec-{{.interner_linkname}}" class="ui container">
+      <div class="spm" id="{{.interner_linkname}}"></div>
+    {{partial "titleSubtitle" (dict "top" false "title" .titel "subtitle" .untertitel)}}
+    <div class="ui two column grid stackable">
+      <div class="column computer only"
+        style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}) left bottom no-repeat; background-size:contain;">
+      </div>
+      <div class="column content" style="padding:2rem 0;">
+        {{.content|safeHTML}}
+      </div>
+    </div>
+  </section>
+  {{end}}
+  {{with .Params.ofenmobil}}
+  <section id="sec-{{.interner_linkname}}" class="ui container">
+      <div class="spm" id="{{.interner_linkname}}"></div>
+    <div class="ui two column grid stackable"  style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}) center center no-repeat; background-size:cover;">
+      <div class="column content" style="padding:2rem 0;">
+          {{partial "titleSubtitle" (dict "top" false "title" .titel "subtitle" .untertitel)}}
+        {{.content|safeHTML}}
+      </div>
+      <div class="column computer only">
+        &nbsp;
+      </div>
+    </div>
+    <a class="infobutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
+  </section>
+  {{end}}
+  {{with .Params.entscheidungshilfe}}
+  <section id="sec-{{.interner_linkname}}" class="ui container" style="background:url({{partial "imgUrl" (dict "img" .flammen "params" "q_100" )}}) center bottom no-repeat; background-size:100px;">
+      <div class="spm" id="{{.interner_linkname}}"></div>
+    {{partial "titleSubtitle" (dict "top" false "title" .titel "subtitle" .untertitel)}}
+    <div class="ui two column grid stackable">
+      {{range .varianten}}
+      <div class="column">
+        <div class="icontitle">
+            <img src="{{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}" />
+            <h2>{{.titel|safeHTML}}</h2>
+        </div>
+        <div class="content">
+          {{.content|safeHTML}}
+        </div>
+      </div>
+      {{end}}
+    </div>
+  </section>
+  {{end}}
+  {{with .Params.kontakt}}
+  <section id="sec-{{.interner_linkname}}">
+      <div class="spm" id="{{.interner_linkname}}"></div>
+    <div class="ui container">
+      {{.content|safeHTML}}
+    </div>
+  </section>
+  {{end}}
+</div>
+{{ end }}

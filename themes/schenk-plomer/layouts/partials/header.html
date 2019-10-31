@@ -1,0 +1,48 @@
+{{ $t := .Site.GetPage "header.md" }} {{ $currentPage := . }}{{$site := .Site}}
+<header>
+  <div class="ui container ">
+    <div class="adrtel">
+      <div>
+        <img src="{{partial "imgUrl" (dict "img" $t.Params.icon_email "params" "q_100" )}}" />
+        <div>{{$t.Params.email|safeHTML}}</div>
+      </div>
+      <div>
+        <img src="{{partial "imgUrl" (dict "img" $t.Params.icon_tel "params" "q_100" )}}" />
+        <div>{{$t.Params.tel|safeHTML}}</div>
+      </div>
+    </div>
+  </div>
+  <div class="ui container ">
+    <div id="headermenuw">
+      <div class="logow">
+        <a href="/" id="logolink">
+          <img class="logo" src="{{partial "imgUrl" (dict "img" $t.Params.logo "params" "q_100" )}}" />
+        </a>
+      </div>
+      <div id="headermenumobil" class="mobinit">
+        {{ range .Site.Menus.main }}
+        <div class="headermenuitem {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+          <a href="{{ .URL }}" title="{{ .Title }}">
+            <span>{{ .Name | safeHTML }}</span>
+          </a>
+        </div>
+        {{end}}
+      </div>
+      <div id="headermenu" class=" ui container">
+          {{ range .Site.Menus.main }}
+          <div class="headermenuitem {{ if or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .) }}active{{ end }}
+              ">
+            <a href="{{ .URL }}" title="{{ .Title }}">
+              <span>{{ .Name | safeHTML }}</span>
+            </a>
+          </div>
+          {{ end }}
+      </div>
+      <div id="mnt">
+          <button class="ui basic icon button" id="mntbt">
+            <i class="bars icon"></i>
+          </button>
+        </div>
+    </div>
+  </div>
+</header>

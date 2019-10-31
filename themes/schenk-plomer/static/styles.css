@@ -1,0 +1,507 @@
+body {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif, serif;
+  color: #1e1e1e;
+  background: white;
+}
+body *:not(i) {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif important;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Blippo W01 Black', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #727272;
+}
+h1 em,
+h2 em,
+h3 em,
+h4 em {
+  font-style: normal;
+  color: #e77817;
+}
+a {
+  color: #e77817;
+}
+a:hover {
+  text-decoration: underline;
+  color: #e77817;
+}
+header {
+  padding-bottom: 2rem;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  background: white;
+}
+header .logo {
+  height: 140px;
+  margin-top: -2rem;
+  transition-property: height;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+@media (max-width: 720px) {
+  header .logo {
+    height: 60px;
+    margin-top: 0;
+  }
+}
+header.scrolled {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e77817;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+header.scrolled .logo {
+  height: 80px;
+}
+@media (max-width: 720px) {
+  header.scrolled .logo {
+    height: 40px;
+  }
+}
+header .logow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+@media (max-width: 720px) {
+  header .logow {
+    width: 70vw;
+  }
+}
+header .adrtel {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex: 0 1 auto;
+  font-size: 0.9rem;
+  padding: 0.5rem 0;
+}
+@media (max-width: 720px) {
+  header .adrtel {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between !important;
+  }
+  header .adrtel > div {
+    width: auto!important;
+    justify-content: flex-end !important;
+    align-items: center;
+  }
+}
+header .adrtel > div {
+  display: inline-block;
+  flex: 0 1 auto;
+  padding: 0 1rem 0 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .adrtel > div > div {
+  flex: 1 0 auto;
+}
+header .adrtel > div img {
+  margin: 0 1rem 0 0;
+}
+header .adrtel > div a {
+  color: #1e1e1e !important;
+}
+header #headermenuw {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+@media (max-width: 720px) {
+  header #headermenuw {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+header #mnt {
+  display: none;
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+}
+@media (max-width: 720px) {
+  header #mnt {
+    display: block;
+  }
+}
+header #headermenumobil {
+  display: none;
+}
+@media (max-width: 720px) {
+  header #headermenumobil {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-height: 0px;
+    overflow: hidden;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+  }
+  header #headermenumobil.mobvis {
+    max-height: 1000px;
+    padding: 0.5rem 0rem!important;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+    opacity: 1;
+    margin: 0 -1rem;
+  }
+  header #headermenumobil .headermenuitem {
+    width: 50%;
+    color: #727272;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: left;
+  }
+  header #headermenumobil .headermenuitem:nth-child(even) {
+    text-align: right;
+  }
+}
+header #headermenu {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+@media (max-width: 720px) {
+  header #headermenu {
+    display: none!important;
+  }
+}
+.headermenuitem {
+  flex: 0 1 auto;
+  color: #1e1e1e;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-left: -1px;
+  padding: 0 1rem 0.5rem 1rem;
+  word-wrap: none;
+  white-space: nowrap;
+  position: relative;
+  border-bottom: 2px solid transparent;
+}
+.headermenuitem a {
+  color: #1e1e1e;
+  text-decoration: none;
+}
+.headermenuitem:hover {
+  border-bottom: 2px solid rgba(114, 114, 114, 0.3);
+}
+.headermenuitem.active {
+  border-bottom: 2px solid #e77817;
+}
+footer {
+  background: #e77817;
+}
+footer .eblink {
+  color: white;
+  font-size: 0.8rem;
+}
+footer > .ui.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 720px) {
+  footer > .ui.container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+footer .footermenu {
+  display: flex!important;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.8rem 0;
+}
+footer .footermenu a {
+  color: white!important;
+  font-size: 0.8rem;
+  padding: 0 0.8rem 0 0;
+  margin: 0 0.8rem 0 0;
+  border-right: 1px solid white;
+  line-height: 1rem;
+}
+footer .footermenu a:last-child {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+.ccontent {
+  text-align: center;
+}
+.ts h1 {
+  font-size: 4rem;
+  margin: 0;
+  text-align: center;
+}
+.ts h2 {
+  font-size: 4rem;
+  color: #727272;
+  margin: 0;
+  text-align: center;
+}
+.ts h3 {
+  font-size: 1.3rem;
+  color: #1e1e1e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+.ts.top h2 {
+  font-size: 1.3rem;
+  color: #1e1e1e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+.ts.sub h3 {
+  font-size: 2.5rem;
+  color: #727272;
+  margin: 0;
+  text-align: center;
+  font-family: 'Blippo W01 Black', Arial, Helvetica, sans-serif;
+}
+.ts.sub h4 {
+  font-size: 1.3rem;
+  color: #1e1e1e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif !important;
+}
+@media (max-width: 720px) {
+  .ts h1 {
+    font-size: 3rem;
+  }
+  .ts h2 {
+    font-size: 3rem;
+  }
+  .ts.sub h3 {
+    font-size: 2.5rem;
+  }
+  .ts.sub h4 {
+    font-size: 1.3rem;
+  }
+}
+section {
+  padding: 2rem 0 2rem 0;
+}
+section > .grid {
+  margin: 0!important;
+}
+section .column.content {
+  padding: 2rem!important;
+}
+.infobutton {
+  background: #e77817;
+  color: white;
+  text-decoration: none!important;
+  padding: 0.75rem 2rem;
+  display: inline-block;
+  font-weight: bold!important;
+  margin: 1rem 0;
+}
+.infobutton:hover {
+  color: white;
+}
+ul {
+  padding: 0;
+}
+ul li {
+  margin-left: 1em;
+}
+#home.scrolled {
+  padding-top: 180px;
+}
+#home .headimg {
+  height: 40vh;
+  margin: 0 0 0;
+}
+#home #sec-service {
+  padding-bottom: 0;
+}
+#home #sec-entscheidungshilfe {
+  padding-bottom: 0;
+}
+@media (min-width: 720px) {
+  #home #sec-entscheidungshilfe .column {
+    padding-left: 50px!important;
+  }
+}
+@media (max-width: 720px) {
+  #home #sec-entscheidungshilfe {
+    background-size: auto 100px!important;
+    background-position: right bottom!important;
+  }
+}
+#home #sec-entscheidungshilfe .icontitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+#home #sec-entscheidungshilfe .icontitle h2 {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif !important;
+  font-weight: bold;
+  font-size: 1.8rem;
+  padding: 0 0 0 2rem;
+}
+#home #sec-entscheidungshilfe .icontitle img {
+  width: 30%;
+}
+#home #sec-entscheidungshilfe .content {
+  padding: 2rem 0 0 0;
+}
+#home #sec-entscheidungshilfe .content h3 {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #e77817;
+}
+#home #sec-kontakt {
+  background: #e77817;
+  color: white;
+  text-align: center;
+}
+#home #sec-kontakt p {
+  margin: 0;
+}
+#home #sec-ofenmobil {
+  padding: 0;
+  background: #727272;
+  position: relative;
+  color: white;
+}
+#home #sec-ofenmobil > .grid {
+  margin: 0!important;
+}
+#home #sec-ofenmobil h3,
+#home #sec-ofenmobil h2 {
+  text-align: left;
+}
+#home #sec-ofenmobil h3 {
+  color: white;
+}
+#home #sec-ofenmobil h2 {
+  font-size: 3rem;
+}
+#home #sec-ofenmobil .infobutton {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 200px;
+  margin: 1rem auto -1.5rem -100px;
+  text-align: center;
+}
+@media (max-width: 720px) {
+  #home #sec-ofenmobil .grid {
+    background: #727272 !important;
+    padding: 1rem!important;
+    margin: 0 -1rem !important;
+  }
+}
+#home #sec-produkte {
+  padding: 0 0 2rem 0;
+}
+#home #sec-produkte #plist {
+  margin-top: -300px;
+}
+#home #sec-produkte #tc {
+  padding: 2rem 0 300px 0;
+  background: rgba(114, 114, 114, 0.1);
+}
+@media (max-width: 720px) {
+  #home #sec-produkte #tc {
+    background: white;
+  }
+}
+#home #sec-produkte .left {
+  align-items: flex-end;
+}
+#home #sec-produkte .left h4,
+#home #sec-produkte .left h3 {
+  text-align: right!important;
+}
+#home #sec-produkte .right {
+  align-items: flex-start;
+}
+#home #sec-produkte .right h4,
+#home #sec-produkte .right h3 {
+  text-align: left!important;
+}
+#home #sec-produkte .column.tx,
+#home #sec-produkte .column.img {
+  display: flex!important;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+@media (max-width: 720px) {
+  #home #sec-produkte .column.tx h3,
+  #home #sec-produkte .column.img h3 {
+    font-size: 1.8rem!important;
+  }
+}
+#home #sec-produkte .column img {
+  max-width: 100%;
+}
+#home #sec-produkte #pac {
+  background: rgba(114, 114, 114, 0.3);
+  padding: 2rem 2rem 0 2rem;
+  margin: 2rem 0 -1rem 0;
+  text-align: center;
+}
+#home #sec-produkte #pac .infobutton {
+  margin: 1rem 0 -2rem 0 !important;
+}
+#home #sec-produkte #pac h4 {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif !important;
+  color: #e77817;
+  font-weight: bold;
+  margin: 0;
+  font-size: 1.6rem;
+}
+#home #sec-produkte #pac .grid img {
+  width: 40%;
+  margin-right: -12%;
+}
+#home #sec-produkte #pac .grid .column {
+  display: flex!important;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+#home #sec-produkte #pac .grid .column a {
+  color: #1e1e1e;
+}
+#home #sec-produkte #pac .grid .column a:hover {
+  text-decoration: none;
+  color: #e77817;
+}
+#home #sec-produkte #pac .grid h3 {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif !important;
+  color: #e77817;
+  font-weight: bold;
+}
+#home .spm {
+  position: absolute;
+  top: -120px;
+}
+#home section {
+  position: relative;
+}

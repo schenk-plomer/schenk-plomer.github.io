@@ -1,0 +1,269 @@
+---
+label: Home
+hide_body: true
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
+- name: ueber_uns
+  type: field_group
+  config: {}
+  fields:
+  - name: bild
+    type: file
+    config:
+      maxSize: 250
+    label: Bild
+  - name: t
+    type: include
+    config: {}
+    template: titeluntertitel
+    label: T
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  label: Über uns
+- name: produkte
+  type: field_group
+  config: {}
+  fields:
+  - name: t
+    type: include
+    config: {}
+    template: titeluntertitel
+    label: T
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  - name: produkte
+    type: field_group_list
+    fields:
+    - name: t
+      type: include
+      config: {}
+      template: titeluntertitel
+      label: T
+    - name: bild
+      type: file
+      config:
+        maxSize: 250
+      label: Bild
+    - name: buttonbeschriftung
+      type: text
+      config:
+        required: false
+      label: Buttonbeschriftung
+    - name: buttonlink
+      type: text
+      config:
+        required: false
+      label: Buttonlink
+    - name: bild_rechts
+      type: boolean
+      label: Bild rechts
+    config:
+      min: 
+      max: 
+      labelField: untertitel
+    label: Produkte
+  - name: produktarten
+    type: field_group
+    config: {}
+    fields:
+    - name: element
+      type: field_group_list
+      fields:
+      - name: bild
+        type: file
+        config:
+          maxSize: 250
+        label: Bild
+      - name: titel
+        type: text
+        config:
+          required: false
+        label: Titel
+      - name: content
+        type: textarea
+        default: ''
+        config:
+          required: false
+          wysiwyg: true
+          schema:
+            format: html-blocks
+        label: Content
+      config:
+        min: 
+        max: 
+        labelField: 
+      label: Element
+    - name: titel_content_unten
+      type: text
+      config:
+        required: false
+      label: Titel Content unten
+    - name: buttonbeschriftung
+      type: text
+      config:
+        required: false
+      label: Buttonbeschriftung
+    - name: button_link
+      type: text
+      config:
+        required: false
+      label: Button Link
+    - name: content_unten
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: Content unten
+    label: Produktarten
+  label: Produkte
+- name: service
+  type: field_group
+  config: {}
+  fields:
+  - name: t
+    type: include
+    config: {}
+    template: titeluntertitel
+    label: T
+  - name: bild
+    type: file
+    config:
+      maxSize: 250
+    label: Bild
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  label: Service
+- name: ofenmobil
+  type: field_group
+  config: {}
+  fields:
+  - name: t
+    type: include
+    config: {}
+    template: titeluntertitel
+    label: T
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  - name: buttonbeschriftung
+    type: text
+    config:
+      required: false
+    label: Buttonbeschriftung
+  - name: buttonlink
+    type: text
+    config:
+      required: false
+    label: Buttonlink
+  - name: bild
+    type: file
+    config:
+      maxSize: 250
+    label: Bild
+  label: Ofenmobil
+- name: entscheidungshilfe
+  type: field_group
+  config: {}
+  fields:
+  - name: t
+    type: include
+    config: {}
+    template: titeluntertitel
+    label: T
+  - name: varianten
+    type: field_group_list
+    fields:
+    - name: bild
+      type: file
+      config:
+        maxSize: 250
+      label: Bild
+    - name: titel
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: Titel
+    - name: content
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: Content
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Varianten
+  - name: flammen
+    type: file
+    config:
+      maxSize: 250
+    label: Flammen
+  label: Entscheidungshilfe
+- name: kontakt
+  type: field_group
+  config: {}
+  fields:
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  - name: t
+    type: include
+    config: {}
+    template: titeluntertitel
+    label: T
+  label: Kontakt
+pages:
+- content/_index.md

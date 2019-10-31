@@ -1,0 +1,24 @@
+---
+label: titelUntertitel
+hide_body: true
+fields:
+- name: untertitel
+  type: text
+  config:
+    required: false
+  label: Untertitel
+- name: titel
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Titel
+- name: interner_linkname
+  type: text
+  config:
+    required: false
+  label: Interner Linkname
+  description: wird nicht auf der Webseite angezeigt, wird für Navigation benötigt

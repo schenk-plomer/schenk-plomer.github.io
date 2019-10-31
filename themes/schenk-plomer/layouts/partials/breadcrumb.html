@@ -1,0 +1,33 @@
+{{ $currentPage := . }}
+<div id="breadcrumbs">
+  <div class="ui container ">
+      <div>
+          {{ range .Site.Menus.main }}
+            {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+              <a href="{{ .URL }}" title="{{ .Title }}">{{replaceRE "\\[.+\\]" "" .Name}}</a>
+              {{ if .HasChildren }}
+                {{range .Children}}
+                  {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+                    <a href="{{ .URL }}" title="{{ .Title }}">{{replaceRE "\\[.+\\]" "" .Name}}</a>
+                    {{ if .HasChildren }}
+                      {{range .Children}}
+                        {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+                          <a href="{{ .URL }}" title="{{ .Title }}">{{replaceRE "\\[.+\\]" "" .Name}}</a>
+                          {{ if .HasChildren }}
+                            {{range .Children}}
+                              {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+                                <a href="{{ .URL }}" title="{{ .Title }}">{{replaceRE "\\[.+\\]" "" .Name}}</a>
+                              {{end}}
+                            {{end}}
+                          {{end}}
+                        {{end}}
+                      {{end}}
+                    {{end}}
+                  {{end}}
+                {{end}}
+              {{end}}
+            {{end}}
+          {{ end }}
+      </div>
+  </div>
+</div>

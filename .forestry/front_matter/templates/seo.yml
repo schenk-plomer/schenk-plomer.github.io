@@ -1,0 +1,9 @@
+---
+label: SEO
+hide_body: true
+fields:
+- name: seo_description
+  type: text
+  config:
+    required: false
+  label: SEO Description

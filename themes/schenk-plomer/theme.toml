@@ -1,0 +1,7 @@
+DefaultContentLanguage = "de"
+name = "agrimont Theme"
+min_version = "0.49.2"
+
+[author]
+  name = "elvira.beck | design"
+  homepage = "https://elvirabeck-design.de"

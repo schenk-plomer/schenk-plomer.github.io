@@ -1,0 +1,11 @@
+{{ $t := .Site.GetPage "footer.md" }}
+<footer class=" {{if .IsHome}}home{{end}}">
+  <div class="ui container">
+      <div class="footermenu">
+          {{ $currentPage := . }} {{ range .Site.Menus.footer }}
+          <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+          {{ end }}
+        </div>
+        <a class="eblink" href="http://elvirabeck-design.de" target="_blank">elvira.beck | design</a>
+  </div>
+</footer>
