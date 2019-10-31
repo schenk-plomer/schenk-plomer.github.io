@@ -50,5 +50,85 @@ fields:
         format: html-blocks
     label: Untertitel
   label: Bildbereich
+- name: leistungen
+  type: field_group
+  config: {}
+  fields:
+  - name: hintergrundbild
+    type: file
+    config:
+      maxSize: 250
+    label: Hintergrundbild
+  - name: titel
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Titel
+  - name: bereiche1
+    type: field_group_list
+    fields:
+    - name: icon
+      type: file
+      config:
+        maxSize: 250
+      label: Icon
+    - name: beschriftung
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: Beschriftung
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Bereiche 1
+  - name: bereiche2
+    type: field_group_list
+    fields:
+    - name: icon
+      type: file
+      config:
+        maxSize: 250
+      label: Icon
+    - name: beschriftung
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: Beschriftung
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Bereiche 2
+  - name: beschriftung_button
+    type: text
+    config:
+      required: false
+    label: Beschriftung Button
+  - name: link_button
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: seiten
+        file: 
+        path: 
+    label: Link Button
+  label: Leistungen
 pages:
 - content/_index.md
