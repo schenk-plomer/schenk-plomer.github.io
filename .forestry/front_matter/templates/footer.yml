@@ -1,4 +1,21 @@
 ---
 label: Footer
 hide_body: true
-fields: []
+fields:
+- name: abschnitte
+  type: field_group_list
+  fields:
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Content
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Abschnitte
