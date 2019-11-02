@@ -12,3 +12,5 @@ fields:
   config: {}
   template: leistungen
   label: Leistungen
+pages:
+- content/luft-und-klimatechnik.md
