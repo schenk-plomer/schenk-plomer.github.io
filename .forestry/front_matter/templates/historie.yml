@@ -57,5 +57,3 @@ fields:
   type: image_gallery
   config: {}
   label: Weitere Bilder
-pages:
-- content/p-historie-p.md

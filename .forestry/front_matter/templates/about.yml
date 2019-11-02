@@ -71,5 +71,3 @@ fields:
   type: image_gallery
   config: {}
   label: Bilder
-pages:
-- content/p-unternehmen-p.md

@@ -58,5 +58,3 @@ fields:
   config:
     required: false
   label: Karte
-pages:
-- content/p-kontakt-p.md
