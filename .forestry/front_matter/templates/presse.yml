@@ -1,4 +1,70 @@
 ---
 label: Presse
 hide_body: true
-fields: []
+fields:
+- name: titel
+  type: include
+  config: {}
+  template: titleimage
+  label: Titel
+- name: content
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Titel
+  - name: untertitel
+    type: text
+    config:
+      required: false
+    label: Untertitel
+  label: Content
+- name: artikel
+  type: field_group_list
+  fields:
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: quelle
+    type: text
+    config:
+      required: false
+    label: Quelle
+  - name: zusammenfassung
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Zusammenfassung
+  - name: link_beschriftung
+    type: text
+    config:
+      required: false
+    label: Link Beschriftung
+  - name: datei
+    type: file
+    config:
+      maxSize: 250
+    label: Datei
+  - name: bild
+    type: file
+    config:
+      maxSize: 250
+    label: Bild
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Artikel
