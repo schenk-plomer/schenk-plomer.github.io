@@ -1,4 +1,55 @@
 ---
 label: Kontakt
 hide_body: true
-fields: []
+fields:
+- name: titel
+  type: include
+  config: {}
+  template: titleimage
+  label: Titel
+- name: content
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Titel
+  - name: untertitel
+    type: text
+    config:
+      required: false
+    label: Untertitel
+  label: Content
+- name: kontaktdaten
+  type: field_group_list
+  fields:
+  - name: icon
+    type: file
+    config:
+      maxSize: 250
+    label: Icon
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Kontaktdaten
