@@ -53,3 +53,8 @@ fields:
     max: 
     labelField: 
   label: Kontaktdaten
+- name: karte
+  type: text
+  config:
+    required: false
+  label: Karte
