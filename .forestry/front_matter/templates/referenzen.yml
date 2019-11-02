@@ -1,4 +1,86 @@
 ---
 label: Referenzen
 hide_body: true
-fields: []
+fields:
+- name: titel
+  type: include
+  config: {}
+  template: titleimage
+  label: Titel
+- name: content
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Titel
+  - name: untertitel
+    type: text
+    config:
+      required: false
+    label: Untertitel
+  label: Content
+- name: projekte_mit_bildergallerie
+  type: field_group_list
+  fields:
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: untertitel
+    type: text
+    config:
+      required: false
+    label: Untertitel
+  - name: bilder
+    type: image_gallery
+    config: {}
+    label: Bilder
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Projekte mit Bildergallerie
+- name: projekte_auflistung
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Titel
+  - name: referenz
+    type: field_group_list
+    fields:
+    - name: titel
+      type: text
+      config:
+        required: false
+      label: Titel
+    - name: content
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: Content
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Referenz
+  label: Referenzen Auflistung
