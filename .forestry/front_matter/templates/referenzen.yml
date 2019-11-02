@@ -84,3 +84,5 @@ fields:
       labelField: 
     label: Referenz
   label: Referenzen Auflistung
+pages:
+- content/p-referenzen-p.md
