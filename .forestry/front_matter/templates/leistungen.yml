@@ -1,4 +1,34 @@
 ---
 label: Leistungen
 hide_body: true
-fields: []
+fields:
+- name: bereiche
+  type: field_group_list
+  fields:
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: TItel
+  - name: icons
+    type: image_gallery
+    config: {}
+    label: Icons
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  - name: bilder
+    type: image_gallery
+    config: {}
+    label: Bilder
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Bereiche
