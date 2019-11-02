@@ -1,4 +1,14 @@
 ---
 label: Leistungsbereiche
 hide_body: true
-fields: []
+fields:
+- name: header
+  type: include
+  config: {}
+  template: titleoverlay
+  label: Header
+- name: leistungen
+  type: include
+  config: {}
+  template: leistungen
+  label: Leistungen
