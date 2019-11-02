@@ -1,4 +1,91 @@
 ---
 label: Karriere
 hide_body: true
-fields: []
+fields:
+- name: titel
+  type: include
+  config: {}
+  template: titleimage
+  label: Titel
+- name: content
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Titel
+  - name: untertitel
+    type: text
+    config:
+      required: false
+    label: Untertitel
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  label: Content
+- name: stellen
+  type: field_group_list
+  fields:
+  - name: art
+    type: text
+    config:
+      required: false
+    label: Art
+  - name: stelle
+    type: field_group_list
+    fields:
+    - name: titel
+      type: text
+      config:
+        required: false
+      label: Titel
+    - name: content
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: Content
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Stelle
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Stellen
+- name: content_unten
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Content unten
+- name: button_link
+  type: text
+  config:
+    required: false
+  label: Button Link
+- name: button_beschriftung
+  type: text
+  config:
+    required: false
+  label: Button Beschriftung
