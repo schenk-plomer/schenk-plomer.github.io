@@ -44,3 +44,30 @@ fields:
         format: html-blocks
     label: Stärken
   label: Content
+- name: zahlen_und_fakten
+  type: field_group_list
+  fields:
+  - name: icon
+    type: file
+    config:
+      maxSize: 250
+    label: Icon
+  - name: zahl
+    type: text
+    config:
+      required: false
+    label: Zahl
+  - name: bezeichnung
+    type: text
+    config:
+      required: false
+    label: Bezeichnung
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Zahlen und Fakten
+- name: bilder
+  type: image_gallery
+  config: {}
+  label: Bilder
