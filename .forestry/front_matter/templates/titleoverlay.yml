@@ -1,4 +1,19 @@
 ---
 label: TitleOverlay
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titel
+- name: titel_hintergrundfarbe
+  type: text
+  config:
+    required: false
+  label: Titel Hintergrundfarbe
+- name: titel_overlay
+  type: file
+  config:
+    maxSize: 250
+  label: Titel Overlay
