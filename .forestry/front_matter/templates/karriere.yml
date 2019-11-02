@@ -89,3 +89,5 @@ fields:
   config:
     required: false
   label: Button Beschriftung
+pages:
+- content/p-karriere-p.md
