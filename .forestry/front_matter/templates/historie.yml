@@ -1,4 +1,59 @@
 ---
 label: Historie
 hide_body: true
-fields: []
+fields:
+- name: titel
+  type: include
+  config: {}
+  template: titleimage
+  label: Titel
+- name: content
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Titel
+  - name: untertitel
+    type: text
+    config:
+      required: false
+    label: Untertitel
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  label: Content
+- name: historie
+  type: field_group_list
+  fields:
+  - name: jahr
+    type: text
+    config:
+      required: false
+    label: Jahr
+  - name: bild
+    type: file
+    config:
+      maxSize: 250
+    label: Bild
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Historie
+- name: weitere_bilder
+  type: image_gallery
+  config: {}
+  label: Weitere Bilder
