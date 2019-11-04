@@ -16,8 +16,8 @@ bezeichnung = "Montage- und Servicefahrzeuge"
 icon = "/uploads/2019/11/04/montage.png"
 zahl = "40"
 [[zahlen_und_fakten]]
-bezeichnung = ""
+bezeichnung = "Jahre Know - How"
 icon = ""
-zahl = ""
+zahl = "26"
 
 +++
