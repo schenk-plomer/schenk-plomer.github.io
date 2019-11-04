@@ -9,7 +9,6 @@ overlay_rechts = "/uploads/2019/11/04/overlay_rechts.png"
 titel = "<p><strong>Gute Lüftung</strong></p><p class=\"p1\"><strong>Prima Klima</strong></p>"
 untertitel = "<p>Schenk &amp; Plomer GmbH </p>"
 [leistungen]
-bereiche2 = []
 beschriftung_button = "weiter"
 hintergrundbild = "/uploads/2019/11/04/lueftung_leistungen.png"
 link_button = "luft-und-klimatechnik.md"
@@ -32,6 +31,24 @@ icon = "/uploads/2019/11/04/icon_be-ent-feuchtung.png"
 [[leistungen.bereiche1]]
 beschriftung = "<p>Wärmerück-<br>gewinnung</p>"
 icon = "/uploads/2019/11/04/icon_waermerueckgewinnung.png"
+[[leistungen.bereiche2]]
+beschriftung = "<p>Heizungstechnik</p>"
+icon = "/uploads/2019/11/04/icon_heiztechnik.png"
+[[leistungen.bereiche2]]
+beschriftung = ""
+icon = ""
+[[leistungen.bereiche2]]
+beschriftung = ""
+icon = ""
+[[leistungen.bereiche2]]
+beschriftung = ""
+icon = ""
+[[leistungen.bereiche2]]
+beschriftung = ""
+icon = ""
+[[leistungen.bereiche2]]
+beschriftung = ""
+icon = ""
 [schenk_and_plomer]
 titel = "Schenk & Plomer GmbH"
 [[schenk_and_plomer.bereiche]]
