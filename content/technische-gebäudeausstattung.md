@@ -8,10 +8,10 @@ content = "<p>Unser hochqualifiziertes Personal ist in der Lage sämtliche Anfor
 icons = ["/uploads/2019/11/04/icon_heiztechnik.png", "/uploads/2019/11/04/icon_kaeltetechnik.png"]
 titel = "Heizungs- und Kältetechnik"
 [[bereiche]]
-bilder = []
-content = ""
-icons = []
-titel = ""
+bilder = ["/uploads/2019/11/04/heizung.png"]
+content = "<p>fehlt noch</p>"
+icons = ["/uploads/2019/11/04/icon_elektrotechnik.png"]
+titel = "Elektrotechnik"
 [[bereiche]]
 bilder = []
 content = ""
