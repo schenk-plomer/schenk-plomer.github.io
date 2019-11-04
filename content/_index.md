@@ -10,13 +10,13 @@ titel = "<p><strong>Gute Lüftung</strong></p><p class=\"p1\"><strong>Prima Klim
 untertitel = "<p>Schenk &amp; Plomer GmbH </p>"
 [leistungen]
 bereiche2 = []
-beschriftung_button = ""
-hintergrundbild = ""
-link_button = ""
-titel = ""
+beschriftung_button = "weiter"
+hintergrundbild = "/uploads/2019/11/04/lueftung_leistungen.png"
+link_button = "luft-und-klimatechnik.md"
+titel = "<p><strong>Unser Leistungen <br></strong>für SIE</p>"
 [[leistungen.bereiche1]]
-beschriftung = ""
-icon = ""
+beschriftung = "<p>Lüftungsanlagen</p>"
+icon = "/uploads/2019/11/04/icon_lueftung.png"
 [schenk_and_plomer]
 titel = "Schenk & Plomer GmbH"
 [[schenk_and_plomer.bereiche]]
