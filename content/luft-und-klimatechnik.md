@@ -18,10 +18,10 @@ content = "<p>Jahrzehntelange Erfahrung mit der Absaugung von Holz- oder Metalls
 icons = ["/uploads/2019/11/04/icon_absaugung.png"]
 titel = "ABSAUGUNGEN"
 [[bereiche]]
-bilder = []
-content = ""
-icons = []
-titel = ""
+bilder = ["/uploads/2019/11/04/absaugung.png"]
+content = "<p><strong>Luftentfeuchtung:</strong> Anlage und Aggregate für Einzelräume oder Kanalsysteme mit Ausführung als Kondensationstrockner oder als Adsorptionstrockner.</p><p class=\"p1\">Beispiele: Schwimmbäder, Keller und Lagerräume, Neubauten, Sanierung von Bausubstanz bei Überflutung, Wasserwerke</p><p class=\"p2\"></p><p class=\"p1\"><strong>Luftbefeuchtung:</strong> Zerstäuber, Wäscher, Verdunster, Verdampfer mit und ohne Wasserbehandlung.</p><p class=\"p1\">Beispiele: Druckereien, Textil- und Holzverarbeitung, EDV-Räume, Museen, Spinnereien, Labors, OP-Räume, Reinräume</p>"
+icons = ["/uploads/2019/11/04/icon_be-ent-feuchtung.png"]
+titel = "Be- und Entfeuchtung"
 [[bereiche]]
 bilder = []
 content = ""
