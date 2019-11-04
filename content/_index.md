@@ -35,8 +35,8 @@ icon = "/uploads/2019/11/04/icon_waermerueckgewinnung.png"
 beschriftung = "<p>Heizungstechnik</p>"
 icon = "/uploads/2019/11/04/icon_heiztechnik.png"
 [[leistungen.bereiche2]]
-beschriftung = ""
-icon = ""
+beschriftung = "<p>Kältetechnik</p>"
+icon = "/uploads/2019/11/04/icon_kaeltetechnik.png"
 [[leistungen.bereiche2]]
 beschriftung = ""
 icon = ""
