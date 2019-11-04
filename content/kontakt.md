@@ -13,5 +13,13 @@ untertitel = "Wir sind für Sie da"
 bezeichnung = "Schenk & Plomer GmbH Plomer & Dachs GmbH Dieselstrasse 6  84056 Altheim"
 icon = ""
 zahl = "Adresse"
+[[zahlen_und_fakten]]
+bezeichnung = " Tel.: +49 8703 / 9226-0  Fax: +49 8703 / 9226-22"
+icon = ""
+zahl = "Telefon"
+[[zahlen_und_fakten]]
+bezeichnung = ""
+icon = ""
+zahl = ""
 
 +++
