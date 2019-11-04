@@ -36,5 +36,9 @@ titel = "Werkstatt"
 content = "<p>Unsere ausgebildeten Wartungsmonteure sind mit sämtlichen Systemen vertraut und führen selbstständig die entsprechend erforderlichen Wartungsarbeiten aus. Aufgrund der vielfältigen Ausbildung unserer Wartungsmonteure können erkannte Störungen und Beschädigungen kurzfristig behoben werden. Ein Wartungsjahresplan gibt Ihnen die Sicherheit, dass die Wartung ausgeführt wird wenn es in Ihren Terminplan passt.</p>"
 icon = "/uploads/2019/11/04/wartung_icon.png"
 titel = "Wartung"
+[[bereiche]]
+content = "<p>Auf Wunsch können wir mit unserem Servicepersonal eine ständige Betreuung Ihrer Anlagen oder einen Störungsdienst zu jeder Zeit anbieten.</p>"
+icon = "/uploads/2019/11/04/24h_icon.png"
+titel = "7 Tage / 24 Stunden"
 
 +++
