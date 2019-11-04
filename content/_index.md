@@ -17,6 +17,9 @@ titel = "<p><strong>Unser Leistungen <br></strong>für SIE</p>"
 [[leistungen.bereiche1]]
 beschriftung = "<p>Lüftungsanlagen</p>"
 icon = "/uploads/2019/11/04/icon_lueftung.png"
+[[leistungen.bereiche1]]
+beschriftung = "<p>Klimaanlagen</p>"
+icon = "/uploads/2019/11/04/icon_klima.png"
 [schenk_and_plomer]
 titel = "Schenk & Plomer GmbH"
 [[schenk_and_plomer.bereiche]]
