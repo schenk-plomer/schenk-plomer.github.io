@@ -15,6 +15,9 @@ hintergrundbild = "/uploads/2019/11/04/lueftung_leistungen.png"
 link_button = "luft-und-klimatechnik.md"
 titel = "<p><strong>Unser Leistungen <br></strong>für SIE</p>"
 [[leistungen.bereiche1]]
+beschriftung = "<p>Schall- und<br>Lärmschutz</p>"
+icon = "/uploads/2019/11/04/icon_schall_laermschutz.png"
+[[leistungen.bereiche1]]
 beschriftung = "<p>Lüftungsanlagen</p>"
 icon = "/uploads/2019/11/04/icon_lueftung.png"
 [[leistungen.bereiche1]]
