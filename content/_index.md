@@ -47,8 +47,8 @@ icon = "/uploads/2019/11/04/icon_elektrotechnik.png"
 beschriftung = "<p>MSR-Technik</p>"
 icon = "/uploads/2019/11/04/icon_msr-technik.png"
 [[leistungen.bereiche2]]
-beschriftung = ""
-icon = ""
+beschriftung = "<p>Baulicher Brandschutz</p>"
+icon = "/uploads/2019/11/04/icon_brandschutz.png"
 [schenk_and_plomer]
 titel = "Schenk & Plomer GmbH"
 [[schenk_and_plomer.bereiche]]
