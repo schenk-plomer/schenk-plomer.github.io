@@ -98,3 +98,5 @@ fields:
       labelField: 
     label: Bereiche
   label: Daten & Fakten
+pages:
+- content/service.md
