@@ -23,9 +23,9 @@ content = "<p>Durch einen langjährigen Partner sind wir im Stande, sämtliche A
 icons = ["/uploads/2019/11/04/icon_brandschutz.png"]
 titel = "Baulicher Brandschutz"
 [[bereiche]]
-bilder = []
-content = ""
-icons = []
-titel = ""
+bilder = ["/uploads/2019/11/04/heizung.png"]
+content = "<p>Gewerbeobjekt – Hotel – Wohnanlage – Produktionshalle: Wir installieren mit Fachkräften sämtliche notwendigen Leitungen zur Ver- und Entsorgung Ihres Objekts mit / von Wasser / Abwasser inklusive den erforderlichen Enthärtungsanlagen, Fettabscheidern, Dachentwässerungen oder sonstigen Anlagenkomponenten.</p>"
+icons = ["/uploads/2019/11/04/icon_sanitaertechnik.png"]
+titel = "Sanitärtechnik"
 
 +++
