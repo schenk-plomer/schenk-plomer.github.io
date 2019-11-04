@@ -1,5 +1,5 @@
 +++
-bilder = []
+bilder = ["/uploads/2019/11/04/schenk-plomer-dachs-4.jpg", "/uploads/2019/11/04/schenk-plomer-dachs-4l.jpg", "/uploads/2019/11/04/77.jpg", "/uploads/2019/11/04/88.jpg", "/uploads/2019/11/04/schenk-plomer-dachs-46.jpg", "/uploads/2019/11/04/schenk-plomer-dachs-466.jpg", "/uploads/2019/11/04/schenk-plomer-dachs-49.jpg"]
 titel_bild = "/uploads/2019/11/04/head_ueberuns.jpg"
 title = "<p>Unternehmen</p>"
 [content]
