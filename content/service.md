@@ -9,8 +9,8 @@ titel = "<p><strong>Alles aus einer Hand <br></strong>Daten &amp; Fakten</p>"
 content = "<ul><li><p><strong>ca. 1000 qm Werkhalle</strong> u. Lagerflächen, ca. 250 qm Büroflächen</p></li><li><p class=\"p1\"><strong>ca. 40 Montage- und Lieferfahrzeuge</strong> inkl. Werkzeug, Gerüste, Leitern, Montagelifte, Hebebühnen</p></li><li><p class=\"p1\"><strong>kältetechnische Werkausrüstung,</strong> Füllstation, Vakuumpumpen, Entsorgungsgerät, Montagehilfen und Messgeräte für die Herstellung, Umbau und Installation von kältetechnischen Anlagen</p></li><li><p class=\"p1\"><strong>kompletter Maschinenpark für Blechbiege- und Schweißarbeiten</strong>, Anfertigung von Lüftungskanälen, Rohren, Schalldämpfer, Form- und Übergangsteilen, Eigenherstellung von Filtergeräten, Absaugtischen, Wärme- und Klimakammern, eigener Schaltschrankbau (mit allen techn. Einrichtungen)</p></li><li><p class=\"p1\"><strong>Blechbearbeitungsmaschinen </strong>(Biegen, Falzen, Schlagscheren, Kanalfalzmaschine, Rundmaschine, Sickenmaschine, Schweißgeräte für Edelstahl, Alu usw.)</p></li></ul>"
 titel = "Gebäude und Ausstattung"
 [[daten_and_fakten.bereiche]]
-content = ""
-titel = ""
+content = "<p>Ausgestattet mit modernsten CAD-Arbeitsplätzen, Plotter und Berechnungsprogrammen entsteht hier die Basis für eine optimal koordinierte Montageabwicklung</p>"
+titel = "Technisches Büro"
 [[daten_and_fakten.bereiche]]
 content = ""
 titel = ""
