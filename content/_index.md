@@ -20,6 +20,9 @@ icon = "/uploads/2019/11/04/icon_lueftung.png"
 [[leistungen.bereiche1]]
 beschriftung = "<p>Klimaanlagen</p>"
 icon = "/uploads/2019/11/04/icon_klima.png"
+[[leistungen.bereiche1]]
+beschriftung = "<p>Absauganlagen</p>"
+icon = "/uploads/2019/11/04/icon_absaugung.png"
 [schenk_and_plomer]
 titel = "Schenk & Plomer GmbH"
 [[schenk_and_plomer.bereiche]]
