@@ -8,10 +8,10 @@ content = "<p>Seit über 25 Jahren sind Lüftungs- und Klimaanlagen unser Stecke
 icons = ["/uploads/2019/11/04/icon_lueftung.png"]
 titel = "LÜFTUNGSANLAGEN"
 [[bereiche]]
-bilder = []
-content = ""
-icons = []
-titel = ""
+bilder = ["/uploads/2019/11/04/klima.png", "/uploads/2019/11/04/klima.jpg"]
+content = "<p>Mit unserer eigenen Kälteabteilung können wir sämtliche Anforderungen bezüglich Kühlung von Wohnungen, Büroräumen, Hotelzimmern, Geschäftsräumen, Hochregallager, Serverräumen erfassen, entsprechende Lösungen erarbeiten und Ihnen ein entsprechendes Anlagenkonzept anbieten. Selbstverständlich helfen wir auch Ihre Bestandsanlagen in Schuss zu halten und zu optimieren.</p>"
+icons = ["/uploads/2019/11/04/icon_klima.png"]
+titel = "KLIMAANLAGEN"
 [[bereiche]]
 bilder = []
 content = ""
