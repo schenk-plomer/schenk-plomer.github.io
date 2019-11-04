@@ -15,9 +15,6 @@ hintergrundbild = "/uploads/2019/11/04/lueftung_leistungen.png"
 link_button = "luft-und-klimatechnik.md"
 titel = "<p><strong>Unser Leistungen <br></strong>für SIE</p>"
 [[leistungen.bereiche1]]
-beschriftung = "<p>Befeuchtung<br>&amp; Entfeuchtung</p>"
-icon = "/uploads/2019/11/04/icon_be-ent-feuchtung.png"
-[[leistungen.bereiche1]]
 beschriftung = "<p>Lüftungsanlagen</p>"
 icon = "/uploads/2019/11/04/icon_lueftung.png"
 [[leistungen.bereiche1]]
@@ -26,6 +23,12 @@ icon = "/uploads/2019/11/04/icon_klima.png"
 [[leistungen.bereiche1]]
 beschriftung = "<p>Absauganlagen</p>"
 icon = "/uploads/2019/11/04/icon_absaugung.png"
+[[leistungen.bereiche1]]
+beschriftung = "<p>Befeuchtung<br>&amp; Entfeuchtung</p>"
+icon = "/uploads/2019/11/04/icon_be-ent-feuchtung.png"
+[[leistungen.bereiche1]]
+beschriftung = "<p>Wärmerück-<br>gewinnung</p>"
+icon = "/uploads/2019/11/04/icon_waermerueckgewinnung.png"
 [schenk_and_plomer]
 titel = "Schenk & Plomer GmbH"
 [[schenk_and_plomer.bereiche]]
