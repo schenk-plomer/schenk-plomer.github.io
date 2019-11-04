@@ -68,3 +68,5 @@ fields:
     max: 
     labelField: 
   label: Artikel
+pages:
+- content/presse.md
