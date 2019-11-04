@@ -1,10 +1,10 @@
 +++
 projekte_mit_bildergallerie = []
-titel_bild = ""
+titel_bild = "/uploads/2019/11/04/head_referenzen.jpg"
 title = "<p>Referenzen</p>"
 [content]
-titel = ""
-untertitel = ""
+titel = "<p><strong>Grossprojekte<br></strong>&amp; Privathaushalte</p>"
+untertitel = "Referenzen"
 [projekte_auflistung]
 titel = "<p><strong>Auszug aus unseren <br></strong>Referenzen</p>"
 [[projekte_auflistung.referenz]]
