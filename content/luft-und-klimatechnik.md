@@ -28,9 +28,9 @@ content = "<p>mit und ohne Wärmetauscher, Ausnutzung von Produktionsabwärme, R
 icons = ["/uploads/2019/11/04/icon_waermerueckgewinnung.png"]
 titel = "Wärmerückgewinnung"
 [[bereiche]]
-bilder = []
-content = ""
-icons = []
-titel = ""
+bilder = ["/uploads/2019/11/04/schallschutz.png"]
+content = "<p>Ihre bestehenden Lüftungsanlagen haben den Nachbarn auf den Plan gerufen und Ihnen droht ein Produktionsstopp oder zumindest Sie müssen sich regelmäßig rechtfertigen? Wir analysieren Ihre Anlagen und erarbeiten eine Lösung die Sie und Ihre Nachbarn wieder ruhig schlafen lässt. Selbstverständlich können wir Sie bereits bei Neuinstallationen oder Umbauten diesbezüglich unterstützen.</p>"
+icons = ["/uploads/2019/11/04/icon_schall_laermschutz.png"]
+titel = "Schall- und Lärmschutz"
 
 +++
