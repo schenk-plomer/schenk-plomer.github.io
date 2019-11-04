@@ -42,10 +42,10 @@ zusammenfassung = "<p>WEITER AN EINEM STRANG: EVL-Spielbetrieb GmbH-Geschäftsf�
 [[artikel]]
 bild = "/uploads/2019/11/04/mitarbeiter.png"
 datei = "/uploads/2019/11/04/doc05801420190628081757.pdf"
-link_beschriftung = " .... ganzen Artikel lesen"
+link_beschriftung = " ... ganzen Artikel lesen"
 quelle = "Wochenblatt 2018"
 titel = "Die Mitarbeiter als Kapital "
-zusammenfassung = "<p>.... so lautet das Motto der Firma Schenk und Plomer GmbH Luft- und Klimatechnischer Anlagenbau ... man hat zum 1. September wieder neue Auszubildende begrüßt: Durch die Umgestaltung der CAD-Arbeitsplätze wurde ....</p>"
+zusammenfassung = "<p>.... so lautet das Motto der Firma Schenk und Plomer GmbH Luft- und Klimatechnischer Anlagenbau ... man hat zum 1. September wieder neue Auszubildende begrüßt: Durch die Umgestaltung der CAD-Arbeitsplätze wurde ...</p>"
 [[artikel]]
 bild = ""
 datei = ""
