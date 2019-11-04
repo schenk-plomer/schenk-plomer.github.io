@@ -38,8 +38,8 @@ icon = "/uploads/2019/11/04/icon_heiztechnik.png"
 beschriftung = "<p>Kältetechnik</p>"
 icon = "/uploads/2019/11/04/icon_kaeltetechnik.png"
 [[leistungen.bereiche2]]
-beschriftung = ""
-icon = ""
+beschriftung = "<p>Sanitärtechnik</p>"
+icon = "/uploads/2019/11/04/icon_sanitaertechnik.png"
 [[leistungen.bereiche2]]
 beschriftung = ""
 icon = ""
