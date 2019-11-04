@@ -13,10 +13,10 @@ content = "<p>fehlt noch</p>"
 icons = ["/uploads/2019/11/04/icon_elektrotechnik.png"]
 titel = "Elektrotechnik"
 [[bereiche]]
-bilder = []
-content = ""
-icons = []
-titel = ""
+bilder = ["/uploads/2019/11/04/msr-technik.png"]
+content = "<p>Unser Team besitzt Erfahrung mit allen gängigen Regelungssystemen sowie bei der Erstellung von eignen Schaltanlagen. Auch hier können Kleinanlagen für z. B. eine Kellerlüftung oder Großanlagen für beispielsweise Produktionshallen hergestellt werden. Die Inbetriebnahme von Lüftungs- und Klimaanlagen mit von Ihnen gelieferter Regelung ist unser tägliches Geschäft und wird entsprechend den Anforderungen termin- und fachgerecht ausgeführt. Die Überprüfung bestehender Anlagen inklusive der erforderlichen Luftmessungen und Energiebetrachtungen führen wir gerne für Sie aus.</p>"
+icons = ["/uploads/2019/11/04/icon_msr-technik.png"]
+titel = "MSR-Technik"
 [[bereiche]]
 bilder = []
 content = ""
