@@ -12,8 +12,8 @@ titel = "Gebäude und Ausstattung"
 content = "<p>Ausgestattet mit modernsten CAD-Arbeitsplätzen, Plotter und Berechnungsprogrammen entsteht hier die Basis für eine optimal koordinierte Montageabwicklung</p>"
 titel = "Technisches Büro"
 [[daten_and_fakten.bereiche]]
-content = ""
-titel = ""
+content = "<p>Die Damen und Herren unserer kaufmännischen Abteilung haben immer ein offenes Ohr und freundliches Wort für Ihre Anliegen und stellen zielsicher den Kontakt zu Ihrem Ansprechpartner her. Mittels neuester Programme für Kalkulation, Angebotserstellung und Abrechnung findet sich hier die solide Basis für sämtliche buchhalterischen Belange.</p>"
+titel = "Kaufmännisches Büro"
 [[daten_and_fakten.bereiche]]
 content = ""
 titel = ""
