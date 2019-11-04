@@ -41,11 +41,11 @@ icon = "/uploads/2019/11/04/icon_kaeltetechnik.png"
 beschriftung = "<p>Sanitärtechnik</p>"
 icon = "/uploads/2019/11/04/icon_sanitaertechnik.png"
 [[leistungen.bereiche2]]
-beschriftung = ""
-icon = ""
+beschriftung = "<p>Elektrotechnik</p>"
+icon = "/uploads/2019/11/04/icon_elektrotechnik.png"
 [[leistungen.bereiche2]]
-beschriftung = ""
-icon = ""
+beschriftung = "<p>MSR-Technik</p>"
+icon = "/uploads/2019/11/04/icon_msr-technik.png"
 [[leistungen.bereiche2]]
 beschriftung = ""
 icon = ""
