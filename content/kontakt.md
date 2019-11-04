@@ -11,15 +11,15 @@ titel = "<p>Schenk<strong> &amp; Plomer GmbH | </strong>Plomer<strong> &amp; Dac
 untertitel = "Wir sind für Sie da"
 [[zahlen_und_fakten]]
 bezeichnung = "Schenk & Plomer GmbH Plomer & Dachs GmbH Dieselstrasse 6  84056 Altheim"
-icon = ""
+icon = "/uploads/2019/11/04/icon_adresse.png"
 zahl = "Adresse"
 [[zahlen_und_fakten]]
 bezeichnung = " Tel.: +49 8703 / 9226-0  Fax: +49 8703 / 9226-22"
-icon = ""
+icon = "/uploads/2019/11/04/icon_telefon.png"
 zahl = "Telefon"
 [[zahlen_und_fakten]]
-bezeichnung = ""
-icon = ""
-zahl = ""
+bezeichnung = "Mail: info@schenk-plomer.de Web: www.schenk-plomer.de"
+icon = "/uploads/2019/11/04/icon_mail.png"
+zahl = "Web"
 
 +++
