@@ -13,10 +13,10 @@ content = "<p>Mit unserer eigenen Kälteabteilung können wir sämtliche Anforde
 icons = ["/uploads/2019/11/04/icon_klima.png"]
 titel = "KLIMAANLAGEN"
 [[bereiche]]
-bilder = []
-content = ""
-icons = []
-titel = ""
+bilder = ["/uploads/2019/11/04/absaugung3.jpg", "/uploads/2019/11/04/absaugung.png"]
+content = "<p>Jahrzehntelange Erfahrung mit der Absaugung von Holz- oder Metallspänen, Abscheiden von Kies, Laborabsaugung über Giftschränke oder Digestorien, Absaugung von Abgasen, Dämpfen oder Schweißrauch versetzen uns in die Lage, Ihnen für jede Aufgabenstellung eine Lösung anbieten zu können. Unsere erfahrenen Techniker freuen sich auch immer über neue Herausforderungen und unterstützen Sie gerne vom ersten Planungsschritt an. Gerne optimieren wir auch Ihre bestehende(n) Anlage(n) in Bezug auf Wirtschaftlichkeit und Energieeinsparung.</p>"
+icons = ["/uploads/2019/11/04/icon_absaugung.png"]
+titel = "ABSAUGUNGEN"
 [[bereiche]]
 bilder = []
 content = ""
