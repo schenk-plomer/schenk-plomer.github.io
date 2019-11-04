@@ -1,5 +1,5 @@
 +++
-seo_description = "asd"
+seo_description = "Schenk & Plomer GmbH im niederbayerischen Essenbach Ihr verlässlicher Spezialist für die Herstellung, Installation und Wartung hochwertiger und komplexer Klima- und Lüftungsanlagen seit 1993. Über die 2017 gegründete Plomer & Dachs GmbH, eine 100%ige Tochter der Schenk & Plomer GmbH, decken wir die Versorgungs- und Ausrüstungstechnik sowie innovativer Energie- und Gebäudetechnik ab."
 title = "Home"
 type = "page"
 [bildbereich]
@@ -51,6 +51,11 @@ beschriftung = "<p>Baulicher Brandschutz</p>"
 icon = "/uploads/2019/11/04/icon_brandschutz.png"
 [schenk_and_plomer]
 titel = "Schenk & Plomer GmbH"
+[[schenk_and_plomer.bereiche]]
+hintergrundfarbe = ""
+logo = ""
+overlay = ""
+titel = ""
 [[schenk_and_plomer.bereiche]]
 hintergrundfarbe = ""
 logo = ""
