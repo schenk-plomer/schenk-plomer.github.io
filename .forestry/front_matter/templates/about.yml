@@ -71,3 +71,5 @@ fields:
   type: image_gallery
   config: {}
   label: Bilder
+pages:
+- content/kontakt.md
