@@ -9,8 +9,10 @@ content = ""
 titel = "<p><strong>Vakante Stellen</strong></p>"
 untertitel = "Bei uns arbeitet man nicht einfach nur, hier gehörst du zum Team"
 [[stellen]]
-art = "Aufbi"
-stelle = []
+art = "Praktikum in unseren unterschiedlichen Ausbildungsberufen"
+[[stellen.stelle]]
+content = "<p>Praktikum (ab 14 Jahren)</p><p>Sich für den richtigen Ausbildungsberuf zu entscheiden, ist oft nicht einfach. Lerne ganz unverbindlich unsere Ausbildungsberufe</p><p>kennen und absolviere bei uns ein Praktikum. Sowohl im technischen als auch im kaufmännischen Bereich erhältst</p><p>Du bei uns die Möglichkeit, einen Einblick in zukünftige Arbeitsgebiete und den Berufsalltag kennen zu lernen. Folgende Praktika sind bei uns möglich: </p><ul><li><p>Schülerpraktikum während der Schulzeiten und in den Ferien</p></li><li><p>Praktikum in unseren unterschiedlichen Ausbildungsberufen </p></li></ul><p>Sende uns deine Kurzbewerbung mit Anschreiben und Lebenslauf bitte schriftlich oder per E-Mail.</p><p>Bitte vorab den Versicherungsschutz prüfen</p>"
+titel = "Praktium Ausbildungsberufe / Schülerpraktium"
 [[stellen]]
 art = "Ausbildungsplätze"
 [[stellen.stelle]]
