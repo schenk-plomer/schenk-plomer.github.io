@@ -13,5 +13,5 @@ fields:
   template: leistungen
   label: Leistungen
 pages:
-- content/luft-und-klimatechnik.md
 - content/technische-gebäudeausstattung.md
+- content/luft-und-klimatechnik.md
