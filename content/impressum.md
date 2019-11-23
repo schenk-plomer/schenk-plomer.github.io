@@ -4,7 +4,7 @@ titel_header = "Impressum"
 title = "Impressum"
 type = "page"
 [menu.footer]
-weight = 3
+weight = 2
 
 +++
 Angaben gemäß § 5 TMG:

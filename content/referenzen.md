@@ -4,6 +4,9 @@ title = "<p>Referenzen</p>"
 [content]
 titel = "<p><strong>Grossprojekte<br></strong>&amp; Privathaushalte</p>"
 untertitel = "Referenzen"
+[menu.main]
+name = "Referenzen"
+weight = 5
 [projekte_auflistung]
 titel = "<p><strong>Auszug aus unseren <br></strong>Referenzen</p>"
 [[projekte_auflistung.referenz]]

@@ -8,6 +8,9 @@ title = "<p>Karriere</p>"
 content = ""
 titel = "<p><strong>Vakante Stellen</strong></p>"
 untertitel = "Bei uns arbeitet man nicht einfach nur, hier gehörst du zum Team"
+[menu.main]
+name = "Karriere"
+weight = 6
 [[stellen]]
 art = "Praktikum in unseren unterschiedlichen Ausbildungsberufen"
 [[stellen.stelle]]

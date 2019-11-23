@@ -1,10 +1,12 @@
 +++
 titel_bild = "/uploads/2019/11/04/head_presse.jpg"
 title = "<p>Presse</p>"
-menu = "main"
 [content]
 titel = "<p><strong>Wussten Sie </strong>schon ...</p>"
 untertitel = "Presse & mehr"
+[menu.main]
+parent = "Unternehmen"
+weight = 1
 [[artikel]]
 bild = "/uploads/2019/11/04/presse_gutenzweck.png"
 datei = "/uploads/2019/11/04/Stille Hilfe Jan 2019.pdf"

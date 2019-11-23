@@ -7,6 +7,9 @@ content = "<p>Perfektion bis ins Detail. Seit nunmehr 25 Jahren ist die 1993 geg
 staerken = "<p><strong>Unsere Stärken</strong></p><p class=\"p3\">Top geschulte Mitarbeiter</p><p class=\"p3\">Eigene Kanalfertigung</p><p class=\"p3\">Wartung und Service Abteilung</p><p class=\"p3\">Absolute Termintreue</p><p class=\"p3\">Planung, Ausführung und Betreuung</p>"
 titel = "<p><strong>AUF UNS IST<br></strong>VERLASS</p>"
 untertitel = "Über uns"
+[menu.main]
+name = "Unternehmen"
+weight = 3
 [[zahlen_und_fakten]]
 bezeichnung = "Mitarbeiter"
 icon = "/uploads/2019/11/04/team_1.png"

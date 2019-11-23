@@ -9,6 +9,9 @@ content = ""
 staerken = ""
 titel = "<p>Schenk<strong> &amp; Plomer GmbH | </strong>Plomer<strong> &amp; Dachs GmbH</strong></p>"
 untertitel = "Wir sind für Sie da"
+[menu.main]
+name = "Kontakt"
+weight = 7
 [[zahlen_und_fakten]]
 bezeichnung = "Schenk & Plomer GmbH Plomer & Dachs GmbH Dieselstrasse 6  84056 Altheim"
 icon = "/uploads/2019/11/04/icon_adresse.png"
