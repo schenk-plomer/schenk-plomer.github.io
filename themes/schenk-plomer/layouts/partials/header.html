@@ -1,18 +1,6 @@
 {{ $t := .Site.GetPage "header.md" }} {{ $currentPage := . }}{{$site := .Site}}
 <header>
   <div class="ui container ">
-    <div class="adrtel">
-      <div>
-        <img src="{{partial "imgUrl" (dict "img" $t.Params.icon_email "params" "q_100" )}}" />
-        <div>{{$t.Params.email|safeHTML}}</div>
-      </div>
-      <div>
-        <img src="{{partial "imgUrl" (dict "img" $t.Params.icon_tel "params" "q_100" )}}" />
-        <div>{{$t.Params.tel|safeHTML}}</div>
-      </div>
-    </div>
-  </div>
-  <div class="ui container ">
     <div id="headermenuw">
       <div class="logow">
         <a href="/" id="logolink">

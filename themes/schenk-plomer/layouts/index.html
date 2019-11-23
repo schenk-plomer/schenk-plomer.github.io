@@ -1,20 +1,10 @@
 {{ define "main" }}
 {{$p:=.}}
 <div id="home">
-  {{with .Params.ueber_uns}}
-
-  <div class="headimg"
-    style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}) center center no-repeat; background-size:cover;">
+  {{with .Params.bildbereich}}
+  <div id="headimg_l0"
+    style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "q_100" )}}) center center no-repeat; background-size:cover;">
   </div>
-  <section id="sec-{{.interner_linkname}}">
-    <div class="spm" id="{{.interner_linkname}}"></div>
-    <div class="ui container">
-      {{partial "titleSubtitle" (dict "top" true "title" .titel "subtitle" .untertitel)}}
-      <div class="ccontent">
-        {{.content|safeHTML}}
-      </div>
-    </div>
-  </section>
   {{end}}
   {{with .Params.produkte}}
   <section id="sec-{{.interner_linkname}}">
