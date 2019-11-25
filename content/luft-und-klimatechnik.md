@@ -5,7 +5,7 @@ title = "Luft- und Klimatechnik"
 [menu.main]
 weight = 1
 [[bereiche]]
-bilder = ["/uploads/2019/11/04/luftung1.jpg", "/uploads/2019/11/04/Lüftung.png"]
+bilder = ["/uploads/2019/11/04/luftung1.jpg", "/uploads/2019/11/04/Lüftung.png"]
 content = "<p>Seit über 25 Jahren sind Lüftungs- und Klimaanlagen unser Steckenpferd. Beginnend bei einer Wohnungslüftung von 60 m³/h bis zu Lüftungsanlagen mit 150.000 m³/h ist uns nichts fremd. Belüftungssysteme für Mühlengebäude? Eins unserer Spezialgebiete. Eigenkonzeptionen oder bereits vorliegende Planung – wir setzen dies gerne nach Ihren Vorstellungen um. Entsprechend sind wir mit sämtlichen Arten von Wärmerückgewinnung, Befeuchtung, Entfeuchtung, Kühlung, Reinraumtechnik vertraut und Ihr kompetenter Ansprechpartner.</p><p class=\"p1\">Wir alle sind verantwortlich für den Paradigmenwechsel unseres Energiekonsums. Lassen Sie Ihre bestehende Anlage jetzt energetisch prüfen für eine saubere Umwelt. Lüftungsanlagen die heute auf dem neuesten technischen Stand tragen auch in der Zukunft maßgeblich zum Klimawandel bei.</p>"
 icons = ["/uploads/2019/11/04/icon_lueftung.png"]
 titel = "LÜFTUNGSANLAGEN"
@@ -15,7 +15,7 @@ content = "<p>Mit unserer eigenen Kälteabteilung können wir sämtliche Anforde
 icons = ["/uploads/2019/11/04/icon_klima.png"]
 titel = "KLIMAANLAGEN"
 [[bereiche]]
-bilder = ["/uploads/2019/11/04/absaugung3.jpg", "/uploads/2019/11/04/absaugung.png"]
+bilder = ["/uploads/2019/11/25/rüningen zuluftkanaele.jpg", "/uploads/2019/11/25/lrzent.jpg", "/uploads/2019/11/25/lrz zuluft.jpg", "/uploads/2019/11/25/klima1.jpg", "/uploads/2019/11/25/Kaltwassersatz.jpg", "/uploads/2019/11/25/jungheinrich.jpg", "/uploads/2019/11/25/fos_bos_abluft.jpg", "/uploads/2019/11/25/Absaugungsmokey.jpg", "/uploads/2019/11/25/absaugung.jpg", "/uploads/2019/11/25/Abgaskamin.jpg", "/uploads/2019/11/25/Abgasabsaugung2.jpg", "/uploads/2019/11/25/Abgasabsaugung.jpg", "/uploads/2019/11/04/absaugung3.jpg", "/uploads/2019/11/04/absaugung.png"]
 content = "<p>Jahrzehntelange Erfahrung mit der Absaugung von Holz- oder Metallspänen, Abscheiden von Kies, Laborabsaugung über Giftschränke oder Digestorien, Absaugung von Abgasen, Dämpfen oder Schweißrauch versetzen uns in die Lage, Ihnen für jede Aufgabenstellung eine Lösung anbieten zu können. Unsere erfahrenen Techniker freuen sich auch immer über neue Herausforderungen und unterstützen Sie gerne vom ersten Planungsschritt an. Gerne optimieren wir auch Ihre bestehende(n) Anlage(n) in Bezug auf Wirtschaftlichkeit und Energieeinsparung.</p>"
 icons = ["/uploads/2019/11/04/icon_absaugung.png"]
 titel = "ABSAUGUNGEN"
