@@ -25,7 +25,7 @@ content = "<p>Durch einen langjährigen Partner sind wir im Stande, sämtliche A
 icons = ["/uploads/2019/11/04/icon_brandschutz.png"]
 titel = "Baulicher Brandschutz"
 [[bereiche]]
-bilder = ["/uploads/2019/11/04/heizung.png"]
+bilder = ["/uploads/2019/11/25/Regenwasserleitungen.jpeg", "/uploads/2019/11/25/Enthärtungsanlage.jpeg", "/uploads/2019/11/25/Hebeanlagen.jpeg", "/uploads/2019/11/25/Warmwasserbereiter.jpeg", "/uploads/2019/11/25/Fäkalienhebeanlage.jpeg", "/uploads/2019/11/25/Trinkwasserleitungen - Schmutzwasserleitungen.jpeg", "/uploads/2019/11/25/Druckerhöhungsanlage.jpeg", "/uploads/2019/11/25/Gartenwasser Sicherheitstrennstation.jpeg", "/uploads/2019/11/25/Fettabscheideer.jpeg", "/uploads/2019/11/25/Trinwasserleitungen_Schmutzwasserleitungen.jpeg", "/uploads/2019/11/25/Trinkwasser Fernwärmeladestation.jpeg"]
 content = "<p>Gewerbeobjekt – Hotel – Wohnanlage – Produktionshalle: Wir installieren mit Fachkräften sämtliche notwendigen Leitungen zur Ver- und Entsorgung Ihres Objekts mit / von Wasser / Abwasser inklusive den erforderlichen Enthärtungsanlagen, Fettabscheidern, Dachentwässerungen oder sonstigen Anlagenkomponenten.</p>"
 icons = ["/uploads/2019/11/04/icon_sanitaertechnik.png"]
 titel = "Sanitärtechnik"
