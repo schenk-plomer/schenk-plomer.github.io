@@ -20,7 +20,7 @@ content = "<p>Unser Team besitzt Erfahrung mit allen gängigen Regelungssystemen
 icons = ["/uploads/2019/11/04/icon_msr-technik.png"]
 titel = "MSR-Technik"
 [[bereiche]]
-bilder = ["/uploads/2019/11/04/heizung.png"]
+bilder = ["/uploads/2019/11/25/45167983_2204448586292449_3114075057396121600_o.jpg", "/uploads/2019/11/25/45055748_2204448886292419_3831814708747304960_o.jpg", "/uploads/2019/11/25/21543982_1582035548533759_7778051502047025407_o.jpg", "/uploads/2019/11/25/21427240_1582035558533758_2117960182371089094_o.jpg", "/uploads/2019/11/25/13055101_1018291534908166_3109636460219175027_o.jpg", "/uploads/2019/11/25/13029488_1018281864909133_3090236053887036921_o.jpg", "/uploads/2019/11/25/12357077_933040410099946_7199628137518319535_o.jpg", "/uploads/2019/11/25/11900129_885679181502736_8482605577836083994_o.jpg", "/uploads/2019/11/25/11206833_822205874516734_3709587107310169074_o.jpg"]
 content = "<p>Durch einen langjährigen Partner sind wir im Stande, sämtliche Anforderungen des baulichen Brandschutzes unter Einhaltung der entsprechenden Vorschriften kurzfristig und dem Bauablauf angepasst auszuführen. Hierzu zählen neben dem verschließen von Ringspalten mit Mörtel der Bau von Entrauchungskanälen aus Kalziumsilikat, die Verkleidung von Lüftungskanälen mit Kalziumsilikat sowie der Bau sämtlicher Sonderkonstruktionen welche eine Zulassung besitzen. Zudem können natürlich alle Rohr- und Kabelschottungen entsprechend der gestellten Anforderungen hergestellt werden.</p>"
 icons = ["/uploads/2019/11/04/icon_brandschutz.png"]
 titel = "Baulicher Brandschutz"
