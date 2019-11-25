@@ -5,13 +5,13 @@ title = "Technische Gebäudeausstattung"
 [menu.main]
 weight = 2
 [[bereiche]]
-bilder = ["/uploads/2019/11/04/sanitär.png"]
+bilder = ["/uploads/2019/11/04/sanitär.png"]
 content = "<p>Unser hochqualifiziertes Personal ist in der Lage sämtliche Anforderungen der Heizungs- und Kältetechnik zu erfüllen. Ob Neubau oder Sanierung Ihres Gewerbeobjektes – wir unterstützen Sie auf Wunsch von Beginn an oder setzen das von Ihren Planern erstellte Konzept fachgerecht um. Erfahrungen bei der Ausstattung von Einkaufszentren, Hotels, Wohnanlagen und sonstigen Gewerbeobjekten geben wir hier gerne an Sie weiter</p>"
 icons = ["/uploads/2019/11/04/icon_heiztechnik.png", "/uploads/2019/11/04/icon_kaeltetechnik.png"]
 titel = "Heizungs- und Kältetechnik"
 [[bereiche]]
 bilder = ["/uploads/2019/11/04/heizung.png"]
-content = "<p>fehlt noch</p>"
+content = "<p>Installieren, warten und reparieren von elektrischen Anlagen, Maschinen, elektrischen Geräte und Stromleitungen, die der Erzeugung, Verteilung und Anwendung von elektrischem Strom dienen.</p><p class=\"MsoNormal\">Wir beraten Sie gerne und planen den Ablauf der auszuführenden Arbeiten.</p>"
 icons = ["/uploads/2019/11/04/icon_elektrotechnik.png"]
 titel = "Elektrotechnik"
 [[bereiche]]
