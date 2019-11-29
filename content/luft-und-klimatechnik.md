@@ -25,7 +25,7 @@ content = "<p><strong>Luftentfeuchtung:</strong> Anlage und Aggregate für Einze
 icons = ["/uploads/2019/11/04/icon_be-ent-feuchtung.png"]
 titel = "Be- und Entfeuchtung"
 [[bereiche]]
-bilder = ["/uploads/2019/11/04/absaugung.png"]
+bilder = ["/uploads/2019/11/29/Wärmerückgewinnung 2.jpg", "/uploads/2019/11/29/Wärmerückgewinnung 1.jpg"]
 content = "<p>mit und ohne Wärmetauscher, Ausnutzung von Produktionsabwärme, Rückgewinnung von Wärmeenergie in Form von Warmluft Warmwasser-Brauchwasser, Einbindung in bestehende Prozess-Anlagen, mit bzw. ohne Regelung.</p><p class=\"p2\">Beispiele: Kompressoranlagen, Entlüftungen, Absaugungsanlagen, Kühlanlagen, etc.</p><p class=\"p2\"><br></p>"
 icons = ["/uploads/2019/11/04/icon_waermerueckgewinnung.png"]
 titel = "Wärmerückgewinnung"
