@@ -19,3 +19,8 @@ fields:
     max: 
     labelField: 
   label: Abschnitte
+- name: logo
+  type: file
+  config:
+    maxSize: 250
+  label: Logo
