@@ -3,6 +3,9 @@ date = "2018-05-25T14:23:18.000+00:00"
 logo = "/uploads/2019/11/04/schenk_plomer_logo.png"
 title = "Footer"
 [[abschnitte]]
+content = "<p><a href=\"/technische-gebäudeausstattung\" title=\"Technische Gebäudeausrüstung\"><strong>Technische Gebäudeausrüstung</strong></a></p><ul><li><p>Heizungstechnik</p></li><li><p>Kältetechnik</p></li><li><p>Sanitärtechnik</p></li><li><p>Elektrotechnik</p></li><li><p>MSR-Technik</p></li><li><p>Baulicher Brandschutz</p></li></ul>"
+logos = []
+[[abschnitte]]
 content = "<p><a href=\"/unternehmen\" title=\"\"><strong>Unternehmen</strong></a></p><ul><li><p><a href=\"/historie\" title=\"Historie\">Historie</a></p></li><li><p><a href=\"/presse\" title=\"Presseberichte und News\">Presseberichte / News</a></p></li></ul><p><a href=\"/service\" title=\"Service\"><strong>Service</strong></a></p><p><a href=\"/referenzen\" title=\"Referenzen\"><strong>Referenzen</strong></a></p><p><a href=\"/karriere\" title=\"Karriere\"><strong>Karriere</strong></a></p><p><a href=\"/kontakt\" title=\"Kontakt\"><strong>Kontakt</strong></a></p>"
 logos = []
 [[abschnitte]]
