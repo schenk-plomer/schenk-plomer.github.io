@@ -4,24 +4,24 @@ jobs:
     build:
         docker:
             - image: cibuilds/hugo:latest
-        working_directory: ~/ofen-warm.github.io
+        working_directory: ~/schenk-plomer.github.io
         steps:
             - add_ssh_keys:
                 fingerprints:
-                    - "99:b2:ae:d6:5b:3d:45:d2:b6:71:f9:00:e9:16:dc:6a"
+                    - "bf:a6:ca:55:7b:70:23:45:5f:2a:ab:34:3e:20:2f:8f"
             - checkout
             - run:
                 name: Get current site
                 working_directory: ~/
                 command: | 
-                    git clone -b master git@github.com:ofen-warm/ofen-warm.github.io.git public
+                    git clone -b master git@github.com:schenk-plomer/schenk-plomer.github.io.git public
             - run:
                 name: Generate site
-                working_directory: ~/ofen-warm.github.io
+                working_directory: ~/schenk-plomer.github.io
                 command: HUGO_ENV=production hugo -d ~/public
             - run:
                 name: Delete All SSH keys and Add the installed one
-                command: ssh-add -D && ssh-add ~/.ssh/id_rsa_99b2aed65b3d45d2b671f900e916dc6a
+                command: ssh-add -D && ssh-add ~/.ssh/id_rsa_bfa6ca557b7023455f2aab343e202f8f
             - deploy:
                 name: Deploy to Github Pages & FTP
                 working_directory: ~/public
@@ -31,7 +31,7 @@ jobs:
                     git config user.name "Deployment Bot"
                     git add .
                     git commit --allow-empty -m "Trigger deployment"
-                    git push -q git@github.com:ofen-warm/ofen-warm.github.io.git master
+                    git push -q git@github.com:schenk-plomer/schenk-plomer.github.io.git master
 
 workflows:
   version: 2
