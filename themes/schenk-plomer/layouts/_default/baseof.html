@@ -26,31 +26,60 @@
   {{ partial "footer.html" . }}
 
   <script type="text/javascript" src="{{ $.Site.BaseURL }}/lib/semantic.min.js"></script>
+  <script type="text/javascript" src="{{ $.Site.BaseURL }}/lib/slippry.min.js"></script>
+  <link rel="stylesheet" href="{{ $.Site.BaseURL }}/lib/slippry.min.css">
   <script type="text/javascript">
     $(function () {
-      const scrElems = ["header",'#home'];
-      let scr = false;
-      $(window).scroll(function () {
-        const supportPageOffset = window.pageXOffset !== undefined;
-        const isCSS1Compat = ((document.compatMode || '') === 'CSS1Compat');
-        const y = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
-        if ((y > 0) !== scr) {
-          scr = y > 0;
-          if (scr) {
-            scrElems.forEach(function (v) {
-              $(v).addClass('scrolled').removeClass('unscrolled');
-            });
-          } else {
-            scrElems.forEach(function (v) {
-              $(v).removeClass('scrolled').addClass('unscrolled');
-            })
-          }
-        }
+      $('#slider').slippry({
+        // general elements & wrapper
+        slippryWrapper: '<div class="sy-box topslider" />', // wrapper to wrap everything, including pager
+        elements: 'li', // elments cointaining slide content
+
+        // options
+        adaptiveHeight: true, // height of the sliders adapts to current 
+        captions: false,
+        loop: true,
+        // pager
+        pager: false,
+        start: 1,
+        // transitions
+        slideMargin: 0, // spacing between slides (in %)
+        useCSS: true,
+        transition: 'fade',
+        pause: 6000,
+        speed: 650,
+        // slideshow
+        autoDirection: 'next'
       });
-      $('.headermenuitem a').click(function(){
-        $('.headermenuitem').removeClass('active');
-        $(this).parent().addClass('active');
-        $('#headermenumobil').removeClass('mobvis');
+      $('.imggal img').click(function (el) {
+        var mid = el.currentTarget.dataset.modal;
+        var idx = el.currentTarget.dataset.idx;
+        $('#modal_' + mid).modal({ inverted: true }).modal('show');
+        $('#gal_' + mid).slippry({
+          // general elements & wrapper
+          slippryWrapper: '<div class="sy-box portfolio-slider" />', // wrapper to wrap everything, including pager
+
+          // options
+          adaptiveHeight: true, // height of the sliders adapts to current slide
+          start: idx + 1, // num (starting from 1), random
+          loop: true, // first -> last & last -> first arrows
+          captionsSrc: 'li',
+          captions: 'custom', // Position: overlay, below, custom, false
+          captionsEl: '.external-captions',
+
+          // transitions
+          transition: 'horizontal', // fade, horizontal, kenburns, false
+          easing: 'linear', // easing to use in the animation [(see... [jquery www])]
+          continuous: true,
+
+          // slideshow
+          auto: true,
+          pager: false,
+        });
+      });
+      $('.ui.embed').embed();
+      $('.sub-menu').each(function(idx,el){
+        $(el).css('top',$('header').height());
       });
       $('#mntbt').click(function () {
         if ($('#headermenumobil').hasClass('mobvis')) {
@@ -61,6 +90,33 @@
           $('#headermenumobil').addClass('mobvis');
           $('#mntbt i').removeClass('bars');
           $('#mntbt i').addClass('remove');
+        }
+
+      });
+      $('.morebutton.detail').click(function () {
+        var target=$(this).attr('data-target');
+        if ($('#'+target).hasClass('small')){
+          $('#'+target).addClass('big');
+          $('#'+target).removeClass('small');
+          $(this).find('.txt').text('schliessen');
+        } else{
+          $('#'+target).addClass('small');
+          $('#'+target).removeClass('big');
+          $(this).find('.txt').text('öffnen');
+        }
+        if ($('#headermenu').hasClass('mobvis')) {
+          $('#headermenu').removeClass('mobvis');
+        } else {
+          $('#headermenu').addClass('mobvis');
+        }
+      });
+      $('.sech').click(function () {
+        if ($(this).parent().hasClass('open')){
+          $(this).parent().removeClass('open');
+          $(this).parent().addClass('closed');
+        }else{
+          $(this).parent().removeClass('closed');
+          $(this).parent().addClass('open');
         }
       });
     });

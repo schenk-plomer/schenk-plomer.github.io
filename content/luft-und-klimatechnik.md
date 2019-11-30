@@ -2,6 +2,7 @@
 titel_hintergrundfarbe = ""
 titel_overlay = "/uploads/2019/11/04/head_luft-klima.jpg"
 title = "Luft- und Klimatechnik"
+layout = "luftklima"
 [menu.main]
 weight = 1
 [[bereiche]]

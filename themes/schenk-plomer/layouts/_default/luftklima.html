@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="subpage" id="luftklima">
+  <div class="subptitle"
+    style="background:url({{partial "imgUrl" (dict "img" .Params.titel_overlay "params" "q_100" )}}) left bottom no-repeat; background-size:cover;">
+    <div class="ui container standard">
+      <h1>{{.Title}}</h1>
+    </div>
+  </div>
+  <div class="ui container">
+  {{range .Params.bereiche}}
+    <div class="ber">
+      <div class="bgal">
+          {{ partial "imgGal.html" . }}
+      </div>
+      <div class="ct">
+        <div class="ti">
+          {{range .icons}}
+          <img src="{{partial "imgUrl" (dict "img" . "params" "q_100" )}}"/>
+          {{end}}
+          <h2>{{.titel|safeHTML}}</h2>
+        </div>
+        <div>{{.content|safeHTML}}</div>
+      </div>
+    </div>
+  {{end}}
+  </div>
+</div>
+{{ end }}

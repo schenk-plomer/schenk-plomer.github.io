@@ -29,6 +29,23 @@ a:hover {
   text-decoration: underline;
   color: #003366;
 }
+.sy-pager {
+  margin: 0!important;
+  padding: 0.35rem 0 !important;
+}
+.sy-pager li.sy-active a {
+  background: #003366 !important;
+}
+.sy-pager li a {
+  background: transparent!important;
+  border: 1px solid #003366;
+}
+.galw {
+  position: relative;
+}
+.imggalslider {
+  margin-left: -16px !important;
+}
 header {
   position: absolute;
   z-index: 9;
@@ -272,6 +289,60 @@ ul li {
   right: 0;
   top: 0;
   z-index: 1;
+}
+.imggal .gimg {
+  cursor: pointer;
+  padding-top: 100%;
+}
+.imggal .gimg.h {
+  padding-top: calc(200% + 10rem);
+}
+.imggal .gimg.w {
+  padding-top: calc(66.6% - 1rem);
+}
+.subpage .subptitle {
+  padding: 250px 0 150px 0;
+  margin: 0 0 6rem 0;
+}
+.subpage .subptitle h1 {
+  font-weight: bold;
+}
+.subpage .bgal {
+  width: 33%;
+}
+.subpage .imggal img {
+  width: 100%;
+  cursor: pointer;
+}
+.subpage .imggal .column {
+  padding: 0.5rem !important;
+}
+.subpage .ber {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 2rem 0;
+  border-bottom: 1px solid #003366;
+  padding: 0 0 2rem 0;
+}
+.subpage .ber .ct {
+  flex: 1 1 auto;
+  padding: 0 0 2rem 2rem;
+}
+.subpage .ber .ct .ti {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 0 2rem 0;
+}
+.subpage .ber .ct .ti img {
+  width: 80px;
+  margin: 0 2rem 0 0;
+}
+.subpage .ber .ct .ti h2 {
+  color: #003366;
+}
+.subpage .ber:nth-child(even) {
+  flex-direction: row-reverse;
 }
 section .container {
   position: relative;

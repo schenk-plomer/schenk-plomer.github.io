@@ -2,6 +2,7 @@
 titel_hintergrundfarbe = ""
 titel_overlay = "/uploads/2019/11/04/head_service-1.jpg"
 title = "Technische Gebäudeausstattung"
+layout = "luftklima"
 [menu.main]
 weight = 2
 [[bereiche]]

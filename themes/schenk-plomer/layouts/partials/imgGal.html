@@ -1,23 +1,28 @@
+<div class="galw">
+{{$id := .titel}}
 <div class="ui container grid imggal stackable">
-  <div class="eight wide column">
-    {{ range $x,$img := . }} {{if eq $x 0}}
-    <img data-modal="imgg" class="bimg" data-idx="{{$x}}" src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_600" )}}"
+  <div class="sixteen wide column">
+    {{ range $x,$img := .bilder }} {{if eq $x 0}}
+    <img data-modal="imgg_{{md5 $id}}" class="bimg" data-idx="{{$x}}" src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_600" )}}"
     /> {{end}}{{end}}
   </div>
-  <div class="eight wide column imggalcol">
-    {{ range $x,$img := . }} {{if gt $x 0}}
-    <img data-modal="imgg" data-idx="{{$x}}" class="simg" src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_200" )}}"
-    /> {{end}}{{end}}
+  {{ range $x,$img := .bilder }} {{if gt $x 0}}
+  <div class="four wide column imggalcol">
+    
+    <img data-modal="imgg_{{md5 $id}}" data-idx="{{$x}}" class="simg" src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_200" )}}"
+    /> 
   </div>
+  {{end}}{{end}}
 </div>
-<div class="ui modal small" id="modal_imgg">
+<div class="ui modal small" id="modal_imgg_{{md5 $id}}">
   <div class="content">
-    <ul id="gal_imgg" class="imggalslider sy-slides-crop">
-      {{ range $x,$img := . }}
+    <ul id="gal_imgg_{{md5 $id}}" class="imggalslider">
+      {{ range $x,$img := .bilder }}
       <li>
-        <img src="{{partial "imgUrl" (dict "img" $img "params" "c_scale,h_500,f_auto" )}} " />
+        <img src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_500" )}} " />
       </li>
       {{end}}
     </ul>
   </div>
+</div>
 </div>

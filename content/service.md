@@ -2,6 +2,7 @@
 titel_hintergrundfarbe = ""
 titel_overlay = "/uploads/2019/11/04/head_service-1.jpg"
 title = "Service"
+layout = "service"
 [daten_and_fakten]
 titel = "<p><strong>Alles aus einer Hand <br></strong>Daten &amp; Fakten</p>"
 [[daten_and_fakten.bereiche]]
