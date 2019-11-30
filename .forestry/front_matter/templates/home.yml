@@ -134,6 +134,24 @@ fields:
   type: field_group
   config: {}
   fields:
+  - name: titel
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Titel
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
   - name: bereiche
     type: field_group_list
     fields:
@@ -166,15 +184,6 @@ fields:
       max: 
       labelField: 
     label: Bereiche
-  - name: titel
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: html-blocks
-    label: Titel
   label: Schenk & Plomer
 pages:
 - content/_index.md
