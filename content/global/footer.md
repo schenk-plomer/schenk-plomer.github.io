@@ -3,6 +3,12 @@ date = "2018-05-25T14:23:18.000+00:00"
 logo = "/uploads/2019/11/04/schenk_plomer_logo.png"
 title = "Footer"
 [[abschnitte]]
+content = "<p><strong>Schenk &amp; Plomer GmbH<br>Plomer &amp; Dachs GmbH</strong></p><ul><li><p>Dieselstrasse 6<br>84056 Altheim</p></li><li><p>+49 8703 / 9226-0</p></li><li><p><a href=\"mailto:info@schenk-plomer.de\" title=\"\">info@schenk-plomer.de</a></p></li></ul>"
+logos = []
+[[abschnitte]]
+content = "<p><a href=\"/luft-und-klimatechnik\" title=\"Luft- und Klimatechnik\"><strong>Luft- und Klimatechnik</strong></a></p><ul><li><p>Klimaanlagen</p></li><li><p>Lüftungsanlagen</p></li><li><p>Absauganlagen</p></li><li><p>Be- &amp; Entfeuchtung</p></li><li><p>Wärmerückgewinnung</p></li><li><p>Schall- und Lärmschutz</p></li></ul>"
+logos = []
+[[abschnitte]]
 content = "<p><a href=\"/technische-gebäudeausstattung\" title=\"Technische Gebäudeausrüstung\"><strong>Technische Gebäudeausrüstung</strong></a></p><ul><li><p>Heizungstechnik</p></li><li><p>Kältetechnik</p></li><li><p>Sanitärtechnik</p></li><li><p>Elektrotechnik</p></li><li><p>MSR-Technik</p></li><li><p>Baulicher Brandschutz</p></li></ul>"
 logos = []
 [[abschnitte]]
@@ -11,9 +17,6 @@ logos = []
 [[abschnitte]]
 content = "<p><strong>Wir sind Partner und Unterstützer des EVL</strong></p>"
 logos = ["/uploads/2019/11/04/footer_evl_logo.png"]
-[[abschnitte]]
-content = "<p><strong>Schenk &amp; Plomer GmbH<br>Plomer &amp; Dachs GmbH</strong></p><ul><li><p>Dieselstrasse 6<br>84056 Altheim</p></li><li><p>+49 8703 / 9226-0</p></li><li><p><a href=\"mailto:info@schenk-plomer.de\" title=\"\">info@schenk-plomer.de</a></p></li></ul>"
-logos = []
 [[abschnitte]]
 content = ""
 logos = ["/uploads/2019/11/04/footer_heizung_verband_logo.png", "/uploads/2019/11/04/footer_eon_logo.png"]
