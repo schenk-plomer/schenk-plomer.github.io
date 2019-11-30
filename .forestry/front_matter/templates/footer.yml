@@ -2,6 +2,11 @@
 label: Footer
 hide_body: true
 fields:
+- name: logo
+  type: file
+  config:
+    maxSize: 250
+  label: Logo
 - name: abschnitte
   type: field_group_list
   fields:
@@ -14,15 +19,14 @@ fields:
       schema:
         format: html-blocks
     label: Content
+  - name: logos
+    type: image_gallery
+    config: {}
+    label: Logos
   config:
     min: 
     max: 
     labelField: 
   label: Abschnitte
-- name: logo
-  type: file
-  config:
-    maxSize: 250
-  label: Logo
 pages:
 - content/global/footer.md
