@@ -1,6 +1,9 @@
 +++
-date = 2018-05-25T14:23:18Z
+date = "2018-05-25T14:23:18.000+00:00"
+logo = "/uploads/2019/11/04/schenk_plomer_logo.png"
 title = "Footer"
+[[abschnitte]]
+content = ""
 
 +++
 **Schenk & Plomer GmbH | Plomer & Dachs GmbH  
