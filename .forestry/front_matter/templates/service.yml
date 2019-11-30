@@ -34,6 +34,11 @@ fields:
       schema:
         format: html-blocks
     label: Content
+  - name: hintergrund
+    type: file
+    config:
+      maxSize: 250
+    label: Hintergrund
   label: Intro
 - name: bereiche
   type: field_group_list
