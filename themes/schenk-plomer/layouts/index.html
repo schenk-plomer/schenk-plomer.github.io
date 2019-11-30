@@ -3,108 +3,86 @@
 <div id="home">
   {{with .Params.bildbereich}}
   <div id="headimg_l0"
-    style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "q_100" )}}) center center no-repeat; background-size:cover;">
+    style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "q_100" )}}) left center no-repeat; background-size:contain;">
+    <div id="om" style="background:url({{partial "imgUrl" (dict "img" .overlay_mitte "params" "q_100" )}}) center bottom no-repeat; background-size:contain;"></div>
   </div>
+  <div id="or" style="background:url({{partial "imgUrl" (dict "img" .overlay_rechts "params" "q_100" )}}) left bottom no-repeat; background-size:cover;"></div>
   {{end}}
-  {{with .Params.produkte}}
-  <section id="sec-{{.interner_linkname}}">
-      <div class="spm" id="{{.interner_linkname}}"></div>
-    <div id="tc" class="ui container">
-      {{partial "titleSubtitle" (dict "top" false "title" .titel "subtitle" .untertitel)}}
-      <div class="ccontent">
-        {{.content|safeHTML}}
-      </div>
-    </div>
+  {{with .Params.leistungen}}
+  <section>
     <div class="ui container">
-      <div id="plist" class="ui grid two column">
-        {{range .produkte}}
-        <div class="prod column">
-          <div class="ui grid stackable">
-            {{if eq .bild_rechts true}}
-            <div class="column left tx six wide">
-              {{partial "titleSubtitle" (dict "sub" true "title" .titel "subtitle" .untertitel)}}
-              <a class="infobutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
-            </div>
-            <div class="column img ten wide">
-              <img src="{{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}" />
-            </div>
-            {{else}}
-            <div class="column img ten wide">
-              <img src="{{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}" />
-            </div>
-            <div class="column right tx six wide">
-              {{partial "titleSubtitle" (dict "sub" true "title" .titel "subtitle" .untertitel)}}
-              <a class="infobutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
-            </div>
-            {{end}}
-          </div>
-        </div>
-        {{end}}
+      <div class="sectitlew">
+        <h2>{{.titel|safeHTML}}</h2>
+        <div class="line"></div>
       </div>
     </div>
-    {{with .produktarten}}
-    <div id="pac" class="ui container">
-      <div class="ui three column grid stackable">
-        {{range .element}}
-        <div class="column">
-          <img src="{{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}" />
-          <h3>{{.titel}}</h3>
-          <div>{{.content|safeHTML}}</div>
+    <div style="background:url({{partial "imgUrl" (dict "img" .hintergrundbild "params" "q_100" )}}) left center no-repeat; background-size:contain;">
+      <div class="ui container">
+        <div class="ui six column wide doubling grid lbers">
+          {{range .bereiche1}}
+            <div class="column">
+              <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100" )}}"/>
+              <h3>{{.beschriftung|safeHTML}}</h3>
+            </div>
+          {{end}}
+          {{range .bereiche2}}
+            <div class="column">
+              <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100" )}}"/>
+              <h3>{{.beschriftung|safeHTML}}</h3>
+            </div>
+          {{end}}
         </div>
-        {{end}}
-      </div>
-      <h4>{{.titel_content_unten}}</h4>
-      <div>{{.content_unten|safeHTML}}</div>
-      <a class="infobutton" href="{{.button_link}}">{{.buttonbeschriftung}}</a>
-    </div>
-    {{end}}
-  </section>
-  {{end}}
-  {{with .Params.service}}
-  <section id="sec-{{.interner_linkname}}" class="ui container">
-      <div class="spm" id="{{.interner_linkname}}"></div>
-    {{partial "titleSubtitle" (dict "top" false "title" .titel "subtitle" .untertitel)}}
-    <div class="ui two column grid stackable">
-      <div class="column computer only"
-        style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}) left bottom no-repeat; background-size:contain;">
-      </div>
-      <div class="column content" style="padding:2rem 0;">
-        {{.content|safeHTML}}
+        <div class="bwr">
+          <a href="{{.link_button}}">
+            <div class="mbutton">
+              <div class="deco"></div>
+              <div class="deco2"></div>
+              <div class="deco3"></div>
+              <div class="deco4"></div>
+              <div class="label">{{.beschriftung_button}}<i class="icon chevron right"></i></div>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   </section>
   {{end}}
-  {{with .Params.ofenmobil}}
-  <section id="sec-{{.interner_linkname}}" class="ui container">
-      <div class="spm" id="{{.interner_linkname}}"></div>
-    <div class="ui two column grid stackable"  style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}) center center no-repeat; background-size:cover;">
-      <div class="column content" style="padding:2rem 0;">
-          {{partial "titleSubtitle" (dict "top" false "title" .titel "subtitle" .untertitel)}}
-        {{.content|safeHTML}}
-      </div>
-      <div class="column computer only">
-        &nbsp;
+  {{with .Params.schenk_and_plomer}}
+  <section>
+    <div class="ui container">
+      <div class="sectitlew">
+        <h2>{{.titel|safeHTML}}</h2>
+        <div class="line"></div>
       </div>
     </div>
-    <a class="infobutton" href="{{.buttonlink}}">{{.buttonbeschriftung}}</a>
-  </section>
-  {{end}}
-  {{with .Params.entscheidungshilfe}}
-  <section id="sec-{{.interner_linkname}}" class="ui container" style="background:url({{partial "imgUrl" (dict "img" .flammen "params" "q_100" )}}) center bottom no-repeat; background-size:100px;">
-      <div class="spm" id="{{.interner_linkname}}"></div>
-    {{partial "titleSubtitle" (dict "top" false "title" .titel "subtitle" .untertitel)}}
-    <div class="ui two column grid stackable">
-      {{range .varianten}}
-      <div class="column">
-        <div class="icontitle">
-            <img src="{{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}" />
-            <h2>{{.titel|safeHTML}}</h2>
+    <div style="background:url({{partial "imgUrl" (dict "img" .hintergrundbild "params" "q_100" )}}) left center no-repeat; background-size:contain;">
+      <div class="ui container">
+        <div class="ui six column wide doubling grid lbers">
+          {{range .bereiche1}}
+            <div class="column">
+              <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100" )}}"/>
+              <h3>{{.beschriftung|safeHTML}}</h3>
+            </div>
+          {{end}}
+          {{range .bereiche2}}
+            <div class="column">
+              <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100" )}}"/>
+              <h3>{{.beschriftung|safeHTML}}</h3>
+            </div>
+          {{end}}
         </div>
-        <div class="content">
-          {{.content|safeHTML}}
+        <div class="bwr">
+          <a href="{{.link_button}}">
+            <div class="mbutton">
+              <div class="deco"></div>
+              <div class="deco2"></div>
+              <div class="deco3"></div>
+              <div class="deco4"></div>
+              <div class="label">{{.beschriftung_button}}<i class="icon chevron right"></i></div>
+            </div>
+          </a>
         </div>
       </div>
-      {{end}}
     </div>
   </section>
   {{end}}
