@@ -2,6 +2,7 @@ body {
   font-family: Arial, Helvetica, sans-serif, serif;
   color: #1e1e1e;
   background: white;
+  font-size: 13px;
 }
 body *:not(i) {
   font-family: Arial, Helvetica, sans-serif important;
@@ -12,21 +13,21 @@ h3,
 h4 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
-  color: #727272;
+  color: #d1d1d1;
 }
 h1 em,
 h2 em,
 h3 em,
 h4 em {
   font-style: normal;
-  color: #24118f;
+  color: #003366;
 }
 a {
-  color: #24118f;
+  color: #003366;
 }
 a:hover {
   text-decoration: underline;
-  color: #24118f;
+  color: #003366;
 }
 header {
   position: absolute;
@@ -43,7 +44,7 @@ header .logo {
   }
 }
 header .logow {
-  background: rgba(114, 114, 114, 0.1);
+  background: #e1e8ec;
   position: relative;
   padding: 2rem;
   width: 100%;
@@ -108,7 +109,7 @@ header #headermenumobil {
   }
   header #headermenumobil .headermenuitem {
     width: 50%;
-    color: #727272;
+    color: #d1d1d1;
     border: none;
     text-transform: uppercase;
     font-size: 1rem;
@@ -131,7 +132,7 @@ header #headermenu {
 }
 .headermenuitem {
   flex: 0 1 auto;
-  color: #24118f;
+  color: #003366;
   text-align: left;
   margin-left: -1px;
   padding: 0.5rem;
@@ -139,7 +140,7 @@ header #headermenu {
   border-bottom: 2px solid transparent;
 }
 .headermenuitem a {
-  color: #24118f;
+  color: #003366;
   text-decoration: none;
   font-size: 0.9rem;
   line-height: 1rem;
@@ -148,7 +149,7 @@ header #headermenu {
   border-bottom: 2px solid rgba(114, 114, 114, 0.3);
 }
 .headermenuitem.active {
-  border-bottom: 2px solid #24118f;
+  border-bottom: 2px solid #003366;
 }
 .headermenuitem .sub-menu {
   display: flex;
@@ -179,7 +180,7 @@ header #headermenu {
   padding: 1rem;
 }
 footer {
-  background: #24118f;
+  background: #003366;
 }
 footer .eblink {
   color: white;
@@ -257,7 +258,7 @@ section .sectitlew {
 section .sectitlew .line {
   width: 100%;
   position: absolute;
-  border-bottom: 1px solid #24118f;
+  border-bottom: 1px solid #003366;
   z-index: 0;
 }
 section .sectitlew h2 {
@@ -269,7 +270,44 @@ section .sectitlew h2 {
   z-index: 1;
 }
 section .sectitlew h2 strong {
-  color: #24118f;
+  color: #003366;
+}
+.contentc {
+  text-align: center;
+  line-height: 1.2em;
+}
+#home #sp #spb {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+#home #sp #spb > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+  width: 70vw;
+  height: 40vh;
+  z-index: 2;
+  margin-left: -10vw;
+}
+#home #sp #spb > div img {
+  height: 150px;
+}
+#home #sp #spb > div h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #003366;
+}
+#home #sp #spb > div:last-child {
+  margin-left: -20vw;
+  height: 35vh;
+  margin-top: 2.5vh;
+  z-index: 1;
+}
+#home #sp #spb > div:last-child h2 {
+  color: white;
 }
 #home .lbers {
   margin: 0 -1rem;
@@ -285,6 +323,7 @@ section .sectitlew h2 strong {
 }
 #home .lbers .column h3 {
   font-size: 0.9rem;
+  color: #1e1e1e;
 }
 #home .bwr {
   padding: 1rem 0;
@@ -294,7 +333,7 @@ section .sectitlew h2 strong {
 }
 #home .bwr .mbutton {
   height: 36px;
-  background: #24118f;
+  background: #003366;
   width: 10em;
   position: relative;
   display: flex;
@@ -311,7 +350,7 @@ section .sectitlew h2 strong {
 #home .bwr .deco {
   width: 0px;
   height: 0px;
-  border-left: 20px solid #24118f;
+  border-left: 20px solid #003366;
   border-bottom: 36px solid transparent;
   position: absolute;
   right: -20px;
@@ -319,7 +358,7 @@ section .sectitlew h2 strong {
 #home .bwr .deco2 {
   width: 0px;
   height: 0px;
-  border-bottom: 36px solid #24118f;
+  border-bottom: 36px solid #003366;
   border-left: 20px solid transparent;
   position: absolute;
   left: -20px;
@@ -328,7 +367,7 @@ section .sectitlew h2 strong {
 #home .bwr .deco3 {
   width: 0px;
   height: 0px;
-  border-bottom: 36px solid #727272;
+  border-bottom: 36px solid #d1d1d1;
   border-left: 20px solid transparent;
   position: absolute;
   left: -35px;
@@ -337,7 +376,7 @@ section .sectitlew h2 strong {
 #home .bwr .deco4 {
   width: 15px;
   height: 36px;
-  background: #727272;
+  background: #d1d1d1;
   position: absolute;
   left: -15px;
   z-index: 1;

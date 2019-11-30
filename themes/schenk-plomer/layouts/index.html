@@ -48,41 +48,21 @@
   </section>
   {{end}}
   {{with .Params.schenk_and_plomer}}
-  <section>
+  <section id="sp">
     <div class="ui container">
       <div class="sectitlew">
         <h2>{{.titel|safeHTML}}</h2>
         <div class="line"></div>
       </div>
+      <div class="contentc">{{.content|safeHTML}}</div>
     </div>
-    <div style="background:url({{partial "imgUrl" (dict "img" .hintergrundbild "params" "q_100" )}}) left center no-repeat; background-size:contain;">
-      <div class="ui container">
-        <div class="ui six column wide doubling grid lbers">
-          {{range .bereiche1}}
-            <div class="column">
-              <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100" )}}"/>
-              <h3>{{.beschriftung|safeHTML}}</h3>
-            </div>
-          {{end}}
-          {{range .bereiche2}}
-            <div class="column">
-              <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100" )}}"/>
-              <h3>{{.beschriftung|safeHTML}}</h3>
-            </div>
-          {{end}}
+    <div id="spb">
+      {{range .bereiche}}
+        <div style="background:url({{partial "imgUrl" (dict "img" .overlay "params" "q_100" )}}) right center no-repeat; background-size:cover;">
+          <img src="{{partial "imgUrl" (dict "img" .logo "params" "q_100" )}}"/>
+          <h2>{{.titel|safeHTML}}</h2>
         </div>
-        <div class="bwr">
-          <a href="{{.link_button}}">
-            <div class="mbutton">
-              <div class="deco"></div>
-              <div class="deco2"></div>
-              <div class="deco3"></div>
-              <div class="deco4"></div>
-              <div class="label">{{.beschriftung_button}}<i class="icon chevron right"></i></div>
-            </div>
-          </a>
-        </div>
-      </div>
+      {{end}}
     </div>
   </section>
   {{end}}

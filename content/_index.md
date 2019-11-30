@@ -54,13 +54,14 @@ content = "<p>Schenk &amp; Plomer GmbH im niederbayerischen Essenbach Ihr verlä
 titel = "<p><strong>Schenk &amp; Plomer GmbH</strong></p>"
 [[schenk_and_plomer.bereiche]]
 hintergrundfarbe = ""
-logo = "/uploads/2019/11/04/plomer_dachs_logo.png"
-overlay = "/uploads/2019/11/04/background_dachs.png"
-titel = "<p><strong>Plomer &amp; Dachs<br>Technische Gebäudeausstattung</strong></p>"
-[[schenk_and_plomer.bereiche]]
-hintergrundfarbe = ""
 logo = "/uploads/2019/11/04/schenk_plomer_logo.png"
 overlay = "/uploads/2019/11/04/background_plomer.png"
 titel = "<p><strong>Schenk &amp; Plomer GmbH<br>Luft- und Klimatechnik</strong></p>"
+[[schenk_and_plomer.bereiche]]
+hintergrundfarbe = ""
+logo = "/uploads/2019/11/04/plomer_dachs_logo.png"
+overlay = "/uploads/2019/11/04/background_dachs.png"
+titel = "<p><strong>Plomer &amp; Dachs<br>Technische Gebäudeausstattung</strong></p>"
+
 
 +++
