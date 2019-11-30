@@ -50,7 +50,7 @@ icon = "/uploads/2019/11/04/icon_msr-technik.png"
 beschriftung = "<p>Baulicher Brandschutz</p>"
 icon = "/uploads/2019/11/04/icon_brandschutz.png"
 [schenk_and_plomer]
-titel = "Schenk & Plomer GmbH"
+titel = "<p><strong>Schenk &amp; Plomer GmbH</strong></p>"
 [[schenk_and_plomer.bereiche]]
 hintergrundfarbe = ""
 logo = "/uploads/2019/11/04/plomer_dachs_logo.png"
