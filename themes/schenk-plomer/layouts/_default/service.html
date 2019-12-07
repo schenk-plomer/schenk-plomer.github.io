@@ -1,28 +1,65 @@
 {{ define "main" }}
-<div class="subpage" id="luftklima">
+<div class="subpage" id="service">
+  <div id="db" style="background:url({{partial "imgUrl" (dict "img" .Params.intro.hintergrund "params" "q_100" )}})">
+  </div>
   <div class="subptitle"
     style="background:url({{partial "imgUrl" (dict "img" .Params.titel_overlay "params" "q_100" )}}) left bottom no-repeat; background-size:cover;">
     <div class="ui container standard">
       <h1>{{.Title}}</h1>
     </div>
   </div>
-  <div class="ui container">
-  {{range .Params.bereiche}}
-    <div class="ber">
-      <div class="bgal">
-          {{ partial "imgGal.html" . }}
+  {{with .Params.intro}}
+  <div id="intro">
+    <div class="ui container">
+      <div class="sectitles">
+        <div class="line"></div>
+        <h3>{{.untertitel}}</h3>
       </div>
-      <div class="ct">
-        <div class="ti">
-          {{range .icons}}
-          <img src="{{partial "imgUrl" (dict "img" . "params" "q_100" )}}"/>
-          {{end}}
-          <h2>{{.titel|safeHTML}}</h2>
-        </div>
-        <div>{{.content|safeHTML}}</div>
+      <h2>{{.titel|safeHTML}}</h2>
+      <div class="intc">
+        {{.content|safeHTML}}
       </div>
     </div>
-  {{end}}
   </div>
+  {{end}}
+  <div class="ui container">
+    <div class="ui two column stackable grid bereiche">
+      {{range .Params.bereiche}}
+      <div class="column">
+        <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100" )}}" />
+        <h3>{{.titel|safeHTML}}</h3>
+        <div>{{.content|safeHTML}}</div>
+      </div>
+      {{end}}
+    </div>
+  </div>
+  {{with .Params.daten_and_fakten}}
+  <section id="sp">
+    <div class="ui container">
+      <div class="sectitlew">
+        <h2>{{.titel|safeHTML}}</h2>
+        <div class="line"></div>
+      </div>
+      <div class="ui  grid stackable">
+          <div class="sixteen wide column">
+            {{ range $x,$v := .bereiche }} {{if eq $x 0}}
+            <div>
+              <h3>{{$v.titel}}</h3>
+              {{$v.content|safeHTML}}
+            </div>
+            {{end}}{{end}}
+          </div>
+        </div>
+        <div class="ui equal width grid stackable">
+          {{ range $x,$v := .bereiche }} {{if gt $x 0}}
+          <div class="column">
+              <h3>{{$v.titel}}</h3>
+              {{$v.content|safeHTML}}
+          </div>
+          {{end}}{{end}}
+        </div>
+    </div>
+  </section>
+  {{end}}
 </div>
 {{ end }}

@@ -300,9 +300,153 @@ ul li {
 .imggal .gimg.w {
   padding-top: calc(66.6% - 1rem);
 }
+.subpage#unternehmen #db {
+  height: 70vh;
+}
+.subpage#unternehmen .greycontent {
+  padding: 2rem 0;
+  background: #e1e8ec;
+  margin: 4rem 0;
+}
+.subpage#unternehmen .bereiche .column {
+  display: flex!important;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.subpage#unternehmen .bereiche .column img {
+  max-width: 120px;
+}
+.subpage#unternehmen .bereiche .column .zz {
+  color: #003366;
+  font-size: 4rem;
+  line-height: 1em;
+  margin: 1rem 0;
+}
+.subpage#unternehmen .bereiche .column h4 {
+  color: #1e1e1e;
+  font-weight: normal;
+  font-size: 1.1rem;
+  margin: 0!important;
+}
+.subpage#unternehmen #intro {
+  padding: 4rem 0 0 0;
+}
+.subpage#unternehmen #intro h2 {
+  color: #003366;
+  font-weight: bold;
+}
+.subpage#unternehmen #intro h2 strong {
+  color: #d1d1d1;
+  font-size: 2rem;
+}
+.subpage#unternehmen #intro .intc {
+  columns: 2;
+  column-gap: 2rem;
+}
+.subpage#unternehmen #intro .cw {
+  display: flex;
+}
+.subpage#unternehmen #intro .cw .stk {
+  flex: 0 0 auto;
+  padding: 0 0 0 2rem;
+  width: 25%;
+}
+.subpage#unternehmen #intro .cw .stk strong {
+  color: #003366;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+.subpage#unternehmen #intro .cw .stk p {
+  border-bottom: 1px solid #003366;
+  font-weight: bold;
+  padding: 0 0 0.5rem 0;
+}
+.subpage#unternehmen #intro .cw .stk p:first-child {
+  border: none;
+}
+.subpage#unternehmen #intro .sectitles {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.subpage#unternehmen #intro .sectitles .line {
+  width: 100px;
+  border-bottom: 1px solid #003366;
+}
+.subpage#unternehmen #intro .sectitles h3 {
+  line-height: 1em;
+  color: #1e1e1e;
+  margin: 0 0 0 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.subpage#service #sp h3 {
+  color: #003366;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.subpage#service .bereiche .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+.subpage#service .bereiche .column img {
+  max-width: 220px;
+  margin-right: -20px;
+}
+.subpage#service .bereiche .column h3 {
+  color: #003366;
+  text-align: center;
+  text-transform: uppercase;
+}
+.subpage#service #intro {
+  padding: 400px 0 0 0;
+  margin-top: -250px;
+}
+.subpage#service #intro h2 {
+  color: #003366;
+  font-weight: bold;
+}
+.subpage#service #intro h2 strong {
+  color: #d1d1d1;
+  font-size: 2rem;
+}
+.subpage#service #intro .intc {
+  columns: 2;
+  column-gap: 2rem;
+}
+.subpage#service #intro .sectitles {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.subpage#service #intro .sectitles .line {
+  width: 100px;
+  border-bottom: 1px solid #003366;
+}
+.subpage#service #intro .sectitles h3 {
+  line-height: 1em;
+  color: #1e1e1e;
+  margin: 0 0 0 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.subpage#service #db {
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-size: cover;
+}
 .subpage .subptitle {
   padding: 250px 0 150px 0;
   margin: 0 0 6rem 0;
+  z-index: 9;
 }
 .subpage .subptitle h1 {
   font-weight: bold;
@@ -347,19 +491,19 @@ ul li {
 section .container {
   position: relative;
 }
-section .sectitlew {
+.sectitlew {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-section .sectitlew .line {
+.sectitlew .line {
   width: 100%;
   position: absolute;
   border-bottom: 1px solid #003366;
   z-index: 0;
 }
-section .sectitlew h2 {
+.sectitlew h2 {
   padding: 0 2rem;
   background: white;
   text-align: center;
@@ -367,7 +511,7 @@ section .sectitlew h2 {
   margin: 2rem 0;
   z-index: 1;
 }
-section .sectitlew h2 strong {
+.sectitlew h2 strong {
   color: #003366;
 }
 .contentc {

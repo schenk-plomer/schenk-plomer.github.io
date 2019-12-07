@@ -297,12 +297,166 @@ ul{
   }
 }
 .subpage{
+  &#unternehmen{
+    #db{
+      height:70vh;
+    }
+    .greycontent{
+      padding:2rem 0;
+      background:@grey_light;
+      margin:4rem 0;
+    }
+    .bereiche{
+      .column{
+        display:flex!important;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        img{
+          max-width:120px;
+        }
+        .zz{
+          color:@blue;
+          font-size:4rem;
+          line-height:1em;
+          margin:1rem 0;
+        }
+        h4{
+          color:@content;
+          font-weight:normal;
+          font-size: 1.1rem;
+          margin:0!important;
+        }
+      }
+    }
+    #intro{
+      padding:4rem 0 0 0;
+      h2{
+        color:@blue;
+        font-weight:bold;
+        strong{
+          color:@grey;
+          font-size:2rem;
+        }
+      }
+      .intc{
+        columns: 2;
+        column-gap: 2rem;
+      }
+      .cw{
+        display:flex;
+        .stk{
+          flex: 0 0 auto;
+          padding: 0 0 0 2rem;
+          width:25%;
+          strong{
+            color:@blue;
+            font-weight:normal;
+            font-size:1.5rem;
+          }
+          p{
+            border-bottom:1px solid @blue;
+            font-weight:bold;
+            padding: 0 0 0.5rem 0;
+            &:first-child{
+              border:none;
+            }
+          }
+        }
+      }
+      .sectitles{
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        .line{
+          width:100px;
+          border-bottom:1px solid @blue;
+        }
+        h3{
+          line-height:1.0em;
+          color:@content;
+          margin:0 0 0 2rem;;
+          font-size:1.2rem;
+          font-weight:bold;
+        }
+      }
+    }
+  }
+  &#service{
+    #sp{
+      h3{
+        color:@blue;
+        font-weight:bold;
+        text-transform: uppercase;
+      }
+    }
+    .bereiche{
+      .column{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        img{
+          max-width:220px;
+          margin-right:-20px;
+        }
+        text-align:center;
+        h3{
+          color:@blue;
+          text-align: center;
+          text-transform: uppercase;
+        }
+      }
+    }
+    #intro{
+      padding:400px 0 0 0;
+      margin-top:-250px;
+      h2{
+        color:@blue;
+        font-weight:bold;
+        strong{
+          color:@grey;
+          font-size:2rem;
+        }
+      }
+      .intc{
+        columns: 2;
+        column-gap: 2rem;
+      }
+      .sectitles{
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        .line{
+          width:100px;
+          border-bottom:1px solid @blue;
+        }
+        h3{
+          line-height:1.0em;
+          color:@content;
+          margin:0 0 0 2rem;;
+          font-size:1.2rem;
+          font-weight:bold;
+        }
+      }
+    }
+    #db{
+      z-index:-1;
+      width:100vw;
+      height:100vh;
+      position:absolute;
+      left:0;
+      top:0;
+      background-size:cover;
+    }
+  }
   .subptitle{
     padding:250px 0 150px 0;
     h1{
       font-weight:bold;
     }
     margin: 0 0 6rem 0;
+    z-index:9;
   }
   .bgal{
     width:33%;
@@ -349,27 +503,28 @@ section{
   .container{
     position:relative;
   }
-  .sectitlew{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    .line{
-      width:100%;
-      position:absolute;
-      border-bottom:1px solid @blue;
-      z-index:0;
-    }
-    h2{
-      padding:0 2rem;
-      background:white;
-      text-align:center;
-      font-weight:bold;
-      margin:2rem 0;
-      z-index:1;
-      strong{
-        color:@blue
-      }
+  
+}
+.sectitlew{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .line{
+    width:100%;
+    position:absolute;
+    border-bottom:1px solid @blue;
+    z-index:0;
+  }
+  h2{
+    padding:0 2rem;
+    background:white;
+    text-align:center;
+    font-weight:bold;
+    margin:2rem 0;
+    z-index:1;
+    strong{
+      color:@blue
     }
   }
 }

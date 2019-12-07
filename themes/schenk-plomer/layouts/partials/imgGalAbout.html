@@ -1,0 +1,47 @@
+<div class="galw">
+<div class="ui container grid imggal stackable">
+  <div class="eight wide column">
+    {{ range $x,$img := . }} {{if eq $x 0}}
+    <img data-modal="imgg_about" class="bimg" data-idx="{{$x}}" src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_600" )}}"
+    /> {{end}}{{end}}
+  </div>
+  <div class="eight wide column">
+    <div class="ui two column stackable grid">
+        {{ range $x,$img := . }} {{if gt $x 0}}{{if lt $x 5}}
+        <div class=" column imggalcol">
+          <img data-modal="imgg_about" data-idx="{{$x}}" class="simg" src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_200" )}}"
+          /> 
+        </div>
+        {{end}}{{end}}{{end}}
+    </div>
+  </div>
+</div>
+<div class="ui container grid imggal stackable">
+    <div class="sixteen wide column">
+        {{ range $x,$img := . }} {{if eq $x 5}}
+        <img data-modal="imgg_about" class="bimg" data-idx="{{$x}}" src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_900,w_1200,g_auto,f_auto/c_scale,h_900" )}}"
+        /> {{end}}{{end}}
+    </div>
+  </div>
+  <div class="ui container grid imggal stackable">
+
+      {{ range $x,$img := . }} {{if gt $x 5}}
+      <div class="four wide column imggalcol">
+        <img data-modal="imgg_about" data-idx="{{$x}}" class="simg" src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_200" )}}"
+        /> 
+      </div>
+      {{end}}{{end}}
+  </div>
+  
+<div class="ui modal small" id="modal_imgg_about">
+  <div class="content">
+    <ul id="gal_imgg_about" class="imggalslider">
+      {{ range $x,$img := . }}
+      <li>
+        <img src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_500" )}} " />
+      </li>
+      {{end}}
+    </ul>
+  </div>
+</div>
+</div>
