@@ -299,6 +299,76 @@ ul{
 }
 .subpage{
   &#karriere{
+    #cu{
+      display:flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 100px 0 0 0;
+      border-top:1px solid @blue;
+      position:relative;
+      overflow:hidden;
+      #d1{
+        position:absolute;
+        border-top:80px solid @grey;
+        border-left:50vw solid transparent;
+        left:50%;
+        margin-left:-50vw;
+        top:-20px;
+      }
+      #d2{
+        position:absolute;
+        border-top:80px solid @grey;
+        border-right:50vw solid transparent;
+        left:50%;
+        top:-20px;
+      }
+      a{
+        padding:1rem 2rem;
+        text-transform: uppercase;
+        font-weight:bold;
+        color:white;
+        background:@blue;
+        margin:2rem 0;
+      }
+    }
+    .sb{
+      h2{
+        text-transform:uppercase;
+        font-weight:bold;
+      }
+      .st{
+        cursor:pointer;
+        padding:1rem 0; 
+        border-bottom:1px solid @blue;
+        h3{
+          color:@blue;
+          font-weight:bold;
+        }
+        &:last-child{
+          border:none;
+        }
+        .minus{
+          color:@grey;
+          display:inline-block;
+        }
+        .plus{
+          display:none;
+        }
+        &.min{
+          .std{
+            display:none;
+          }
+          .minus{
+            display:none;
+          }
+          .plus{
+            display:inline-block;
+          }
+
+        }
+      }
+    }
     #intro{
       padding:0;
       h2{

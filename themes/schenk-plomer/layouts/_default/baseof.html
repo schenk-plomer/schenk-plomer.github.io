@@ -109,13 +109,11 @@
           $('#headermenu').addClass('mobvis');
         }
       });
-      $('.sech').click(function () {
-        if ($(this).parent().hasClass('open')){
-          $(this).parent().removeClass('open');
-          $(this).parent().addClass('closed');
+      $('.st').click(function () {
+        if ($(this).hasClass('min')){
+          $(this).removeClass('min');
         }else{
-          $(this).parent().removeClass('closed');
-          $(this).parent().addClass('open');
+          $(this).addClass('min');
         }
       });
     });

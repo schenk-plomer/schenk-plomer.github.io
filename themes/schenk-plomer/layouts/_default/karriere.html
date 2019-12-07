@@ -22,20 +22,24 @@
     </div>
   </div>
   {{end}}
-  <div class="ui container nl">
-    {{range .Params.artikel}}
-    <div class="ui grid stackable nli">
-        <div class="ui four wide column">
-            <img src="{{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}"/>
+  <div class="ui container">
+  {{range .Params.stellen}}
+    <div class="sb">
+      <h2>{{.art}}</h2>
+      {{range .stelle}}
+        <div class="st min">
+          <h3><i class="plus circle icon"></i><i class="minus circle icon"></i>{{.titel}}</h3>
+          <div class="std">{{.content|safeHTML}}</div>
         </div>
-        <div class="ui twelve wide column">
-            <h2>{{.titel}}</h2>
-            <div class="q">{{.quelle}}</div>
-            <div class="summary">{{.zusammenfassung|safeHTML}}</div>
-            <a href="{{.datei}}" target="_blank">{{.link_beschriftung}}</a>
-        </div>
-      </div>
-    {{end}}
+      {{end}}
+    </div>
+  {{end}}
+    <div id="cu">
+      <div div id="d1"></div>
+      <div div id="d2"></div>
+      <div>{{.Params.content_unten|safeHTML}}</div>
+      <a href="{{.Params.button_link}}">{{.Params.button_beschriftung}}</a>
+    </div>
   </div>
 </div>
 {{ end }}
