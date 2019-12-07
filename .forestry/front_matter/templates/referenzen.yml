@@ -61,28 +61,6 @@ fields:
       schema:
         format: html-blocks
     label: Titel
-  - name: referenz
-    type: field_group_list
-    fields:
-    - name: titel
-      type: text
-      config:
-        required: false
-      label: Titel
-    - name: content
-      type: textarea
-      default: ''
-      config:
-        required: false
-        wysiwyg: true
-        schema:
-          format: html-blocks
-      label: Content
-    config:
-      min: 
-      max: 
-      labelField: 
-    label: Referenz
   - name: content
     type: textarea
     default: ''
