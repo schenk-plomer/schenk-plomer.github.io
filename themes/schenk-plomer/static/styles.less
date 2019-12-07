@@ -297,7 +297,109 @@ ul{
     }
   }
 }
+#intro{
+  h2{
+    text-transform: uppercase;
+  }
+}
 .subpage{
+  &#referenzen{
+    .rlist{
+      margin:4rem 0 2rem 0;
+    }
+    .imgreflist{
+      .titles{
+        cursor:pointer;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position:absolute;
+        width:100%;
+        left:-0;
+        top:0;
+        height:100%;
+        z-index:8;
+        .icon{
+          bottom:2rem;
+          right:2rem;
+          position:absolute;
+          color:white;
+          font-weight:normal;
+          font-size:3rem;
+        }
+      }
+      h4{
+        font-size:2.5rem;
+        color:white;
+        font-weight:bold;
+        text-transform: uppercase;
+        text-shadow: 3px 3px 6px #000000;
+        margin:0;
+      }
+      h5{
+        font-size:2rem;
+        color:white;
+        font-weight:bold;
+        text-shadow: 3px 3px 6px #000000;
+        margin:0;
+      }
+    }
+    
+    #intro, .rlist{
+      padding:0;
+      h2{
+        color:@blue;
+        font-weight:bold;
+        text-transform:uppercase;
+        strong{
+          color:@grey;
+          font-size:2rem;
+        }
+      }
+      .intc{
+        columns: 2;
+        column-gap: 2rem;
+      }
+      .cw{
+        display:flex;
+        .stk{
+          flex: 0 0 auto;
+          padding: 0 0 0 2rem;
+          width:25%;
+          strong{
+            color:@blue;
+            font-weight:normal;
+            font-size:1.5rem;
+          }
+          p{
+            border-bottom:1px solid @blue;
+            font-weight:bold;
+            padding: 0 0 0.5rem 0;
+            &:first-child{
+              border:none;
+            }
+          }
+        }
+      }
+      .sectitles{
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        .line{
+          width:100px;
+          border-bottom:1px solid @blue;
+        }
+        h3{
+          line-height:1.0em;
+          color:@content;
+          margin:0 0 0 2rem;;
+          font-size:1.2rem;
+          font-weight:bold;
+        }
+      }
+    }
+  }
   &#karriere{
     #cu{
       display:flex;

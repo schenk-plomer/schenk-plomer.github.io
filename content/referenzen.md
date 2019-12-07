@@ -1,6 +1,7 @@
 +++
 titel_bild = "/uploads/2019/11/04/head_referenzen.jpg"
 title = "<p>Referenzen</p>"
+layout="referenzen"
 [content]
 titel = "<p><strong>Grossprojekte<br></strong>&amp; Privathaushalte</p>"
 untertitel = "Referenzen"

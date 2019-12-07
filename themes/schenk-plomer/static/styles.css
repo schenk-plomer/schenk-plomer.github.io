@@ -301,6 +301,113 @@ ul li {
 .imggal .gimg.w {
   padding-top: calc(66.6% - 1rem);
 }
+#intro h2 {
+  text-transform: uppercase;
+}
+.subpage#referenzen .rlist {
+  margin: 4rem 0 2rem 0;
+}
+.subpage#referenzen .imgreflist .titles {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: 8;
+}
+.subpage#referenzen .imgreflist .titles .icon {
+  bottom: 2rem;
+  right: 2rem;
+  position: absolute;
+  color: white;
+  font-weight: normal;
+  font-size: 3rem;
+}
+.subpage#referenzen .imgreflist h4 {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 6px #000000;
+  margin: 0;
+}
+.subpage#referenzen .imgreflist h5 {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  text-shadow: 3px 3px 6px #000000;
+  margin: 0;
+}
+.subpage#referenzen #intro,
+.subpage#referenzen .rlist {
+  padding: 0;
+}
+.subpage#referenzen #intro h2,
+.subpage#referenzen .rlist h2 {
+  color: #003366;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.subpage#referenzen #intro h2 strong,
+.subpage#referenzen .rlist h2 strong {
+  color: #d1d1d1;
+  font-size: 2rem;
+}
+.subpage#referenzen #intro .intc,
+.subpage#referenzen .rlist .intc {
+  columns: 2;
+  column-gap: 2rem;
+}
+.subpage#referenzen #intro .cw,
+.subpage#referenzen .rlist .cw {
+  display: flex;
+}
+.subpage#referenzen #intro .cw .stk,
+.subpage#referenzen .rlist .cw .stk {
+  flex: 0 0 auto;
+  padding: 0 0 0 2rem;
+  width: 25%;
+}
+.subpage#referenzen #intro .cw .stk strong,
+.subpage#referenzen .rlist .cw .stk strong {
+  color: #003366;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+.subpage#referenzen #intro .cw .stk p,
+.subpage#referenzen .rlist .cw .stk p {
+  border-bottom: 1px solid #003366;
+  font-weight: bold;
+  padding: 0 0 0.5rem 0;
+}
+.subpage#referenzen #intro .cw .stk p:first-child,
+.subpage#referenzen .rlist .cw .stk p:first-child {
+  border: none;
+}
+.subpage#referenzen #intro .sectitles,
+.subpage#referenzen .rlist .sectitles {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.subpage#referenzen #intro .sectitles .line,
+.subpage#referenzen .rlist .sectitles .line {
+  width: 100px;
+  border-bottom: 1px solid #003366;
+}
+.subpage#referenzen #intro .sectitles h3,
+.subpage#referenzen .rlist .sectitles h3 {
+  line-height: 1em;
+  color: #1e1e1e;
+  margin: 0 0 0 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 .subpage#karriere #cu {
   display: flex;
   flex-direction: column;

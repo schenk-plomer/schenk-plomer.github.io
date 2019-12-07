@@ -50,7 +50,7 @@
         // slideshow
         autoDirection: 'next'
       });
-      $('.imggal img').click(function (el) {
+      $('.imggal img, .imggal .titles').click(function (el) {
         var mid = el.currentTarget.dataset.modal;
         var idx = el.currentTarget.dataset.idx;
         $('#modal_' + mid).modal({ inverted: true }).modal('show');
