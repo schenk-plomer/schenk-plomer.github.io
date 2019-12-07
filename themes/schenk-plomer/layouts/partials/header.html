@@ -20,14 +20,14 @@
           {{ range .Site.Menus.main }}
           <div class="headermenuitem {{ if or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .) }}active{{ end }}
               ">
-            <a href="{{ .URL }}" title="{{ .Name }}">
+            <a href="{{ .URL }}" title="{{ .Name | plainify}}">
               <span>{{ .Name | safeHTML }}</span>
             </a>
             {{ if .HasChildren }}
                 <div class="sub-menu">
                       {{ range .Children }}
                         <div class="sub-menu-item">
-                            <a href="{{ .URL }}" title="{{ .Name }}"><span>{{ .Name | safeHTML }}</span></a>
+                            <a href="{{ .URL }}" title="{{ .Name | plainify}}"><span>{{ .Name | safeHTML }}</span></a>
                         </div>
                     {{ end }}
                 </div>

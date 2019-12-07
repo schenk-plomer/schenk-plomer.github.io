@@ -172,6 +172,7 @@ header #headermenu {
   display: flex;
   flex-direction: column;
   background: white;
+  min-width: 200px;
   justify-content: flex-start;
   align-items: flex-start;
   height: 0;
@@ -300,6 +301,66 @@ ul li {
 .imggal .gimg.w {
   padding-top: calc(66.6% - 1rem);
 }
+.subpage#historie #db {
+  height: 70vh;
+}
+.subpage#historie .greycontent {
+  padding: 2rem 0;
+  background: #e1e8ec;
+  margin: 4rem 0;
+}
+.subpage#historie #intro {
+  padding: 4rem 0 0 0;
+}
+.subpage#historie #intro h2 {
+  color: #003366;
+  font-weight: bold;
+}
+.subpage#historie #intro h2 strong {
+  color: #d1d1d1;
+  font-size: 2rem;
+}
+.subpage#historie #intro .intc {
+  columns: 2;
+  column-gap: 2rem;
+}
+.subpage#historie #intro .cw {
+  display: flex;
+}
+.subpage#historie #intro .cw .stk {
+  flex: 0 0 auto;
+  padding: 0 0 0 2rem;
+  width: 25%;
+}
+.subpage#historie #intro .cw .stk strong {
+  color: #003366;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+.subpage#historie #intro .cw .stk p {
+  border-bottom: 1px solid #003366;
+  font-weight: bold;
+  padding: 0 0 0.5rem 0;
+}
+.subpage#historie #intro .cw .stk p:first-child {
+  border: none;
+}
+.subpage#historie #intro .sectitles {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.subpage#historie #intro .sectitles .line {
+  width: 100px;
+  border-bottom: 1px solid #003366;
+}
+.subpage#historie #intro .sectitles h3 {
+  line-height: 1em;
+  color: #1e1e1e;
+  margin: 0 0 0 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 .subpage#unternehmen #db {
   height: 70vh;
 }
@@ -403,7 +464,7 @@ ul li {
   text-transform: uppercase;
 }
 .subpage#service #intro {
-  padding: 400px 0 0 0;
+  padding: 200px 0 0 0;
   margin-top: -250px;
 }
 .subpage#service #intro h2 {

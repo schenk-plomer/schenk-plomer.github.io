@@ -169,6 +169,7 @@ header{
     @media (max-width: 720px){
       display:none;
     }
+    min-width:200px;
     justify-content: flex-start;
     align-items:flex-start;
     height:0;
@@ -297,6 +298,68 @@ ul{
   }
 }
 .subpage{
+  &#historie{
+    #db{
+      height:70vh;
+    }
+    .greycontent{
+      padding:2rem 0;
+      background:@grey_light;
+      margin:4rem 0;
+    }
+    #intro{
+      padding:4rem 0 0 0;
+      h2{
+        color:@blue;
+        font-weight:bold;
+        strong{
+          color:@grey;
+          font-size:2rem;
+        }
+      }
+      .intc{
+        columns: 2;
+        column-gap: 2rem;
+      }
+      .cw{
+        display:flex;
+        .stk{
+          flex: 0 0 auto;
+          padding: 0 0 0 2rem;
+          width:25%;
+          strong{
+            color:@blue;
+            font-weight:normal;
+            font-size:1.5rem;
+          }
+          p{
+            border-bottom:1px solid @blue;
+            font-weight:bold;
+            padding: 0 0 0.5rem 0;
+            &:first-child{
+              border:none;
+            }
+          }
+        }
+      }
+      .sectitles{
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        .line{
+          width:100px;
+          border-bottom:1px solid @blue;
+        }
+        h3{
+          line-height:1.0em;
+          color:@content;
+          margin:0 0 0 2rem;;
+          font-size:1.2rem;
+          font-weight:bold;
+        }
+      }
+    }
+  }
   &#unternehmen{
     #db{
       height:70vh;
@@ -409,7 +472,7 @@ ul{
       }
     }
     #intro{
-      padding:400px 0 0 0;
+      padding:200px 0 0 0;
       margin-top:-250px;
       h2{
         color:@blue;
