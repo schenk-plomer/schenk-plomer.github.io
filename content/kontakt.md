@@ -4,6 +4,7 @@ karte = ""
 kontaktdaten = []
 titel_bild = "/uploads/2019/11/04/head_kontakt.jpg"
 title = "<p>Kontakt</p>"
+layout="kontakt"
 [content]
 content = ""
 staerken = ""

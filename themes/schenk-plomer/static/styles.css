@@ -304,8 +304,109 @@ ul li {
 #intro h2 {
   text-transform: uppercase;
 }
+.subpage#kontakt .bereiche {
+  margin-top: 2rem;
+}
+.subpage#kontakt .bereiche .column {
+  display: flex!important;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+.subpage#kontakt .bereiche .column img {
+  max-width: 120px;
+}
+.subpage#kontakt .bereiche .column .zz {
+  color: #003366;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1em;
+  margin: 1rem 0;
+}
+.subpage#kontakt .bereiche .column h4 {
+  color: #1e1e1e;
+  font-weight: normal;
+  font-size: 1.1rem;
+  margin: 0!important;
+}
+.subpage#kontakt #intro,
+.subpage#kontakt .rlist {
+  padding: 0;
+}
+.subpage#kontakt #intro h2,
+.subpage#kontakt .rlist h2 {
+  color: #003366;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.subpage#kontakt #intro h2 strong,
+.subpage#kontakt .rlist h2 strong {
+  color: #d1d1d1;
+  font-size: 2rem;
+}
+.subpage#kontakt #intro .intc,
+.subpage#kontakt .rlist .intc {
+  columns: 2;
+  column-gap: 2rem;
+}
+.subpage#kontakt #intro .cw,
+.subpage#kontakt .rlist .cw {
+  display: flex;
+}
+.subpage#kontakt #intro .cw .stk,
+.subpage#kontakt .rlist .cw .stk {
+  flex: 0 0 auto;
+  padding: 0 0 0 2rem;
+  width: 25%;
+}
+.subpage#kontakt #intro .cw .stk strong,
+.subpage#kontakt .rlist .cw .stk strong {
+  color: #003366;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+.subpage#kontakt #intro .cw .stk p,
+.subpage#kontakt .rlist .cw .stk p {
+  border-bottom: 1px solid #003366;
+  font-weight: bold;
+  padding: 0 0 0.5rem 0;
+}
+.subpage#kontakt #intro .cw .stk p:first-child,
+.subpage#kontakt .rlist .cw .stk p:first-child {
+  border: none;
+}
+.subpage#kontakt #intro .sectitles,
+.subpage#kontakt .rlist .sectitles {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.subpage#kontakt #intro .sectitles .line,
+.subpage#kontakt .rlist .sectitles .line {
+  width: 100px;
+  border-bottom: 1px solid #003366;
+}
+.subpage#kontakt #intro .sectitles h3,
+.subpage#kontakt .rlist .sectitles h3 {
+  line-height: 1em;
+  color: #1e1e1e;
+  margin: 0 0 0 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 .subpage#referenzen .rlist {
   margin: 4rem 0 2rem 0;
+}
+.subpage#referenzen .rlist .rlistct ul {
+  columns: 2;
+  column-gap: 2rem;
+}
+.subpage#referenzen .rlist .rlistct ul strong {
+  color: #003366;
+}
+.subpage#referenzen .rlist .rlistct ul li {
+  margin-bottom: 1rem;
 }
 .subpage#referenzen .imgreflist .titles {
   cursor: pointer;

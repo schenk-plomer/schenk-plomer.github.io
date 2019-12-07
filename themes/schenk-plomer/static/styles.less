@@ -303,9 +303,102 @@ ul{
   }
 }
 .subpage{
+  &#kontakt{
+    .bereiche{
+      margin-top:2rem;
+      .column{
+        display:flex!important;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align:center;
+        img{
+          max-width:120px;
+        }
+        .zz{
+          color:@blue;
+          font-size:1.5rem;
+          font-weight:bold;
+          line-height:1em;
+          margin:1rem 0;
+        }
+        h4{
+          color:@content;
+          font-weight:normal;
+          font-size: 1.1rem;
+          margin:0!important;
+        }
+      }
+    }
+    #intro, .rlist{
+      padding:0;
+      h2{
+        color:@blue;
+        font-weight:bold;
+        text-transform:uppercase;
+        strong{
+          color:@grey;
+          font-size:2rem;
+        }
+      }
+      .intc{
+        columns: 2;
+        column-gap: 2rem;
+      }
+      .cw{
+        display:flex;
+        .stk{
+          flex: 0 0 auto;
+          padding: 0 0 0 2rem;
+          width:25%;
+          strong{
+            color:@blue;
+            font-weight:normal;
+            font-size:1.5rem;
+          }
+          p{
+            border-bottom:1px solid @blue;
+            font-weight:bold;
+            padding: 0 0 0.5rem 0;
+            &:first-child{
+              border:none;
+            }
+          }
+        }
+      }
+      .sectitles{
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        .line{
+          width:100px;
+          border-bottom:1px solid @blue;
+        }
+        h3{
+          line-height:1.0em;
+          color:@content;
+          margin:0 0 0 2rem;;
+          font-size:1.2rem;
+          font-weight:bold;
+        }
+      }
+    }
+  }
   &#referenzen{
     .rlist{
       margin:4rem 0 2rem 0;
+      .rlistct{
+        ul{
+          columns: 2;
+        column-gap: 2rem;
+        strong{
+          color:@blue;
+        }
+        li{
+          margin-bottom:1rem;
+        }
+        }
+      }
     }
     .imgreflist{
       .titles{
