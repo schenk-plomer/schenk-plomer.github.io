@@ -72,5 +72,5 @@ fields:
   config: {}
   label: Bilder
 pages:
-- content/unternehmen.md
 - content/kontakt.md
+- content/unternehmen.md
