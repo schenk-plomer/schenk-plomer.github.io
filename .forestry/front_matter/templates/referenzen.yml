@@ -83,6 +83,15 @@ fields:
       max: 
       labelField: 
     label: Referenz
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
   label: Referenzen Auflistung
 pages:
 - content/referenzen.md
