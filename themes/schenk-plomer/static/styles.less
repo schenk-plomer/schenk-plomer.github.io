@@ -300,15 +300,28 @@ ul{
 .subpage{
   &#historie{
     .column.hentry{
+      display:flex!important;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top:-8rem;
       img{
         width:100%;
+        max-width:800px;
+      }
+      h3{
+        margin:1rem 0!important;
+        color:@blue;
+        font-size:3rem;
+        font-weight:normal;
       }
     }
+
     .arrow{
       background:@grey;
       height:250px;
       position:relative;
-      margin: 8rem 0 4rem 0;
+      margin: 12rem 0 4rem 0;
       #at{
         position:absolute;
         right:0px;
