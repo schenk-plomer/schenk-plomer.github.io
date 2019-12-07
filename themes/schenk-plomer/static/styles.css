@@ -301,6 +301,33 @@ ul li {
 .imggal .gimg.w {
   padding-top: calc(66.6% - 1rem);
 }
+.subpage#historie .column.hentry img {
+  width: 100%;
+}
+.subpage#historie .arrow {
+  background: #d1d1d1;
+  height: 250px;
+  position: relative;
+  margin: 8rem 0 4rem 0;
+}
+.subpage#historie .arrow #at {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+  border-top: 125px solid white;
+  border-left: 80px solid transparent;
+}
+.subpage#historie .arrow #ab {
+  position: absolute;
+  right: 0px;
+  top: 125px;
+  width: 0px;
+  height: 0px;
+  border-bottom: 125px solid white;
+  border-left: 80px solid transparent;
+}
 .subpage#historie #db {
   height: 70vh;
 }
