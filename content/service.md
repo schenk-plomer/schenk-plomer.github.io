@@ -1,7 +1,7 @@
 +++
 layout = "service"
 titel_hintergrundfarbe = ""
-titel_overlay = "/uploads/2019/11/04/head_service-1.jpg"
+titel_overlay = "/uploads/2019/12/02/head_service_02122019.png"
 title = "Service"
 [daten_and_fakten]
 titel = "<p><strong>Alles aus einer Hand <br></strong>Daten &amp; Fakten</p>"
