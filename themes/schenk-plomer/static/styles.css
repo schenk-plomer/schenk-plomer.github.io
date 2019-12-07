@@ -301,6 +301,129 @@ ul li {
 .imggal .gimg.w {
   padding-top: calc(66.6% - 1rem);
 }
+.subpage#karriere #intro {
+  padding: 0;
+}
+.subpage#karriere #intro h2 {
+  color: #003366;
+  font-weight: bold;
+}
+.subpage#karriere #intro h2 strong {
+  color: #d1d1d1;
+  font-size: 2rem;
+}
+.subpage#karriere #intro .intc {
+  columns: 2;
+  column-gap: 2rem;
+}
+.subpage#karriere #intro .cw {
+  display: flex;
+}
+.subpage#karriere #intro .cw .stk {
+  flex: 0 0 auto;
+  padding: 0 0 0 2rem;
+  width: 25%;
+}
+.subpage#karriere #intro .cw .stk strong {
+  color: #003366;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+.subpage#karriere #intro .cw .stk p {
+  border-bottom: 1px solid #003366;
+  font-weight: bold;
+  padding: 0 0 0.5rem 0;
+}
+.subpage#karriere #intro .cw .stk p:first-child {
+  border: none;
+}
+.subpage#karriere #intro .sectitles {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.subpage#karriere #intro .sectitles .line {
+  width: 100px;
+  border-bottom: 1px solid #003366;
+}
+.subpage#karriere #intro .sectitles h3 {
+  line-height: 1em;
+  color: #1e1e1e;
+  margin: 0 0 0 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.subpage#presse .nl .nli {
+  border-bottom: 1px solid #003366;
+}
+.subpage#presse .nl .nli img {
+  width: 100%;
+  max-width: 320px;
+}
+.subpage#presse .nl .nli h2 {
+  color: #003366;
+  font-weight: normal;
+  margin: 0;
+}
+.subpage#presse .nl .nli .q {
+  color: #d1d1d1;
+  margin-bottom: 1rem;
+}
+.subpage#presse .nl .nli .summary {
+  margin-bottom: 1rem;
+}
+.subpage#presse #intro {
+  padding: 4rem 0 0 0;
+}
+.subpage#presse #intro h2 {
+  color: #003366;
+  font-weight: bold;
+}
+.subpage#presse #intro h2 strong {
+  color: #d1d1d1;
+  font-size: 2rem;
+}
+.subpage#presse #intro .intc {
+  columns: 2;
+  column-gap: 2rem;
+}
+.subpage#presse #intro .cw {
+  display: flex;
+}
+.subpage#presse #intro .cw .stk {
+  flex: 0 0 auto;
+  padding: 0 0 0 2rem;
+  width: 25%;
+}
+.subpage#presse #intro .cw .stk strong {
+  color: #003366;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+.subpage#presse #intro .cw .stk p {
+  border-bottom: 1px solid #003366;
+  font-weight: bold;
+  padding: 0 0 0.5rem 0;
+}
+.subpage#presse #intro .cw .stk p:first-child {
+  border: none;
+}
+.subpage#presse #intro .sectitles {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.subpage#presse #intro .sectitles .line {
+  width: 100px;
+  border-bottom: 1px solid #003366;
+}
+.subpage#presse #intro .sectitles h3 {
+  line-height: 1em;
+  color: #1e1e1e;
+  margin: 0 0 0 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 .subpage#historie .column.hentry {
   display: flex!important;
   flex-direction: column;

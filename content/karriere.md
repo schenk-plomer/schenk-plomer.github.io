@@ -4,6 +4,7 @@ button_link = "mailto:info@schenk-plomer.de"
 content_unten = "<p>Wir freuen uns auf Ihre schriftliche Bewerbung mit Lebenslauf und Zeugnissen <br> entweder per Post oder einfach per E-Mail</p>"
 titel_bild = "/uploads/2019/11/04/head_stellen.jpg"
 title = "<p>Karriere</p>"
+layout="karriere"
 [content]
 content = ""
 titel = "<p><strong>Vakante Stellen</strong></p>"

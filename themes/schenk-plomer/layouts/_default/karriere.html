@@ -1,0 +1,41 @@
+{{ define "main" }}
+<div class="subpage" id="karriere">
+  <div id="db" style="background:url({{partial "imgUrl" (dict "img" .Params.titel_bild "params" "q_100" )}}) center top no-repeat; background-size:cover;">
+    <div class="subptitle">
+      <div class="ui container standard">
+        <h1>{{.Title|safeHTML}}</h1>
+      </div>
+    </div>
+  </div>
+  
+  {{with .Params.content}}
+  <div id="intro">
+    <div class="ui container">
+      <div class="sectitles">
+        <div class="line"></div>
+        <h3>{{.untertitel}}</h3>
+      </div>
+      <h2>{{.titel|safeHTML}}</h2>
+      <div class="intc">
+          {{.content|safeHTML}}
+        </div>
+    </div>
+  </div>
+  {{end}}
+  <div class="ui container nl">
+    {{range .Params.artikel}}
+    <div class="ui grid stackable nli">
+        <div class="ui four wide column">
+            <img src="{{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}"/>
+        </div>
+        <div class="ui twelve wide column">
+            <h2>{{.titel}}</h2>
+            <div class="q">{{.quelle}}</div>
+            <div class="summary">{{.zusammenfassung|safeHTML}}</div>
+            <a href="{{.datei}}" target="_blank">{{.link_beschriftung}}</a>
+        </div>
+      </div>
+    {{end}}
+  </div>
+</div>
+{{ end }}
