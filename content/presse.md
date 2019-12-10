@@ -1,7 +1,7 @@
 +++
+layout = "presse"
 titel_bild = "/uploads/2019/11/04/head_presse.jpg"
 title = "<p>Presse</p>"
-layout="presse"
 [content]
 titel = "<p><strong>Wussten Sie </strong>schon ...</p>"
 untertitel = "Presse & mehr"
@@ -23,7 +23,7 @@ quelle = "Wirtschaftszeitung 2019"
 titel = "Prima Klima seit 25 Jahren"
 zusammenfassung = "<p>Wenn man von ihrer Arbeit nichts merkt, dann ist es fast am besten. Die SCHENK &amp; PLOMER GMBH aus Essenbach hat sich in 25 Jahren einen guten Namen mit „prima Klima“ gemacht.</p>"
 [[artikel]]
-bild = ""
+bild = "/uploads/2019/12/10/kuehle_luft.jpeg"
 datei = "/uploads/2019/11/04/kuehle_luft.pdf"
 link_beschriftung = " .... ganzen Artikel lesen"
 quelle = "Landshuter Zeitung 2018"
@@ -38,7 +38,7 @@ titel = "Unser Potenzial sind die Mitarbeiter"
 zusammenfassung = "<p>Im November feiert die Schenk &amp; Plomer GmbH ihr 25-jähriges Bestehen. Ein großes Firmenfest ist geplant. Ein besonderer Höhepunkt wird die Ehrung der langjährigen Mitarbeiter sein.</p>"
 [[artikel]]
 bild = "/uploads/2019/11/04/evl.png"
-datei = "/uploads/2019/11/04/Verlängerung Sponsoring.pdf"
+datei = "/uploads/2019/11/04/Verlängerung Sponsoring.pdf"
 link_beschriftung = " .... ganzen Artikel lesen"
 quelle = "www.evl.info 2019"
 titel = "Schenk & Plomer GmbH verlängert ihr Engagement beim EVL"
