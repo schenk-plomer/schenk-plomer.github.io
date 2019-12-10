@@ -1,5 +1,6 @@
 +++
 layout = "referenzen"
+seo_description = "Unsere Referenzen im Großraum München, Landshut, Ingolstadt - Bavaria Towers, Flughafen München, Einkaufszentrum Hanau, Eisstadion Landshut"
 titel_bild = "/uploads/2019/11/04/head_referenzen.jpg"
 title = "<p>Referenzen</p>"
 [content]
