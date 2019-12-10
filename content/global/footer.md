@@ -15,8 +15,8 @@ logos = []
 content = "<p><a href=\"/unternehmen\" title=\"\"><strong>Unternehmen</strong></a></p><ul><li><p><a href=\"/historie\" title=\"Historie\">Historie</a></p></li><li><p><a href=\"/presse\" title=\"Presseberichte und News\">Presseberichte / News</a></p></li></ul><p><a href=\"/service\" title=\"Service\"><strong>Service</strong></a></p><p><a href=\"/referenzen\" title=\"Referenzen\"><strong>Referenzen</strong></a></p><p><a href=\"/karriere\" title=\"Karriere\"><strong>Karriere</strong></a></p><p><a href=\"/kontakt\" title=\"Kontakt\"><strong>Kontakt</strong></a></p>"
 logos = []
 [[abschnitte]]
-content = "<p><strong>Wir sind Partner und Unterstützer des EVL</strong></p>"
-logos = ["/uploads/2019/11/04/footer_evl_logo.png"]
+content = "<p><strong>Wir sind Partner und Unterstützer des EVL und SPVGG Landshut</strong></p>"
+logos = ["/uploads/2019/12/10/footer_evl_bvl_logo.png"]
 [[abschnitte]]
 content = ""
 logos = ["/uploads/2019/11/04/footer_heizung_verband_logo.png", "/uploads/2019/11/04/footer_eon_logo.png"]
