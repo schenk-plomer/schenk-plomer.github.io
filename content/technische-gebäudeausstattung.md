@@ -1,5 +1,6 @@
 +++
 layout = "luftklima"
+seo_description = "Technische Gebäudeausstattung: Heizungs- und Kältetechnik, Elektrotechnik, MSR-Technik, Baulicher Brandschutz, Sanitärtechnik"
 titel_hintergrundfarbe = ""
 titel_overlay = "/uploads/2019/11/04/head_service-1.jpg"
 title = "Technische Gebäudeausstattung"
