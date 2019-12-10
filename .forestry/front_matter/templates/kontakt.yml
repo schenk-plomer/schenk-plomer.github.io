@@ -58,3 +58,8 @@ fields:
   config:
     required: false
   label: Karte
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
