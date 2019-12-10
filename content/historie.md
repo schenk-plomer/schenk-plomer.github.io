@@ -12,7 +12,7 @@ name = " Historie"
 parent = "Unternehmen"
 weight = 2
 [[historie]]
-bild = "/uploads/2019/11/04/historie2.png"
+bild = "/uploads/2019/12/10/historie2_neu.png"
 jahr = "1993"
 [[historie]]
 bild = "/uploads/2019/11/04/Gebäude 1995.png"
