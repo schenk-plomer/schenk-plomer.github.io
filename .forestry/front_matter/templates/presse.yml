@@ -68,5 +68,10 @@ fields:
     max: 
     labelField: 
   label: Artikel
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 pages:
 - content/presse.md
