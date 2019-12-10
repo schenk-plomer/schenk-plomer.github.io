@@ -1,6 +1,7 @@
 +++
 bilder = ["/uploads/2019/11/04/schenk-plomer-dachs-4.jpg", "/uploads/2019/11/04/schenk-plomer-dachs-4l.jpg", "/uploads/2019/11/04/77.jpg", "/uploads/2019/11/04/88.jpg", "/uploads/2019/11/04/schenk-plomer-dachs-466.jpg", "/uploads/2019/11/04/schenk-plomer-dachs-49.jpg"]
 layout = "unternehmen"
+seo_description = "Über uns: 120 Mitarbeiter, 40 Servicefahrzeuge, 26 Jahre Know How, Top geschulte Mitarbeiter | Eigene Kanalfertigung | Wartung und Service Abteilung | Absolute Termintreue | Planung, Ausführung und Betreuung"
 titel_bild = "/uploads/2019/11/04/head_ueberuns.jpg"
 title = "<p>Unternehmen</p>"
 [content]
