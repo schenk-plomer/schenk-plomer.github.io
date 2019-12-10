@@ -3,6 +3,7 @@ button_beschriftung = "Jetzt  Bewerben!"
 button_link = "mailto:info@schenk-plomer.de"
 content_unten = "<p>Wir freuen uns auf Ihre schriftliche Bewerbung mit Lebenslauf und Zeugnissen <br> entweder per Post oder einfach per E-Mail</p>"
 layout = "karriere"
+seo_description = "Vakante Stellen für Praktika, Ausbildung und Vollzeitstellen beispielsweise zum: Technischen Systemplaner für Versorgungs- u. Ausrüstungstechnik (m/w/d), Elektroniker für Energie- und Gebäudetechnik (m/w/d)"
 titel_bild = "/uploads/2019/11/04/head_stellen.jpg"
 title = "<p>Karriere</p>"
 [content]
