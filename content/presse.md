@@ -1,5 +1,6 @@
 +++
 layout = "presse"
+seo_description = "Presseartikel aus regionaler und überregionaler Presse: \"Für den guten Zweck\", \"14-Millionen-Auftrag für den Mittelständler aus Altheim\""
 titel_bild = "/uploads/2019/11/04/head_presse.jpg"
 title = "<p>Presse</p>"
 [content]
