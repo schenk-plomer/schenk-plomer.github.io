@@ -3,6 +3,7 @@ bilder = []
 karte = ""
 kontaktdaten = []
 layout = "kontakt"
+seo_description = "Schenk & Plomer GmbH | Plomer & Dachs GmbH | Dieselstrasse 6 | 84056 Altheim | +49 8703 / 9226-0 | info@schenk-plomer.de"
 titel_bild = "/uploads/2019/11/04/head_kontakt.jpg"
 title = "<p>Kontakt</p>"
 [content]

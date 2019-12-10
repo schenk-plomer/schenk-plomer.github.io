@@ -77,5 +77,5 @@ fields:
   template: seo
   label: SEO
 pages:
-- content/unternehmen.md
 - content/kontakt.md
+- content/unternehmen.md
