@@ -57,5 +57,10 @@ fields:
   type: image_gallery
   config: {}
   label: Weitere Bilder
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 pages:
 - content/historie.md
