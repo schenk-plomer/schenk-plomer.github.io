@@ -89,5 +89,10 @@ fields:
   config:
     required: false
   label: Button Beschriftung
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 pages:
 - content/karriere.md
