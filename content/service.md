@@ -1,5 +1,6 @@
 +++
 layout = "service"
+seo_description = "Unser Service für Sie: Planung, Montage, Werkstatt, Wartung und 7 Tage / 24h Service, eigene Elektroabteilung und technisches sowie kaufmännisches Büro"
 titel_hintergrundfarbe = ""
 titel_overlay = "/uploads/2019/12/02/head_service_02122019.png"
 title = "Service"
