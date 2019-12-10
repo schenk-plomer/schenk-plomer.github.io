@@ -17,7 +17,7 @@ bilder = ["/uploads/2019/11/04/WhatsApp Image 2019-08-06 at 10.43.40(1).jpeg"]
 titel = "Eisstadion  Landshut"
 untertitel = "Lüftungsturm"
 [[projekte_mit_bildergallerie]]
-bilder = ["/uploads/2019/11/04/BavariaTowers2.jpeg", "/uploads/2019/11/04/BavariaTowers1.jpg", "/uploads/2019/11/04/BavariaTowers.jpg"]
+bilder = ["/uploads/2019/12/10/BavariaTowers2_neu.png", "/uploads/2019/11/04/BavariaTowers.jpg", "/uploads/2019/11/04/BavariaTowers1.jpg"]
 titel = "Bavaria  Towers"
 untertitel = "Lüftungsanlage"
 [[projekte_mit_bildergallerie]]
