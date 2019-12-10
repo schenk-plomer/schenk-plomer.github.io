@@ -1,5 +1,6 @@
 +++
 layout = "historie"
+seo_description = "Im Jahre 1993 Raimund Plomer und Martin Schenk die Fa. Schenk & Plomer GmbH in Oberahrain zu gründen"
 titel_bild = "/uploads/2019/11/04/head_historie.jpg"
 title = "<p>Historie</p>"
 weitere_bilder = ["/uploads/2019/11/04/historie4-1.png", "/uploads/2019/12/10/historie2_neu.png", "/uploads/2019/11/04/historie1.png"]
