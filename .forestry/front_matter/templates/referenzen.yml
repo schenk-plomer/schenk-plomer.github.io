@@ -71,5 +71,10 @@ fields:
         format: html-blocks
     label: Content
   label: Referenzen Auflistung
+- name: SEO
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 pages:
 - content/referenzen.md
