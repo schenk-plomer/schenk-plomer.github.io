@@ -1,5 +1,6 @@
 +++
 layout = "luftklima"
+seo_description = "Luft- und Klimatechnik Leistungen: Lüftungsanlagen, Klimaanlagen, absaugenden, Be- und Entrechtung, Wärmerückgewinnung, Schall- und Lärmschutz"
 titel_hintergrundfarbe = ""
 titel_overlay = "/uploads/2019/11/04/head_luft-klima.jpg"
 title = "Luft- und Klimatechnik"
