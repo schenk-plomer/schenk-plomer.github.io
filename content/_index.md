@@ -4,7 +4,7 @@ title = "Home"
 type = "page"
 [bildbereich]
 hintergrund = "/uploads/2019/11/04/overlay_links.png"
-overlay_mitte = "/uploads/2019/11/04/overlay_mitte.png"
+overlay_mitte = "/uploads/2019/12/10/schenk-plomer-dachs.png"
 overlay_rechts = "/uploads/2019/11/04/overlay_rechts.png"
 titel = "<p><strong>Gute Lüftung</strong></p><p class=\"p1\"><strong>Prima Klima</strong></p>"
 untertitel = "<p>Schenk &amp; Plomer GmbH </p>"
@@ -62,6 +62,5 @@ hintergrundfarbe = ""
 logo = "/uploads/2019/11/04/plomer_dachs_logo.png"
 overlay = "/uploads/2019/11/04/background_dachs.png"
 titel = "<p><strong>Plomer &amp; Dachs<br>Technische Gebäudeausstattung</strong></p>"
-
 
 +++
