@@ -71,6 +71,11 @@ fields:
   type: image_gallery
   config: {}
   label: Bilder
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 pages:
 - content/unternehmen.md
 - content/kontakt.md
