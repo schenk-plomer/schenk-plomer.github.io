@@ -103,5 +103,10 @@ fields:
       labelField: 
     label: Bereiche
   label: Daten & Fakten
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 pages:
 - content/service.md
