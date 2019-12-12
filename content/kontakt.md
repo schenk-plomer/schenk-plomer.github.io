@@ -15,7 +15,7 @@ untertitel = "Wir sind für Sie da"
 name = "Kontakt"
 weight = 7
 [[zahlen_und_fakten]]
-bezeichnung = "Schenk & Plomer GmbH Plomer & Dachs GmbH </br>Dieselstrasse 6  84056 Altheim"
+bezeichnung = "Schenk & Plomer GmbH Plomer & Dachs GmbH Dieselstrasse 6  84056 Altheim"
 icon = "/uploads/2019/11/04/icon_adresse.png"
 zahl = "Adresse"
 [[zahlen_und_fakten]]
