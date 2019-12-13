@@ -16,7 +16,7 @@ content = "<p><a href=\"/unternehmen\" title=\"\"><strong>Unternehmen</strong></
 logos = []
 [[abschnitte]]
 content = "<p><strong>Wir sind Partner und Unterstützer des EVL und SPVGG Landshut</strong></p>"
-logos = ["/uploads/2019/12/13/BFV_NWLZ_Landshut_quer.png", "/uploads/2019/12/13/spvgg_landshut.jpeg", "/uploads/2019/11/04/footer_evl_logo.png"]
+logos = ["/uploads/2019/12/13/evl_neu.png", "/uploads/2019/12/13/spvgg_landshut_neu.png", "/uploads/2019/12/13/BFV_NWLZ_Landshut_quer_neu.png"]
 [[abschnitte]]
 content = ""
 logos = ["/uploads/2019/11/04/footer_heizung_verband_logo.png", "/uploads/2019/11/04/footer_eon_logo.png"]
