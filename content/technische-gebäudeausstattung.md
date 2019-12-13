@@ -12,7 +12,7 @@ content = "<p>Unser hochqualifiziertes Personal ist in der Lage sämtliche Anfor
 icons = ["/uploads/2019/11/04/icon_heiztechnik.png", "/uploads/2019/11/04/icon_kaeltetechnik.png"]
 titel = "Heizungs- und Kältetechnik"
 [[bereiche]]
-bilder = ["/uploads/2019/12/10/elektrotechnik_low.jpg"]
+bilder = ["/uploads/2019/12/13/elektrochnikP1000064.jpeg", "/uploads/2019/12/13/elektrochnikR0010895.jpeg", "/uploads/2019/12/13/elektrochnikR0010894.jpeg", "/uploads/2019/12/13/elektrochnikDSCF0891.jpeg", "/uploads/2019/12/13/elektrochnikDSCF0890.jpeg", "/uploads/2019/12/13/elektrochnikDSCF0888.jpeg"]
 content = "<p>Installieren, warten und reparieren von elektrischen Anlagen, Maschinen, elektrischen Geräte und Stromleitungen, die der Erzeugung, Verteilung und Anwendung von elektrischem Strom dienen.</p><p class=\"MsoNormal\">Wir beraten Sie gerne und planen den Ablauf der auszuführenden Arbeiten.</p>"
 icons = ["/uploads/2019/11/04/icon_elektrotechnik.png"]
 titel = "Elektrotechnik"
