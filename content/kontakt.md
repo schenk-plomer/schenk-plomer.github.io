@@ -1,7 +1,6 @@
 +++
 bilder = []
 karte = ""
-kontaktdaten = []
 layout = "kontakt"
 seo_description = "Schenk & Plomer GmbH | Plomer & Dachs GmbH | Dieselstrasse 6 | 84056 Altheim | +49 8703 / 9226-0 | info@schenk-plomer.de"
 titel_bild = "/uploads/2019/12/12/head_kontakt_neu.jpg"
@@ -14,6 +13,10 @@ untertitel = "Wir sind für Sie da"
 [menu.main]
 name = "Kontakt"
 weight = 7
+[[kontaktdaten]]
+content = "<p>dsa</p>"
+icon = "/uploads/2019/12/13/evl_neu.png"
+titel = "asd"
 [[zahlen_und_fakten]]
 bezeichnung = "Schenk & Plomer GmbH Plomer & Dachs GmbH Dieselstrasse 6  84056 Altheim"
 icon = "/uploads/2019/11/04/icon_adresse.png"
