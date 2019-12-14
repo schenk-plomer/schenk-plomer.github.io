@@ -24,11 +24,11 @@
   {{end}}
   <div class="ui container">
     <div class="ui three column stackable grid bereiche">
-      {{range .Params.zahlen_und_fakten}}
+      {{range .Params.kontaktdaten}}
       <div class="column">
         <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100" )}}" />
-        <div class="zz">{{.zahl}}</div>
-        <h4>{{.bezeichnung}}</h4>
+        <div class="zz">{{.titel}}</div>
+        {{.content|safeHTML}}
       </div>
       {{end}}
     </div>

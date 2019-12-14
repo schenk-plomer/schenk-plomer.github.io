@@ -304,6 +304,12 @@ ul li {
 #intro h2 {
   text-transform: uppercase;
 }
+.subpage.def {
+  padding-top: 200px;
+}
+.subpage.def h1 {
+  color: #003366 !important;
+}
 .subpage#kontakt .bereiche {
   margin-top: 2rem;
 }

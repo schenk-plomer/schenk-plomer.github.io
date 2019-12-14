@@ -18,13 +18,20 @@
     </div>
     <div style="background:url({{partial "imgUrl" (dict "img" .hintergrundbild "params" "q_100" )}}) left center no-repeat; background-size:contain;">
       <div class="ui container">
+        <a href="{{ref $p .link_bereiche_1}}">
         <div class="ui six column wide doubling grid lbers">
           {{range .bereiche1}}
+          
             <div class="column">
+                
               <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100" )}}"/>
               <h3>{{.beschriftung|safeHTML}}</h3>
             </div>
           {{end}}
+        </div>
+        </a>
+        <a href="{{ref $p .link_bereiche_2}}">
+            <div class="ui six column wide doubling grid lbers">
           {{range .bereiche2}}
             <div class="column">
               <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100" )}}"/>
@@ -32,6 +39,8 @@
             </div>
           {{end}}
         </div>
+        </a>
+        <!--
         <div class="bwr">
           <a href="{{.link_button}}">
             <div class="mbutton">
@@ -43,6 +52,7 @@
             </div>
           </a>
         </div>
+      -->
       </div>
     </div>
   </section>

@@ -8,26 +8,22 @@ title = "<p>Kontakt</p>"
 [content]
 content = ""
 staerken = ""
-titel = "<p>Schenk<strong> &amp; Plomer GmbH | </strong>Plomer<strong> &amp; Dachs GmbH</strong></p>"
+titel = "<p>Schenk<strong> &amp; Plomer GmbH </strong>Plomer<strong> &amp; Dachs GmbH</strong></p>"
 untertitel = "Wir sind für Sie da"
 [menu.main]
 name = "Kontakt"
 weight = 7
 [[kontaktdaten]]
-content = "<p>dsa</p>"
-icon = "/uploads/2019/12/13/evl_neu.png"
-titel = "asd"
-[[zahlen_und_fakten]]
-bezeichnung = "Schenk & Plomer GmbH Plomer & Dachs GmbH Dieselstrasse 6  84056 Altheim"
+content = "<p>Schenk & Plomer GmbH <br/>Plomer & Dachs GmbH <br/>Dieselstrasse 6  <br/>84056 Altheim</p>"
 icon = "/uploads/2019/11/04/icon_adresse.png"
-zahl = "Adresse"
-[[zahlen_und_fakten]]
-bezeichnung = " Tel.: +49 8703 / 9226-0  Fax: +49 8703 / 9226-22"
+titel = "Adresse"
+[[kontaktdaten]]
+content = "<p>Tel.: +49 8703 / 9226-0  <br/>Fax: +49 8703 / 9226-22</p>"
 icon = "/uploads/2019/11/04/icon_telefon.png"
-zahl = "Telefon"
-[[zahlen_und_fakten]]
-bezeichnung = "Mail: info@schenk-plomer.de Web: www.schenk-plomer.de"
+titel = "Telefon"
+[[kontaktdaten]]
+content = "<p>Mail: <a href=\"mailto:info@schenk-plomer.de\">info@schenk-plomer.de</a> <br/>Web: www.schenk-plomer.de</p>"
 icon = "/uploads/2019/11/04/icon_mail.png"
-zahl = "Web"
+titel = "Web"
 
 +++

@@ -26,7 +26,9 @@
     {{range .Params.artikel}}
     <div class="ui grid stackable nli">
         <div class="ui four wide column">
+            <a href="{{.datei}}" target="_blank">
             <img src="{{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}"/>
+          </a>
         </div>
         <div class="ui twelve wide column">
             <h2>{{.titel}}</h2>
