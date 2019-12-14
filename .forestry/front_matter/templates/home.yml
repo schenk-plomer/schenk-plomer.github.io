@@ -68,6 +68,18 @@ fields:
       schema:
         format: html-blocks
     label: Titel
+  - name: link_bereiche_1
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: seiten
+        file: 
+        path: 
+    label: Link Bereiche 1
   - name: bereiche1
     type: field_group_list
     fields:
@@ -90,6 +102,18 @@ fields:
       max: 
       labelField: 
     label: Bereiche 1
+  - name: link_bereiche_2
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: seiten
+        file: 
+        path: 
+    label: Link Bereiche 2
   - name: bereiche2
     type: field_group_list
     fields:
@@ -112,23 +136,6 @@ fields:
       max: 
       labelField: 
     label: Bereiche 2
-  - name: beschriftung_button
-    type: text
-    config:
-      required: false
-    label: Beschriftung Button
-  - name: link_button
-    type: select
-    default: []
-    config:
-      required: false
-      options: []
-      source:
-        type: pages
-        section: seiten
-        file: 
-        path: 
-    label: Link Button
   label: Leistungen
 - name: schenk_and_plomer
   type: field_group
