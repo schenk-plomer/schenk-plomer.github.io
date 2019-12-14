@@ -11,6 +11,8 @@ untertitel = "<p>Schenk &amp; Plomer GmbH </p>"
 [leistungen]
 beschriftung_button = "weiter"
 hintergrundbild = "/uploads/2019/12/10/neu_luftschaft.png"
+link_bereiche_1 = "luft-und-klimatechnik.md"
+link_bereiche_2 = "technische-gebäudeausstattung.md"
 link_button = "luft-und-klimatechnik.md"
 titel = "<p><strong>Unser Leistungen <br></strong>für SIE</p>"
 [[leistungen.bereiche1]]
