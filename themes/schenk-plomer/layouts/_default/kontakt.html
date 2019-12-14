@@ -23,7 +23,7 @@
   </div>
   {{end}}
   <div class="ui container">
-    <div class="ui three column stackable grid bereiche">
+    <div class="ui three column doubling grid bereiche">
       {{range .Params.kontaktdaten}}
       <div class="column">
         <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100" )}}" />

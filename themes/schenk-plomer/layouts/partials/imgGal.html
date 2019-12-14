@@ -1,6 +1,6 @@
 <div class="galw">
 {{$id := .titel}}
-<div class="ui container grid imggal stackable">
+<div class="ui container grid imggal doubling">
   <div class="sixteen wide column">
     {{ range $x,$img := .bilder }} {{if eq $x 0}}
     <img data-modal="imgg_{{md5 $id}}" class="bimg" data-idx="{{$x}}" src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_600" )}}"

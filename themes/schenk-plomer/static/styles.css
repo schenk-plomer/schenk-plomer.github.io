@@ -71,7 +71,7 @@ header .logow {
 }
 @media (max-width: 720px) {
   header .logow {
-    width: 70vw;
+    justify-content: flex-start;
   }
 }
 header #headermenuw {
@@ -84,6 +84,7 @@ header #headermenuw {
 }
 @media (max-width: 720px) {
   header #headermenuw {
+    margin: auto -1rem;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -117,7 +118,7 @@ header #headermenumobil {
   }
   header #headermenumobil.mobvis {
     max-height: 1000px;
-    padding: 0.5rem 0rem !important;
+    padding: 0 2rem 0rem!important;
     transition-property: all;
     transition-duration: 0.6s;
     transition-timing-function: ease-in-out;
@@ -283,6 +284,25 @@ ul li {
   left: 50vw;
   margin-left: -25vw;
 }
+@media (max-width: 720px) {
+  #headimg_l0 {
+    height: 50vh;
+    width: 100vw;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    background-position-y: bottom!important;
+  }
+  #headimg_l0 #om {
+    height: 50vh!important;
+    width: 50vw;
+    z-index: 3;
+    position: absolute;
+    bottom: 0;
+    left: 50vw;
+    margin-left: -25vw;
+  }
+}
 #or {
   position: absolute;
   height: 70vh;
@@ -290,6 +310,11 @@ ul li {
   right: 0;
   top: 0;
   z-index: 1;
+}
+@media (max-width: 720px) {
+  #or {
+    height: 50vh;
+  }
 }
 .imggal .gimg {
   cursor: pointer;
@@ -309,6 +334,11 @@ ul li {
 }
 .subpage.def h1 {
   color: #003366 !important;
+}
+@media (max-width: 720px) {
+  .subpage.def {
+    padding-top: 150px;
+  }
 }
 .subpage#kontakt .bereiche {
   margin-top: 2rem;
@@ -350,6 +380,16 @@ ul li {
 .subpage#kontakt .rlist h2 strong {
   color: #d1d1d1;
   font-size: 2rem;
+}
+@media (max-width: 720px) {
+  .subpage#kontakt #intro h2,
+  .subpage#kontakt .rlist h2 {
+    font-size: 1.5rem;
+  }
+  .subpage#kontakt #intro h2 strong,
+  .subpage#kontakt .rlist h2 strong {
+    font-size: 1.5rem;
+  }
 }
 .subpage#kontakt #intro .intc,
 .subpage#kontakt .rlist .intc {
@@ -408,6 +448,11 @@ ul li {
   columns: 2;
   column-gap: 2rem;
 }
+@media (max-width: 720px) {
+  .subpage#referenzen .rlist .rlistct ul {
+    columns: 1;
+  }
+}
 .subpage#referenzen .rlist .rlistct ul strong {
   color: #003366;
 }
@@ -443,12 +488,26 @@ ul li {
   text-shadow: 3px 3px 6px #000000;
   margin: 0;
 }
+@media (max-width: 720px) {
+  .subpage#referenzen .imgreflist h4 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+}
 .subpage#referenzen .imgreflist h5 {
   font-size: 2rem;
   color: white;
   font-weight: bold;
   text-shadow: 3px 3px 6px #000000;
   margin: 0;
+}
+@media (max-width: 720px) {
+  .subpage#referenzen .imgreflist h5 {
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 0 1rem;
+  }
 }
 .subpage#referenzen #intro,
 .subpage#referenzen .rlist {
@@ -552,6 +611,11 @@ ul li {
   text-transform: uppercase;
   font-weight: bold;
 }
+@media (max-width: 720px) {
+  .subpage#karriere .sb h2 {
+    font-size: 1.5rem;
+  }
+}
 .subpage#karriere .sb .st {
   cursor: pointer;
   padding: 1rem 0;
@@ -590,6 +654,14 @@ ul li {
 .subpage#karriere #intro h2 strong {
   color: #d1d1d1;
   font-size: 2rem;
+}
+@media (max-width: 720px) {
+  .subpage#karriere #intro h2 {
+    font-size: 1.5rem;
+  }
+  .subpage#karriere #intro h2 strong {
+    font-size: 1.5rem;
+  }
 }
 .subpage#karriere #intro .intc {
   columns: 2;
@@ -807,6 +879,14 @@ ul li {
 .subpage#unternehmen #db {
   height: 70vh;
 }
+@media (max-width: 720px) {
+  .subpage#unternehmen #db {
+    height: 50vh;
+  }
+  .subpage#unternehmen #db h1 {
+    font-size: 1.5rem;
+  }
+}
 .subpage#unternehmen .greycontent {
   padding: 2rem 0;
   background: #e1e8ec;
@@ -848,6 +928,11 @@ ul li {
   columns: 2;
   column-gap: 2rem;
 }
+@media (max-width: 720px) {
+  .subpage#unternehmen #intro .intc {
+    columns: 1;
+  }
+}
 .subpage#unternehmen #intro .cw {
   display: flex;
 }
@@ -855,6 +940,12 @@ ul li {
   flex: 0 0 auto;
   padding: 0 0 0 2rem;
   width: 25%;
+}
+@media (max-width: 720px) {
+  .subpage#unternehmen #intro .cw .stk {
+    width: 100%;
+    padding: 1rem 0;
+  }
 }
 .subpage#unternehmen #intro .cw .stk strong {
   color: #003366;
@@ -868,6 +959,11 @@ ul li {
 }
 .subpage#unternehmen #intro .cw .stk p:first-child {
   border: none;
+}
+@media (max-width: 720px) {
+  .subpage#unternehmen #intro .cw {
+    flex-direction: column;
+  }
 }
 .subpage#unternehmen #intro .sectitles {
   display: flex;
@@ -918,9 +1014,22 @@ ul li {
   color: #d1d1d1;
   font-size: 2rem;
 }
+@media (max-width: 720px) {
+  .subpage#service #intro h2 {
+    font-size: 1.5rem;
+  }
+  .subpage#service #intro h2 strong {
+    font-size: 1.5rem;
+  }
+}
 .subpage#service #intro .intc {
   columns: 2;
   column-gap: 2rem;
+}
+@media (max-width: 720px) {
+  .subpage#service #intro .intc {
+    columns: 1;
+  }
 }
 .subpage#service #intro .sectitles {
   display: flex;
@@ -955,8 +1064,21 @@ ul li {
 .subpage .subptitle h1 {
   font-weight: bold;
 }
+@media (max-width: 720px) {
+  .subpage .subptitle {
+    padding: 150px 0 100px 0;
+    margin: 0 0 3rem 0!important;
+    z-index: 9;
+  }
+}
 .subpage .bgal {
   width: 33%;
+}
+@media (max-width: 720px) {
+  .subpage .bgal {
+    width: 100vw;
+    margin: 0 -1.5rem;
+  }
 }
 .subpage .imggal img {
   width: 100%;
@@ -991,6 +1113,32 @@ ul li {
 }
 .subpage .ber:nth-child(even) {
   flex-direction: row-reverse;
+}
+@media (max-width: 720px) {
+  .subpage .ber {
+    flex-direction: column-reverse !important;
+  }
+  .subpage .ber .ct {
+    padding: 0 0 1rem 0;
+  }
+  .subpage .ber .ct .ti {
+    display: flex;
+    flex-direction: row-reverse !important;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 1rem 0;
+  }
+  .subpage .ber .ct .ti img {
+    width: 50px;
+    margin: 0 1rem 0 0;
+  }
+  .subpage .ber .ct .ti h2 {
+    flex: 1 1 auto;
+    color: #003366;
+    margin: 0;
+    font-size: 1.3rem;
+    text-align: center;
+  }
 }
 section .container {
   position: relative;
@@ -1054,6 +1202,44 @@ section .container {
 }
 #home #sp #spb > div:last-child h2 {
   color: white;
+}
+@media (max-width: 720px) {
+  #home #sp #spb {
+    border-top: 1px solid #003366;
+    border-bottom: 1px solid #003366;
+    padding: 0;
+  }
+  #home #sp #spb > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    width: 50vw;
+    height: 35vh;
+    z-index: 2;
+    margin-left: 0;
+  }
+  #home #sp #spb > div img {
+    height: 80px;
+  }
+  #home #sp #spb > div h2 {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #003366;
+  }
+  #home #sp #spb > div:first-child {
+    background: none!important;
+  }
+  #home #sp #spb > div:last-child {
+    margin-left: 0;
+    height: 35vh;
+    margin-top: 0;
+    z-index: 1;
+  }
+  #home #sp #spb > div:last-child h2 {
+    color: white;
+  }
 }
 #home .lbers {
   margin: 0 -1rem;

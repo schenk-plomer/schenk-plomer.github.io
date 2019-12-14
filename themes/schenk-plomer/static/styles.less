@@ -71,7 +71,7 @@ header{
     align-items:center;
     justify-content: center;
     @media (max-width: 720px){
-      width:70vw;
+      justify-content: flex-start;
     }
   }
   #headermenuw{
@@ -83,6 +83,7 @@ header{
     align-items: flex-end;
     position:relative;
     @media (max-width: 720px){
+      margin: auto -1rem;
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
@@ -103,7 +104,6 @@ header{
       display:flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      
       max-height:0px;
       overflow:hidden;
       opacity: 0;
@@ -112,7 +112,7 @@ header{
       transition-timing-function: ease-in-out;
       &.mobvis{
         max-height:1000px;
-        padding:0.5rem 0rem!important;
+        padding:0 2rem 0rem!important;
         transition-property: all;
         transition-duration: 0.6s;
         transition-timing-function: ease-in-out;
@@ -276,6 +276,23 @@ ul{
     left:50vw;
     margin-left:-25vw;
   }
+  @media (max-width: 720px){
+    height:50vh;
+    width:100vw;
+    padding:0;
+    position:relative;
+    overflow:hidden;
+    background-position-y: bottom!important;
+    #om{
+      height:50vh!important;
+      width:50vw;
+      z-index:3;
+      position:absolute;
+      bottom:0;
+      left:50vw;
+      margin-left:-25vw;
+    }
+  }
 }
 #or{
   position:absolute;
@@ -284,6 +301,9 @@ ul{
   right:0;
   top:0;
   z-index:1;
+  @media (max-width: 720px){
+    height:50vh;
+  }
 }
 .imggal{
   .gimg{
@@ -307,6 +327,9 @@ ul{
     padding-top:200px;
     h1{
       color:@blue!important;
+    }
+    @media (max-width: 720px){
+      padding-top:150px;
     }
   }
   &#kontakt{
@@ -345,6 +368,12 @@ ul{
         strong{
           color:@grey;
           font-size:2rem;
+        }
+        @media (max-width: 720px){
+          font-size:1.5rem;
+          strong{
+            font-size:1.5rem;
+          }
         }
       }
       .intc{
@@ -397,6 +426,9 @@ ul{
         ul{
           columns: 2;
         column-gap: 2rem;
+        @media (max-width: 720px){
+          columns:1;
+        }
         strong{
           color:@blue;
         }
@@ -435,6 +467,11 @@ ul{
         text-transform: uppercase;
         text-shadow: 3px 3px 6px #000000;
         margin:0;
+        @media (max-width: 720px){
+          text-align:center;
+          font-size:2rem;
+          padding:0 1rem;
+        }
       }
       h5{
         font-size:2rem;
@@ -442,6 +479,11 @@ ul{
         font-weight:bold;
         text-shadow: 3px 3px 6px #000000;
         margin:0;
+        @media (max-width: 720px){
+          text-align:center;
+          font-size:1.7rem;
+          padding:0 1rem;
+        }
       }
     }
     
@@ -537,6 +579,9 @@ ul{
       h2{
         text-transform:uppercase;
         font-weight:bold;
+        @media (max-width: 720px){
+          font-size:1.5rem;
+        }
       }
       .st{
         cursor:pointer;
@@ -578,6 +623,12 @@ ul{
         strong{
           color:@grey;
           font-size:2rem;
+        }
+        @media (max-width: 720px){
+          font-size:1.5rem;
+          strong{
+            font-size:1.5rem;
+          }
         }
       }
       .intc{
@@ -805,6 +856,12 @@ ul{
   &#unternehmen{
     #db{
       height:70vh;
+      @media (max-width: 720px){
+        height:50vh;
+        h1{
+          font-size:1.5rem;
+        }
+      }
     }
     .greycontent{
       padding:2rem 0;
@@ -847,6 +904,9 @@ ul{
       .intc{
         columns: 2;
         column-gap: 2rem;
+        @media (max-width: 720px){
+          columns:1;
+        }
       }
       .cw{
         display:flex;
@@ -854,6 +914,10 @@ ul{
           flex: 0 0 auto;
           padding: 0 0 0 2rem;
           width:25%;
+          @media (max-width: 720px){
+            width:100%;
+            padding:1rem 0;
+          }
           strong{
             color:@blue;
             font-weight:normal;
@@ -867,6 +931,9 @@ ul{
               border:none;
             }
           }
+        }
+        @media (max-width: 720px){
+          flex-direction:column;
         }
       }
       .sectitles{
@@ -923,10 +990,20 @@ ul{
           color:@grey;
           font-size:2rem;
         }
+        @media (max-width: 720px){
+          font-size:1.5rem;
+          strong{
+            font-size:1.5rem;
+          }
+        }
       }
       .intc{
         columns: 2;
         column-gap: 2rem;
+        @media (max-width: 720px){
+          columns:1;
+        }
+        
       }
       .sectitles{
         display:flex;
@@ -962,9 +1039,18 @@ ul{
     }
     margin: 0 0 6rem 0;
     z-index:9;
+    @media (max-width: 720px){
+      padding:150px 0 100px 0;
+      margin: 0 0 3rem 0!important;
+      z-index:9;
+    }
   }
   .bgal{
     width:33%;
+    @media (max-width: 720px){
+      width:100vw;
+      margin:0 -1.5rem;
+    }
   }
   .imggal{
     img{
@@ -1001,6 +1087,30 @@ ul{
     }
     &:nth-child(even){
       flex-direction: row-reverse;
+    }
+    @media (max-width: 720px){
+      flex-direction:column-reverse!important;
+      .ct{
+        padding: 0 0 1rem 0;
+        .ti{
+          display:flex;
+          flex-direction: row-reverse!important;
+          justify-content: space-between;
+          align-items: center;
+          margin: 0 0 1rem 0;
+          img{
+            width:50px;
+            margin: 0 1rem 0 0;
+          }
+          h2{
+            flex:1 1 auto;
+            color:@blue;
+            margin:0;
+            font-size:1.3rem;
+            text-align:center;
+          }
+        }
+      }
     }
   }
 }
@@ -1068,6 +1178,43 @@ section{
           z-index:1;
           h2{
             color:white;
+          }
+        }
+      }
+      @media (max-width: 720px){
+        border-top:1px solid @blue;
+        border-bottom:1px solid @blue;
+        padding:0;
+        > div{
+          img{
+            height:80px;
+          }
+          h2{
+            text-align:center;
+            font-size:1.1rem;
+            color:@blue;
+          }
+          display:flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          flex:0 0 auto;
+          width:50vw;
+          height:35vh;
+          z-index:2;
+          margin-left:0;
+          &:first-child{
+            background:none!important;
+          }
+          
+          &:last-child{
+            margin-left:0;
+            height:35vh;
+            margin-top:0;
+            z-index:1;
+            h2{
+              color:white;
+            }
           }
         }
       }

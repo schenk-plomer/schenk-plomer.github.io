@@ -30,7 +30,7 @@
   {{end}}
   <div class="greycontent">
     <div class="ui container">
-      <div class="ui three column stackable grid bereiche">
+      <div class="ui three column doubling grid bereiche">
         {{range .Params.zahlen_und_fakten}}
         <div class="column">
           <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100" )}}" />
