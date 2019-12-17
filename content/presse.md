@@ -39,7 +39,7 @@ titel = "Unser Potenzial sind die Mitarbeiter"
 zusammenfassung = "<p>Im November feiert die Schenk &amp; Plomer GmbH ihr 25-jähriges Bestehen. Ein großes Firmenfest ist geplant. Ein besonderer Höhepunkt wird die Ehrung der langjährigen Mitarbeiter sein.</p>"
 [[artikel]]
 bild = "/uploads/2019/11/04/evl.png"
-datei = "/uploads/2019/11/04/Verlängerung Sponsoring.pdf"
+datei = "/uploads/2019/12/17/presse_evl_schenkplomer.jpeg"
 link_beschriftung = " .... ganzen Artikel lesen"
 quelle = "www.evl.info 2019"
 titel = "Schenk & Plomer GmbH verlängert ihr Engagement beim EVL"
