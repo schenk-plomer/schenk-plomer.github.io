@@ -14,7 +14,7 @@ hintergrundbild = "/uploads/2019/12/10/neu_luftschaft.png"
 link_bereiche_1 = "luft-und-klimatechnik.md"
 link_bereiche_2 = "technische-gebäudeausstattung.md"
 link_button = "luft-und-klimatechnik.md"
-titel = "<p><strong>Unser Leistungen <br></strong>für SIE</p>"
+titel = "<p><strong>Unsere Leistungen <br></strong>für SIE</p>"
 [[leistungen.bereiche1]]
 beschriftung = "<p>Schall- und<br>Lärmschutz</p>"
 icon = "/uploads/2019/11/04/icon_schall_laermschutz.png"
