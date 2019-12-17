@@ -63,6 +63,6 @@ titel = "<p><strong>Schenk &amp; Plomer GmbH<br>Luft- und Klimatechnik</strong><
 hintergrundfarbe = ""
 logo = "/uploads/2019/11/04/plomer_dachs_logo.png"
 overlay = "/uploads/2019/11/04/background_dachs.png"
-titel = "<p><strong>Plomer &amp; Dachs<br>Technische Gebäudeausstattung</strong></p>"
+titel = "<p><strong>Plomer &amp; Dachs GmbH<br>Technische Gebäudeausstattung</strong></p>"
 
 +++
