@@ -11,7 +11,7 @@ parent = "Unternehmen"
 weight = 1
 [[artikel]]
 bild = "/uploads/2019/11/04/presse_gutenzweck.png"
-datei = "/uploads/2019/11/04/Stille Hilfe Jan 2019.pdf"
+datei = "/uploads/2019/12/17/stille_hilfe_neu.pdf"
 link_beschriftung = " .... ganzen Artikel lesen"
 quelle = "Landshuter Zeitung 2019"
 titel = "Für den guten Zweck"
