@@ -60,7 +60,7 @@ titel = "14-Millionen-Auftrag für den Mittelständler aus Altheim"
 zusammenfassung = "<p>Schenk &amp; Plomer baut die Lüftungsanlagen fürs Satellitenterminal im Münchner Flughafen. Zehn Jahre nach seiner Eröffnung im Jahr 2003 ist das Terminal 2 am Münchner Flughafen an seine Grenzen gestoßen ...</p>"
 [[artikel]]
 bild = "/uploads/2019/11/04/damokles.png"
-datei = "/uploads/2019/11/04/damokles.pdf"
+datei = "/uploads/2019/12/17/damokles_neu.pdf"
 link_beschriftung = " .... ganzen Artikel lesen"
 quelle = "Wochenblatt 2016"
 titel = "Damoklesschwert Berlin schwebte vom ersten Tag  über der Firma"
