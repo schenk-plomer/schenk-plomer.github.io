@@ -46,7 +46,7 @@ titel = "Schenk & Plomer GmbH verlängert ihr Engagement beim EVL"
 zusammenfassung = "<p>WEITER AN EINEM STRANG: EVL-Spielbetrieb GmbH-Geschäftsführer Ralf Hantschke, Miloslav Horava und Raimund Plomer, Geschäftsführer der Schenk &amp; Plomer GmbH, besiegeln die Verlängerung der Partnerschaft zwischen dem Landshuter Traditionsverein und dem Altheimer Anlagenbauer ...</p>"
 [[artikel]]
 bild = "/uploads/2019/11/04/mitarbeiter.png"
-datei = "/uploads/2019/11/04/doc05801420190628081757.pdf"
+datei = "/uploads/2019/12/17/mitarbeiter_als_kapital.pdf"
 link_beschriftung = " ... ganzen Artikel lesen"
 quelle = "Wochenblatt 2018"
 titel = "Die Mitarbeiter als Kapital "
