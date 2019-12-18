@@ -8,7 +8,7 @@ title = "<p>Kontakt</p>"
 [content]
 content = ""
 staerken = ""
-titel = "<p>Schenk<strong> &amp; Plomer GmbH </strong>Plomer<strong> &amp; Dachs GmbH</strong></p>"
+titel = "<p>Schenk<strong> &amp; Plomer GmbH   |  </strong>Plomer<strong> &amp; Dachs GmbH</strong></p>"
 untertitel = "Wir sind für Sie da"
 [menu.main]
 name = "Kontakt"
