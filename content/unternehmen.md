@@ -11,7 +11,7 @@ titel = "<p><strong>AUF UNS IST<br></strong>VERLASS</p>"
 untertitel = "Über uns"
 [menu.main]
 name = "Unternehmen"
-weight = 3
+weight = 4
 [[zahlen_und_fakten]]
 bezeichnung = "Mitarbeiter"
 icon = "/uploads/2019/11/04/team_1.png"

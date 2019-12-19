@@ -51,6 +51,8 @@ icon = "/uploads/2019/11/04/icon_msr-technik.png"
 [[leistungen.bereiche2]]
 beschriftung = "<p>Baulicher Brandschutz</p>"
 icon = "/uploads/2019/11/04/icon_brandschutz.png"
+[menu.main]
+weight = 1
 [schenk_and_plomer]
 content = "<p>Schenk &amp; Plomer GmbH im niederbayerischen Essenbach Ihr verlässlicher Spezialist für die Herstellung, Installation und Wartung hochwertiger und komplexer Klima- und Lüftungsanlagen seit 1993. Über die 2017 gegründete Plomer &amp; Dachs GmbH, eine 100%ige Tochter der Schenk &amp; Plomer GmbH, decken wir die Versorgungs- und Ausrüstungstechnik sowie innovativer Energie- und Gebäudetechnik ab. Im Bereich baulicher Brandschutz, und Wärmedämmung verfügen wir über ein Netzwerk langjähriger Partnerunternehmen, auf die wir je nach Bedarf zurückgreifen können.</p>"
 titel = "<p><strong>Schenk &amp; Plomer GmbH</strong></p>"

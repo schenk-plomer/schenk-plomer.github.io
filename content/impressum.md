@@ -7,7 +7,6 @@ type = "page"
 weight = 2
 
 +++
-
 Schenk & Plomer GmbH (Gesellschaft mit beschränkter Haftung)  
 Luft- und Klimatechnischer Anlagenbau  
 Dieselstrasse 6  
