@@ -326,6 +326,11 @@ ul li {
 .imggal .gimg.w {
   padding-top: calc(66.6% - 1rem);
 }
+@media (max-width: 720px) {
+  #lst {
+    background: none!important;
+  }
+}
 #intro h2 {
   text-transform: uppercase;
 }
