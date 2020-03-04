@@ -34,7 +34,7 @@ content = "<p>Unser Montagepersonal besteht aus 100 Mitarbeitern die in Ihrem Au
 icon = "/uploads/2019/11/04/wartung_icon.png"
 titel = "Montage"
 [[bereiche]]
-content = "<p>Unser Fertigungsbereich mit Lüftungskanal- und Formstückbau sowie Schlossereibereich erlaubt es uns, kurzfristig auf sämtliche Anforderungen einer Baustelle oder einer Sanierung zu reagieren. Eine Fertigungskapazität von 1000 m² Kanal- und Formstücken pro Woche sowie die Auslieferung mit dem eigenen Fuhrpark stellt eine termingerechte Baustellenbelieferung sicher. Aufgrund verschiedener Arbeitszeitmodelle kann die Kapazität kurzfristig auf 1500 m² Kanal- und Formstücke pro Woche erweitert werden.</p>"
+content = "<p>Unser Fertigungsbereich mit Lüftungskanal- und Formstückbau sowie Schlossereibereich erlaubt es uns, kurzfristig auf sämtliche Anforderungen einer Baustelle oder einer Sanierung zu reagieren.</p><p>Im Januar 2020 wurden neue Fertigungsmaschinen integriert welche unsere Fertigungskapazität aktuell mehr als verdoppelt. So ist es nun möglich, ca. 1.500 bis 2.000 m² Kanal- und Formstücke wöchentlich zu produzieren.</p><p>Die Auslieferung mit dem eigenen Fuhrpark stellt eine termingerechte Kunden- und Baustellenbelieferung sicher. Gerne können Sie uns bei Bedarf Ihre Anfrage über die Lieferung von Stahlblechkanälen verzinkt zukommen lassen.</p>"
 icon = "/uploads/2019/11/04/werkstatt_icon.png"
 titel = "Werkstatt"
 [[bereiche]]
