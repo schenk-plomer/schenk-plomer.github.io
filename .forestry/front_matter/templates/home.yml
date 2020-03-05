@@ -137,29 +137,6 @@ fields:
       labelField: 
     label: Bereiche 2
   label: Leistungen
-- name: news
-  type: field_group
-  config: {}
-  fields:
-  - name: header
-    type: text
-    config:
-      required: false
-    label: Header
-  - name: bildergalerie
-    type: image_gallery
-    config: {}
-    label: bildergalerie
-  - name: contenttext
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Contenttext
-  label: News
 - name: schenk_and_plomer
   type: field_group
   config: {}
@@ -215,5 +192,38 @@ fields:
       labelField: 
     label: Bereiche
   label: Schenk & Plomer
+- name: news
+  type: field_group
+  config: {}
+  fields:
+  - name: header
+    type: text
+    config:
+      required: false
+    label: Header
+  - name: bildergalerie
+    type: image_gallery
+    config: {}
+    label: bildergalerie
+  - name: contenttext
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Contenttext
+  - name: buttonbeschriftung
+    type: text
+    config:
+      required: false
+    label: buttonbeschriftung
+  - name: buttonlink
+    type: text
+    config:
+      required: false
+    label: buttonlink
+  label: News
 pages:
 - content/_index.md
