@@ -54,7 +54,8 @@ a{
 header{
   position:absolute;
   z-index:9;
-  width:100vw;
+  width:100%;
+  overflow: hidden;
   .logo{
     height:90px;
     @media (max-width: 720px){
@@ -263,7 +264,7 @@ ul{
 }
 #headimg_l0{
   height:70vh;
-  width:100vw;
+  width:100%;
   padding-top:200px;
   position:relative;
   overflow:hidden;
@@ -278,7 +279,7 @@ ul{
   }
   @media (max-width: 720px){
     height:50vh;
-    width:100vw;
+    width:100%;
     padding:0;
     position:relative;
     overflow:hidden;
@@ -305,6 +306,7 @@ ul{
     height:50vh;
   }
 }
+
 .imggal{
   .gimg{
     cursor:pointer;
@@ -1153,8 +1155,25 @@ section{
   line-height:1.2em;
 }
 #home{
+  #news{
+    h2{
+      color:@blue!important;
+    }
+
+    .imggalcol{
+      img{
+        width:100%;
+        cursor:pointer;
+      }
+    }
+    .contentj{
+      text-align: justify;
+    }
+  }
   #sp{
     #spb{
+      width:100%!important;
+      overflow-x:hidden!important;
       margin:2rem 0;
       display:flex;
       justify-content: space-between;

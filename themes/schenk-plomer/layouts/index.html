@@ -57,6 +57,7 @@
     </div>
   </section>
   {{end}}
+
   {{with .Params.schenk_and_plomer}}
   <section id="sp">
     <div class="ui container">
@@ -66,6 +67,7 @@
       </div>
       <div class="contentc">{{.content|safeHTML}}</div>
     </div>
+
     <div id="spb">
       {{range .bereiche}}
         <div style="background:url({{partial "imgUrl" (dict "img" .overlay "params" "q_100" )}}) right center no-repeat; background-size:cover;">
@@ -81,6 +83,61 @@
       <div class="spm" id="{{.interner_linkname}}"></div>
     <div class="ui container">
       {{.content|safeHTML}}
+    </div>
+  </section>
+  {{end}}
+  {{with .Params.news}}
+  <section id="news">
+    <div class="ui container">
+      <div class="sectitlew">
+        <h2>{{.header|safeHTML}}</h2>
+        <div class="line"></div>
+      </div>
+      <div class="ui three column stackable grid imggal">
+        <div class="column imggalcol">
+          {{ range $x,$img := .bildergalerie }} {{if eq $x 0}}
+            <img data-modal="imgg_about" class="bimg" data-idx="{{$x}}" src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_600" )}}"
+            /> {{end}}{{end}}
+        </div>
+        <div class="column">
+          <div class="ui two column stackable grid">
+            {{ range $x,$img := .bildergalerie }} {{if gt $x 0}}{{if lt $x 5}}
+            <div class=" column imggalcol">
+              <img data-modal="imgg_about" data-idx="{{$x}}" class="simg" src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_200" )}}"
+              /> 
+            </div>
+            {{end}}{{end}}{{end}}
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="contentj">
+            {{.contenttext|safeHTML}}
+          </div>
+          <div class="bwr">
+            <a href="{{.buttonlink}}">
+              <div class="mbutton">
+                <div class="deco"></div>
+                <div class="deco2"></div>
+                <div class="deco3"></div>
+                <div class="deco4"></div>
+                <div class="label">{{.buttonbeschriftung}}<i class="icon chevron right"></i></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="ui modal small" id="modal_imgg_about">
+        <div class="content">
+          <ul id="gal_imgg_about" class="imggalslider">
+            {{ range $x,$img := .bildergalerie }}
+            <li>
+              <img src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_500" )}} " />
+            </li>
+            {{end}}
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
   {{end}}
