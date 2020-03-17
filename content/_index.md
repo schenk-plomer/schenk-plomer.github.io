@@ -26,7 +26,7 @@ beschriftung = "<p>Absauganlagen</p>"
 icon = "/uploads/2019/11/04/icon_absaugung.png"
 [[leistungen.bereiche1]]
 beschriftung = "<p>Lüftungskanal- <br>&amp; Formstückbau</p>"
-icon = "/uploads/2020/03/05/kanal1.jpg"
+icon = "/uploads/2020/03/17/icon_kanalbau.jpg"
 [[leistungen.bereiche1]]
 beschriftung = "<p>Wärmerück-<br>gewinnung</p>"
 icon = "/uploads/2019/11/04/icon_waermerueckgewinnung.png"
