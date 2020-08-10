@@ -1,2 +1,2 @@
 #!/bin/bash
-hugo server --disableFastRender --bind 0.0.0.0
+/home/linuxbrew/.linuxbrew/bin/hugo server --disableFastRender --bind 0.0.0.0
