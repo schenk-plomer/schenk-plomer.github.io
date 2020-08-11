@@ -59,6 +59,12 @@ buttonbeschriftung = "ANFRAGEN"
 buttonlink = "mailto:info@schenk-plomer.de"
 contenttext = "<p>Unser Fertigungsbereich mit Lüftungskanal- und Formstückbau sowie Schlossereibereich erlaubt es uns, kurzfristig auf sämtliche Anforderungen einer Baustelle oder einer Sanierung zu reagieren. Im Januar 2020 wurden neue Fertigungsmaschinen integriert welche unsere Fertigungskapazität aktuell mehr als verdoppelt. So ist es nun möglich,<strong> ca. 1.500 bis 2.000 m² Kanal- und Formstücke wöchentlich </strong>zu produzieren. <br>Die Auslieferung mit dem eigenen Fuhrpark stellt eine termingerechte Kunden- und Baustellenbelieferung sicher. Gerne können Sie uns bei Bedarf Ihre Anfrage über die Lieferung von Stahlblechkanälen verzinkt zukommen lassen.</p>"
 header = "NEU !!  Lüftungskanal- und Formstückbau"
+[[news_1.news]]
+bilder = ""
+buttonbeschriftung = "weiter lesen"
+buttonlink = "https://schenk-plomer.de/uploads/2020/08/11/rlt_covid19_v3_200803.pdf"
+contentext = ""
+header = "Betrieb Raumlufttechnischer Anlagen unter den Randbedingungen der aktuellen Covid-19-Pandemie"
 [schenk_and_plomer]
 content = "<p>Schenk &amp; Plomer GmbH im niederbayerischen Essenbach Ihr verlässlicher Spezialist für die Herstellung, Installation und Wartung hochwertiger und komplexer Klima- und Lüftungsanlagen seit 1993. Über die 2017 gegründete Plomer &amp; Dachs GmbH, eine 100%ige Tochter der Schenk &amp; Plomer GmbH, decken wir die Versorgungs- und Ausrüstungstechnik sowie innovativer Energie- und Gebäudetechnik ab. Im Bereich baulicher Brandschutz, und Wärmedämmung verfügen wir über ein Netzwerk langjähriger Partnerunternehmen, auf die wir je nach Bedarf zurückgreifen können.</p>"
 titel = "<p><strong>Schenk &amp; Plomer GmbH</strong></p>"
