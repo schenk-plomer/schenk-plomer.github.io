@@ -1176,14 +1176,17 @@ section .container {
   text-align: center;
   line-height: 1.2em;
 }
-#home #news h2 {
+#home #news h2,
+#home #news_1 h2 {
   color: #003366 !important;
 }
-#home #news .imggalcol img {
+#home #news .imggalcol img,
+#home #news_1 .imggalcol img {
   width: 100%;
   cursor: pointer;
 }
-#home #news .contentj {
+#home #news .contentj,
+#home #news_1 .contentj {
   text-align: justify;
 }
 #home #sp #spb {
