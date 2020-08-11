@@ -19,17 +19,17 @@ fields:
   - name: hintergrund
     type: file
     config:
-      maxSize: 250
+      maxSize: 64
     label: Hintergrund
   - name: overlay_rechts
     type: file
     config:
-      maxSize: 250
+      maxSize: 64
     label: Overlay rechts
   - name: overlay_mitte
     type: file
     config:
-      maxSize: 250
+      maxSize: 64
     label: Overlay Mitte
   - name: titel
     type: textarea
@@ -57,7 +57,7 @@ fields:
   - name: hintergrundbild
     type: file
     config:
-      maxSize: 250
+      maxSize: 64
     label: Hintergrundbild
   - name: titel
     type: textarea
@@ -86,7 +86,7 @@ fields:
     - name: icon
       type: file
       config:
-        maxSize: 250
+        maxSize: 64
       label: Icon
     - name: beschriftung
       type: textarea
@@ -120,7 +120,7 @@ fields:
     - name: icon
       type: file
       config:
-        maxSize: 250
+        maxSize: 64
       label: Icon
     - name: beschriftung
       type: textarea
@@ -174,7 +174,7 @@ fields:
     - name: logo
       type: file
       config:
-        maxSize: 250
+        maxSize: 64
       label: Logo
     - name: hintergrundfarbe
       type: text
@@ -184,7 +184,7 @@ fields:
     - name: overlay
       type: file
       config:
-        maxSize: 250
+        maxSize: 64
       label: Overlay
     config:
       min: 
@@ -225,5 +225,47 @@ fields:
       required: false
     label: buttonlink
   label: News
+- name: news_1
+  type: field_group
+  config: {}
+  fields:
+  - name: news
+    type: field_group_list
+    fields:
+    - name: header
+      type: text
+      config:
+        required: false
+      label: Header
+    - name: bilder
+      type: file
+      config:
+        maxSize: 64
+      label: bilder
+    - name: contentext
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Contenttext
+    - name: buttonbeschriftung
+      type: text
+      config:
+        required: false
+      label: buttonbeschriftung
+    - name: buttonlink
+      type: text
+      config:
+        required: false
+      label: buttonlink
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: news
+  label: News_1
 pages:
 - content/_index.md
