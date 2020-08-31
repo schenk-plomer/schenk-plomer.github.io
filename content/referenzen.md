@@ -15,8 +15,8 @@ referenz = []
 titel = "<p><strong>Auszug aus unseren <br></strong>Referenzen</p>"
 [[projekte_mit_bildergallerie]]
 bilder = ["/uploads/2020/08/31/200819_eroffnung_pharmahalle_muc_029.jpeg", "/uploads/2020/08/31/200819_eroffnung_pharmahalle_muc_049.jpeg", "/uploads/2020/08/31/200819_eroffnung_pharmahalle_muc_042.jpeg"]
-titel = "Lufthansa Cargo, Pharmazentrum München"
-untertitel = "Lüftungsanlage"
+titel = "Lufthansa Cargo München"
+untertitel = "Pharma Hub, Lüftungsanlage"
 [[projekte_mit_bildergallerie]]
 bilder = ["/uploads/2019/11/04/WhatsApp Image 2019-08-06 at 10.43.40(1).jpeg"]
 titel = "Eisstadion  Landshut"
