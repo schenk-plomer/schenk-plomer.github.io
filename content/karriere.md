@@ -7,7 +7,7 @@ seo_description = "Vakante Stellen für Praktika, Ausbildung und Vollzeitstellen
 titel_bild = "/uploads/2019/11/04/head_stellen.jpg"
 title = "<p>Karriere</p>"
 [content]
-content = ""
+content = "<p>Da unser Unternehmen stetig wächst, sind wir immer auf der Suche nach neuen Mitarbeitern.</p><p class=\"p1\">Sie würden gerne zum Erfolg unseres Unternehmens beitragen? <strong>Senden Sie uns einfach Ihre aussagekräftigen Bewerbungsunterlagen, wir freuen uns auch jederzeit über Initiativbewerbungen!</strong></p>"
 titel = "<p><strong>Vakante </strong>Stellen</p>"
 untertitel = "Bei uns arbeitet man nicht einfach nur, hier gehörst du zum Team"
 [menu.main]
