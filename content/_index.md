@@ -60,6 +60,12 @@ buttonlink = "mailto:info@schenk-plomer.de"
 contenttext = "<p>Unser Fertigungsbereich mit Lüftungskanal- und Formstückbau sowie Schlossereibereich erlaubt es uns, kurzfristig auf sämtliche Anforderungen einer Baustelle oder einer Sanierung zu reagieren. Im Januar 2020 wurden neue Fertigungsmaschinen integriert welche unsere Fertigungskapazität aktuell mehr als verdoppelt. So ist es nun möglich,<strong> ca. 1.500 bis 2.000 m² Kanal- und Formstücke wöchentlich </strong>zu produzieren. <br>Die Auslieferung mit dem eigenen Fuhrpark stellt eine termingerechte Kunden- und Baustellenbelieferung sicher. Gerne können Sie uns bei Bedarf Ihre Anfrage über die Lieferung von Stahlblechkanälen verzinkt zukommen lassen.</p>"
 header = "NEU !!  Lüftungskanal- und Formstückbau"
 [[news_1.news]]
+bilder = "/uploads/2020/09/07/azubis_2020_low.jpeg"
+buttonbeschriftung = "weitere Stellen"
+buttonlink = "https://schenk-plomer.de/karriere/"
+contentext = "<span class=\"s1\">Auch dieses Jahr freuen wir uns über unsere neuen Auszubildenden. Wir begrüssen in unserem Team </span><strong><span class=\"s1\">drei technische Systemplaner</span></strong><span class=\"s1\"> und </span><strong><span class=\"s1\">zwei  Konstruktionsmechaniker mit der Fachrichtung Feinblechbau.</span></strong>"
+header = "Unsere neuen Auszubildenden 2020"
+[[news_1.news]]
 bilder = "/uploads/2020/08/11/rlt_covid19_v3_200803_seite_1.jpg"
 buttonbeschriftung = "weiter lesen"
 buttonlink = "https://schenk-plomer.de/uploads/2020/08/11/rlt_covid19_v3_200803.pdf"
