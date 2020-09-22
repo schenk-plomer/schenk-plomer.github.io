@@ -64,7 +64,7 @@ bilder = "/uploads/2020/09/22/st-anzeige.jpeg"
 buttonbeschriftung = "weiter lesen"
 buttonlink = "https://schenk-plomer.de/karriere/"
 contentext = "zur Projektleitung/Abteilungsleitung in Vollzeit"
-header = "Heizungs-/Sanitärmeister GESUCHT"
+header = "Heizungs-/Sanitärmeister (m/w/d) GESUCHT"
 [[news_1.news]]
 bilder = "/uploads/2020/09/07/low_azubis_2020.jpg"
 buttonbeschriftung = "weitere Stellen"
