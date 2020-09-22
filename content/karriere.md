@@ -38,6 +38,9 @@ titel = "Technischen Systemplaner für Versorgungs- u. Ausrüstungstechnik (m/w/
 [[stellen]]
 art = "Vollzeitstellen"
 [[stellen.stelle]]
+content = "<p><strong>Wir bieten:</strong></p><ul><li><p class=\"MsoNormal\">Arbeiten in einem jungen Team</p></li><li><p class=\"MsoNormal\">gute Bezahlung</p></li><li><p class=\"MsoNormal\">übliche soziale Leistungen</p></li><li><p class=\"MsoNormal\">interessanter, abwechslungsreicher und sicherer Arbeitsplatz</p></li></ul><p class=\"MsoNormal\"><strong>Wir erwarten:</strong></p><ul><li><p class=\"MsoNormal\">entsprechend abgeschlossene Berufsausbildung</p></li><li><p class=\"MsoNormal\">Einsatzfreude, Belastbarkeit, Teamfähigkeit</p></li><li><p class=\"MsoNormal\">selbständiges und organisiertes Arbeiten</p></li><li><p class=\"MsoNormal\">Führerschein Klasse B</p></li></ul>"
+titel = "Heizungs-/Sanitärmeister (m/w/d) in Vollzeit zur Projektleitung/Abteilungsleitung"
+[[stellen.stelle]]
 content = "<p><strong>Wir bieten:</strong></p><ul><li><p class=\"MsoNormal\">Arbeiten in einem jungen Team</p></li><li><p class=\"MsoNormal\">gute Bezahlung</p></li><li><p class=\"MsoNormal\">übliche soziale Leistungen</p></li><li><p class=\"MsoNormal\">interessanter, abwechslungsreicher und sicherer Arbeitsplatz</p></li><li><p class=\"MsoNormal\">Firmen-PKW</p></li></ul><p class=\"MsoNormal\"><strong>Wir erwarten:</strong></p><ul><li><p class=\"MsoNormal\">entsprechend abgeschlossene Berufsausbildung</p></li><li><p class=\"MsoNormal\">Elektrokenntnisse im Metall-Handwerk erwünscht</p></li><li><p class=\"MsoNormal\">Einsatzfreude, Belastbarkeit, Teamfähigkeit</p></li><li><p class=\"MsoNormal\">selbständiges und organisiertes Arbeiten</p></li><li><p class=\"MsoNormal\">Führerschein Klasse B</p></li></ul>"
 titel = "Obermonteure / Monteure für Lüftungs- und Klimaanlagen"
 [[stellen.stelle]]
