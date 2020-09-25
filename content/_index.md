@@ -61,8 +61,8 @@ contenttext = "<p>Unser Fertigungsbereich mit Lüftungskanal- und Formstückbau 
 header = "NEU !!  Lüftungskanal- und Formstückbau"
 [[news_1.news]]
 bilder = "/uploads/2020/09/25/teaser_ap-1200.jpg"
-buttonbeschriftung = ""
-buttonlink = ""
+buttonbeschriftung = "jetzt anfragen"
+buttonlink = "mailto:info@schenk-plomer.de"
 contentext = "Die aktuelle Corona- Pandemie stellt die Gesellschaft imAllgemeinen und Bildungseinrichtungen im Besonderen vor extreme Herausforderungen. Grundsätzlich wird die Einbringung von Außenluft empfohlen. <br>Dies ist jedoch häufig nicht möglich weil- eine Fenster vorhanden oder vorhandene nicht zu öffnen sind- eine Lüftungsanlage nicht vorhanden ist und auch nichtnachgerüstet werden kann- kurzfristig kein Umbau möglich ist.<br>Mit dem Luftreiniger können wir die optimale Lösung für die schnelle, unkomplizierte und effektive Ausrüstung vonKlassenräumen in Bildungseinrichtungen, aber auch vonTagungsräumen, Aufenthaltsräumen, Gaststätten und vielen weiteren Anwendungsgebieten, bei denen eine kurzfristigeLösung benötigt wird, anbieten."
 header = "Kein Raum für Viren - Der Luftreiniger"
 [[news_1.news]]
