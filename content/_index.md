@@ -60,6 +60,12 @@ buttonlink = "mailto:info@schenk-plomer.de"
 contenttext = "<p>Unser Fertigungsbereich mit Lüftungskanal- und Formstückbau sowie Schlossereibereich erlaubt es uns, kurzfristig auf sämtliche Anforderungen einer Baustelle oder einer Sanierung zu reagieren. Im Januar 2020 wurden neue Fertigungsmaschinen integriert welche unsere Fertigungskapazität aktuell mehr als verdoppelt. So ist es nun möglich,<strong> ca. 1.500 bis 2.000 m² Kanal- und Formstücke wöchentlich </strong>zu produzieren. <br>Die Auslieferung mit dem eigenen Fuhrpark stellt eine termingerechte Kunden- und Baustellenbelieferung sicher. Gerne können Sie uns bei Bedarf Ihre Anfrage über die Lieferung von Stahlblechkanälen verzinkt zukommen lassen.</p>"
 header = "NEU !!  Lüftungskanal- und Formstückbau"
 [[news_1.news]]
+bilder = "/uploads/2020/09/25/adobestock_337614238-konvertiert-01.jpg"
+buttonbeschriftung = ""
+buttonlink = ""
+contentext = "Kaltluftverdunster für Räume bis 125 m³ / 240 m³. Formschön, leise und energiesparend. Ideal für die Befeuchtung von repräsentativen Räumen.<br><span class=\"s1\">- </span>geringer Stromverbrauch<br><span class=\"s1\">- </span>integrierter Hygrostat<span class=\"s1\"><br>- </span>Abschalt-Automatik bei leerem Tank<span class=\"s1\"><br>- </span>dezenter Betrieb durch dimmbare Kontroll-LEDs<span class=\"s1\"><br>- </span>Duftöl-Behälter zur Aromatisierung der Raumluft<span class=\"s1\"><br>- </span>auf Wunsch auch in den Farben bronze, chili red, gelb, lime, schwarz und titanium erhältlich"
+header = "Kein Raum für Viren: Luftbefeuchter"
+[[news_1.news]]
 bilder = "/uploads/2020/09/22/st-anzeige.jpeg"
 buttonbeschriftung = "weiter lesen"
 buttonlink = "https://schenk-plomer.de/karriere/"
