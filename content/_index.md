@@ -61,9 +61,9 @@ contenttext = "<p>Unser Fertigungsbereich mit Lüftungskanal- und Formstückbau 
 header = "NEU !!  Lüftungskanal- und Formstückbau"
 [[news_1.news]]
 bilder = "/uploads/2020/09/25/adobestock_337614238-konvertiert-01.jpg"
-buttonbeschriftung = ""
-buttonlink = ""
-contentext = "Kaltluftverdunster für Räume bis 125 m³ / 240 m³. Formschön, leise und energiesparend. Ideal für die Befeuchtung von repräsentativen Räumen.<br><span class=\"s1\">- </span>geringer Stromverbrauch<br><span class=\"s1\">- </span>integrierter Hygrostat<span class=\"s1\"><br>- </span>Abschalt-Automatik bei leerem Tank<span class=\"s1\"><br>- </span>dezenter Betrieb durch dimmbare Kontroll-LEDs<span class=\"s1\"><br>- </span>Duftöl-Behälter zur Aromatisierung der Raumluft<span class=\"s1\"><br>- </span>auf Wunsch auch in den Farben bronze, chili red, gelb, lime, schwarz und titanium erhältlich"
+buttonbeschriftung = "jetzt anfragen"
+buttonlink = "mailto:info@schenk-plomer.de"
+contentext = "Kaltluftverdunster für Räume bis 125 m³ / 240 m³. Formschön, leise und energiesparend. Ideal für die Befeuchtung von repräsentativen Räumen.<br><span class=\"s1\">- </span>geringer Stromverbrauch<br><span class=\"s1\">- </span>integrierter Hygrostat<span class=\"s1\"><br>- </span>Abschalt-Automatik bei leerem Tank<span class=\"s1\"><br>- </span>dezenter Betrieb durch dimmbare Kontroll-LEDs<span class=\"s1\"><br>- </span>Duftöl-Behälter zur Aromatisierung der Raumluft<span class=\"s1\"><br>- </span>auf Wunsch auch in den Farben bronze, chili red, gelb, lime, schwarz und titanium erhältlich<br><br><a href=\"\" title=\"\">Information</a><br>Produktdatenblatt Luftbefeuchter bis zu 125m3<br>Produktdatenblatt Luftbefeuchter bis zu 125m3<br>Anfrage"
 header = "Kein Raum für Viren: Luftbefeuchter"
 [[news_1.news]]
 bilder = "/uploads/2020/09/22/st-anzeige.jpeg"
