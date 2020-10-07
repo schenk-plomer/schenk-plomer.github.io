@@ -13,9 +13,9 @@ bild = "/uploads/2020/10/07/1_luftreiniger_overlay_mitte.png"
 [[bildbereich.overlay_mitte_sliderbilder]]
 bild = "/uploads/2020/10/07/2_luftbefeuchter_overlay_mitte.png"
 [[bildbereich.overlay_mitte_sliderbilder]]
-bild = "/uploads/2019/12/10/schenk-plomer-dachs.png"
+bild = "/uploads/2020/10/07/co2_overlay_mitte.png"
 [[bildbereich.overlay_mitte_sliderbilder]]
-bild = ""
+bild = "/uploads/2019/12/10/schenk-plomer-dachs.png"
 [leistungen]
 beschriftung_button = "weiter"
 hintergrundbild = "/uploads/2019/12/10/neu_luftschaft.png"
