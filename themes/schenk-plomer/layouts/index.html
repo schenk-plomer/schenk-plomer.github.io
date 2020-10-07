@@ -4,7 +4,16 @@
   {{with .Params.bildbereich}}
   <div id="headimg_l0"
     style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "q_100" )}}) left center no-repeat; background-size:contain;">
-    <div id="om" style="background:url({{partial "imgUrl" (dict "img" .overlay_mitte "params" "q_100" )}}) center bottom no-repeat; background-size:contain;"></div>
+    <div id="om">
+    <ul class="headerslider">
+      {{ range $x,$img := .overlay_mitte_sliderbilder }}
+      <li>
+        <div style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}) center bottom no-repeat; background-size:contain;"></div>
+      </li>
+      {{end}}
+    </ul>
+  </div>
+    <!-- <div id="om" style="background:url({{partial "imgUrl" (dict "img" .overlay_mitte "params" "q_100" )}}) center bottom no-repeat; background-size:contain;"></div>-->
   </div>
   <div id="or" style="background:url({{partial "imgUrl" (dict "img" .overlay_rechts "params" "q_100" )}}) left bottom no-repeat; background-size:cover;"></div>
   {{end}}

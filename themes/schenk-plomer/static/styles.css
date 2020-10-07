@@ -285,6 +285,10 @@ ul li {
   left: 50vw;
   margin-left: -25vw;
 }
+#headimg_l0 #om div {
+  height: 50vh;
+  width: 50vw;
+}
 @media (max-width: 720px) {
   #headimg_l0 {
     height: 50vh;

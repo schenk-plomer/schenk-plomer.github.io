@@ -50,6 +50,27 @@
         // slideshow
         autoDirection: 'next'
       });
+      $('.headerslider').slippry({
+        // general elements & wrapper
+        slippryWrapper: '<div class="sy-box topslider" />', // wrapper to wrap everything, including pager
+        elements: 'li', // elments cointaining slide content
+
+        // options
+        adaptiveHeight: true, // height of the sliders adapts to current 
+        captions: false,
+        loop: true,
+        // pager
+        pager: false,
+        start: 1,
+        // transitions
+        slideMargin: 0, // spacing between slides (in %)
+        useCSS: true,
+        transition: 'fade',
+        pause: 6000,
+        speed: 650,
+        // slideshow
+        autoDirection: 'next'
+      });
       $('.imggal img, .imggal .titles').click(function (el) {
         var mid = el.currentTarget.dataset.modal;
         var idx = el.currentTarget.dataset.idx;
