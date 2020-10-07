@@ -9,11 +9,11 @@ overlay_rechts = "/uploads/2019/11/04/overlay_rechts.png"
 titel = "<p><strong>Gute Lüftung</strong></p><p class=\"p1\"><strong>Prima Klima</strong></p>"
 untertitel = "<p>Schenk &amp; Plomer GmbH </p>"
 [[bildbereich.overlay_mitte_sliderbilder]]
-bild = "/uploads/2020/10/07/luftbefeuchter_overlay_mitte.png"
-[[bildbereich.overlay_mitte_sliderbilder]]
-bild = ""
+bild = "/uploads/2020/10/07/1_luftbefeuchter_overlay_mitte.png"
 [[bildbereich.overlay_mitte_sliderbilder]]
 bild = "/uploads/2019/12/10/schenk-plomer-dachs.png"
+[[bildbereich.overlay_mitte_sliderbilder]]
+bild = ""
 [[bildbereich.overlay_mitte_sliderbilder]]
 bild = "/uploads/2020/10/07/luftreiniger_overlay_mitte.png"
 [leistungen]
