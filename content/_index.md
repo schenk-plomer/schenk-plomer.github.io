@@ -11,7 +11,7 @@ untertitel = "<p>Schenk &amp; Plomer GmbH </p>"
 [[bildbereich.overlay_mitte_sliderbilder]]
 bild = "/uploads/2019/12/10/schenk-plomer-dachs.png"
 [[bildbereich.overlay_mitte_sliderbilder]]
-bild = "/uploads/2020/09/30/overlay_mitte_luftreiniger.png"
+bild = "/uploads/2020/10/07/luftreiniger_overlay_mitte.png"
 [leistungen]
 beschriftung_button = "weiter"
 hintergrundbild = "/uploads/2019/12/10/neu_luftschaft.png"
