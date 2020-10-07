@@ -49,6 +49,19 @@ fields:
       schema:
         format: html-blocks
     label: Untertitel
+  - name: overlay_mitte_sliderbilder
+    type: field_group_list
+    fields:
+    - name: bild
+      type: file
+      config:
+        maxSize: 64
+      label: bild
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Overlay Mitte Sliderbilder
   label: Bildbereich
 - name: leistungen
   type: field_group
