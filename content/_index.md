@@ -15,7 +15,7 @@ bild = "/uploads/2019/12/10/schenk-plomer-dachs.png"
 [[bildbereich.overlay_mitte_sliderbilder]]
 bild = ""
 [[bildbereich.overlay_mitte_sliderbilder]]
-bild = "/uploads/2020/10/07/luftreiniger_overlay_mitte.png"
+bild = "/uploads/2020/10/07/1_luftreiniger_overlay_mitte.png"
 [leistungen]
 beschriftung_button = "weiter"
 hintergrundbild = "/uploads/2019/12/10/neu_luftschaft.png"
