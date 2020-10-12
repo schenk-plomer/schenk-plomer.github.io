@@ -86,6 +86,12 @@ buttonlink = "mailto:info@schenk-plomer.de"
 contentext = "<strong>Kaltluftverdunster für Räume bis 125 m³ / 240 m³. </strong><br>Formschön, leise und energiesparend. Ideal für die Befeuchtung von repräsentativen Räumen.<br><span class=\"s1\">- </span>geringer Stromverbrauch<br><span class=\"s1\">- </span>integrierter Hygrostat<span class=\"s1\"><br>- </span>Abschalt-Automatik bei leerem Tank<span class=\"s1\"><br>- </span>dezenter Betrieb durch dimmbare Kontroll-LEDs<span class=\"s1\"><br>- </span>Duftöl-Behälter zur Aromatisierung der Raumluft<span class=\"s1\"><br>- </span>auf Wunsch auch in den Farben bronze, chili red, gelb, lime, schwarz und titanium erhältlich<br><br><a href=\"/uploads/2020/09/25/2020-09-24_befeuchter_wurfzettel.pdf\" title=\"\">Information</a><br><a href=\"/uploads/2020/09/25/2020-09-24_befeuchter_prospekt_125m.pdf\" title=\"\">Produktdatenblatt Luftbefeuchter bis zu 125 m3</a><br><a href=\"/uploads/2020/09/25/2020-09-24_befeuchter_240m.pdf\" title=\"\">Produktdatenblatt Luftbefeuchter bis zu 240 m3</a><br><a href=\"/uploads/2020/09/25/2020-09-24_befeuchter_anfrageformular.pdf\" title=\"\">Anfrage</a>"
 header = "Kein Raum für Viren: Luftbefeuchter"
 [[news_1.news]]
+bilder = "/uploads/2020/10/12/lueften.jpg"
+buttonbeschriftung = ""
+buttonlink = ""
+contentext = ""
+header = "Richtiges Lüften - Schenk & Plomer Sofortmaßnahme"
+[[news_1.news]]
 bilder = "/uploads/2020/09/22/st-anzeige.jpeg"
 buttonbeschriftung = "weiter lesen"
 buttonlink = "https://schenk-plomer.de/karriere/"
