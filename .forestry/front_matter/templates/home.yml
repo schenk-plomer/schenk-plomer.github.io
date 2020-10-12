@@ -262,7 +262,7 @@ fields:
         required: false
         wysiwyg: true
         schema:
-          format: html
+          format: markdown
       label: Contenttext
     - name: buttonbeschriftung
       type: text
