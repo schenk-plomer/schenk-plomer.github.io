@@ -68,6 +68,12 @@ buttonlink = "mailto:info@schenk-plomer.de"
 contenttext = "<p>Unser Fertigungsbereich mit Lüftungskanal- und Formstückbau sowie Schlossereibereich erlaubt es uns, kurzfristig auf sämtliche Anforderungen einer Baustelle oder einer Sanierung zu reagieren. Im Januar 2020 wurden neue Fertigungsmaschinen integriert welche unsere Fertigungskapazität aktuell mehr als verdoppelt. So ist es nun möglich,<strong> ca. 1.500 bis 2.000 m² Kanal- und Formstücke wöchentlich </strong>zu produzieren. <br>Die Auslieferung mit dem eigenen Fuhrpark stellt eine termingerechte Kunden- und Baustellenbelieferung sicher. Gerne können Sie uns bei Bedarf Ihre Anfrage über die Lieferung von Stahlblechkanälen verzinkt zukommen lassen.</p>"
 header = "NEU !!  Lüftungskanal- und Formstückbau"
 [[news_1.news]]
+bilder = "/uploads/2020/10/16/foerderprogramm.jpg"
+buttonbeschriftung = "weiter lesen"
+buttonlink = "https://www.bundesregierung.de/breg-de/themen/coronavirus/foerderung-lueftungsanlagen-1790696"
+contentext = "Mit der Auf- und Umrüstung von Lüftungsanlagen soll das Infektionsrisiko in Räumen, in denen regelmäßig größere Personenansammlungen stattfinden, gesenkt werden.<br>Mit einem Förderprogramm von insgesamt 500 Millionen Euro bis 2024 will die Bundesregierung die <strong><span style=\"text-decoration: underline;\">Corona-gerechte Um- und Aufrüstung von raumlufttechnischen (RLT) Anlagen in öffentlichen Gebäuden und Versammlungsstätten</span></strong> unterstützen. <br>Dafür ist ein <strong><span style=\"text-decoration: underline;\">Investitionszuschuss von 40 Prozent</span></strong> vorgesehen. \"Die Hygiene der Luft in Innenräumen hat eine große Bedeutung für den Infektionsschutz - besonders dann, wenn wir demnächst wieder alle mehr Zeit drinnen verbringen\", so Bundeswirtschaftsminister Peter Altmaier."
+header = "Neues Förderprogramm für Lüftungsanlagen"
+[[news_1.news]]
 bilder = "/uploads/2020/10/12/lueften.jpg"
 buttonbeschriftung = "weiter lesen"
 buttonlink = "https://schenk-plomer.de/uploads/2020/10/12/keinraumfuervirenlueften.pdf"
