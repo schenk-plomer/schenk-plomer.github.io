@@ -71,7 +71,7 @@ header = "NEU !!  Lüftungskanal- und Formstückbau"
 bilder = "/uploads/2020/11/17/2020-11-12_corona-sonderangebot-final.jpg"
 buttonbeschriftung = "weiter lesen"
 buttonlink = "/uploads/2020/11/17/2020-11-12_corona-sonderangebot-final.pdf"
-contentext = "- Co2 Ampel<br>- Luftreiniger für Räume bis ca. 40 m2<br>- Befeuchter für Räume bis 125 m3<br><br><strong>PAKETPREIS 789,-- EUR zzgl. MwsT</strong>"
+contentext = "- Co2 Ampel<br>- Luftreiniger für Räume bis ca. 40 m2<br>- Befeuchter für Räume bis 125 m3<br><br><strong>PAKETPREIS 789,-- EUR zzgl. MwSt</strong>"
 header = "November - Sonderangebot! Drei gegen Corona"
 [[news_1.news]]
 bilder = "/uploads/2020/10/16/foerderprogramm.jpg"
