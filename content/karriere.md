@@ -7,7 +7,7 @@ seo_description = "Vakante Stellen für Praktika, Ausbildung und Vollzeitstellen
 titel_bild = "/uploads/2019/11/04/head_stellen.jpg"
 title = "<p>Karriere</p>"
 [content]
-content = "<p>Da unser Unternehmen stetig wächst, sind wir immer auf der Suche nach neuen Mitarbeitern. Sie würden gerne zum Erfolg unseres Unternehmens beitragen?</p><p><strong>Senden Sie uns einfach Ihre aussagekräftigen Bewerbungsunterlagen, wir freuen uns auch jederzeit über Initiativbewerbungen!</strong></p><p>IHK Urkunde Anerkannter Ausbildungsbetrieb</p><p><a href=\"/uploads/2021/01/20/2021ausbildungsbetrieb.jpg\" title=\"\"><img src=\"/uploads/2021/01/20/2021ausbildungsbetrieb_low.jpg\"></a></p><p></p>"
+content = "<p>Da unser Unternehmen stetig wächst, sind wir immer auf der Suche nach neuen Mitarbeitern. Sie würden gerne zum Erfolg unseres Unternehmens beitragen?</p><p><strong>Senden Sie uns einfach Ihre aussagekräftigen Bewerbungsunterlagen, wir freuen uns auch jederzeit über Initiativbewerbungen!</strong></p><p></p><p>IHK Urkunde Anerkannter Ausbildungsbetrieb</p><p><a href=\"/uploads/2021/01/20/2021ausbildungsbetrieb.jpg\" title=\"\"><img src=\"/uploads/2021/01/20/2021ausbildungsbetrieb_low.jpg\"></a></p>"
 titel = "<p><strong>Vakante </strong>Stellen</p>"
 untertitel = "Bei uns arbeitet man nicht einfach nur, hier gehörst du zum Team!"
 [menu.main]
