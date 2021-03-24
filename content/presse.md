@@ -10,6 +10,13 @@ untertitel = "Presse & mehr"
 parent = "Unternehmen"
 weight = 1
 [[artikel]]
+bild = "/uploads/2021/03/24/landshuter-wochenblatt-17-03-2021-3.jpg"
+datei = "/uploads/2021/03/24/landshuter-wochenblatt-17-03-2021-3.jpg"
+link_beschriftung = "ganzen Artikel lesen"
+quelle = "Landshuter Wochenblatt"
+titel = "Luftreiniger: Altheimer Firma versorgt ganzen Landkreis Erding"
+zusammenfassung = "<p>Während Landshut die Geräte ablehnt, geht der nachbar-Landkreis in die Offensive - Kompetenter Partner ist Schenk &amp; Plomer</p>"
+[[artikel]]
 bild = "/uploads/2019/11/04/presse_gutenzweck.png"
 datei = "/uploads/2019/12/17/stille_hilfe_neu.pdf"
 link_beschriftung = " .... ganzen Artikel lesen"
