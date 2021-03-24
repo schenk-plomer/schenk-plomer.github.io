@@ -104,17 +104,17 @@ buttonlink = "mailto:info@schenk-plomer.de"
 contentext = "<strong>Kaltluftverdunster für Räume bis 125 m³ / 240 m³. </strong><br>Formschön, leise und energiesparend. Ideal für die Befeuchtung von repräsentativen Räumen.<br><span class=\"s1\">- </span>geringer Stromverbrauch<br><span class=\"s1\">- </span>integrierter Hygrostat<span class=\"s1\"><br>- </span>Abschalt-Automatik bei leerem Tank<span class=\"s1\"><br>- </span>dezenter Betrieb durch dimmbare Kontroll-LEDs<span class=\"s1\"><br>- </span>Duftöl-Behälter zur Aromatisierung der Raumluft<span class=\"s1\"><br>- </span>auf Wunsch auch in den Farben bronze, chili red, gelb, lime, schwarz und titanium erhältlich<br><br><a href=\"/uploads/2020/09/25/2020-09-24_befeuchter_wurfzettel.pdf\" title=\"\">Information</a><br><a href=\"/uploads/2020/09/25/2020-09-24_befeuchter_prospekt_125m.pdf\" title=\"\">Produktdatenblatt Luftbefeuchter bis zu 125 m3</a><br><a href=\"/uploads/2020/09/25/2020-09-24_befeuchter_240m.pdf\" title=\"\">Produktdatenblatt Luftbefeuchter bis zu 240 m3</a><br><a href=\"/uploads/2020/09/25/2020-09-24_befeuchter_anfrageformular.pdf\" title=\"\">Anfrage</a>"
 header = "Kein Raum für Viren: Luftbefeuchter"
 [[news_1.news]]
-bilder = "/uploads/2020/09/07/low_azubis_2020.jpg"
-buttonbeschriftung = "weitere Stellen"
-buttonlink = "https://schenk-plomer.de/karriere/"
-contentext = "<span class=\"s1\">Auch dieses Jahr freuen wir uns über unsere neuen Auszubildenden. Wir begrüssen in unserem Team </span><strong><span class=\"s1\">drei technische Systemplaner</span></strong><span class=\"s1\"> und </span><strong><span class=\"s1\">zwei  Konstruktionsmechaniker mit der Fachrichtung Feinblechbau.</span></strong>"
-header = "Unsere neuen Auszubildenden 2020"
-[[news_1.news]]
 bilder = "/uploads/2020/08/11/rlt_covid19_v3_200803_seite_1.jpg"
 buttonbeschriftung = "weiter lesen"
 buttonlink = "https://schenk-plomer.de/uploads/2020/08/11/rlt_covid19_v3_200803.pdf"
 contentext = "<strong>Die Geschäftsleitung der Firmen Schenk &amp; Plomer GmbH / Plomer &amp; Dachs GmbH, Herr Raimund Plomer und Herr Thomas Dachs, empfehlen die Verwendung von Lüftungs- und Klimaanlagen entsprechend der nachfolgenden Druckschrift.</strong><br><br>\" Raumlufttechnische Anlagen (RLT-Anlagen) sind für das Betreiben vieler Gebäude aus energetischer und hygienischer Sicht eine unabdingbare Voraussetzung. Dabei kommt der regelmäßigen Wartung und Instandhaltung eine entscheidende Bedeutung für den sicheren Anlagenbetrieb zu.Betreiber von RLT-Anlagen werden vor dem Hintergrund der aktuellen Corona-Pandemie mit Fragen zum Umgang mit den Anlagen konfrontiert, die in dieser Stellungnahme behandelt werden. Die Verbände BTGA, FGK und RLT-Herstellerverband haben die derzeitigenEmpfehlungen zusammengefasst und geben sie auf Basis des aktuellen Kenntnisstandes weiter. .. \" klicken Sie einfach auf weiterlesen um den kompletten Artikel zu lesen<br><br><strong>Wir sind weiterhin 100 % im Einsatz für Sie – bleiben Sie gesund</strong>"
 header = "Betrieb Raumlufttechnischer Anlagen unter den Randbedingungen der aktuellen Covid-19-Pandemie"
+[[news_1.news]]
+bilder = "/uploads/2020/09/07/low_azubis_2020.jpg"
+buttonbeschriftung = "weitere Stellen"
+buttonlink = "https://schenk-plomer.de/karriere/"
+contentext = "<span class=\"s1\">Auch dieses Jahr freuen wir uns über unsere neuen Auszubildenden. Wir begrüssen in unserem Team </span><strong><span class=\"s1\">drei technische Systemplaner</span></strong><span class=\"s1\"> und </span><strong><span class=\"s1\">zwei  Konstruktionsmechaniker mit der Fachrichtung Feinblechbau.</span></strong>"
+header = "Unsere neuen Auszubildenden 2020"
 [schenk_and_plomer]
 content = "<p>Schenk &amp; Plomer GmbH im niederbayerischen Essenbach Ihr verlässlicher Spezialist für die Herstellung, Installation und Wartung hochwertiger und komplexer Klima- und Lüftungsanlagen seit 1993. Über die 2017 gegründete Plomer &amp; Dachs GmbH, eine 100%ige Tochter der Schenk &amp; Plomer GmbH, decken wir die Versorgungs- und Ausrüstungstechnik sowie innovativer Energie- und Gebäudetechnik ab. Im Bereich baulicher Brandschutz, und Wärmedämmung verfügen wir über ein Netzwerk langjähriger Partnerunternehmen, auf die wir je nach Bedarf zurückgreifen können.</p>"
 titel = "<p><strong>Schenk &amp; Plomer GmbH</strong></p>"
