@@ -55,7 +55,6 @@ header{
   position:absolute;
   z-index:9;
   width:100%;
-  overflow: hidden;
   .logo{
     height:90px;
     @media (max-width: 720px){
@@ -157,9 +156,6 @@ header{
     font-size:0.9rem;
     line-height:1rem;
   }
-  &:hover{
-    border-bottom:2px solid @grey_light2;
-  }
   &.active{
     border-bottom:2px solid @blue;
   }
@@ -178,7 +174,7 @@ header{
     position:absolute;
     left:0;
     line-height:1.3em;
-    z-index:99;
+    z-index:99999;
     top:1.8rem!important;
     margin-left:-0.5rem;
     padding:0;
@@ -187,6 +183,7 @@ header{
     }
   }
   &:hover{
+    border-bottom:2px solid @grey_light2;
     .sub-menu{
       height:auto;
       padding:1rem;

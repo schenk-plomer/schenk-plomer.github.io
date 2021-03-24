@@ -50,7 +50,6 @@ header {
   position: absolute;
   z-index: 9;
   width: 100%;
-  overflow: hidden;
 }
 header .logo {
   height: 90px;
@@ -164,9 +163,6 @@ header #headermenu {
   font-size: 0.9rem;
   line-height: 1rem;
 }
-.headermenuitem:hover {
-  border-bottom: 2px solid rgba(114, 114, 114, 0.3);
-}
 .headermenuitem.active {
   border-bottom: 2px solid #003366;
 }
@@ -182,7 +178,7 @@ header #headermenu {
   position: absolute;
   left: 0;
   line-height: 1.3em;
-  z-index: 99;
+  z-index: 99999;
   top: 1.8rem !important;
   margin-left: -0.5rem;
   padding: 0;
@@ -194,6 +190,9 @@ header #headermenu {
 }
 .headermenuitem .sub-menu .sub-menu-item {
   text-align: left;
+}
+.headermenuitem:hover {
+  border-bottom: 2px solid rgba(114, 114, 114, 0.3);
 }
 .headermenuitem:hover .sub-menu {
   height: auto;
