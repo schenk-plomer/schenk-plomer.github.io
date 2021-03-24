@@ -38,6 +38,9 @@ titel = "Technischen Systemplaner für Versorgungs- u. Ausrüstungstechnik (m/w/
 [[stellen]]
 art = "Vollzeitstellen"
 [[stellen.stelle]]
+content = "<p><strong>Wir erwarten:</strong></p><ul><li><p>Entsprechende Berufserfahrung im Bereich Lüftung</p></li><li><p>Einsatzfreude, Belastbarkeit, Teamfähigkeit</p></li><li><p>selbstständiges und organisiertes Arbeiten</p></li><li><p>Führerschein der Klasse B erforderlich<br></p></li></ul><p><strong>Wir bieten:</strong></p><ul><li><p>weit überdurchschnittliche Bezahlung</p></li><li><p>Urlaubs- und Weihnachtsgeld</p></li><li><p>diverse Sonderzulagen (Verpflegungsmehraufwand, Wohngeld, etc.)</p></li><li><p>Gratifikation von Sozialleistungen</p></li><li><p>Arbeiten in einem dynamischen, motivierten Team</p></li><li><p>Interessanter, abwechslungsreicher und sicherer Arbeitsplatz</p></li><li><p>Interne und externe Weiterbildungsmöglichkeiten</p></li><li><p>Firmen-PKW<br></p></li></ul>"
+titel = "OBERMONTEURE SOWIE MONTEURE (M/W/D) IM BEREICH LÜFTUNGSTECHNIK"
+[[stellen.stelle]]
 content = "<p><strong>Wir bieten:</strong></p><ul><li><p class=\"MsoNormal\">Arbeiten in einem jungen, dynamischen Team</p></li><li><p class=\"MsoNormal\">gute Bezahlung</p></li><li><p class=\"MsoNormal\">übliche soziale Leistungen</p></li><li><p>Firmenfahrzeug</p></li><li><p class=\"MsoNormal\">interessanter, abwechslungsreicher und sicherer Arbeitsplatz</p></li></ul><p class=\"MsoNormal\"><strong>Wir erwarten:</strong></p><ul><li><p class=\"MsoNormal\">entsprechend abgeschlossene Berufsausbildung</p></li><li><p class=\"MsoNormal\">Einsatzfreude, Belastbarkeit, Teamfähigkeit</p></li><li><p class=\"MsoNormal\">selbständiges und organisiertes Arbeiten</p></li><li><p class=\"MsoNormal\">Führerschein Klasse B</p></li></ul>"
 titel = "Heizungs-/Sanitärmeister (m/w/d) in Vollzeit zur Projektleitung/Abteilungsleitung"
 [[stellen.stelle]]
