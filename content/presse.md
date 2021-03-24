@@ -10,7 +10,7 @@ untertitel = "Presse & mehr"
 parent = "Unternehmen"
 weight = 1
 [[artikel]]
-bild = "/uploads/2021/03/24/landshuter-wochenblatt-17-03-2021-3.jpg"
+bild = "/uploads/2021/03/24/landshuter-wochenblattpreview.jpg"
 datei = "/uploads/2021/03/24/landshuter-wochenblatt-17-03-2021-3.jpg"
 link_beschriftung = "ganzen Artikel lesen"
 quelle = "Landshuter Wochenblatt"
