@@ -27,6 +27,10 @@ fields:
     - type: textarea
       name: contentext
       label: contentext
+      config:
+        wysiwyg: true
+        schema:
+          format: html-blocks
     - type: text
       name: buttonbeschriftung
       label: buttonbeschriftung
