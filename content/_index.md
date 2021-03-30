@@ -78,7 +78,7 @@ bilder = "/uploads/2021/03/30/akutelles_covid.jpg"
 buttonbeschriftung = "weiter lesen"
 buttonlink = "https://schenk-plomer.de/p-corona-info-p/"
 contentext = "<strong>Aktuelles zu COVID - 19<br><br>Neues Förderprogramm für Lüftungsanlagen<br>Richtiges Lüften - Schenk &amp; Plomer Sofortmaßnahme<br>Kein Raum für Viren - Der Luftreiniger<br>Echtzeit CO2-Überwachung<br>Kein Raum für Viren: Luftbefeuchter<br>Betrieb Raumlufttechnischer Anlagen unter den Randbedingungen der aktuellen Covid-19-Pandemie</strong>"
-header = "Corona-Info - "
+header = "Corona-Info "
 [[news_1.news]]
 bilder = "/uploads/2020/09/07/low_azubis_2020.jpg"
 buttonbeschriftung = "weitere Stellen"
