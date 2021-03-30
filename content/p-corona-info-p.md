@@ -1,6 +1,6 @@
 +++
 seo_description = ""
-titel_bild = ""
+titel_bild = "/uploads/2021/03/30/covid19-header.jpg"
 title = "<p>Corona-Info</p>"
 [[news_1.news]]
 bilder = "/uploads/2020/10/16/foerderprogramm.jpg"
