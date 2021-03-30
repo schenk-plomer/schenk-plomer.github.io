@@ -2,6 +2,9 @@
 seo_description = ""
 titel_bild = "/uploads/2021/03/30/covid19-header.jpg"
 title = "<p>Corona-Info</p>"
+[menu.main]
+name = "Corona-Info"
+weight = 5
 [[news_1.news]]
 bilder = "/uploads/2020/10/16/foerderprogramm.jpg"
 buttonbeschriftung = "weiter lesen"

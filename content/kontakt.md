@@ -12,7 +12,7 @@ titel = "<p>Schenk<strong> &amp; Plomer GmbH   |  </strong>Plomer<strong> &amp; 
 untertitel = "Wir sind für Sie da"
 [menu.main]
 name = "Kontakt"
-weight = 8
+weight = 9
 [[kontaktdaten]]
 content = "<p>Schenk & Plomer GmbH <br/>Plomer & Dachs GmbH <br/>Dieselstrasse 6  <br/>84056 Altheim</p>"
 icon = "/uploads/2019/11/04/icon_adresse.png"

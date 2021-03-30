@@ -24,7 +24,7 @@ hintergrund = "/uploads/2019/11/04/service_background_picture.png"
 titel = "<p><strong>UNSERE </strong>STÄRKE <strong>IST DER </strong>KUNDENSERVICE</p>"
 untertitel = "RUND-UM-SORGLOS"
 [menu.main]
-weight = 5
+weight = 6
 [[bereiche]]
 content = "<p>Sie haben bereits einen Plan? Wir führen gerne nach Ihren Wünschen aus. Sie haben eine Idee und brauchen einen Plan? Mit unserem Team von Ingenieuren und Technikern erarbeiten wir zusammen mit Ihnen ein Anlagenkonzept und erstellen gerne die dazu erforderliche Planung. Ausgestattet mit modernsten CAD- Arbeitsplätzen, Berechnungsprogrammen sowie Druckern und Plottern bringen wir diese zu Papier und bilden somit die Basis für die weitere Projektentwicklung. Von Klein bis Groß.</p>"
 icon = "/uploads/2019/11/04/planung_icon.png"
