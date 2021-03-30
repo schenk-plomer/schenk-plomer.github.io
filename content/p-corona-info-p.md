@@ -1,4 +1,5 @@
 +++
+layout = "corona-info"
 seo_description = ""
 titel_bild = "/uploads/2021/03/30/covid19-header.jpg"
 title = "<p>Corona-Info</p>"

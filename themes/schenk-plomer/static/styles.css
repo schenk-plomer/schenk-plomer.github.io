@@ -1065,6 +1065,38 @@ ul li {
   top: 0;
   background-size: cover;
 }
+.subpage#corona-info .nl .nli {
+  border-bottom: 1px solid #003366;
+}
+.subpage#corona-info .nl .nli img {
+  width: 100%;
+  max-width: 320px;
+}
+.subpage#corona-info .nl .nli h2 {
+  color: #003366;
+  font-weight: normal;
+  margin: 0;
+}
+.subpage#corona-info .nl .nli .q {
+  color: #d1d1d1;
+  margin-bottom: 1rem;
+}
+.subpage#corona-info .nl .nli .summary {
+  margin-bottom: 1rem;
+}
+.subpage#corona-info #news h2,
+.subpage#corona-info #news_1 h2 {
+  color: #003366 !important;
+}
+.subpage#corona-info #news .imggalcol img,
+.subpage#corona-info #news_1 .imggalcol img {
+  width: 100%;
+  cursor: pointer;
+}
+.subpage#corona-info #news .contentj,
+.subpage#corona-info #news_1 .contentj {
+  text-align: justify;
+}
 .subpage .subptitle {
   padding: 250px 0 150px 0;
   margin: 0 0 6rem 0;

@@ -1,0 +1,47 @@
+{{ define "main" }}
+<div class="subpage" id="corona-info">
+  <div id="db" style="background:url({{partial "imgUrl" (dict "img" .Params.titel_bild "params" "q_100" )}}) center top no-repeat; background-size:cover;">
+    <div class="subptitle">
+      <div class="ui container standard">
+        <h1>{{.Title|safeHTML}}</h1>
+      </div>
+    </div>
+  </div>
+  
+  
+  {{range .Params.news_1.news}}
+  <section id="news_1">
+    <div class="ui container">
+      <div class="sectitlew">
+        <h2>{{.header}}</h2>
+        <div class="line"></div>
+      </div>
+      <div class="ui stackable grid imggal">
+        <div class="four wide column imggalcol">
+          <a target="_blank" href="{{.buttonlink}}">
+          <img class="bimg" src="{{partial "imgUrl" (dict "img" .bilder "params" "g_auto,f_auto/c_scale,h_600" )}}"/>
+          </a>
+        </div>
+
+        <div class="twelve wide column">
+          <div class="contentj">
+            {{.contentext|safeHTML}}
+          </div>
+          <div class="bwr">
+            <a target="_blank" href="{{.buttonlink}}">
+              <div class="mbutton">
+                <div class="deco"></div>
+                <div class="deco2"></div>
+                <div class="deco3"></div>
+                <div class="deco4"></div>
+                <div class="label">{{.buttonbeschriftung}}<i class="icon chevron right"></i></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{end}}
+</div>
+{{ end }}
