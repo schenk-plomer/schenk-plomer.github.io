@@ -2,12 +2,14 @@
 label: Corona-Info
 hide_body: true
 fields:
+- name: titel
+  type: include
+  config: {}
+  template: titleimage
+  label: Titel
 - type: textarea
   name: seo_description
   label: seo_description
-- type: text
-  name: title
-  label: title
 - type: field_group
   name: news_1
   label: news_1
@@ -31,8 +33,3 @@ fields:
     - type: text
       name: buttonlink
       label: buttonlink
-- name: title-bild
-  type: file
-  config:
-    maxSize: 64
-  label: Title-bild
