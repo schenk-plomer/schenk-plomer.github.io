@@ -33,3 +33,5 @@ fields:
     - type: text
       name: buttonlink
       label: buttonlink
+pages:
+- content/p-corona-info-p.md
