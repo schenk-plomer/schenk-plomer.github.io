@@ -7,6 +7,12 @@ title = "<p>Corona-Info</p>"
 name = "Corona-Info"
 weight = 5
 [[news_1.news]]
+bilder = "/uploads/2021/07/07/raumluftreiniger-schallschutzhaube.jpg"
+buttonbeschriftung = "Datenblatt anzeigen"
+buttonlink = ""
+contentext = ""
+header = "Luftreiniger made in Germany - ab 2.186 EUR"
+[[news_1.news]]
 bilder = "/uploads/2021/07/07/schenk-plomer-wochenbaltt.jpg"
 buttonbeschriftung = "ganzen Artikel lesen"
 buttonlink = "https://www.wochenblatt.de/lokales/landkreis-landshut/altheimer-firma-versorgt-den-ganzen-landkreis-erding-mit-luftreinigern-603326"
