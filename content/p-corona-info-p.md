@@ -17,7 +17,7 @@ bilder = "/uploads/2021/07/07/schenk-plomer-wochenbaltt.jpg"
 buttonbeschriftung = "ganzen Artikel lesen"
 buttonlink = "https://www.wochenblatt.de/lokales/landkreis-landshut/altheimer-firma-versorgt-den-ganzen-landkreis-erding-mit-luftreinigern-603326"
 contentext = "<strong><span class=\"ngen_F\">Während man in Landshut hadert und zaudert und eine Anschaffung von Luftreinigungsgeräten für die Schulen vom Stadtrat abgelehnt wurde, ist man andernorts dieser Art der Virus-Bekämpfung deutlich positiver eingestellt.<br></span>Landshut/Erding.<span class=\"Apple-converted-space\"> </span></strong>Zum Beispiel im Landkreis Erding. Der Landshuter Nachbar-Landkreis – mit Landrat Martin Bayerstorfer an der Spitze – hat sich als einer der Ersten dazu entschlossen, sämtliche Landkreis-Schulen mit Luftreinigungsgeräten auszustatten – und so wieder ein weiteres Stück Normalität in den Schulalltag zu bringen.<br><br>Der Technik bedient sich der oberbayerische Nachbar wiederum in Niederbayern: bei der Schenk &amp; Plomer GmbH mit Sitz in Altheim, direkt vor den Toren Landshuts. Die beiden Geschäftsführer Raimund Plomer und Thomas Dachs haben – bei 40 Mitbewerbern – den Zuschlag erhalten. In diesen Tagen stattet man nun sämtliche Schulen wie Gymnasien, Realschulen, Berufsschulen, Förderzentren, Musikschulen, Fach- und Berufsoberschulen im gesamten Landkreis Erding mit Hochleistungsluftreinigern aus.<br>"
-header = "Großauftrag für Schenk & Plomer: Altheimer Firma versorgt den ganzen Landkreis Erding mit Luftreinigern"
+header = "Artikel Wochenblatt: Altheimer Firma versorgt den ganzen Landkreis Erding mit Luftreinigern"
 [[news_1.news]]
 bilder = "/uploads/2020/10/16/foerderprogramm.jpg"
 buttonbeschriftung = "weiter lesen"
