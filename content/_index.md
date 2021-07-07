@@ -9,6 +9,8 @@ overlay_rechts = "/uploads/2019/11/04/overlay_rechts.png"
 titel = "<p><strong>Gute Lüftung</strong></p><p class=\"p1\"><strong>Prima Klima</strong></p>"
 untertitel = "<p>Schenk &amp; Plomer GmbH </p>"
 [[bildbereich.overlay_mitte_sliderbilder]]
+bild = "/uploads/2021/07/07/1_luftreiniger_overlay_mitte_mobil.png"
+[[bildbereich.overlay_mitte_sliderbilder]]
 bild = "/uploads/2020/10/07/1_luftreiniger_overlay_mitte.png"
 [[bildbereich.overlay_mitte_sliderbilder]]
 bild = "/uploads/2020/10/07/2_luftbefeuchter_overlay_mitte.png"
