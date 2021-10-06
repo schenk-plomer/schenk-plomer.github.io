@@ -10,6 +10,13 @@ untertitel = "Presse & mehr"
 parent = "Unternehmen"
 weight = 1
 [[artikel]]
+bild = "/uploads/2021/10/06/azubi-wochenblattpreview.jpg"
+datei = "/uploads/2021/10/06/artikelazubis.pdf"
+link_beschriftung = "ganzen Artikel lesen"
+quelle = "Wochenblatt"
+titel = "Die Mitarbeiter als Kapital"
+zusammenfassung = "<p>„Unser wichtigstes Kapital sind unsere Mitarbeiter“, so lautet das Motto der Firma Schenk &amp; Plomer GmbH, Luft- und Klimatechnischer Anlagenbau. Am 1. September begann für die neuen Auszubildenden der Start in das Berufsleben in den Berufen als Technischer Systemplaner, als auch Konstruktionsmechaniker mit der Fachrichtung Feinblechbau in dem Altheimer Unternehmen.</p>"
+[[artikel]]
 bild = "/uploads/2021/03/24/landshuter-wochenblattpreview.jpg"
 datei = "/uploads/2021/03/24/landshuter-wochenblatt-17-03-2021-3.jpg"
 link_beschriftung = "ganzen Artikel lesen"
