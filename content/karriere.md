@@ -48,6 +48,6 @@ content = "<p><strong>Wir bieten:</strong></p><ul><li><p class=\"MsoNormal\">Arb
 titel = "Obermonteure / Monteure für Lüftungs- und Klimaanlagen (m/w/d)"
 [[stellen.stelle]]
 content = "<p><strong>Wir bieten:</strong></p><ul><li><p class=\"MsoNormal\">übertarifliche Bezahlung</p></li><li><p class=\"MsoNormal\">soziale Leistungen</p></li><li><p class=\"MsoNormal\">Urlaubs- / Weihnachtsgeld</p></li><li><p class=\"MsoNormal\">interessanter abwechslungsreicher und sicherer Arbeitsplatz</p></li><li><p class=\"MsoNormal\">Möglichkeiten der beruflichen Weiterbildung</p></li><li><p class=\"MsoNormal\">Firmen-PKW</p><p class=\"MsoNormal\"></p></li></ul><p class=\"MsoNormal\"><strong>Wir erwarten:</strong></p><ul><li><p class=\"MsoNormal\">entsprechend abgeschlossene Berufsausbildung</p></li><li><p class=\"MsoNormal\">Elektrokenntnisse im Metall-Handwerk erwünscht</p></li><li><p class=\"MsoNormal\">Einsatzfreude, Belastbarkeit, Teamfähigkeit</p></li><li><p class=\"MsoNormal\">selbständiges und organisiertes Arbeiten</p></li><li><p class=\"MsoNormal\">Führerschein Klasse B</p></li></ul>"
-titel = "Service- und Wartungsmonteure für Lüftungsanlagen am Flughafen München"
+titel = "Service- und Wartungsmonteure für Lüftungsanlagen (m/w/d) am Flughafen München"
 
 +++
