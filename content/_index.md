@@ -71,8 +71,8 @@ contenttext = "<p>Unser Fertigungsbereich mit Lüftungskanal- und Formstückbau 
 header = "NEU !!  Lüftungskanal- und Formstückbau"
 [[news_1.news]]
 bilder = "/uploads/2022/04/21/wirsinddabei2022_teilnehmerpost.jpg"
-buttonbeschriftung = ""
-buttonlink = ""
+buttonbeschriftung = "weiterlesen"
+buttonlink = "www.landshuter-firmenlauf.de"
 contentext = "Wir sind dabei am 19. Mai, beim Landshuter Firmenlauf"
 header = "Wir sind dabei! Landshuter Firmenlauf"
 [[news_1.news]]
