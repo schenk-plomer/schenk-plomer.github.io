@@ -73,7 +73,7 @@ header = "NEU !!  Lüftungskanal- und Formstückbau"
 bilder = "/uploads/2022/04/21/wirsinddabei2022_teilnehmerpost.jpg"
 buttonbeschriftung = ""
 buttonlink = ""
-contentext = "am 19. Mai"
+contentext = "Wir sind dabei am 19. Mai, beim Landshuter Firmenlauf"
 header = "Wir sind dabei! Landshuter Firmenlauf"
 [[news_1.news]]
 bilder = "/uploads/2020/09/22/st-anzeige.jpeg"
