@@ -73,7 +73,7 @@ header = "NEU !!  Lüftungskanal- und Formstückbau"
 bilder = "/uploads/2022/06/22/willst-du-mit-uns-fahren.jpg"
 buttonbeschriftung = "weiterlesen"
 buttonlink = "https://schenk-plomer.de/karriere/"
-contentext = "LKW Fahrer (m/w/d) in Festanstellung"
+contentext = "WILLST DU MIT UNS FAHREN?<br>LKW Fahrer (m/w/d) in Festanstellung"
 header = "WILLST DU MIT UNS FAHREN? "
 [[news_1.news]]
 bilder = "/uploads/2020/09/22/st-anzeige.jpeg"
