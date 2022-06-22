@@ -79,7 +79,7 @@ header = "WILLST DU MIT UNS FAHREN? "
 bilder = "/uploads/2020/09/22/st-anzeige.jpeg"
 buttonbeschriftung = "weiter lesen"
 buttonlink = "https://schenk-plomer.de/karriere/"
-contentext = "Obermonteure / Monteure (M/W/D) für Lüftungstechnik<br>Heizungs-/Sanitärmeister (m/w/d) in Vollzeit zur Projektleitung /Abteilungsleitung<br>Obermonteure / Monteure für Lüftungs- und Klimaanlagen<br>Service- und Wartungsmonteure für Lüftungsanlagen am Flughafen München"
+contentext = "LKW Fahrer (m/w/d) in Festanstellung<br>Obermonteure / Monteure (M/W/D) für Lüftungstechnik<br>Heizungs-/Sanitärmeister (m/w/d) in Vollzeit zur Projektleitung /Abteilungsleitung<br>Obermonteure / Monteure für Lüftungs- und Klimaanlagen<br>Service- und Wartungsmonteure für Lüftungsanlagen am Flughafen München"
 header = "Aktuelle vakante Stellen"
 [[news_1.news]]
 bilder = "/uploads/2021/03/30/akutelles_covid.jpg"
