@@ -38,6 +38,9 @@ titel = "Technischer Systemplaner für Versorgungs- u. Ausrüstungstechnik (m/w/
 [[stellen]]
 art = "Vollzeitstellen (m/w/d)"
 [[stellen.stelle]]
+content = "<p><strong>Wir erwarten:</strong></p><ul><li><p>Einsatzfreude, Belastbarkeit, Teamfähigkeit</p></li><li><p>selbstständiges und organisiertes Arbeiten</p></li></ul><p><strong>Wir bieten:</strong></p><ul><li><p>weit überdurchschnittliche Bezahlung</p></li><li><p>Urlaubs- und Weihnachtsgeld</p></li><li><p>diverse Sonderzulagen (Verpflegungsmehraufwand, Wohngeld, etc.)</p></li><li><p>Gratifikation von Sozialleistungen</p></li><li><p>Arbeiten in einem dynamischen, motivierten Team</p></li><li><p>Interessanter, abwechslungsreicher und sicherer Arbeitsplatz</p></li></ul>"
+titel = "LKW Fahrer (m/w/d) in Festanstellung"
+[[stellen.stelle]]
 content = "<p><strong>Wir erwarten:</strong></p><ul><li><p>Entsprechende Berufserfahrung im Bereich Lüftung</p></li><li><p>Einsatzfreude, Belastbarkeit, Teamfähigkeit</p></li><li><p>selbstständiges und organisiertes Arbeiten</p></li><li><p>Führerschein der Klasse B erforderlich<br></p></li></ul><p><strong>Wir bieten:</strong></p><ul><li><p>weit überdurchschnittliche Bezahlung</p></li><li><p>Urlaubs- und Weihnachtsgeld</p></li><li><p>diverse Sonderzulagen (Verpflegungsmehraufwand, Wohngeld, etc.)</p></li><li><p>Gratifikation von Sozialleistungen</p></li><li><p>Arbeiten in einem dynamischen, motivierten Team</p></li><li><p>Interessanter, abwechslungsreicher und sicherer Arbeitsplatz</p></li><li><p>Interne und externe Weiterbildungsmöglichkeiten</p></li><li><p>Firmen-PKW<br></p></li></ul>"
 titel = "Obermonteure sowie Monteure (m/w/d) im Bereich Lüftungstechnik"
 [[stellen.stelle]]
