@@ -72,9 +72,9 @@ header = "NEU !!  Lüftungskanal- und Formstückbau"
 [[news_1.news]]
 bilder = "/uploads/2022/04/21/wirsinddabei2022_teilnehmerpost.jpg"
 buttonbeschriftung = "weiterlesen"
-buttonlink = "www.landshuter-firmenlauf.de"
-contentext = "Wir sind dabei am 19. Mai, beim Landshuter Firmenlauf"
-header = "Wir sind dabei! Landshuter Firmenlauf"
+buttonlink = "https://schenk-plomer.de/karriere/"
+contentext = "<em>LKW Fahrer (m/w/d) in Festanstellung</em>"
+header = "WILLST DU MIT UNS FAHREN? "
 [[news_1.news]]
 bilder = "/uploads/2020/09/22/st-anzeige.jpeg"
 buttonbeschriftung = "weiter lesen"
