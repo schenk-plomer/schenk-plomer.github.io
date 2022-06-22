@@ -70,7 +70,7 @@ buttonlink = "mailto:info@schenk-plomer.de"
 contenttext = "<p>Unser Fertigungsbereich mit Lüftungskanal- und Formstückbau sowie Schlossereibereich erlaubt es uns, kurzfristig auf sämtliche Anforderungen einer Baustelle oder einer Sanierung zu reagieren. Im Januar 2020 wurden neue Fertigungsmaschinen integriert welche unsere Fertigungskapazität aktuell mehr als verdoppelt. So ist es nun möglich,<strong> ca. 1.500 bis 2.000 m² Kanal- und Formstücke wöchentlich </strong>zu produzieren. <br>Die Auslieferung mit dem eigenen Fuhrpark stellt eine termingerechte Kunden- und Baustellenbelieferung sicher. Gerne können Sie uns bei Bedarf Ihre Anfrage über die Lieferung von Stahlblechkanälen verzinkt zukommen lassen.</p>"
 header = "NEU !!  Lüftungskanal- und Formstückbau"
 [[news_1.news]]
-bilder = "/uploads/2022/04/21/wirsinddabei2022_teilnehmerpost.jpg"
+bilder = "/uploads/2022/06/22/willst-du-mit-uns-fahren.jpg"
 buttonbeschriftung = "weiterlesen"
 buttonlink = "https://schenk-plomer.de/karriere/"
 contentext = "<em>LKW Fahrer (m/w/d) in Festanstellung</em>"
