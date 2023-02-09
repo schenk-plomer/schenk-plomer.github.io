@@ -39,6 +39,9 @@ titel = "Technischer Systemplaner für Versorgungs- u. Ausrüstungstechnik (m/w/
 art = "Vollzeitstellen (m/w/d)"
 [[stellen.stelle]]
 content = "<p><strong>Was wir Dir bieten:</strong></p><p>• übertarifliche Bezahlung</p><p>• geregelte Arbeitszeiten</p><p>• gute Teamdynamik</p><p>• diverse Sonderzahlungen (Urlaubs-/Weihnachtsgeld)</p><p>• gesicherter Arbeitsplatz</p><p>• kostenlose Arbeitskleidung</p><p>• Firmen-PKW</p><p></p><p><strong>Was wir von Dir erwarten:</strong></p><p>• Entsprechende Berufserfahrung Einsatzfreude, Belastbarkeit, Teamfähigkeit</p><p>• Selbstständiges, organisiertes Arbeiten</p><p>• Führerschein (B-Klasse)</p>"
+titel = "MONTEURE (M/W/D)"
+[[stellen.stelle]]
+content = "<p><strong>Was wir Dir bieten:</strong></p><p>• übertarifliche Bezahlung</p><p>• geregelte Arbeitszeiten</p><p>• gute Teamdynamik</p><p>• diverse Sonderzahlungen (Urlaubs-/Weihnachtsgeld)</p><p>• gesicherter Arbeitsplatz</p><p>• kostenlose Arbeitskleidung</p><p>• Firmen-PKW</p><p></p><p><strong>Was wir von Dir erwarten:</strong></p><p>• Entsprechende Berufserfahrung Einsatzfreude, Belastbarkeit, Teamfähigkeit</p><p>• Selbstständiges, organisiertes Arbeiten</p><p>• Führerschein (B-Klasse)</p>"
 titel = "WARTUNGS-/KUNDENDIENSTMONTEURE (M/W/D)"
 [[stellen.stelle]]
 content = "<p><strong>Wir erwarten:</strong></p><ul><li><p>Einsatzfreude, Belastbarkeit, Teamfähigkeit</p></li><li><p>selbstständiges und organisiertes Arbeiten</p></li></ul><p><strong>Wir bieten:</strong></p><ul><li><p>weit überdurchschnittliche Bezahlung</p></li><li><p>Urlaubs- und Weihnachtsgeld</p></li><li><p>diverse Sonderzulagen (Verpflegungsmehraufwand, Wohngeld, etc.)</p></li><li><p>Gratifikation von Sozialleistungen</p></li><li><p>Arbeiten in einem dynamischen, motivierten Team</p></li><li><p>Interessanter, abwechslungsreicher und sicherer Arbeitsplatz</p></li></ul>"
