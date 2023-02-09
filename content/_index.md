@@ -74,12 +74,6 @@ buttonlink = "https://schenk-plomer.de/karriere/"
 contentext = "LKW Fahrer (m/w/d) in Festanstellung<br>Obermonteure / Monteure (M/W/D) für Lüftungstechnik<br>Heizungs-/Sanitärmeister (m/w/d) in Vollzeit zur Projektleitung /Abteilungsleitung<br>Obermonteure / Monteure für Lüftungs- und Klimaanlagen<br>Service- und Wartungsmonteure für Lüftungsanlagen am Flughafen München"
 header = "Aktuelle vakante Stellen"
 [[news_1.news]]
-bilder = "/uploads/2021/03/30/akutelles_covid.jpg"
-buttonbeschriftung = "weiter lesen"
-buttonlink = "https://schenk-plomer.de/p-corona-info-p/"
-contentext = "<strong>Aktuelles zu COVID - 19<br><br>Neues Förderprogramm für Lüftungsanlagen<br>Richtiges Lüften - Schenk &amp; Plomer Sofortmaßnahme<br>Kein Raum für Viren - Der Luftreiniger<br>Echtzeit CO2-Überwachung<br>Kein Raum für Viren: Luftbefeuchter<br>Betrieb Raumlufttechnischer Anlagen unter den Randbedingungen der aktuellen Covid-19-Pandemie</strong>"
-header = "Corona-Info "
-[[news_1.news]]
 bilder = "/uploads/2022/02/07/azubi2021.JPG"
 buttonbeschriftung = "weitere Stellen"
 buttonlink = "https://schenk-plomer.de/karriere/"
