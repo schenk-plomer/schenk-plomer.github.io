@@ -62,6 +62,11 @@ buttonlink = "mailto:info@schenk-plomer.de"
 contenttext = "<p>Unser Fertigungsbereich mit Lüftungskanal- und Formstückbau sowie Schlossereibereich erlaubt es uns, kurzfristig auf sämtliche Anforderungen einer Baustelle oder einer Sanierung zu reagieren. Im Januar 2020 wurden neue Fertigungsmaschinen integriert welche unsere Fertigungskapazität aktuell mehr als verdoppelt. So ist es nun möglich,<strong> ca. 1.500 bis 2.000 m² Kanal- und Formstücke wöchentlich </strong>zu produzieren. <br>Die Auslieferung mit dem eigenen Fuhrpark stellt eine termingerechte Kunden- und Baustellenbelieferung sicher. Gerne können Sie uns bei Bedarf Ihre Anfrage über die Lieferung von Stahlblechkanälen verzinkt zukommen lassen.</p>"
 header = "NEU !!  Lüftungskanal- und Formstückbau"
 [[news_1.news]]
+bilder = "/uploads/2023/20230525_IHK.jpeg"
+bild2 = "/uploads/2023/20230525_IHK_Urkunde.jpeg"
+contentext = "<p><strong>Hoher Besuch im Hause Schenk & Plomer – IHK Niederbayern gratuliert zum 30 jährigen Jubiläum.</strong></p><p>Herr Hans Graf, Vize- Präsident IHK Niederbayern sowie Herr Marc- Andre Alram, Regionalleiter Niederbayern, gratulierten der Fa. Schenk & Plomer zum 30- jährigen Jubiläum. Bei Häppchen und Kuchen gab es einen angenehmen Erfahrungsaustausch.Wir freuen uns über die Wertschätzung durch unsere Industrie- und Handelskammer und freuen uns auf eine weitere Zusammenarbeit.</p><p>Foto: von links Thomas Dachs , Christian Plomer, Raimund Plomer, Hans Graf, Marc- Andre Alram, Marcus Plomer</p>"
+header = "30-jähriges Firmenjubiläum"
+[[news_1.news]]
 bilder = "/uploads/2020/09/22/st-anzeige.jpeg"
 buttonbeschriftung = "weiterlesen"
 buttonlink = "https://schenk-plomer.de/karriere/"

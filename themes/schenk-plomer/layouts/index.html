@@ -106,6 +106,9 @@
         <div class="four wide column imggalcol">
           <a target="_blank" href="{{.buttonlink}}">
           <img class="bimg" src="{{partial "imgUrl" (dict "img" .bilder "params" "g_auto,f_auto/c_scale,h_600" )}}"/>
+          {{with .bild2}}
+          <img class="bimg" src="{{partial "imgUrl" (dict "img" . "params" "g_auto,f_auto/c_scale,h_600" )}}"/>
+          {{end}}
           </a>
         </div>
 
@@ -113,6 +116,7 @@
           <div class="contentj">
             {{.contentext|safeHTML}}
           </div>
+          {{if .buttonlink}}
           <div class="bwr">
             <a target="_blank" href="{{.buttonlink}}">
               <div class="mbutton">
@@ -124,6 +128,7 @@
               </div>
             </a>
           </div>
+          {{end}}
         </div>
       </div>
     </div>
