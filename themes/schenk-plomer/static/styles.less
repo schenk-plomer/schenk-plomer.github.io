@@ -51,6 +51,56 @@ a{
 .imggalslider{
   margin-left:-16px!important;
 }
+.mbutton{
+  height:36px;
+  background:@blue;
+  min-width:10em;
+  position:relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  .label{
+    text-align:center;
+    i{
+      margin-left:1.5em;
+    }
+  }
+}
+.deco{
+  width:0px;
+  height:0px;
+  border-left:20px solid @blue;
+  border-bottom:36px solid transparent;
+  position:absolute;
+  right:-20px;
+}
+.deco2{
+  width:0px;
+  height:0px;
+  border-bottom:36px solid @blue;
+  border-left:20px solid transparent;
+  position:absolute;
+  left:-20px;
+  z-index:2;
+}
+.deco3{
+  width:0px;
+  height:0px;
+  border-bottom:36px solid @grey;
+  border-left:20px solid transparent;
+  position:absolute;
+  left:-35px;
+  z-index:1;
+}
+.deco4{
+  width:15px;
+  height:36px;
+  background:@grey;
+  position:absolute;
+  left:-15px;
+  z-index:1;
+}
 header{
   position:absolute;
   z-index:9;
@@ -256,7 +306,7 @@ footer{
 ul{
   padding:0;
   li{
-    margin-left:1.2em;
+    //margin-left:1.2em;
   }
 }
 #headimg_l0{
@@ -265,6 +315,57 @@ ul{
   padding-top:200px;
   position:relative;
   overflow:hidden;
+  #om2{
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    position:relative;
+    z-index:99999;
+    height:50vh;
+    img{
+      max-height:15vh;
+      margin-left:20vw;
+    }
+    > div{
+      padding:2rem 0;
+      color:white;
+      text-align:right;
+      strong{
+        font-weight:bold;
+        font-size:2rem;
+        line-height:1.5em;
+      }
+    }
+    @media (max-width: 720px){
+      flex-direction:column;
+      justify-content: flex-start;
+      align-items:center;
+      .ctx{
+        display:none;
+      }
+      img{
+        max-height:10vh;
+        margin-left:0;
+        margin-top:130px;
+      }
+      > div{
+        background:rgba(0,51,102,0.4);
+        padding:1rem 2rem;
+        width:100%;
+        margin-top:3rem;
+        color:white;
+        text-align:right;
+        strong{
+          font-weight:bold;
+          font-size:1.7rem!important;
+          line-height:1.1em;
+        }
+        p{
+          margin-bottom:0.25rem;
+        }
+      }
+    }
+  }
   #om{
     height:50vh;
     width:50vw;
@@ -306,6 +407,13 @@ ul{
   z-index:1;
   @media (max-width: 720px){
     height:50vh;
+  }
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  > div{
+    display:inline-block;
   }
 }
 
@@ -1305,55 +1413,6 @@ section{
     display:flex;
     justify-content: flex-end;
     padding-right:40px;
-    .mbutton{
-      height:36px;
-      background:@blue;
-      width:10em;
-      position:relative;
-      display:flex;
-      justify-content: center;
-      align-items: center;
-      color:white;
-      .label{
-        text-align:center;
-        i{
-          margin-left:1.5em;
-        }
-      }
-    }
-    .deco{
-      width:0px;
-      height:0px;
-      border-left:20px solid @blue;
-      border-bottom:36px solid transparent;
-      position:absolute;
-      right:-20px;
-    }
-    .deco2{
-      width:0px;
-      height:0px;
-      border-bottom:36px solid @blue;
-      border-left:20px solid transparent;
-      position:absolute;
-      left:-20px;
-      z-index:2;
-    }
-    .deco3{
-      width:0px;
-      height:0px;
-      border-bottom:36px solid @grey;
-      border-left:20px solid transparent;
-      position:absolute;
-      left:-35px;
-      z-index:1;
-    }
-    .deco4{
-      width:15px;
-      height:36px;
-      background:@grey;
-      position:absolute;
-      left:-15px;
-      z-index:1;
-    }
+    
   }
 }

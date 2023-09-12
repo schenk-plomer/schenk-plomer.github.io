@@ -10,6 +10,16 @@ titel = "<p><strong>Gute Lüftung</strong></p><p class=\"p1\"><strong>Prima Klim
 untertitel = "<p>Schenk &amp; Plomer GmbH </p>"
 [[bildbereich.overlay_mitte_sliderbilder]]
 bild = "/uploads/2019/12/10/schenk-plomer-dachs.png"
+hintergrund = "/uploads/2019/11/04/overlay_links.png"
+overlay_rechts = "/uploads/2019/11/04/overlay_rechts.png"
+[[bildbereich.overlay_mitte_sliderbilder]]
+hintergrund = "/uploads/2023/schenk-plomer-dachs-49.jpg"
+bild = "/uploads/2023/wirsuchen2.png"
+overlay_rechts = "/uploads/2019/11/04/overlay_rechts.png"
+content="<p>DRINGEND GESUCHT</p><p><strong>Wartungsmonteure<br/>Lüftungsmonteure</strong></p>"
+link="/karriere"
+linkbeschriftung="alle Stellenangebote"
+top=true
 [leistungen]
 beschriftung_button = "weiter"
 hintergrundbild = "/uploads/2019/12/10/neu_luftschaft.png"

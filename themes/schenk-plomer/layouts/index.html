@@ -1,21 +1,47 @@
 {{ define "main" }}
 {{$p:=.}}
 <div id="home">
+  
   {{with .Params.bildbereich}}
+  <ul class="headerslider">
+    {{ range $x,$img := .overlay_mitte_sliderbilder }}
+    <li>
   <div id="headimg_l0"
-    style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "q_100" )}}) left center no-repeat; background-size:contain;">
+    style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "q_100" )}}) left center no-repeat; background-size:cover;">
+    {{if .content}}
+    <div class="ui container">
+      <div id="om2" >
+        <a href="{{.link}}">
+          <img src="{{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}"/>
+        </a>
+        <div class="ct">
+          {{.content|safeHTML}}
+          <a target="_blank" href="{{.link}}">
+            <div class="mbutton">
+              <div class="deco"></div>
+              <div class="deco2"></div>
+              <div class="deco3"></div>
+              <div class="deco4"></div>
+              <div class="label">{{.linkbeschriftung}}<i class="icon chevron right"></i></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    {{else}}
     <div id="om">
-    <ul class="headerslider">
-      {{ range $x,$img := .overlay_mitte_sliderbilder }}
-      <li>
-        <div style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}) center bottom no-repeat; background-size:contain;"></div>
-      </li>
-      {{end}}
-    </ul>
-  </div>
+      <div style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}) center {{if .content}}top{{else}}bottom{{end}} no-repeat; background-size:contain;"></div>
+    </div>
+    {{end}}
     <!-- <div id="om" style="background:url({{partial "imgUrl" (dict "img" .overlay_mitte "params" "q_100" )}}) center bottom no-repeat; background-size:contain;"></div>-->
+    <div id="or" style="background:url({{partial "imgUrl" (dict "img" .overlay_rechts "params" "q_100" )}}) left bottom no-repeat; background-size:cover;">
   </div>
-  <div id="or" style="background:url({{partial "imgUrl" (dict "img" .overlay_rechts "params" "q_100" )}}) left bottom no-repeat; background-size:cover;"></div>
+  
+  </div>
+</li>
+  {{end}}
+    </ul>
   {{end}}
   {{with .Params.leistungen}}
   <section>
