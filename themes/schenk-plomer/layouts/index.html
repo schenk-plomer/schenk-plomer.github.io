@@ -128,6 +128,7 @@
         <h2>{{.header}}</h2>
         <div class="line"></div>
       </div>
+      {{if .contentext}}
       <div class="ui stackable grid imggal">
         <div class="four wide column imggalcol">
           <a target="_blank" href="{{.buttonlink}}">
@@ -157,6 +158,11 @@
           {{end}}
         </div>
       </div>
+      {{else}}
+      <div style="text-align: center;">
+      <img class="bimg" src="{{partial "imgUrl" (dict "img" .bilder "params" "g_auto,f_auto/c_scale,h_600" )}}"/>
+    </div>
+      {{end}}
     </div>
   </section>
   {{end}}

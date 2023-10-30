@@ -14,6 +14,11 @@ untertitel = "Bei uns arbeitet man nicht einfach nur, hier gehörst du zum Team!
 name = "Karriere"
 weight = 8
 [[stellen]]
+art = "Teilzeitstellen"
+[[stellen.stelle]]
+content = "<p><b>Ihre Aufgaben:</b></p><ul><li>Assistenz der techn. Projektleitung im Bereich Aufmaßerstellung, Abrechnung, Dokumentation und bei allg. Bürotätigkeiten</li></ul><p><b>Sie bringen mit:</b></p><ul><li>Kaufmännische oder techn. Ausbildung</li><li>Einsatzfreude, Belastbarkeit, Teamfähigkeit</li><li>selbstständiges und organisiertes Arbeiten</li></ul><p><b>Wir bieten:</b></p><ul><li>gute Bezahlung & diverse Zulagen</li><li>gutes Betriebsklima, motiviertes Team</li><li>unbefristeter Arbeitsplatz</li></ul><p>Bewerbungen an: <a href=\"mailto:info@schenk-plomer.de\">info@schenk-plomer.de</a></p>"
+titel = "Technische Bürokraft (m/w/d) in Teilzeit "
+[[stellen]]
 art = "Praktikum in unseren unterschiedlichen Ausbildungsberufen (m/w/d)"
 [[stellen.stelle]]
 content = "<p>Praktikum (ab 14 Jahren)</p><p>Sich für den richtigen Ausbildungsberuf zu entscheiden, ist oft nicht einfach. Lerne ganz unverbindlich unsere Ausbildungsberufe</p><p>kennen und absolviere bei uns ein Praktikum. Sowohl im technischen als auch im kaufmännischen Bereich erhältst</p><p>Du bei uns die Möglichkeit, einen Einblick in zukünftige Arbeitsgebiete und den Berufsalltag kennen zu lernen. Folgende Praktika sind bei uns möglich: </p><ul><li><p>Schülerpraktikum während der Schulzeiten und in den Ferien</p></li><li><p>Praktikum in unseren unterschiedlichen Ausbildungsberufen </p></li></ul><p>Sende uns deine Kurzbewerbung mit Anschreiben und Lebenslauf bitte schriftlich oder per E-Mail.</p><p>Bitte vorab den Versicherungsschutz prüfen</p>"
@@ -37,6 +42,9 @@ content = "<p>Wir haben einen Ausbildungsplatz zum/zur Technischen Systemplaner 
 titel = "Technischer Systemplaner für Versorgungs- u. Ausrüstungstechnik (m/w/d)"
 [[stellen]]
 art = "Vollzeitstellen (m/w/d)"
+[[stellen.stelle]]
+content = "<p><b>Ihre Aufgaben:</b></p><ul><li>Abstimmung der Planung mit Projektleitern und Planern gemäß Projektvorgaben</li><li>Erstellung von Zeichnungen und Plänen mit AutoCAD</li></ul><p><b>Sie bringen mit:</b></p><ul><li>Kaufmännische oder techn. Ausbildung</li><li>Einsatzfreude, Belastbarkeit, Teamfähigkeit</li><li>selbstständiges und organisiertes Arbeiten</li></ul><p><b>Wir bieten:</b></p><ul><li>gute Bezahlung & diverse Zulagen</li><li>gutes Betriebsklima, motiviertes Team</li><li>unbefristeter Arbeitsplatz</li></ul><p>Bewerbungen an: <a href=\"mailto:info@schenk-plomer.de\">info@schenk-plomer.de</a></p>"
+titel = "Techn. Zeichner / techn. Systemplaner (m/w/d) in Vollzeit (auch Quereinsteiger) "
 [[stellen.stelle]]
 content = "<p><strong>Was wir Dir bieten:</strong></p><p>• übertarifliche Bezahlung</p><p>• geregelte Arbeitszeiten</p><p>• gute Teamdynamik</p><p>• diverse Sonderzahlungen (Urlaubs-/Weihnachtsgeld)</p><p>• gesicherter Arbeitsplatz</p><p>• kostenlose Arbeitskleidung</p><p>• Firmen-PKW</p><p></p><p><strong>Was wir von Dir erwarten:</strong></p><p>• Entsprechende Berufserfahrung Einsatzfreude, Belastbarkeit, Teamfähigkeit</p><p>• Selbstständiges, organisiertes Arbeiten</p><p>• Führerschein (B-Klasse)</p>"
 titel = "OBERMONTEURE(M/W/D)"

@@ -72,6 +72,9 @@ buttonlink = "mailto:info@schenk-plomer.de"
 contenttext = "<p>Unser Fertigungsbereich mit Lüftungskanal- und Formstückbau sowie Schlossereibereich erlaubt es uns, kurzfristig auf sämtliche Anforderungen einer Baustelle oder einer Sanierung zu reagieren. Im Januar 2020 wurden neue Fertigungsmaschinen integriert welche unsere Fertigungskapazität aktuell mehr als verdoppelt. So ist es nun möglich,<strong> ca. 1.500 bis 2.000 m² Kanal- und Formstücke wöchentlich </strong>zu produzieren. <br>Die Auslieferung mit dem eigenen Fuhrpark stellt eine termingerechte Kunden- und Baustellenbelieferung sicher. Gerne können Sie uns bei Bedarf Ihre Anfrage über die Lieferung von Stahlblechkanälen verzinkt zukommen lassen.</p>"
 header = "NEU !!  Lüftungskanal- und Formstückbau"
 [[news_1.news]]
+bilder = "/uploads/2020/09/22/st-anzeige.jpeg"
+header = "Schenk und Plomer unterstützt SV Essenbach"
+[[news_1.news]]
 bilder = "/uploads/2023/20230525_IHK.jpeg"
 bild2 = "/uploads/2023/20230525_IHK_Urkunde.jpeg"
 contentext = "<p><strong>Hoher Besuch im Hause Schenk & Plomer – IHK Niederbayern gratuliert zum 30 jährigen Jubiläum.</strong></p><p>Herr Hans Graf, Vize- Präsident IHK Niederbayern sowie Herr Marc- Andre Alram, Regionalleiter Niederbayern, gratulierten der Fa. Schenk & Plomer zum 30- jährigen Jubiläum. Bei Häppchen und Kuchen gab es einen angenehmen Erfahrungsaustausch.Wir freuen uns über die Wertschätzung durch unsere Industrie- und Handelskammer und freuen uns auf eine weitere Zusammenarbeit.</p><p>Foto: von links Thomas Dachs , Christian Plomer, Raimund Plomer, Hans Graf, Marc- Andre Alram, Marcus Plomer</p>"
@@ -80,7 +83,7 @@ header = "30-jähriges Firmenjubiläum"
 bilder = "/uploads/2020/09/22/st-anzeige.jpeg"
 buttonbeschriftung = "weiterlesen"
 buttonlink = "https://schenk-plomer.de/karriere/"
-contentext = "Lüftung-, Sanitär-, Heizungs-, Klimatechnik<br>WARTUNGS-/KUNDENDIENSTMONTEURE(M/W/D)<br>MONTEURE (M/W/D)<br>OBERMONTEURE(M/W/D)"
+contentext = "Lüftung-, Sanitär-, Heizungs-, Klimatechnik<br>WARTUNGS-/KUNDENDIENSTMONTEURE(M/W/D)<br>MONTEURE (M/W/D)<br>OBERMONTEURE(M/W/D)<br>Technische Bürokraft (m/w/d) in Teilzeit <br>Techn. Zeichner / techn. Systemplaner (m/w/d) in Vollzeit (auch Quereinsteiger)"
 header = "Wir suchen DICH!"
 [[news_1.news]]
 bilder = "/uploads/2022/06/22/willst-du-mit-uns-fahren.jpg"
