@@ -7,12 +7,12 @@
     {{ range $x,$img := .overlay_mitte_sliderbilder }}
     <li>
   <div id="headimg_l0"
-    style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "q_100" )}}) left center no-repeat; background-size:cover;">
+    style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "quality=100" )}}) left center no-repeat; background-size:cover;">
     {{if .content}}
     <div class="ui container">
       <div id="om2" >
         <a href="{{.link}}">
-          <img src="{{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}"/>
+          <img src="{{partial "imgUrl" (dict "img" .bild "params" "quality=100" )}}"/>
         </a>
         <div class="ct">
           {{.content|safeHTML}}
@@ -31,11 +31,11 @@
     
     {{else}}
     <div id="om">
-      <div style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}) center {{if .content}}top{{else}}bottom{{end}} no-repeat; background-size:contain;"></div>
+      <div style="background:url({{partial "imgUrl" (dict "img" .bild "params" "quality=100" )}}) center {{if .content}}top{{else}}bottom{{end}} no-repeat; background-size:contain;"></div>
     </div>
     {{end}}
-    <!-- <div id="om" style="background:url({{partial "imgUrl" (dict "img" .overlay_mitte "params" "q_100" )}}) center bottom no-repeat; background-size:contain;"></div>-->
-    <div id="or" style="background:url({{partial "imgUrl" (dict "img" .overlay_rechts "params" "q_100" )}}) left bottom no-repeat; background-size:cover;">
+    <!-- <div id="om" style="background:url({{partial "imgUrl" (dict "img" .overlay_mitte "params" "quality=100" )}}) center bottom no-repeat; background-size:contain;"></div>-->
+    <div id="or" style="background:url({{partial "imgUrl" (dict "img" .overlay_rechts "params" "quality=100" )}}) left bottom no-repeat; background-size:cover;">
   </div>
   
   </div>
@@ -51,7 +51,7 @@
         <div class="line"></div>
       </div>
     </div>
-    <div id="lst" style="background:url({{partial "imgUrl" (dict "img" .hintergrundbild "params" "q_100" )}}) left center no-repeat; background-size:contain;">
+    <div id="lst" style="background:url({{partial "imgUrl" (dict "img" .hintergrundbild "params" "quality=100" )}}) left center no-repeat; background-size:contain;">
       <div class="ui container">
         <a href="{{ref $p .link_bereiche_1}}">
         <div class="ui six column wide doubling grid lbers">
@@ -59,7 +59,7 @@
           
             <div class="column">
                 
-              <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100" )}}"/>
+              <img src="{{partial "imgUrl" (dict "img" .icon "params" "quality=100" )}}"/>
               <h3>{{.beschriftung|safeHTML}}</h3>
             </div>
           {{end}}
@@ -69,7 +69,7 @@
             <div class="ui six column wide doubling grid lbers">
           {{range .bereiche2}}
             <div class="column">
-              <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100" )}}"/>
+              <img src="{{partial "imgUrl" (dict "img" .icon "params" "quality=100" )}}"/>
               <h3>{{.beschriftung|safeHTML}}</h3>
             </div>
           {{end}}
@@ -105,8 +105,8 @@
 
     <div id="spb">
       {{range .bereiche}}
-        <div style="background:url({{partial "imgUrl" (dict "img" .overlay "params" "q_100" )}}) right center no-repeat; background-size:cover;">
-          <img src="{{partial "imgUrl" (dict "img" .logo "params" "q_100" )}}"/>
+        <div style="background:url({{partial "imgUrl" (dict "img" .overlay "params" "quality=100" )}}) right center no-repeat; background-size:cover;">
+          <img src="{{partial "imgUrl" (dict "img" .logo "params" "quality=100" )}}"/>
           <h2>{{.titel|safeHTML}}</h2>
         </div>
       {{end}}
@@ -132,9 +132,9 @@
       <div class="ui stackable grid imggal">
         <div class="four wide column imggalcol">
           <a target="_blank" href="{{.buttonlink}}">
-          <img class="bimg" src="{{partial "imgUrl" (dict "img" .bilder "params" "g_auto,f_auto/c_scale,h_600" )}}"/>
+          <img class="bimg" src="{{partial "imgUrl" (dict "img" .bilder "params" "g_auto,format=auto,fit=scale-down,height=600" )}}"/>
           {{with .bild2}}
-          <img class="bimg" src="{{partial "imgUrl" (dict "img" . "params" "g_auto,f_auto/c_scale,h_600" )}}"/>
+          <img class="bimg" src="{{partial "imgUrl" (dict "img" . "params" "g_auto,format=auto,fit=scale-down,height=600" )}}"/>
           {{end}}
           </a>
         </div>
@@ -160,7 +160,7 @@
       </div>
       {{else}}
       <div style="text-align: center;">
-      <img class="bimg" src="{{partial "imgUrl" (dict "img" .bilder "params" "g_auto,f_auto/c_scale,h_600" )}}"/>
+      <img class="bimg" src="{{partial "imgUrl" (dict "img" .bilder "params" "g_auto,format=auto,fit=scale-down,height=600" )}}"/>
     </div>
       {{end}}
     </div>
@@ -176,14 +176,14 @@
       <div class="ui three column stackable grid imggal">
         <div class="column imggalcol">
           {{ range $x,$img := .bildergalerie }} {{if eq $x 0}}
-            <img data-modal="imgg_about" class="bimg" data-idx="{{$x}}" src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_600" )}}"
+            <img data-modal="imgg_about" class="bimg" data-idx="{{$x}}" src="{{partial "imgUrl" (dict "img" $img "params" "fit=cover,height=1200,width=1200,gravity=autoauto,format=auto,fit=scale-down,height=600" )}}"
             /> {{end}}{{end}}
         </div>
         <div class="column">
           <div class="ui two column stackable grid">
             {{ range $x,$img := .bildergalerie }} {{if gt $x 0}}{{if lt $x 5}}
             <div class=" column imggalcol">
-              <img data-modal="imgg_about" data-idx="{{$x}}" class="simg" src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_200" )}}"
+              <img data-modal="imgg_about" data-idx="{{$x}}" class="simg" src="{{partial "imgUrl" (dict "img" $img "params" "fit=cover,height=1200,width=1200,gravity=autoauto,format=auto,fit=scale-down,height=200" )}}"
               /> 
             </div>
             {{end}}{{end}}{{end}}
@@ -212,7 +212,7 @@
           <ul id="gal_imgg_about" class="imggalslider">
             {{ range $x,$img := .bildergalerie }}
             <li>
-              <img src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_500" )}} " />
+              <img src="{{partial "imgUrl" (dict "img" $img "params" "fit=cover,height=1200,width=1200,gravity=autoauto,format=auto,fit=scale-down,height=500" )}} " />
             </li>
             {{end}}
           </ul>

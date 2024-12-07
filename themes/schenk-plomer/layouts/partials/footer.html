@@ -1,14 +1,14 @@
 {{ $t := .Site.GetPage "footer.md" }}
 <footer class=" {{if .IsHome}}home{{end}}">
   <div class="footeri">
-      <img id="fil" src="{{partial "imgUrl" (dict "img" $t.Params.logo "params" "q_100" )}}"/>
+      <img id="fil" src="{{partial "imgUrl" (dict "img" $t.Params.logo "params" "quality=100" )}}"/>
     <div class="ui container">
     <div class="ui six column wide doubling grid">
       {{range $t.Params.abschnitte}}
         <div class="column fc">
           {{.content|safeHTML}}
           {{range .logos}}
-          <img src="{{partial "imgUrl" (dict "img" . "params" "q_100" )}}"/>
+          <img src="{{partial "imgUrl" (dict "img" . "params" "quality=100" )}}"/>
           {{end}}
         </div>
       {{end}}

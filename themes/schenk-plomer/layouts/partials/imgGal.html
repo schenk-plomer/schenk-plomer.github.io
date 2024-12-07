@@ -3,13 +3,13 @@
 <div class="ui container grid imggal doubling">
   <div class="sixteen wide column">
     {{ range $x,$img := .bilder }} {{if eq $x 0}}
-    <img data-modal="imgg_{{md5 $id}}" class="bimg" data-idx="{{$x}}" src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_600" )}}"
+    <img data-modal="imgg_{{md5 $id}}" class="bimg" data-idx="{{$x}}" src="{{partial "imgUrl" (dict "img" $img "params" "fit=cover,height=1200,width=1200,gravity=autoauto,format=auto,fit=scale-down,height=600" )}}"
     /> {{end}}{{end}}
   </div>
   {{ range $x,$img := .bilder }} {{if gt $x 0}}
   <div class="four wide column imggalcol">
     
-    <img data-modal="imgg_{{md5 $id}}" data-idx="{{$x}}" class="simg" src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_200" )}}"
+    <img data-modal="imgg_{{md5 $id}}" data-idx="{{$x}}" class="simg" src="{{partial "imgUrl" (dict "img" $img "params" "fit=cover,height=1200,width=1200,gravity=autoauto,format=auto,fit=scale-down,height=200" )}}"
     /> 
   </div>
   {{end}}{{end}}
@@ -19,7 +19,7 @@
     <ul id="gal_imgg_{{md5 $id}}" class="imggalslider">
       {{ range $x,$img := .bilder }}
       <li>
-        <img src="{{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto/c_scale,h_500" )}} " />
+        <img src="{{partial "imgUrl" (dict "img" $img "params" "fit=cover,height=1200,width=1200,gravity=autoauto,format=auto,fit=scale-down,height=500" )}} " />
       </li>
       {{end}}
     </ul>

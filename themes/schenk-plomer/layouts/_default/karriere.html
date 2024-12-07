@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="subpage" id="karriere">
-  <div id="db" style="background:url({{partial "imgUrl" (dict "img" .Params.titel_bild "params" "q_100" )}}) center top no-repeat; background-size:cover;">
+  <div id="db" style="background:url({{partial "imgUrl" (dict "img" .Params.titel_bild "params" "quality=100" )}}) center top no-repeat; background-size:cover;">
     <div class="subptitle">
       <div class="ui container standard">
         <h1>{{.Title|safeHTML}}</h1>
