@@ -6,19 +6,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Hugo
-      uses: crazy-max/ghaction-hugo@v1
-      with:
-        version: latest
-        args: --cleanDestinationDir --minify --verbose
-    - name: Deploy
-      if: success() && github.event_name != 'pull_request'
-      uses: crazy-max/ghaction-github-pages@v1
-      with:
-        target_branch: master
-        build_dir: public
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v2
+      - name: Run a one-line script
+        run: echo Hello, world!
+      - name: Hugo
+        uses: crazy-max/ghaction-hugo@v1
+        with:
+          version: latest
+          args: --cleanDestinationDir --minify
+      - name: Deploy
+        if: success() && github.event_name != 'pull_request'
+        uses: crazy-max/ghaction-github-pages@v1
+        with:
+          target_branch: master
+          build_dir: public
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
