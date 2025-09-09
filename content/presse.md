@@ -10,6 +10,20 @@ untertitel = "Presse & mehr"
 parent = "Unternehmen"
 weight = 1
 [[artikel]]
+bild = "/uploads/2025/stillespende.png"
+datei = "/uploads/2025/2025-08-04_Landshuter_Zeitung_Seite_13.pdf"
+link_beschriftung = "ganzen Artikel lesen"
+quelle = "Landshuter Zeitung"
+titel = "Raimund Plomer spendet"
+zusammenfassung = "<p>Raimund Plomer, Geschäftsführer der Schenk und Plomer GmbH in Altheim, feierte seinen 60. Geburtstag und bat statt Geschenken um Spenden für die „Stille Hilfe“. Dabei kam eine Summe zusammen, die er großzügig auf 3.000 Euro aufrundete. Die offizielle Übergabe erfolgte am 25. Juli mit seinen Söhnen, Mitgeschäftsführer Thomas Dachs sowie Landrat Peter Dreier und dessen Frau Petra. Der Verein „Stille Hilfe e.V.“ unterstützt seit 2014 Menschen aus Stadt und Landkreis Landshut, die unverschuldet in Not geraten sind, schnell, diskret und anonym. Mit seiner Spende trägt Plomer dazu bei, dass der Verein weiterhin unbürokratisch helfen kann, wo Unterstützung am dringendsten benötigt wird.</p>"
+[[artikel]]
+bild = "/uploads/2025/30jahreartikel.png"
+datei = "/uploads/2025/30JahreSchenkPlomer.pdf"
+link_beschriftung = "ganzen Artikel lesen"
+quelle = "Landshuter Zeitung"
+titel = "Gute Lüftung – prima Klima: Die Firma Schenk & Plomer in Essenbach blickt auf 30 Jahre erfolgreiche Arbeit zurück"
+zusammenfassung = "<p>Das Unternehmen wurde 1993 von Raimund Plomer und Martin Schenk gegründet und wuchs vom kleinen Betrieb mit 12 Mitarbeitern zu einem Mittelständler mit rund 180 Angestellten. Heute bietet Schenk & Plomer ein breites Leistungsspektrum in Klima-, Lüftungs- und Gebäudetechnik und betreut auch namhafte Kunden wie den Flughafen München oder Google Deutschland. Neben dem technischen Erfolg legt die Firma großen Wert auf zuverlässigen Kundendienst, langfristige Mitarbeiterbindung sowie Ausbildung und Förderung von Nachwuchskräften. Zum Jubiläum erhielt das Unternehmen die Ehrenurkunde der IHK und betonte Dankbarkeit gegenüber Mitarbeitern, Kunden und Partnern.</p>"
+[[artikel]]
 bild = "/uploads/2021/10/06/azubi-wochenblattpreview.jpg"
 datei = "/uploads/2021/10/06/artikelazubis.pdf"
 link_beschriftung = "ganzen Artikel lesen"
