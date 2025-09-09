@@ -3,7 +3,7 @@ date = "2018-05-25T14:23:18.000+00:00"
 logo = "/uploads/2019/11/04/schenk_plomer_logo.png"
 title = "Footer"
 [[abschnitte]]
-content = "<p><strong>Schenk &amp; Plomer GmbH<br>Plomer &amp; Dachs GmbH</strong></p><ul><li><p>Dieselstrasse 6<br>84051 Altheim</p></li><li><p>+49 8703 / 9226-0</p></li><li><p><a href=\"mailto:info@schenk-plomer.de\" title=\"\">info@schenk-plomer.de</a></p></li></ul><p><a href=\"https://www.instagram.com/schenk_plomer_gmbh/?hl=de\" title=\"\">Besuchen Sie uns auf Instagramm</a></p><p><a href=\"https://www.instagram.com/schenk_plomer_gmbh/?hl=de\" title=\"\"><img src=\"/uploads/2022/02/07/insta_neu.png\"></a></p>"
+content = "<p><strong>Schenk &amp; Plomer GmbH<br>Plomer &amp; Dachs GmbH</strong></p><ul><li><p>Dieselstrasse 6<br>84051 Altheim</p></li><li><p>+49 8703 / 9226-0</p></li><li><p><a href=\"mailto:info@schenk-plomer.de\" title=\"\">info@schenk-plomer.de</a></p></li></ul><p><a href=\"https://www.instagram.com/schenk_plomer_gmbh/?hl=de\" title=\"\">Besuchen Sie uns auf Instagramm</a></p><p><a href=\"https://www.instagram.com/schenkundplomer?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" title=\"\"><img src=\"/uploads/2022/02/07/insta_neu.png\"></a></p>"
 logos = []
 [[abschnitte]]
 content = "<p><a href=\"/luft-und-klimatechnik\" title=\"Luft- und Klimatechnik\"><strong>Luft- und Klimatechnik</strong></a></p><ul><li><p>Klimaanlagen</p></li><li><p>Lüftungsanlagen</p></li><li><p>Absauganlagen</p></li><li><p>Be- &amp; Entfeuchtung</p></li><li><p>Wärmerückgewinnung</p></li><li><p>Schall- und Lärmschutz</p></li></ul>"
