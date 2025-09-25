@@ -132,7 +132,9 @@
       <div class="ui stackable grid imggal">
         <div class="four wide column imggalcol">
           <a target="_blank" href="{{.buttonlink}}">
-          <img class="bimg" src="{{partial "imgUrl" (dict "img" .bilder "params" "g_auto,format=auto,fit=scale-down,height=600" )}}"/>
+            {{with .bilder}}
+          <img class="bimg" src="{{partial "imgUrl" (dict "img" . "params" "g_auto,format=auto,fit=scale-down,height=600" )}}"/>
+          {{end}}
           {{with .bild2}}
           <img class="bimg" src="{{partial "imgUrl" (dict "img" . "params" "g_auto,format=auto,fit=scale-down,height=600" )}}"/>
           {{end}}

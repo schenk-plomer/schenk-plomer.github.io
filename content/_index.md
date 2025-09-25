@@ -72,6 +72,9 @@ buttonlink = "mailto:info@schenk-plomer.de"
 contenttext = "<p>Unser Fertigungsbereich mit Lüftungskanal- und Formstückbau sowie Schlossereibereich erlaubt es uns, kurzfristig auf sämtliche Anforderungen einer Baustelle oder einer Sanierung zu reagieren. Im Januar 2020 wurden neue Fertigungsmaschinen integriert welche unsere Fertigungskapazität aktuell mehr als verdoppelt. So ist es nun möglich,<strong> ca. 1.500 bis 2.000 m² Kanal- und Formstücke wöchentlich </strong>zu produzieren. <br>Die Auslieferung mit dem eigenen Fuhrpark stellt eine termingerechte Kunden- und Baustellenbelieferung sicher. Gerne können Sie uns bei Bedarf Ihre Anfrage über die Lieferung von Stahlblechkanälen verzinkt zukommen lassen.</p>"
 header = "NEU !!  Lüftungskanal- und Formstückbau"
 [[news_1.news]]
+header = "Projektabschluss: Gewerbekomplex III, Landshut West"
+contentext = "<p><b>Landshut September 2025</b><p>Wir freuen uns, die erfolgreiche Fertigstellung des Gewerbekomplex III in Landshut West bekanntzugeben.<br/>Unser Beitrag: die Planung und Installation moderner Lüftungs- und Klimaanlagen, die für ein optimales Raumklima und effiziente Belüftung sorgen.<br/>Mit energieeffizienten Lösungen, nachhaltiger Planung und präziser Umsetzung haben wir ein Projekt begleitet, das Maßstäbe für die Arbeitswelt von morgen setzt.</p>"
+[[news_1.news]]
 bilder = "/uploads/2025/LRA.jpeg"
 header = "Optimales Raumklima für gute Entscheidungen"
 contentext = "<p>Mit Freude dürfen wir den erfolgreichen Abschluss unserer Lüftungsinstallation im Neubau des Landratsamts Landshut bekanntgeben. Dank moderner Technik und sorgfältiger Ausführung konnten wir mit unserer Arbeit einen wichtigen Beitrag dazu leisten, ein gesundes und angenehmes Raumklima für die Mitarbeiterinnen, Mitarbeiter und Besucher des neuen Landratsamts zu schaffen.</p><p>So bleiben die Köpfe kühl, auch wenn die Gedanken heiß laufen.</p>"
