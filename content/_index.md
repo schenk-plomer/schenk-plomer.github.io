@@ -72,6 +72,15 @@ buttonlink = "mailto:info@schenk-plomer.de"
 contenttext = "<p>Unser Fertigungsbereich mit Lüftungskanal- und Formstückbau sowie Schlossereibereich erlaubt es uns, kurzfristig auf sämtliche Anforderungen einer Baustelle oder einer Sanierung zu reagieren. Im Januar 2020 wurden neue Fertigungsmaschinen integriert welche unsere Fertigungskapazität aktuell mehr als verdoppelt. So ist es nun möglich,<strong> ca. 1.500 bis 2.000 m² Kanal- und Formstücke wöchentlich </strong>zu produzieren. <br>Die Auslieferung mit dem eigenen Fuhrpark stellt eine termingerechte Kunden- und Baustellenbelieferung sicher. Gerne können Sie uns bei Bedarf Ihre Anfrage über die Lieferung von Stahlblechkanälen verzinkt zukommen lassen.</p>"
 header = "NEU !!  Lüftungskanal- und Formstückbau"
 [[news_1.news]]
+bilder = "/uploads/2025/CleverFIT.jpeg"
+header = "Projektabschluss: clever fit – moderne Lüftungstechnik für beste Trainingsbedingungen"
+contentext = "<p>Hier kommt keiner mehr ins Schwitzen – außer beim Training! Seit dem <b>01. November 2025</b> sorgt unsere hochwertige Lüftungsanlage</b> im neuen clever fit für dauerhaft frische Luft und ein optimales Trainingsklima. Dank moderner <b>Lüftungstechnik</b> bleibt die Raumluft auch bei hoher Auslastung sauber, angenehm temperiert und zuverlässig entfeuchtet.</br>Wir freuen uns, dieses Projekt erfolgreich umgesetzt zu haben, und gratulieren dem Team von clever fitherzlich zur Neueröffnung. Wir wünschen eine erfolgreiche Zeit am neuen Standort und viele sportlich motivierte Besucher, die von der verbesserten <b>Raumluftqualität</b> profitieren.</p>"
+[[news_1.news]]
+bilder = "/uploads/2025/Altstadthaus.jpeg"
+header = "Projektabschluss: Altstadthaus – effiziente Lüftungsanlage hinter historischer Fassade"
+contentext = "<p>Hinter der historischen Fassade sorgt ab sofort unser modernes <b>Lüftungssystem</b> für ein angenehmes und gesundes <b>Wohlfühlklima</b>. Die Verbindung aus traditioneller Architektur und moderner <b>Lüftungstechnik</b> bietet höchsten Komfort! Unsichtbar installiert, aber jederzeit spürbar durch frische, kontrollierte Raumluft.</br>Ob gewerblich oder privat genutzt: Die neue Lüftungsanlage gewährleistet eine konstante Luftqualität, reduziert Feuchtigkeit und schafft ideale Bedingungen für ein energieeffizientes Innenraumklima. Wir sind stolz, dieses besondere Bauprojekt begleitet zu haben, und wünschen allen Nutzerinnen und Nutzern eine gute Zeit im revitalisierten Altstadthaus.</p>"
+[[news_1.news]]
+bilder = "/uploads/2025/Gewerbekomplex.jpeg"
 header = "Projektabschluss: Gewerbekomplex III, Landshut West"
 contentext = "<p><b>Landshut September 2025</b><p>Wir freuen uns, die erfolgreiche Fertigstellung des Gewerbekomplex III in Landshut West bekanntzugeben.<br/>Unser Beitrag: die Planung und Installation moderner Lüftungs- und Klimaanlagen, die für ein optimales Raumklima und effiziente Belüftung sorgen.<br/>Mit energieeffizienten Lösungen, nachhaltiger Planung und präziser Umsetzung haben wir ein Projekt begleitet, das Maßstäbe für die Arbeitswelt von morgen setzt.</p>"
 [[news_1.news]]
