@@ -23,6 +23,6 @@ zahl = "40"
 [[zahlen_und_fakten]]
 bezeichnung = "Jahre Know - How"
 icon = "/uploads/2019/11/04/know-how.png"
-zahl = "26"
+zahl = "33"
 
 +++

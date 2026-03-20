@@ -3,9 +3,6 @@ layout = "corona-info"
 seo_description = ""
 titel_bild = "/uploads/2021/03/30/covid19-header.jpg"
 title = "<p>Corona-Info</p>"
-[menu.main]
-name = "Corona-Info"
-weight = 5
 [[news_1.news]]
 bilder = "/uploads/2021/07/07/raumluftreiniger-schallschutzhaube.jpg"
 buttonbeschriftung = "Datenblatt anzeigen"

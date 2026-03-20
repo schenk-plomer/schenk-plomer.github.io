@@ -95,46 +95,6 @@ contentext = "<p><b>Altheim bei Essenbach, 25. Juli 2025</b><p>Bei der Firma Sch
 bilder = "/uploads/2025/30jahreartikel.png"
 header = "Gute Lüftung – prima Klima: Die Firma Schenk & Plomer in Essenbach blickt auf 30 Jahre erfolgreiche Arbeit zurück"
 contentext = "<p><b>Altheim, 2024</b><p>Vor 30 Jahren erkannten Raimund Plomer und Martin Schenk das Potential der Luft- und Klimatechnik und gründeten am 19. Mai 1993 die „Schenk & Plomer GmbH“. Als Mitarbeiter der Gründerzeit übernahm Thomas Dachs im April 2016 den Posten des zweiten Geschäftsführers neben Raimund Plomer, nachdem Martin Schenk in seinen wohlverdienten Ruhestand gegangen war. Bereits im ersten Jahr nach Firmengründung platzte damals das Gelände der ursprünglichen Firma in Oberahrain aus allen Nähten, und man musste sich nach neuen Räumlichkeiten umsehen. Schnell war klar: Ein moderner neuer Firmensitz braucht ein eigenes Grundstück, ausreichend für Büroräume, Lagerhallen und Werkstatt. In der Dieselstraße in Altheim konnte das Unternehmen auf rund 3500 Quadratmetern Fläche ihre Vorstellungen verwirklichen. Es konnte im Juli 1995 bezogen werden und ist bis heute der Hauptsitz der Firma.</p><p>Das Unternehmen wurde 1993 von Raimund Plomer und Martin Schenk gegründet und wuchs vom kleinen Betrieb mit 12 Mitarbeitern zu einem Mittelständler mit rund 180 Angestellten. Heute bietet Schenk & Plomer ein breites Leistungsspektrum in Klima-, Lüftungs- und Gebäudetechnik und betreut auch namhafte Kunden wie den Flughafen München oder Google Deutschland. Neben dem technischen Erfolg legt die Firma großen Wert auf zuverlässigen Kundendienst, langfristige Mitarbeiterbindung sowie Ausbildung und Förderung von Nachwuchskräften. Zum Jubiläum erhielt das Unternehmen die Ehrenurkunde der IHK und betonte Dankbarkeit gegenüber Mitarbeitern, Kunden und Partnern</p>"
-[[news_1.news]]
-bilder = "/uploads/2023/weihnachtsfeier.jpeg"
-header = "Weihnachtsfeier"
-contentext = "<p><b>Altheim.</b>Nach einem erfolgreichen Jahr für die Firmengruppierung Schenk & Plomer und Plomer & Dachs, fand am Freitag, den 15.12.2023 die alljährliche Weihnachtsfeier im Sportheim des SV Altheim statt.</p><p>In gemütlicher Atmosphäre genoss man das Beisammensein und feierte das erfolgreich vergangene Jahr mit einem Buffet, Livemusik und einer Tombola.</p><p>Highlight der Weihnachtsfeier war die Mitarbeiterehrung für besondere Leistungen. Geschäftsführer Raimund Plomer betonte, dass die Mitarbeiter für ihn das wichtigste Kapital sind.</p><p>Diesmal konnten gleich 20 Mitarbeiter für ihren Einsatz seit 5, 10, 20, 25 und sogar über 30 Jahren ausgezeichnet werden. Unter anderem auch Geschäftsführer Thomas Dachs.</p><p>Neben den Ehrungen einzelner Mitarbeiter war es den beiden Geschäftsführern Raimund Plomer und Thomas Dachs ein Herzensanliegen, ein großes „Dankeschön“ an alle Kollegen für die im Jahr 2023 geleistete Arbeit auszusprechen. Auch der Blick in die Zukunft fiel für die beiden Geschäftsführer positiv aus. So freuten Sie sich das Jahr 2023 mit einer nennenswerten Umsatzsteigerung zum Abschluss zu bringen und wünschten den anwesenden Kollegen und Geschäftspartnern eine besinnliche Weihnachtszeit und einen guten Start ins neue Jahr.</p>"
-[[news_1.news]]
-bilder = "/uploads/2023/2023_ohu_a.jpeg"
-header = "Strahlende Gesichter bei der E-Jugend des SV Ohu-Ahrain"
-contentext = "<p><b>Altheim.</b> Der Nikolaus in Form der beiden Geschäftsführer Raimund Plomer und Thomas Dachs hat dem SV Ohu-Ahrain etwas mitgebracht. </p><p>Am 07. Dezember erfolgte die Übergabe der neuen Trikots für die E-Jugend auf dem Firmengelände der Schenk & Plomer GmbH in Altheim durch die beiden Geschäftsführer. Als anerkanntem Ausbildungs- und Familienbetrieb sind Geschäftsführer Raimund Plomer und Sohn Christian Plomer, die Förderung des Nachwuchses sehr wichtig. „Gemeinschaftssport fördert die Teamfähigkeit. Dies ist für ein erfolgreiches Berufsleben essenziell.“ </p><p>Sie wünschen den E-Junioren viel Erfolg für die kommende Saison und freuen sich darauf die Nachwuchstalente künftig in strahlendem Orange über das Feld laufen zu sehen. Stellvertretend für den SV Ohu-Ahrain bedankte sich Trainer Stefan Neess für die Spende der Trikots.</p>"
-[[news_1.news]]
-bilder = "/uploads/2023/2023_sve.jpeg"
-header = "Schenk und Plomer unterstützt SV Essenbach"
-[[news_1.news]]
-bilder = "/uploads/2023/20230525_IHK.jpeg"
-bild2 = "/uploads/2023/20230525_IHK_Urkunde.jpeg"
-contentext = "<p><strong>Hoher Besuch im Hause Schenk & Plomer – IHK Niederbayern gratuliert zum 30 jährigen Jubiläum.</strong></p><p>Herr Hans Graf, Vize- Präsident IHK Niederbayern sowie Herr Marc- Andre Alram, Regionalleiter Niederbayern, gratulierten der Fa. Schenk & Plomer zum 30- jährigen Jubiläum. Bei Häppchen und Kuchen gab es einen angenehmen Erfahrungsaustausch.Wir freuen uns über die Wertschätzung durch unsere Industrie- und Handelskammer und freuen uns auf eine weitere Zusammenarbeit.</p><p>Foto: von links Thomas Dachs , Christian Plomer, Raimund Plomer, Hans Graf, Marc- Andre Alram, Marcus Plomer</p>"
-header = "30-jähriges Firmenjubiläum"
-[[news_1.news]]
-bilder = "/uploads/2020/09/22/st-anzeige.jpeg"
-buttonbeschriftung = "weiterlesen"
-buttonlink = "https://schenk-plomer.de/karriere/"
-contentext = "Lüftung-, Sanitär-, Heizungs-, Klimatechnik<br>WARTUNGS-/KUNDENDIENSTMONTEURE(M/W/D)<br>MONTEURE (M/W/D)<br>OBERMONTEURE(M/W/D)<br>Technische Bürokraft (m/w/d) in Teilzeit <br>Techn. Zeichner / techn. Systemplaner (m/w/d) in Vollzeit (auch Quereinsteiger)"
-header = "Wir suchen DICH!"
-[[news_1.news]]
-bilder = "/uploads/2022/06/22/willst-du-mit-uns-fahren.jpg"
-buttonbeschriftung = "weiterlesen"
-buttonlink = "https://schenk-plomer.de/karriere/"
-contentext = "WILLST DU MIT UNS FAHREN?<br>LKW Fahrer (m/w/d) in Festanstellung"
-header = "WILLST DU MIT UNS FAHREN? "
-[[news_1.news]]
-bilder = "/uploads/2020/09/22/st-anzeige.jpeg"
-buttonbeschriftung = "weiter lesen"
-buttonlink = "https://schenk-plomer.de/karriere/"
-contentext = "LKW Fahrer (m/w/d) in Festanstellung<br>Obermonteure / Monteure (M/W/D) für Lüftungstechnik<br>Heizungs-/Sanitärmeister (m/w/d) in Vollzeit zur Projektleitung /Abteilungsleitung<br>Obermonteure / Monteure für Lüftungs- und Klimaanlagen<br>Service- und Wartungsmonteure für Lüftungsanlagen am Flughafen München"
-header = "Aktuelle vakante Stellen"
-[[news_1.news]]
-bilder = "/uploads/2022/02/07/azubi2021.JPG"
-buttonbeschriftung = "weitere Stellen"
-buttonlink = "https://schenk-plomer.de/karriere/"
-contentext = "<span class=\"s1\">Auch dieses Jahr freuen wir uns über unsere neuen Auszubildenden. </span>"
-header = "Unsere Auszubildenden 2021"
 [schenk_and_plomer]
 content = "<p>Schenk &amp; Plomer GmbH im niederbayerischen Essenbach Ihr verlässlicher Spezialist für die Herstellung, Installation und Wartung hochwertiger und komplexer Klima- und Lüftungsanlagen seit 1993. Über die 2017 gegründete Plomer &amp; Dachs GmbH, eine 100%ige Tochter der Schenk &amp; Plomer GmbH, decken wir die Versorgungs- und Ausrüstungstechnik sowie innovativer Energie- und Gebäudetechnik ab. Im Bereich baulicher Brandschutz, und Wärmedämmung verfügen wir über ein Netzwerk langjähriger Partnerunternehmen, auf die wir je nach Bedarf zurückgreifen können.</p>"
 titel = "<p><strong>Schenk &amp; Plomer GmbH</strong></p>"
