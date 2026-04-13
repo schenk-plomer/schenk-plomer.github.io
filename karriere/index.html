@@ -143,42 +143,73 @@
             <h3 style="margin-bottom: 0.5rem;">Apply in <span class="network-font">60 seconds</span></h3>
             <p style="font-size: 0.9rem; margin-bottom: 2rem;">Kein ewiges Anschreiben nötig. Ein Lebenslauf und deine Kontaktdaten reichen für den ersten Schritt!</p>
             
-            <form action="mailto:info@schenk-plomer.de" method="POST" enctype="text/plain" style="display: flex; flex-direction: column; gap: 1.25rem;">
+            
+            <form id="bewerbungForm" onsubmit="submitBewerbung(event)" style="display: flex; flex-direction: column; gap: 1.25rem;">
               <div>
-                <label for="name" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.25rem; color: var(--text-secondary);">Vor- & Nachname *</label>
-                <input type="text" id="name" name="Name" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-body);">
+                <label for="bw-name" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.25rem; color: var(--text-secondary);">Vor- & Nachname *</label>
+                <input type="text" id="bw-name" name="name" required style="width: 100%; padding: 0.75rem; border: 2px solid #e2e2e2; border-radius: 8px; font-family: var(--font-body); font-size: 1rem; transition: border-color 0.2s;" onfocus="this.style.borderColor='var(--brand-blue)'" onblur="this.style.borderColor='#e2e2e2'">
               </div>
               
               <div>
-                <label for="email" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.25rem; color: var(--text-secondary);">E-Mail Adresse *</label>
-                <input type="email" id="email" name="Email" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-body);">
+                <label for="bw-email" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.25rem; color: var(--text-secondary);">E-Mail Adresse *</label>
+                <input type="email" id="bw-email" name="email" required style="width: 100%; padding: 0.75rem; border: 2px solid #e2e2e2; border-radius: 8px; font-family: var(--font-body); font-size: 1rem; transition: border-color 0.2s;" onfocus="this.style.borderColor='var(--brand-blue)'" onblur="this.style.borderColor='#e2e2e2'">
               </div>
               
               <div>
-                <label for="phone" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.25rem; color: var(--text-secondary);">Telefonnummer (optional)</label>
-                <input type="tel" id="phone" name="Telefon" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-body);">
+                <label for="bw-phone" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.25rem; color: var(--text-secondary);">Telefonnummer *</label>
+                <input type="tel" id="bw-phone" name="telefon" required style="width: 100%; padding: 0.75rem; border: 2px solid #e2e2e2; border-radius: 8px; font-family: var(--font-body); font-size: 1rem; transition: border-color 0.2s;" onfocus="this.style.borderColor='var(--brand-blue)'" onblur="this.style.borderColor='#e2e2e2'">
               </div>
 
               <div>
-                <label for="position" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.25rem; color: var(--text-secondary);">Interessiert an *</label>
-                <select id="position" name="Gewünschte Position" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-body); background: white;">
+                <label for="bw-position" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.25rem; color: var(--text-secondary);">Interessiert an *</label>
+                <select id="bw-position" name="position" required style="width: 100%; padding: 0.75rem; border: 2px solid #e2e2e2; border-radius: 8px; font-family: var(--font-body); font-size: 1rem; background: white; transition: border-color 0.2s;" onfocus="this.style.borderColor='var(--brand-blue)'" onblur="this.style.borderColor='#e2e2e2'">
                   <option value="">Bitte wählen...</option>
-                  <option value="Monteur">Monteur / Obermonteur</option>
-                  <option value="Zeichner">Systemplaner / Zeichner</option>
-                  <option value="Ausbildung">Ausbildungsplatz</option>
-                  <option value="Büro">Kaufm. Bereich / Büro</option>
-                  <option value="Initiativ">Initiativbewerbung</option>
+                  <option value="Monteur / Obermonteur">Monteur / Obermonteur</option>
+                  <option value="Systemplaner / Zeichner">Systemplaner / Zeichner</option>
+                  <option value="Ausbildungsplatz">Ausbildungsplatz</option>
+                  <option value="Kaufm. Bereich / Büro">Kaufm. Bereich / Büro</option>
+                  <option value="Initiativbewerbung">Initiativbewerbung</option>
                 </select>
               </div>
 
               <div>
-                <label for="cv" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.25rem; color: var(--text-secondary);">Link zum LinkedIn / Lebenslauf (optional)</label>
-                <input type="url" id="cv" name="Lebenslauf_Link" placeholder="https://" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-body);">
-                <p style="font-size: 0.75rem; margin-top: 0.5rem;">(Physische PDFs können nach unserem ersten telefonischen Kontakt separat gemailt werden)</p>
+                <label for="bw-cv" style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.25rem; color: var(--text-secondary);">Link zum LinkedIn / Lebenslauf (optional)</label>
+                <input type="url" id="bw-cv" name="cv_link" placeholder="https://" style="width: 100%; padding: 0.75rem; border: 2px solid #e2e2e2; border-radius: 8px; font-family: var(--font-body); font-size: 1rem; transition: border-color 0.2s;" onfocus="this.style.borderColor='var(--brand-blue)'" onblur="this.style.borderColor='#e2e2e2'">
+                <p style="font-size: 0.75rem; margin-top: 0.5rem; color: var(--text-secondary);">(Unterlagen können nach unserem ersten Kontakt separat gemailt werden)</p>
               </div>
 
-              <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1rem; padding: 1rem; margin-top: 0.5rem; text-transform: uppercase;">Jetzt Bewerben</button>
+              <div style="margin-top: 0.25rem;">
+                <label style="display: flex; align-items: flex-start; gap: 0.75rem; cursor: pointer; font-size: 0.85rem; color: var(--text-secondary);">
+                  <input type="checkbox" required style="margin-top: 3px; accent-color: var(--brand-blue);">
+                  <span>Ich habe die <a href="/datenschutz/" target="_blank">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zu. *</span>
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1rem; padding: 1rem; margin-top: 0.5rem;">Jetzt bewerben →</button>
             </form>
+            <div id="bewerbungSuccess" style="display:none; background:#e8f5e9; border:2px solid #4caf50; border-radius:8px; padding:1.5rem 2rem; text-align:center; margin-top:1rem;">
+              <h3 style="color:#2e7d32; margin-bottom:0.5rem;">✅ Bewerbung versendet!</h3>
+              <p>Vielen Dank für Ihr Interesse. Wir melden uns in Kürze bei Ihnen.</p>
+            </div>
+            <script>
+            function submitBewerbung(e) {
+              e.preventDefault();
+              const f = document.getElementById('bewerbungForm');
+              const d = new FormData(f);
+              const name = d.get('name');
+              const email = d.get('email');
+              const tel = d.get('telefon');
+              const pos = d.get('position');
+              const cv = d.get('cv_link') || '–';
+              const subject = encodeURIComponent(`Bewerbung: ${pos} – ${name}`);
+              const body = encodeURIComponent(
+                `KURZBEWERBUNG\n=============================\n\nName: ${name}\nE-Mail: ${email}\nTelefon: ${tel}\n\nInteressiert an: ${pos}\nLebenslauf/LinkedIn: ${cv}\n`
+              );
+              window.location.href = `mailto:info@schenk-plomer.de?subject=${subject}&body=${body}`;
+              f.style.display = 'none';
+              document.getElementById('bewerbungSuccess').style.display = 'block';
+            }
+            </script>
           </div>
         </div>
 
