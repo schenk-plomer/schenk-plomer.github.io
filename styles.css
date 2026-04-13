@@ -407,6 +407,84 @@ ul {
     margin-left: -25vw;
   }
 }
+.headslide-promo {
+  height: 70vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.headslide-promo::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 51, 102, 0.72) 0%, rgba(0, 51, 102, 0.25) 42%, transparent 72%);
+  pointer-events: none;
+  z-index: 1;
+}
+.headslide-promo .headslide-ui {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 3rem;
+  box-sizing: border-box;
+}
+.headslide-promo .headslide-content {
+  max-width: 36em;
+  padding-bottom: 0.25rem;
+}
+.headslide-promo .headslide-headline {
+  margin: 0 0 1rem;
+  font-size: clamp(1.35rem, 3.8vw, 2.15rem);
+  line-height: 1.12;
+  color: white!important;
+  font-weight: bold;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.35);
+}
+.headslide-promo .headslide-cta {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 0.25rem;
+  background: #003366;
+  color: white!important;
+  text-decoration: none!important;
+  font-weight: bold;
+  padding: 0.55rem 1.15rem;
+  font-size: 0.95rem;
+  border-radius: 2px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.28);
+}
+.headslide-promo .headslide-cta:hover {
+  background: #00264d;
+  color: white!important;
+}
+.headslide-promo .headslide-cta i {
+  margin: 0!important;
+  flex-shrink: 0;
+}
+@media (max-width: 720px) {
+  .headslide-promo {
+    height: 50vh;
+  }
+  .headslide-promo .headslide-ui {
+    padding-bottom: 1.35rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  .headslide-promo .headslide-headline {
+    font-size: clamp(1.1rem, 4.5vw, 1.45rem);
+    margin-bottom: 0.65rem;
+  }
+  .headslide-promo .headslide-cta {
+    font-size: 0.82rem;
+    padding: 0.5rem 0.8rem;
+  }
+}
 #or {
   position: absolute;
   height: 70vh;
@@ -1425,4 +1503,129 @@ section .container {
   display: flex;
   justify-content: flex-end;
   padding-right: 40px;
+}
+#home #home-privatklima {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #e1ecec;
+  border-left: 4px solid #003366;
+  background: #e1ecec;
+}
+#home #home-privatklima .home-privatklima-link {
+  display: block;
+  text-decoration: none!important;
+  color: #1e1e1e!important;
+  padding: 0.85rem 0.5rem;
+  transition: background 0.2s ease;
+}
+#home #home-privatklima .home-privatklima-link:hover {
+  background: rgba(0, 51, 102, 0.07);
+}
+#home #home-privatklima .home-privatklima-link:hover .home-privatklima-cta {
+  text-decoration: underline;
+}
+#home #home-privatklima .home-privatklima-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 1rem 1.5rem;
+}
+#home #home-privatklima .home-privatklima-media {
+  flex: 0 1 40%;
+  min-width: 200px;
+  max-width: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #d5e0e4;
+  align-self: center;
+}
+#home #home-privatklima .home-privatklima-media .home-privatklima-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+  vertical-align: middle;
+}
+#home #home-privatklima .home-privatklima-content {
+  flex: 1 1 260px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.65rem;
+}
+#home #home-privatklima .home-privatklima-copy {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+#home #home-privatklima .home-privatklima-kicker {
+  margin: 0 0 0.2rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #003366;
+  font-weight: bold;
+}
+#home #home-privatklima .home-privatklima-slogan {
+  margin: 0 0 0.35rem;
+  font-size: clamp(1rem, 2.8vw, 1.2rem);
+  line-height: 1.25;
+  color: #003366;
+  font-weight: bold;
+}
+#home #home-privatklima .home-privatklima-title {
+  margin: 0 0 0.35rem;
+  font-size: clamp(1.15rem, 3.2vw, 1.45rem);
+  color: #003366;
+  line-height: 1.2;
+  font-weight: normal;
+}
+#home #home-privatklima .home-privatklima-text {
+  margin: 0;
+  font-size: clamp(0.9rem, 2.4vw, 0.98rem);
+  line-height: 1.4;
+}
+#home #home-privatklima .home-privatklima-cta {
+  flex: 0 0 auto;
+  font-weight: bold;
+  color: #003366;
+  white-space: nowrap;
+  align-self: flex-start;
+  margin-top: 0.15rem;
+}
+#home #home-privatklima .home-privatklima-cta i {
+  margin-left: 0.15rem;
+}
+@media (max-width: 720px) {
+  #home #home-privatklima .home-privatklima-link {
+    padding: 0.65rem 0.35rem 0.85rem;
+  }
+  #home #home-privatklima .home-privatklima-inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+  }
+  #home #home-privatklima .home-privatklima-media {
+    flex: 0 0 auto;
+    width: 100%;
+    min-width: 0;
+    max-height: min(42vh, 240px);
+  }
+  #home #home-privatklima .home-privatklima-media .home-privatklima-img {
+    width: 100%;
+    height: 100%;
+    max-height: min(42vh, 240px);
+    min-height: 140px;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+  }
+  #home #home-privatklima .home-privatklima-slogan {
+    font-size: 1.05rem;
+  }
+  #home #home-privatklima .home-privatklima-title {
+    font-size: 1.2rem;
+  }
 }

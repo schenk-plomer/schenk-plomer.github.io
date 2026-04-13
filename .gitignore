@@ -1,0 +1,13 @@
+# Build & Helper Scripts
+*.py
+__pycache__/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
