@@ -437,7 +437,7 @@ header {
 
 /* Sections */
 .section {
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 .section-bg {
@@ -446,7 +446,7 @@ header {
 
 .section-header {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
   max-width: 700px;
   margin-inline: auto;
 }
