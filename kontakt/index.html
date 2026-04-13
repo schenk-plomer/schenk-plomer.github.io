@@ -56,10 +56,21 @@
             </div>
           </div>
 
-          <!-- Map / Visual -->
-          <div style="background:var(--bg-secondary);border-radius:var(--radius-lg);overflow:hidden;min-height:400px;">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2633.5!2d12.1!3d48.55!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zSchenk+%26+Plomer+GmbH!5e0!3m2!1sde!2sde!4v1" width="100%" height="100%" style="border:0;min-height:400px;" allowfullscreen="" loading="lazy"></iframe>
+          <!-- Map / Visual — DSGVO-konform: 2-Klick-Lösung -->
+          <div id="map-container" style="background:var(--bg-secondary);border-radius:var(--radius-lg);overflow:hidden;min-height:400px;display:flex;align-items:center;justify-content:center;text-align:center;padding:2rem;">
+            <div id="map-consent">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--brand-blue)" stroke-width="1.5" style="margin-bottom:1rem;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <h3 style="margin-bottom:0.5rem;">Standort auf Google Maps</h3>
+              <p style="font-size:0.85rem;color:var(--text-secondary);max-width:320px;margin-inline:auto;">Mit Klick auf den Button wird eine Verbindung zu Google Maps hergestellt. Dabei können Daten an Google übertragen werden.</p>
+              <button onclick="loadMap()" class="btn btn-primary" style="margin-top:1rem;">Karte laden</button>
+              <p style="font-size:0.75rem;color:var(--text-secondary);margin-top:0.75rem;"><a href="https://www.google.com/maps/search/Schenk+Plomer+GmbH+Dieselstrasse+6+Altheim" target="_blank" rel="noopener">Oder direkt in Google Maps öffnen →</a></p>
+            </div>
           </div>
+          <script>
+          function loadMap() {
+            document.getElementById('map-container').innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2633.5!2d12.1!3d48.55!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zSchenk+%26+Plomer+GmbH!5e0!3m2!1sde!2sde!4v1" width="100%" height="100%" style="border:0;min-height:400px;border-radius:var(--radius-lg);" allowfullscreen loading="lazy"></iframe>';
+          }
+          </script>
 
         </div>
       </div>

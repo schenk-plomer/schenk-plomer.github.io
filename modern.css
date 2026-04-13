@@ -1,8 +1,46 @@
 /* modern.css - Schenk & Plomer Modern Redesign */
 
-/* Typography Fallback & Imports */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.cdnfonts.com/css/network'); /* Fallback attempt if Network is available via web */
+/* Typography – alle Fonts lokal eingebunden (DSGVO-konform, kein externer CDN-Aufruf) */
+
+/* Inter – Fließtext & UI */
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter-500.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter-600.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Network Font – lokal eingebunden.
+/* Network Font – Akzentschrift, lokal eingebunden */
+@font-face {
+  font-family: 'Network';
+  src: url('/fonts/Network.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   /* Colors */
