@@ -51,17 +51,65 @@
   </script>
 
   <main>
-    <!-- Header Hero for Subpage -->
-    <section class="hero" style="min-height: 40vh; height: 40vh; background-color: var(--brand-blue); position: relative;">
-      <div style="position: absolute; inset: 0; background-image: url('/uploads/slider/Slider_neueHalle.jpg'); background-size: cover; background-position: center; opacity: 0.3;"></div>
+    <!-- Hero -->
+    <section class="hero" style="min-height: 50vh; height: 50vh; background-color: var(--brand-blue); position: relative;">
+      <div style="position: absolute; inset: 0; background-image: url('/uploads/slider/Slider_neueHalle.jpg'); background-size: cover; background-position: center; opacity: 0.25;"></div>
       <div class="container" style="position: relative; z-index: 10;">
-        <h1 style="color: white;">Komm ins <span class="network-font">Team!</span></h1>
-        <p style="color: rgba(255,255,255,0.8); max-width: 600px;">Bei uns arbeitet man nicht einfach nur, hier gehörst du zur Familie. Bewirb dich jetzt in unter 60 Sekunden auf unsere vakanten Stellen.</p>
+        <span style="display: inline-block; background: rgba(255,255,255,0.15); color: white; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.05em; margin-bottom: 1.5rem;">🚀 WIR SUCHEN DICH!</span>
+        <h1 style="color: white; font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.2;">Komm ins <span class="network-font" style="color: white !important; font-size: 1.15em;">Team!</span></h1>
+        <p style="color: rgba(255,255,255,0.85); max-width: 550px; font-size: 1.15rem; margin-top: 1rem;">Bei uns arbeitet man nicht einfach nur – hier gehörst du zur Familie. Bewirb dich jetzt in unter 60 Sekunden.</p>
+        <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+          <a href="#stellen" class="btn btn-primary white-bg" style="font-size: 1.05rem;">Offene Stellen ansehen</a>
+          <a href="#bewerbung" class="btn btn-outline white-border">Direkt bewerben</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Grid -->
+    <section class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <h2>Warum <span class="network-font">wir</span>?</h2>
+          <p>Was dich bei Schenk & Plomer erwartet – neben einem sicheren Arbeitsplatz mit Zukunft.</p>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2rem;">
+          <div style="background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--brand-blue)" stroke-width="1.5" style="margin-bottom: 1rem;"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem;">Firmen-PKW</h3>
+            <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0;">Für Monteure & Service-Techniker – auch zur privaten Nutzung.</p>
+          </div>
+          <div style="background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--brand-blue)" stroke-width="1.5" style="margin-bottom: 1rem;"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem;">Übertarifliche Bezahlung</h3>
+            <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0;">Plus Urlaubs- & Weihnachtsgeld, Verpflegungsmehraufwand.</p>
+          </div>
+          <div style="background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--brand-blue)" stroke-width="1.5" style="margin-bottom: 1rem;"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem;">180+ Kollegen</h3>
+            <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0;">Ein eingespieltes Team, das zusammenhält – auf der Baustelle und beim Feiern.</p>
+          </div>
+          <div style="background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--brand-blue)" stroke-width="1.5" style="margin-bottom: 1rem;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem;">30+ Urlaubstage</h3>
+            <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0;">Work-Life-Balance wird bei uns nicht nur versprochen, sondern gelebt.</p>
+          </div>
+          <div style="background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--brand-blue)" stroke-width="1.5" style="margin-bottom: 1rem;"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem;">Weiterbildung</h3>
+            <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0;">Regelmäßige Schulungen, Zertifikate und echte Aufstiegschancen.</p>
+          </div>
+          <div style="background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04);">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--brand-blue)" stroke-width="1.5" style="margin-bottom: 1rem;"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem;">Familiäre Atmosphäre</h3>
+            <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0;">Teamevents, Weihnachtsfeier und ein Chef, der deinen Namen kennt.</p>
+          </div>
+        </div>
+        <style>@media(max-width:768px){[style*="repeat(3, 1fr)"]{grid-template-columns:1fr!important}}</style>
       </div>
     </section>
 
     <!-- Main Content Split -->
-    <section class="section">
+    <section id="stellen" class="section">
       <div class="container" style="display: grid; grid-template-columns: 1fr 400px; gap: 4rem;">
         
         <!-- Job Listings (Left) -->
@@ -139,7 +187,7 @@
 
         <!-- Quick Apply Form (Right Sticky) -->
         <div style="position: relative;">
-          <div style="position: sticky; top: 100px; background: white; padding: 2rem; border-radius: var(--radius-md); box-shadow: var(--shadow-lg); border: 1px solid rgba(0,0,0,0.05);">
+          <div id="bewerbung" style="position: sticky; top: 100px; background: white; padding: 2rem; border-radius: var(--radius-md); box-shadow: var(--shadow-lg); border: 1px solid rgba(0,0,0,0.05);">
             <h3 style="margin-bottom: 0.5rem;">Apply in <span class="network-font">60 seconds</span></h3>
             <p style="font-size: 0.9rem; margin-bottom: 2rem;">Kein ewiges Anschreiben nötig. Ein Lebenslauf und deine Kontaktdaten reichen für den ersten Schritt!</p>
             

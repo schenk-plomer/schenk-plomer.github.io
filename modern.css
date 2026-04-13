@@ -808,6 +808,14 @@ footer {
 /* Content sections for subpages */
 .content-section {
   padding: 4rem 0;
+  background: white;
+}
+
+.content-section h1,
+.content-section h2,
+.content-section h3 {
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
 }
 
 .content-section h2 {
@@ -826,4 +834,45 @@ footer {
 
 .content-section p {
   max-width: 800px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.content-section a {
+  color: var(--brand-blue);
+  text-decoration: underline;
+}
+
+/* Legal pages: old .subpage.def class */
+.subpage.def {
+  color: var(--text-secondary) !important;
+  line-height: 1.8;
+}
+
+.subpage.def h1 {
+  color: var(--brand-blue) !important;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid var(--brand-blue);
+  padding-bottom: 0.75rem;
+}
+
+.subpage.def h2,
+.subpage.def h3 {
+  color: var(--text-primary) !important;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.subpage.def p {
+  color: var(--text-secondary) !important;
+  margin-bottom: 1rem;
+}
+
+.subpage.def a {
+  color: var(--brand-blue) !important;
+}
+
+.subpage.def strong {
+  color: var(--text-primary);
 }
