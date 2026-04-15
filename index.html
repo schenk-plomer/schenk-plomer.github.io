@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="de-DE">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Schenk & Plomer GmbH | Luft- und Klimatechnik | Technische Gebäudeausstattung</title>
-  
-  <meta name="description" content="Schenk & Plomer GmbH - Ihr verlässlicher Spezialist für die Herstellung, Installation und Wartung hochwertiger Klima- und Lüftungsanlagen seit 1993.">
-  
+
+  <meta name="description"
+    content="Schenk & Plomer GmbH - Ihr verlässlicher Spezialist für die Herstellung, Installation und Wartung hochwertiger Klima- und Lüftungsanlagen seit 1993.">
+
   <!-- Modern Font & Styling -->
   <link rel="stylesheet" href="/modern.css">
   <link rel="shortcut icon" type="image/ico" href="/favicon.png">
 
 </head>
+
 <body>
 
   <!-- Navigation -->
@@ -20,13 +23,13 @@
       <a href="/" class="logo">
         <img src="/uploads/logos/logo_schenk_plomer.png" alt="Schenk & Plomer Logo">
       </a>
-      
+
       <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Menü">☰</button>
 
       <nav id="nav-menu">
         <ul class="nav-links">
           <li><a href="/" class="active">Home</a></li>
-          
+
           <li class="dropdown-parent" style="position: relative;">
             <a href="/service/" style="cursor: pointer;">Lösungen</a>
             <ul class="dropdown-menu">
@@ -41,49 +44,70 @@
           <li><a href="/karriere/">Karriere</a></li>
         </ul>
       </nav>
-      
+
       <div style="display: none;" id="mobile-nav-placeholder">
-          <!-- Will hold mobile layout styling and CTA if required -->
+        <!-- Will hold mobile layout styling and CTA if required -->
       </div>
-      
+
       <a href="/kontakt/" class="btn btn-primary" style="display: none;" id="nav-cta">Kontaktieren Sie uns</a>
     </div>
   </header>
 
   <style>
-      @media(min-width: 769px) {
-          #nav-cta { display: inline-flex !important; }
+    @media(min-width: 769px) {
+      #nav-cta {
+        display: inline-flex !important;
       }
-      @media(max-width: 768px) {
-          #nav-menu { display: none; position: absolute; top: 80px; left: 0; width: 100%; background: white; flex-direction: column; padding: 2rem; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); }
-          #nav-menu.active { display: flex; }
-          .nav-links { flex-direction: column; gap: 1.5rem; text-align: center;}
+    }
+
+    @media(max-width: 768px) {
+      #nav-menu {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background: white;
+        flex-direction: column;
+        padding: 2rem;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
       }
+
+      #nav-menu.active {
+        display: flex;
+      }
+
+      .nav-links {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+      }
+    }
   </style>
 
   <script>
-      function toggleMenu() {
-          const menu = document.getElementById('nav-menu');
-          menu.classList.toggle('active');
-      }
+    function toggleMenu() {
+      const menu = document.getElementById('nav-menu');
+      menu.classList.toggle('active');
+    }
   </script>
 
   <!-- Hero Section -->
   <section id="home" class="hero">
     <!-- Background Slider -->
     <div class="hero-slider" id="hero-slider">
-      
+
       <!-- Slide 1 -->
       <div class="slide active" style="background-image: url('/uploads/slider/Slider_Klimatisieren.jpg');">
         <div class="container slide-container">
           <div class="hero-content slanted-box">
             <div class="slanted-content">
-                <h1>Nicht mehr <span class="network-font" style="color: white;">leiden</span> müssen!</h1>
-                <p>Komplexe Technik. Einfach gutes Klima für Ihr Zuhause oder Büro.</p>
-                <div class="hero-actions">
-                  <a href="/privat-klimatisieren/" class="btn btn-primary white-bg">Jetzt informieren</a>
-                  <a href="/kontakt/" class="btn btn-outline white-border">Experten Beratung</a>
-                </div>
+              <h1>Nicht mehr <span class="network-font" style="color: white;">leiden</span> müssen!</h1>
+              <p>Komplexe Technik. Einfach gutes Klima für Ihr Zuhause oder Büro.</p>
+              <div class="hero-actions">
+                <a href="/privat-klimatisieren/" class="btn btn-primary white-bg">Jetzt informieren</a>
+                <a href="/kontakt/" class="btn btn-outline white-border">Experten Beratung</a>
+              </div>
             </div>
           </div>
         </div>
@@ -94,11 +118,11 @@
         <div class="container slide-container">
           <div class="hero-content slanted-box">
             <div class="slanted-content">
-                <h1>Stolzer <span class="network-font" style="color: white;">Partner</span> des EVL!</h1>
-                <p>Als regionales Unternehmen unterstützen wir die Leidenschaft und Energie auf dem Eis.</p>
-                <div class="hero-actions">
-                  <a href="/presse/" class="btn btn-primary white-bg">Mehr dazu lesen</a>
-                </div>
+              <h1>Stolzer <span class="network-font" style="color: white;">Partner</span> des EVL!</h1>
+              <p>Als regionales Unternehmen unterstützen wir die Leidenschaft und Energie auf dem Eis.</p>
+              <div class="hero-actions">
+                <a href="/presse/" class="btn btn-primary white-bg">Mehr dazu lesen</a>
+              </div>
             </div>
           </div>
         </div>
@@ -109,11 +133,11 @@
         <div class="container slide-container">
           <div class="hero-content slanted-box">
             <div class="slanted-content">
-                <h1>Wir haben <span class="network-font" style="color: white;">erweitert</span>!</h1>
-                <p>Unsere neue Kanalfertigung auf 1.500 m² ist einsatzbereit.</p>
-                <div class="hero-actions">
-                  <a href="/presse/" class="btn btn-primary white-bg">Zu den Neuigkeiten</a>
-                </div>
+              <h1>Wir haben <span class="network-font" style="color: white;">erweitert</span>!</h1>
+              <p>Neben unserem Büro und Fertigungsgebäude in Altheim steht nun auch eine Lagerhalle!</p>
+              <div class="hero-actions">
+                <a href="/presse/" class="btn btn-primary white-bg">Zu den Neuigkeiten</a>
+              </div>
             </div>
           </div>
         </div>
@@ -150,7 +174,7 @@
     // Simple Slider Logic
     document.addEventListener('DOMContentLoaded', () => {
       const slides = document.querySelectorAll('.hero-slider .slide');
-      if(slides.length === 0) return;
+      if (slides.length === 0) return;
       let currentSlide = 0;
       setInterval(() => {
         slides[currentSlide].classList.remove('active');
@@ -161,76 +185,123 @@
   </script>
 
   <!-- Aktion: Privat Klimatisieren -->
-  <section style="position: relative; overflow: hidden; padding: 5rem 0; background: linear-gradient(135deg, var(--brand-blue) 0%, #1a1460 100%);">
+  <section
+    style="position: relative; overflow: hidden; padding: 5rem 0; background: linear-gradient(135deg, var(--brand-blue) 0%, #1a1460 100%);">
     <div class="container">
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
         <div>
-          <span style="display: inline-block; background: rgba(255,255,255,0.15); color: white; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.05em; margin-bottom: 1.5rem;">NEU FÜR PRIVATHAUSHALTE</span>
-          <h2 style="color: white; font-size: clamp(1.8rem, 3.5vw, 2.8rem); line-height: 1.2;">Nicht mehr <span class="network-font" style="color: white !important; font-size: 1.15em;">leiden</span> müssen!</h2>
-          <p style="color: rgba(255,255,255,0.85); font-size: 1.1rem; margin-top: 1rem; max-width: 480px;">Moderne Klimaanlage für Ihr Zuhause – leise, energieeffizient und im Handumdrehen installiert. Heizen & Kühlen mit einem Gerät.</p>
+          <span
+            style="display: inline-block; background: rgba(255,255,255,0.15); color: white; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.05em; margin-bottom: 1.5rem;">NEU
+            FÜR PRIVATHAUSHALTE</span>
+          <h2 style="color: white; font-size: clamp(1.8rem, 3.5vw, 2.8rem); line-height: 1.2;">Nicht mehr <span
+              class="network-font" style="color: white !important; font-size: 1.15em;">leiden</span> müssen!</h2>
+          <p style="color: rgba(255,255,255,0.85); font-size: 1.1rem; margin-top: 1rem; max-width: 480px;">Moderne
+            Klimaanlage für Ihr Zuhause – leise, energieeffizient und im Handumdrehen installiert. Heizen & Kühlen mit
+            einem Gerät.</p>
           <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-top: 1.5rem;">
             <div style="display: flex; align-items: center; gap: 0.75rem; color: rgba(255,255,255,0.9);">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
               <span>Kostenlose Erstberatung innerhalb von 24h</span>
             </div>
             <div style="display: flex; align-items: center; gap: 0.75rem; color: rgba(255,255,255,0.9);">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
               <span>Festpreisangebot – keine versteckten Kosten</span>
             </div>
             <div style="display: flex; align-items: center; gap: 0.75rem; color: rgba(255,255,255,0.9);">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
               <span>30+ Jahre Erfahrung – auch bei Ihnen um die Ecke</span>
             </div>
           </div>
           <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
-            <a href="/privat-klimatisieren/" class="btn btn-primary white-bg" style="font-size: 1.05rem; padding: 0.85rem 2rem;">Jetzt unverbindlich anfragen</a>
+            <a href="/privat-klimatisieren/" class="btn btn-primary white-bg"
+              style="font-size: 1.05rem; padding: 0.85rem 2rem;">Jetzt unverbindlich anfragen</a>
             <a href="tel:+4987039226-0" class="btn btn-outline white-border">+49 8703 / 9226-0</a>
           </div>
         </div>
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem;">
-          <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(8px); border-radius: 12px; padding: 1.75rem; text-align: center; border: 1px solid rgba(255,255,255,0.15);">
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" style="margin-bottom: 0.75rem;"><path d="M12 2v6l3-3M12 8l-3-3M20 12h-4M4 12h4M6.34 17.66l2.83-2.83M14.83 14.83l2.83 2.83"/><circle cx="12" cy="12" r="3"/></svg>
-            <p style="color: white; font-weight: 700; font-size: 0.9rem; margin: 0;">Flüsterleise<br><span style="font-weight: 400; opacity: 0.8; font-size: 0.8rem;">ab 19 dB(A)</span></p>
+          <div
+            style="background: rgba(255,255,255,0.1); backdrop-filter: blur(8px); border-radius: 12px; padding: 1.75rem; text-align: center; border: 1px solid rgba(255,255,255,0.15);">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"
+              style="margin-bottom: 0.75rem;">
+              <path d="M12 2v6l3-3M12 8l-3-3M20 12h-4M4 12h4M6.34 17.66l2.83-2.83M14.83 14.83l2.83 2.83" />
+              <circle cx="12" cy="12" r="3" />
+            </svg>
+            <p style="color: white; font-weight: 700; font-size: 0.9rem; margin: 0;">Flüsterleise<br><span
+                style="font-weight: 400; opacity: 0.8; font-size: 0.8rem;">ab 19 dB(A)</span></p>
           </div>
-          <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(8px); border-radius: 12px; padding: 1.75rem; text-align: center; border: 1px solid rgba(255,255,255,0.15);">
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" style="margin-bottom: 0.75rem;"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-            <p style="color: white; font-weight: 700; font-size: 0.9rem; margin: 0;">Stromsparend<br><span style="font-weight: 400; opacity: 0.8; font-size: 0.8rem;">A+++ Effizienz</span></p>
+          <div
+            style="background: rgba(255,255,255,0.1); backdrop-filter: blur(8px); border-radius: 12px; padding: 1.75rem; text-align: center; border: 1px solid rgba(255,255,255,0.15);">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"
+              style="margin-bottom: 0.75rem;">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+            </svg>
+            <p style="color: white; font-weight: 700; font-size: 0.9rem; margin: 0;">Stromsparend<br><span
+                style="font-weight: 400; opacity: 0.8; font-size: 0.8rem;">A+++ Effizienz</span></p>
           </div>
-          <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(8px); border-radius: 12px; padding: 1.75rem; text-align: center; border: 1px solid rgba(255,255,255,0.15);">
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" style="margin-bottom: 0.75rem;"><path d="M12 22c-4.97 0-9-2.69-9-6v-.01c0-1.07.39-2.08 1.07-2.87C5.46 11.55 7.23 9.82 8 8c1.07 2.14 3 3.43 3 3.43S9.38 7.56 11 4c.63 1.38 1.6 2.63 2.72 3.68C15.89 9.73 21 12.25 21 16v.01C21 19.31 16.97 22 12 22z"/></svg>
-            <p style="color: white; font-weight: 700; font-size: 0.9rem; margin: 0;">Heizen & Kühlen<br><span style="font-weight: 400; opacity: 0.8; font-size: 0.8rem;">1 Gerät, 2 Funktionen</span></p>
+          <div
+            style="background: rgba(255,255,255,0.1); backdrop-filter: blur(8px); border-radius: 12px; padding: 1.75rem; text-align: center; border: 1px solid rgba(255,255,255,0.15);">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"
+              style="margin-bottom: 0.75rem;">
+              <path
+                d="M12 22c-4.97 0-9-2.69-9-6v-.01c0-1.07.39-2.08 1.07-2.87C5.46 11.55 7.23 9.82 8 8c1.07 2.14 3 3.43 3 3.43S9.38 7.56 11 4c.63 1.38 1.6 2.63 2.72 3.68C15.89 9.73 21 12.25 21 16v.01C21 19.31 16.97 22 12 22z" />
+            </svg>
+            <p style="color: white; font-weight: 700; font-size: 0.9rem; margin: 0;">Heizen & Kühlen<br><span
+                style="font-weight: 400; opacity: 0.8; font-size: 0.8rem;">1 Gerät, 2 Funktionen</span></p>
           </div>
-          <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(8px); border-radius: 12px; padding: 1.75rem; text-align: center; border: 1px solid rgba(255,255,255,0.15);">
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" style="margin-bottom: 0.75rem;"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
-            <p style="color: white; font-weight: 700; font-size: 0.9rem; margin: 0;">Profi-Einbau<br><span style="font-weight: 400; opacity: 0.8; font-size: 0.8rem;">Sauber & schnell</span></p>
+          <div
+            style="background: rgba(255,255,255,0.1); backdrop-filter: blur(8px); border-radius: 12px; padding: 1.75rem; text-align: center; border: 1px solid rgba(255,255,255,0.15);">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"
+              style="margin-bottom: 0.75rem;">
+              <path
+                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+            </svg>
+            <p style="color: white; font-weight: 700; font-size: 0.9rem; margin: 0;">Profi-Einbau<br><span
+                style="font-weight: 400; opacity: 0.8; font-size: 0.8rem;">Sauber & schnell</span></p>
           </div>
         </div>
       </div>
     </div>
-    <style>@media(max-width:768px){[style*="grid-template-columns: 1fr 1fr; gap: 4rem"]{grid-template-columns:1fr!important;gap:2rem!important}}</style>
+    <style>
+      @media(max-width:768px) {
+        [style*="grid-template-columns: 1fr 1fr; gap: 4rem"] {
+          grid-template-columns: 1fr !important;
+          gap: 2rem !important
+        }
+      }
+    </style>
   </section>
 
   <!-- Schenk & Plomer Vorstellung -->
   <section id="unternehmen" class="section">
     <div class="container section-header">
       <h2>Schenk & Plomer Unternehmensgruppe</h2>
-      <p>Seit 1993 sind wir Ihr vertrauensvoller Partner im niederbayerischen Essenbach. Zuverlässigkeit, Qualität und höchste Ingenieurskunst prägen unsere Arbeit. Mit der 2017 gegründeten Plomer & Dachs GmbH decken wir zudem heute die gesamte Versorgungs- und Ausrüstungstechnik der nächsten Generation ab.</p>
+      <p>Seit 1993 sind wir Ihr vertrauensvoller Partner im niederbayerischen Essenbach. Zuverlässigkeit, Qualität und
+        höchste Ingenieurskunst prägen unsere Arbeit. Mit der 2017 gegründeten Plomer & Dachs GmbH decken wir zudem
+        heute die gesamte Versorgungs- und Ausrüstungstechnik der nächsten Generation ab.</p>
     </div>
-    
+
     <div class="container">
-        <div class="split-view">
-            <div class="company-panel" style="background-image: url('/uploads/team/background_plomer.png');">
-                <img src="/uploads/logos/schenk_plomer_logo.png" alt="Schenk & Plomer" class="company-logo">
-                <h3>Luft- und Klimatechnik</h3>
-                <p>Herstellung, Installation und Wartung hochwertiger und komplexer Klima- und Lüftungsanlagen für Industrie und Privathaushalte.</p>
-            </div>
-            
-            <div class="company-panel" style="background-image: url('/uploads/team/background_dachs.png');">
-                <img src="/uploads/logos/plomer_dachs_logo.png" alt="Plomer & Dachs" class="company-logo">
-                <h3>Technische Gebäudeausstattung</h3>
-                <p>Umfassende Lösungen für Versorgungs- und Ausrüstungstechnik sowie innovative Energie- und Gebäudetechnik (Heizung, Kälte, Sanitär, etc.).</p>
-            </div>
+      <div class="split-view">
+        <div class="company-panel" style="background-image: url('/uploads/team/background_plomer.png');">
+          <img src="/uploads/logos/schenk_plomer_logo.png" alt="Schenk & Plomer" class="company-logo">
+          <h3>Luft- und Klimatechnik</h3>
+          <p>Herstellung, Installation und Wartung hochwertiger und komplexer Klima- und Lüftungsanlagen für Industrie
+            und Privathaushalte.</p>
         </div>
+
+        <div class="company-panel" style="background-image: url('/uploads/team/background_dachs.png');">
+          <img src="/uploads/logos/plomer_dachs_logo.png" alt="Plomer & Dachs" class="company-logo">
+          <h3>Technische Gebäudeausstattung</h3>
+          <p>Umfassende Lösungen für Versorgungs- und Ausrüstungstechnik sowie innovative Energie- und Gebäudetechnik
+            (Heizung, Kälte, Sanitär, etc.).</p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -243,11 +314,20 @@
       </div>
 
       <div class="features-grid">
-        
+
         <!-- Feature 1 -->
         <div class="feature-card">
           <div class="feature-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6l3-3"/><path d="M12 8l-3-3"/><path d="M20 12h-4"/><path d="M4 12h4"/><path d="M6.34 17.66l2.83-2.83"/><path d="M14.83 14.83l2.83 2.83"/><circle cx="12" cy="12" r="3"/></svg>
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2v6l3-3" />
+              <path d="M12 8l-3-3" />
+              <path d="M20 12h-4" />
+              <path d="M4 12h4" />
+              <path d="M6.34 17.66l2.83-2.83" />
+              <path d="M14.83 14.83l2.83 2.83" />
+              <circle cx="12" cy="12" r="3" />
+            </svg>
           </div>
           <h3>Luft- & Klimatechnik</h3>
           <p>Komplette Systemlösungen für ein gesundes Arbeits- und Wohnklima.</p>
@@ -255,13 +335,14 @@
             <summary>Details anzeigen</summary>
             <div class="content">
               <ul>
-                  <li><strong>Lüftungsanlagen:</strong> Kontrollierte Zu- und Abluftsysteme.</li>
-                  <li><strong>Klimaanlagen:</strong> Invertertechnologie für Heizen & Kühlen.</li>
-                  <li><strong>Absauganlagen:</strong> Industrie & Gewerbeabluft.</li>
-                  <li><strong>Lüftungskanalbau:</strong> Eigene Kanalproduktion auf 1.500 m².</li>
-                  <li><strong>Wärmerückgewinnung:</strong> Effiziente Reduktion von Energiekosten.</li>
+                <li><strong>Lüftungsanlagen:</strong> Kontrollierte Zu- und Abluftsysteme.</li>
+                <li><strong>Klimaanlagen:</strong> Invertertechnologie für Heizen & Kühlen.</li>
+                <li><strong>Absauganlagen:</strong> Industrie & Gewerbeabluft.</li>
+                <li><strong>Lüftungskanalbau:</strong> Eigene Kanalproduktion auf 1.500 m².</li>
+                <li><strong>Wärmerückgewinnung:</strong> Effiziente Reduktion von Energiekosten.</li>
               </ul>
-              <a href="/luft-und-klimatechnik/" class="btn btn-outline" style="margin-top: 1rem; width: 100%;">Zur Fachabteilung</a>
+              <a href="/luft-und-klimatechnik/" class="btn btn-outline" style="margin-top: 1rem; width: 100%;">Zur
+                Fachabteilung</a>
             </div>
           </details>
         </div>
@@ -269,7 +350,10 @@
         <!-- Feature 2 -->
         <div class="feature-card">
           <div class="feature-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg>
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 12h4l3-9 4 18 3-9h4" />
+            </svg>
           </div>
           <h3>Technische Gebäudeausstattung</h3>
           <p>Innovative Energie- und Versorgungssysteme in Gebäuden.</p>
@@ -277,13 +361,14 @@
             <summary>Details anzeigen</summary>
             <div class="content">
               <ul>
-                  <li><strong>Heizungstechnik:</strong> Wärmepumpen, Pellets, Gas & Solar.</li>
-                  <li><strong>Kältetechnik:</strong> Prozesskälte und Kaltwassersätze.</li>
-                  <li><strong>Sanitärtechnik:</strong> Von der Trinkwasserhygiene bis zum Bad.</li>
-                  <li><strong>Elektrotechnik:</strong> Komplette Gebäudeautomation.</li>
-                  <li><strong>MSR-Technik:</strong> Messen, Steuern und Regeln komplexer Systeme.</li>
+                <li><strong>Heizungstechnik:</strong> Wärmepumpen, Pellets, Gas & Solar.</li>
+                <li><strong>Kältetechnik:</strong> Prozesskälte und Kaltwassersätze.</li>
+                <li><strong>Sanitärtechnik:</strong> Von der Trinkwasserhygiene bis zum Bad.</li>
+                <li><strong>Elektrotechnik:</strong> Komplette Gebäudeautomation.</li>
+                <li><strong>MSR-Technik:</strong> Messen, Steuern und Regeln komplexer Systeme.</li>
               </ul>
-              <a href="/technische-geb%C3%A4udeausstattung/" class="btn btn-outline" style="margin-top: 1rem; width: 100%;">Zur Fachabteilung</a>
+              <a href="/technische-geb%C3%A4udeausstattung/" class="btn btn-outline"
+                style="margin-top: 1rem; width: 100%;">Zur Fachabteilung</a>
             </div>
           </details>
         </div>
@@ -291,14 +376,20 @@
         <!-- Feature 3 -->
         <div class="feature-card">
           <div class="feature-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c-4.97 0-9-2.69-9-6v-.01c0-1.07.39-2.08 1.07-2.87C5.46 11.55 7.23 9.82 8 8c1.07 2.14 3 3.43 3 3.43S9.38 7.56 11 4c.63 1.38 1.6 2.63 2.72 3.68C15.89 9.73 21 12.25 21 16v.01C21 19.31 16.97 22 12 22z"/></svg>
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M12 22c-4.97 0-9-2.69-9-6v-.01c0-1.07.39-2.08 1.07-2.87C5.46 11.55 7.23 9.82 8 8c1.07 2.14 3 3.43 3 3.43S9.38 7.56 11 4c.63 1.38 1.6 2.63 2.72 3.68C15.89 9.73 21 12.25 21 16v.01C21 19.31 16.97 22 12 22z" />
+            </svg>
           </div>
           <h3>Baulicher Brandschutz</h3>
           <p>Sicherheit an erster Stelle für Personen und Gebäude.</p>
           <details>
             <summary>Details anzeigen</summary>
             <div class="content">
-              Im Bereich baulicher Brandschutz und Wärmedämmung verfügen wir über ein Netzwerk langjähriger Partnerunternehmen, die strenge Normen mit modernsten Werkstoffen erfüllen und höchste Sicherheitsstandards garantieren.
+              Im Bereich baulicher Brandschutz und Wärmedämmung verfügen wir über ein Netzwerk langjähriger
+              Partnerunternehmen, die strenge Normen mit modernsten Werkstoffen erfüllen und höchste
+              Sicherheitsstandards garantieren.
             </div>
           </details>
         </div>
@@ -316,13 +407,14 @@
       </div>
 
       <div class="news-grid">
-        
+
         <!-- News Card 1 -->
         <article class="news-card">
           <img src="/uploads/referenzen/CleverFIT.jpeg" alt="Clever Fit" class="news-img" loading="lazy">
           <div class="news-content">
             <h3>Projektabschluss: clever fit</h3>
-            <p>Moderne Lüftungstechnik für beste Trainingsbedingungen. Hochwertige Anlage sorgt auch bei Auslastung für frische Luft.</p>
+            <p>Moderne Lüftungstechnik für beste Trainingsbedingungen. Hochwertige Anlage sorgt auch bei Auslastung für
+              frische Luft.</p>
             <a href="/referenzen/" class="read-more">Ganzes Projekt ansehen</a>
           </div>
         </article>
@@ -332,7 +424,8 @@
           <img src="/uploads/referenzen/LRA.jpeg" alt="Landratsamt Landshut" class="news-img" loading="lazy">
           <div class="news-content">
             <h3>Neubau Landratsamt Landshut</h3>
-            <p>Optimales Raumklima für gute Entscheidungen: Erfolgreicher Abschluss unserer Lüftungsinstallation im LRA Neubau.</p>
+            <p>Optimales Raumklima für gute Entscheidungen: Erfolgreicher Abschluss unserer Lüftungsinstallation im LRA
+              Neubau.</p>
             <a href="/referenzen/" class="read-more">Ganzes Projekt ansehen</a>
           </div>
         </article>
@@ -342,7 +435,8 @@
           <img src="/uploads/referenzen/Altstadthaus.jpeg" alt="Altstadthaus" class="news-img" loading="lazy">
           <div class="news-content">
             <h3>Revitalisiertes Altstadthaus</h3>
-            <p>Effiziente Lüftungsanlage hinter historischer Fassade. Unsichtbar installiert, aber jederzeit spürbar zum Wohlfühlen.</p>
+            <p>Effiziente Lüftungsanlage hinter historischer Fassade. Unsichtbar installiert, aber jederzeit spürbar zum
+              Wohlfühlen.</p>
             <a href="/referenzen/" class="read-more">Ganzes Projekt ansehen</a>
           </div>
         </article>
@@ -360,64 +454,104 @@
       <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem;">
 
         <!-- Stelle 1 -->
-        <div style="background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 12px rgba(0,0,0,0.07); border: 1px solid rgba(0,0,0,0.05); display: flex; flex-direction: column; gap: 1rem;">
+        <div
+          style="background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 12px rgba(0,0,0,0.07); border: 1px solid rgba(0,0,0,0.05); display: flex; flex-direction: column; gap: 1rem;">
           <div style="display: flex; align-items: center; gap: 1rem;">
-            <div style="width: 44px; height: 44px; background: var(--brand-blue); border-radius: 10px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            <div
+              style="width: 44px; height: 44px; background: var(--brand-blue); border-radius: 10px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                <path
+                  d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+              </svg>
             </div>
             <div>
-              <div style="font-size: 0.75rem; color: var(--brand-blue); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Vollzeit</div>
+              <div
+                style="font-size: 0.75rem; color: var(--brand-blue); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">
+                Vollzeit</div>
               <h3 style="font-size: 1.05rem; margin: 0;">Monteur / Obermonteur (m/w/d)</h3>
             </div>
           </div>
-          <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0; flex: 1;">Montage von Klima- und Lüftungsanlagen bei spannenden Projekten in der Region und darüber hinaus. Firmen-PKW inklusive.</p>
-          <a href="/karriere/#bewerbung" class="btn btn-primary" style="text-align: center; font-size: 0.9rem; padding: 0.65rem 1.25rem;">Jetzt bewerben</a>
+          <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0; flex: 1;">Montage von Klima- und
+            Lüftungsanlagen bei spannenden Projekten in der Region und darüber hinaus. Firmen-PKW inklusive.</p>
+          <a href="/karriere/#bewerbung" class="btn btn-primary"
+            style="text-align: center; font-size: 0.9rem; padding: 0.65rem 1.25rem;">Jetzt bewerben</a>
         </div>
 
         <!-- Stelle 2 -->
-        <div style="background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 12px rgba(0,0,0,0.07); border: 1px solid rgba(0,0,0,0.05); display: flex; flex-direction: column; gap: 1rem;">
+        <div
+          style="background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 12px rgba(0,0,0,0.07); border: 1px solid rgba(0,0,0,0.05); display: flex; flex-direction: column; gap: 1rem;">
           <div style="display: flex; align-items: center; gap: 1rem;">
-            <div style="width: 44px; height: 44px; background: var(--brand-blue); border-radius: 10px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            <div
+              style="width: 44px; height: 44px; background: var(--brand-blue); border-radius: 10px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <path d="M3 9h18M9 21V9" />
+              </svg>
             </div>
             <div>
-              <div style="font-size: 0.75rem; color: var(--brand-blue); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Vollzeit</div>
+              <div
+                style="font-size: 0.75rem; color: var(--brand-blue); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">
+                Vollzeit</div>
               <h3 style="font-size: 1.05rem; margin: 0;">Techn. Systemplaner / Zeichner (m/w/d)</h3>
             </div>
           </div>
-          <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0; flex: 1;">Erstellung von Werk- und Montageplänen mit AutoCAD. Abstimmung mit Projektleitung und Bauleitung. Beste Entwicklungschancen.</p>
-          <a href="/karriere/#bewerbung" class="btn btn-primary" style="text-align: center; font-size: 0.9rem; padding: 0.65rem 1.25rem;">Jetzt bewerben</a>
+          <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0; flex: 1;">Erstellung von Werk- und
+            Montageplänen mit AutoCAD. Abstimmung mit Projektleitung und Bauleitung. Beste Entwicklungschancen.</p>
+          <a href="/karriere/#bewerbung" class="btn btn-primary"
+            style="text-align: center; font-size: 0.9rem; padding: 0.65rem 1.25rem;">Jetzt bewerben</a>
         </div>
 
         <!-- Stelle 3 -->
-        <div style="background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 12px rgba(0,0,0,0.07); border: 1px solid rgba(0,0,0,0.05); display: flex; flex-direction: column; gap: 1rem;">
+        <div
+          style="background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 12px rgba(0,0,0,0.07); border: 1px solid rgba(0,0,0,0.05); display: flex; flex-direction: column; gap: 1rem;">
           <div style="display: flex; align-items: center; gap: 1rem;">
-            <div style="width: 44px; height: 44px; background: var(--brand-blue); border-radius: 10px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            <div
+              style="width: 44px; height: 44px; background: var(--brand-blue); border-radius: 10px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                <path d="M6 12v5c3 3 9 3 12 0v-5" />
+              </svg>
             </div>
             <div>
-              <div style="font-size: 0.75rem; color: #e67e22; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Ausbildung 2025</div>
+              <div
+                style="font-size: 0.75rem; color: #e67e22; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">
+                Ausbildung 2025</div>
               <h3 style="font-size: 1.05rem; margin: 0;">Anlagenmechaniker SHK (m/w/d)</h3>
             </div>
           </div>
-          <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0; flex: 1;">3,5-jährige Ausbildung mit direkter Übernahmeoption. Abwechslungsreiche Projekte, top Ausbilderverhältnis, faire Ausbildungsvergütung.</p>
-          <a href="/karriere/#bewerbung" class="btn btn-primary" style="text-align: center; font-size: 0.9rem; padding: 0.65rem 1.25rem;">Jetzt bewerben</a>
+          <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0; flex: 1;">3,5-jährige Ausbildung mit
+            direkter Übernahmeoption. Abwechslungsreiche Projekte, top Ausbilderverhältnis, faire Ausbildungsvergütung.
+          </p>
+          <a href="/karriere/#bewerbung" class="btn btn-primary"
+            style="text-align: center; font-size: 0.9rem; padding: 0.65rem 1.25rem;">Jetzt bewerben</a>
         </div>
 
       </div>
       <div style="text-align: center; margin-top: 2rem;">
-        <a href="/karriere/" style="color: var(--brand-blue); font-weight: 600; font-size: 0.95rem; text-decoration: none; border-bottom: 2px solid var(--brand-blue); padding-bottom: 2px;">Alle offenen Stellen ansehen →</a>
+        <a href="/karriere/"
+          style="color: var(--brand-blue); font-weight: 600; font-size: 0.95rem; text-decoration: none; border-bottom: 2px solid var(--brand-blue); padding-bottom: 2px;">Alle
+          offenen Stellen ansehen →</a>
       </div>
     </div>
-    <style>@media(max-width:900px){[style*="repeat(3, 1fr)"]{grid-template-columns:1fr!important}}</style>
+    <style>
+      @media(max-width:900px) {
+        [style*="repeat(3, 1fr)"] {
+          grid-template-columns: 1fr !important
+        }
+      }
+    </style>
   </section>
 
   <!-- CTA Fullscreen -->
   <section style="position: relative; overflow: hidden; padding: 6rem 0; background: var(--brand-blue);">
-    <div style="position: absolute; inset: 0; background-image: url('/uploads/team/schenk-plomer-dachs-49.jpg'); background-size: cover; background-position: center; opacity: 0.15;"></div>
+    <div
+      style="position: absolute; inset: 0; background-image: url('/uploads/team/schenk-plomer-dachs-49.jpg'); background-size: cover; background-position: center; opacity: 0.15;">
+    </div>
     <div class="container text-center" style="position: relative; z-index: 2;">
-      <h2 style="color: white; font-size: clamp(2rem, 4vw, 3rem);">Bereit für Ihr nächstes <span class="network-font" style="color: white !important;">Projekt</span>?</h2>
-      <p style="color: rgba(255,255,255,0.8); max-width: 550px; margin-inline: auto;">Ob Neubau, Sanierung oder Wartung – wir finden die optimale Lösung für Sie.</p>
+      <h2 style="color: white; font-size: clamp(2rem, 4vw, 3rem);">Bereit für Ihr nächstes <span class="network-font"
+          style="color: white !important;">Projekt</span>?</h2>
+      <p style="color: rgba(255,255,255,0.8); max-width: 550px; margin-inline: auto;">Ob Neubau, Sanierung oder Wartung
+        – wir finden die optimale Lösung für Sie.</p>
       <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 2rem; flex-wrap: wrap;">
         <a href="/kontakt/" class="btn btn-primary white-bg">Jetzt Kontakt aufnehmen</a>
         <a href="tel:+4987039226-0" class="btn btn-outline white-border">+49 8703 / 9226-0</a>
@@ -429,7 +563,7 @@
   <footer>
     <div class="container">
       <div class="footer-grid">
-        
+
         <div class="footer-col">
           <img src="/uploads/logos/logo_schenk_plomer.png" alt="Logo" style="height: 60px; margin-bottom: 1.5rem;">
           <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem;">
@@ -462,12 +596,15 @@
         </div>
 
         <div class="footer-col">
-            <h4>Sponsoring & Partner</h4>
-            <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
-                <img src="/uploads/sponsoring/evl_neu.png" alt="EVL" style="height: 35px; background: white; padding: 3px; border-radius: 4px;">
-                <img src="/uploads/sponsoring/spvgg_landshut_neu.png" alt="SPVGG" style="height: 35px; background: white; padding: 3px; border-radius: 4px;">
-            </div>
-            <p style="font-size: 0.85rem; color: rgba(255,255,255,0.6);">Wir sind stolzer Partner und Unterstützer des EVL und SPVGG Landshut.</p>
+          <h4>Sponsoring & Partner</h4>
+          <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
+            <img src="/uploads/sponsoring/evl_neu.png" alt="EVL"
+              style="height: 35px; background: white; padding: 3px; border-radius: 4px;">
+            <img src="/uploads/sponsoring/spvgg_landshut_neu.png" alt="SPVGG"
+              style="height: 35px; background: white; padding: 3px; border-radius: 4px;">
+          </div>
+          <p style="font-size: 0.85rem; color: rgba(255,255,255,0.6);">Wir sind stolzer Partner und Unterstützer des EVL
+            und SPVGG Landshut.</p>
         </div>
 
       </div>
@@ -485,80 +622,81 @@
 
   <!-- ===== EFFECTS ENGINE ===== -->
   <script>
-  document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', () => {
 
-    // 1. Scroll-Reveal: fade elements in when they enter viewport
-    const revealEls = document.querySelectorAll('.section, .facts-bar');
-    const revealObs = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('revealed');
-          revealObs.unobserve(entry.target);
-        }
+      // 1. Scroll-Reveal: fade elements in when they enter viewport
+      const revealEls = document.querySelectorAll('.section, .facts-bar');
+      const revealObs = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('revealed');
+            revealObs.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+      revealEls.forEach(el => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(40px)';
+        el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+        revealObs.observe(el);
       });
-    }, { threshold: 0.12 });
-    revealEls.forEach(el => {
-      el.style.opacity = '0';
-      el.style.transform = 'translateY(40px)';
-      el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
-      revealObs.observe(el);
+
+      // 2. Counting animation for fact numbers
+      const countEls = document.querySelectorAll('.fact-number');
+      let counted = false;
+      const countObs = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting && !counted) {
+            counted = true;
+            countEls.forEach(el => {
+              const raw = el.textContent.trim();
+              const numMatch = raw.match(/[\d.]+/);
+              if (!numMatch) return;
+              const target = parseFloat(numMatch[0].replace('.', ''));
+              const suffix = raw.replace(numMatch[0], '');
+              const hasDot = numMatch[0].includes('.');
+              const duration = 2000;
+              const start = performance.now();
+
+              function step(now) {
+                const progress = Math.min((now - start) / duration, 1);
+                const eased = 1 - Math.pow(1 - progress, 3); // easeOutCubic
+                let current = Math.floor(target * eased);
+                if (hasDot) {
+                  el.textContent = current.toLocaleString('de-DE') + suffix;
+                } else {
+                  el.textContent = current + suffix;
+                }
+                if (progress < 1) requestAnimationFrame(step);
+              }
+              requestAnimationFrame(step);
+            });
+          }
+        });
+      }, { threshold: 0.5 });
+      const factsBar = document.querySelector('.facts-bar');
+      if (factsBar) countObs.observe(factsBar);
+
+      // 3. Smooth header bg on scroll
+      const header = document.querySelector('header');
+      if (header) {
+        window.addEventListener('scroll', () => {
+          if (window.scrollY > 50) {
+            header.style.boxShadow = '0 2px 20px rgba(0,0,0,0.1)';
+            header.style.background = 'rgba(255,255,255,0.98)';
+          } else {
+            header.style.boxShadow = 'none';
+            header.style.background = 'rgba(255,255,255,0.95)';
+          }
+        }, { passive: true });
+      }
+
     });
 
-    // 2. Counting animation for fact numbers
-    const countEls = document.querySelectorAll('.fact-number');
-    let counted = false;
-    const countObs = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting && !counted) {
-          counted = true;
-          countEls.forEach(el => {
-            const raw = el.textContent.trim();
-            const numMatch = raw.match(/[\d.]+/);
-            if (!numMatch) return;
-            const target = parseFloat(numMatch[0].replace('.', ''));
-            const suffix = raw.replace(numMatch[0], '');
-            const hasDot = numMatch[0].includes('.');
-            const duration = 2000;
-            const start = performance.now();
-
-            function step(now) {
-              const progress = Math.min((now - start) / duration, 1);
-              const eased = 1 - Math.pow(1 - progress, 3); // easeOutCubic
-              let current = Math.floor(target * eased);
-              if (hasDot) {
-                el.textContent = current.toLocaleString('de-DE') + suffix;
-              } else {
-                el.textContent = current + suffix;
-              }
-              if (progress < 1) requestAnimationFrame(step);
-            }
-            requestAnimationFrame(step);
-          });
-        }
-      });
-    }, { threshold: 0.5 });
-    const factsBar = document.querySelector('.facts-bar');
-    if (factsBar) countObs.observe(factsBar);
-
-    // 3. Smooth header bg on scroll
-    const header = document.querySelector('header');
-    if (header) {
-      window.addEventListener('scroll', () => {
-        if (window.scrollY > 50) {
-          header.style.boxShadow = '0 2px 20px rgba(0,0,0,0.1)';
-          header.style.background = 'rgba(255,255,255,0.98)';
-        } else {
-          header.style.boxShadow = 'none';
-          header.style.background = 'rgba(255,255,255,0.95)';
-        }
-      }, { passive: true });
-    }
-
-  });
-
-  // Revealed state
-  document.head.insertAdjacentHTML('beforeend', '<style>.revealed{opacity:1!important;transform:translateY(0)!important}</style>');
+    // Revealed state
+    document.head.insertAdjacentHTML('beforeend', '<style>.revealed{opacity:1!important;transform:translateY(0)!important}</style>');
   </script>
 
 </body>
+
 </html>
