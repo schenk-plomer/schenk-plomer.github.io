@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  web:
+    image: nginx:alpine
+    container_name: schenk-plomer-web
+    restart: unless-stopped
+    volumes:
+      - ./:/usr/share/nginx/html:ro
+    networks:
+      - proxy_default
+
+networks:
+  proxy_default:
+    external: true
