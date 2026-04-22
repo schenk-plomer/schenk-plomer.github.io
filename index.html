@@ -107,7 +107,7 @@
   <!-- Jubiläums-Banner -->
   <div class="jubilee-banner">
     <span class="jubilee-emoji">🎉</span> Wir feiern <strong>33 Jahre</strong> Schenk & Plomer!
-    <a href="/historie/">Unsere Geschichte entdecken →</a>
+    <a href="/historie/index.html">Unsere Geschichte entdecken →</a>
     <span class="jubilee-emoji">🎉</span>
   </div>
 
@@ -203,7 +203,7 @@
               <h1><span class="jubilee-number">33</span> Jahre <span class="network-font" style="color: white;">Leidenschaft</span></h1>
               <p>Seit 1993 Ihr Partner für Luft- & Klimatechnik. Danke für Ihr Vertrauen!</p>
               <div class="hero-actions">
-                <a href="/historie/" class="btn btn-primary white-bg">Unsere Geschichte</a>
+                <a href="/historie/index.html" class="btn btn-primary white-bg">Unsere Geschichte</a>
                 <a href="/kontakt/" class="btn btn-outline white-border">Kontakt</a>
               </div>
             </div>
@@ -853,24 +853,8 @@
           });
         }
 
-        let startTime = performance.now();
-        const duration = 6000; // 6 seconds of confetti
-        const fadeStart = 4000; // start fading at 4s
-
         function drawConfetti(time) {
-          const elapsed = time - startTime;
           ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-          // Global fade
-          let globalAlpha = 1;
-          if (elapsed > fadeStart) {
-            globalAlpha = Math.max(0, 1 - (elapsed - fadeStart) / (duration - fadeStart));
-          }
-
-          if (elapsed > duration) {
-            canvas.style.display = 'none';
-            return;
-          }
 
           confetti.forEach(c => {
             c.y += c.speedY;
@@ -887,7 +871,7 @@
             ctx.save();
             ctx.translate(c.x, c.y);
             ctx.rotate((c.rotation * Math.PI) / 180);
-            ctx.globalAlpha = globalAlpha * c.opacity;
+            ctx.globalAlpha = c.opacity;
             ctx.fillStyle = c.color;
 
             if (c.shape === 'rect') {
