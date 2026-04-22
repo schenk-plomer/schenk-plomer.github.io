@@ -13,9 +13,103 @@
   <link rel="stylesheet" href="/modern.css">
   <link rel="shortcut icon" type="image/ico" href="/favicon.png">
 
+  <style>
+    /* ===== 33 Jahre Jubiläums-Konfetti ===== */
+    #confetti-canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    /* Jubiläums-Banner oben */
+    .jubilee-banner {
+      background: linear-gradient(90deg, #d4af37, #f5d76e, #d4af37);
+      color: #312783;
+      text-align: center;
+      padding: 0.55rem 1rem;
+      font-weight: 700;
+      font-size: 0.9rem;
+      letter-spacing: 0.03em;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1001;
+      animation: shimmer 3s ease-in-out infinite;
+    }
+
+    .jubilee-banner a {
+      color: #312783;
+      text-decoration: underline;
+      font-weight: 800;
+    }
+
+    .jubilee-banner .jubilee-emoji {
+      font-size: 1.1em;
+    }
+
+    @keyframes shimmer {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+
+    /* Push header down to make room for banner */
+    header {
+      top: 34px !important;
+    }
+
+    .hero {
+      margin-top: 34px;
+    }
+
+    /* Jubilee Slide special styling */
+    .jubilee-slide .slanted-box {
+      background: linear-gradient(135deg, #312783 0%, #1a1460 50%, #312783 100%);
+      border: 3px solid #d4af37;
+      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4), 0 0 60px rgba(212, 175, 55, 0.15);
+    }
+
+    .jubilee-badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #d4af37, #f5d76e);
+      color: #312783;
+      padding: 0.35rem 1.2rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+    }
+
+    .jubilee-number {
+      font-family: var(--font-accent);
+      font-size: 1.4em;
+      color: #d4af37 !important;
+    }
+
+    @media (max-width: 768px) {
+      .jubilee-banner {
+        font-size: 0.78rem;
+        padding: 0.45rem 0.75rem;
+      }
+    }
+  </style>
+
 </head>
 
 <body>
+
+  <!-- Jubiläums-Banner -->
+  <div class="jubilee-banner">
+    <span class="jubilee-emoji">🎉</span> Wir feiern <strong>33 Jahre</strong> Schenk & Plomer!
+    <a href="/historie/">Unsere Geschichte entdecken →</a>
+    <span class="jubilee-emoji">🎉</span>
+  </div>
 
   <!-- Navigation -->
   <header>
@@ -92,13 +186,33 @@
     }
   </script>
 
+  <!-- Konfetti Canvas -->
+  <canvas id="confetti-canvas"></canvas>
+
   <!-- Hero Section -->
   <section id="home" class="hero">
     <!-- Background Slider -->
     <div class="hero-slider" id="hero-slider">
 
+      <!-- Slide 0 – Jubiläum (Start-Slide) -->
+      <div class="slide active jubilee-slide" style="background-image: url('/uploads/slider/Slider_neueHalle.jpg');">
+        <div class="container slide-container">
+          <div class="hero-content slanted-box">
+            <div class="slanted-content">
+              <span class="jubilee-badge">🎉 Jubiläum 1993 – 2026</span>
+              <h1><span class="jubilee-number">33</span> Jahre <span class="network-font" style="color: white;">Leidenschaft</span></h1>
+              <p>Seit 1993 Ihr Partner für Luft- & Klimatechnik. Danke für Ihr Vertrauen!</p>
+              <div class="hero-actions">
+                <a href="/historie/" class="btn btn-primary white-bg">Unsere Geschichte</a>
+                <a href="/kontakt/" class="btn btn-outline white-border">Kontakt</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Slide 1 -->
-      <div class="slide active" style="background-image: url('/uploads/slider/Slider_Klimatisieren.jpg');">
+      <div class="slide" style="background-image: url('/uploads/slider/Slider_Klimatisieren.jpg');">
         <div class="container slide-container">
           <div class="hero-content slanted-box">
             <div class="slanted-content">
@@ -150,7 +264,7 @@
     <div class="container">
       <div class="facts-grid">
         <div class="fact-item">
-          <span class="fact-number network-font">30+</span>
+          <span class="fact-number network-font">33</span>
           <span class="fact-label">Jahre Erfahrung</span>
         </div>
         <div class="fact-item">
@@ -214,7 +328,7 @@
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2.5">
                 <polyline points="20 6 9 17 4 12" />
               </svg>
-              <span>30+ Jahre Erfahrung – auch bei Ihnen um die Ecke</span>
+              <span>33 Jahre Erfahrung – auch bei Ihnen um die Ecke</span>
             </div>
           </div>
           <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
@@ -688,6 +802,112 @@
             header.style.background = 'rgba(255,255,255,0.95)';
           }
         }, { passive: true });
+      }
+
+      // ===== 🎉 KONFETTI ANIMATION =====
+      const canvas = document.getElementById('confetti-canvas');
+      if (canvas) {
+        const ctx = canvas.getContext('2d');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        // Responsive resize
+        window.addEventListener('resize', () => {
+          canvas.width = window.innerWidth;
+          canvas.height = window.innerHeight;
+        });
+
+        // Schenk & Plomer brand colors + gold for jubilee
+        const colors = [
+          '#312783', // brand blue
+          '#d4af37', // gold
+          '#f5d76e', // light gold
+          '#ffffff', // white
+          '#4a3fbf', // lighter blue
+          '#1a1460', // dark blue
+          '#e8c84a', // warm gold
+          '#7b6fdb', // soft purple/blue
+        ];
+
+        const confettiCount = 200;
+        const confetti = [];
+
+        // Shapes: rectangle, circle, strip
+        const shapes = ['rect', 'circle', 'strip'];
+
+        for (let i = 0; i < confettiCount; i++) {
+          confetti.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height - canvas.height, // start above viewport
+            w: Math.random() * 10 + 5,
+            h: Math.random() * 6 + 3,
+            color: colors[Math.floor(Math.random() * colors.length)],
+            shape: shapes[Math.floor(Math.random() * shapes.length)],
+            rotation: Math.random() * 360,
+            rotationSpeed: (Math.random() - 0.5) * 8,
+            speedX: (Math.random() - 0.5) * 3,
+            speedY: Math.random() * 3 + 2,
+            wobble: Math.random() * 10,
+            wobbleSpeed: Math.random() * 0.1 + 0.02,
+            opacity: 1,
+          });
+        }
+
+        let startTime = performance.now();
+        const duration = 6000; // 6 seconds of confetti
+        const fadeStart = 4000; // start fading at 4s
+
+        function drawConfetti(time) {
+          const elapsed = time - startTime;
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+          // Global fade
+          let globalAlpha = 1;
+          if (elapsed > fadeStart) {
+            globalAlpha = Math.max(0, 1 - (elapsed - fadeStart) / (duration - fadeStart));
+          }
+
+          if (elapsed > duration) {
+            canvas.style.display = 'none';
+            return;
+          }
+
+          confetti.forEach(c => {
+            c.y += c.speedY;
+            c.x += c.speedX + Math.sin(c.wobble) * 0.5;
+            c.wobble += c.wobbleSpeed;
+            c.rotation += c.rotationSpeed;
+
+            // Reset if below viewport
+            if (c.y > canvas.height + 20) {
+              c.y = -20;
+              c.x = Math.random() * canvas.width;
+            }
+
+            ctx.save();
+            ctx.translate(c.x, c.y);
+            ctx.rotate((c.rotation * Math.PI) / 180);
+            ctx.globalAlpha = globalAlpha * c.opacity;
+            ctx.fillStyle = c.color;
+
+            if (c.shape === 'rect') {
+              ctx.fillRect(-c.w / 2, -c.h / 2, c.w, c.h);
+            } else if (c.shape === 'circle') {
+              ctx.beginPath();
+              ctx.arc(0, 0, c.w / 2.5, 0, Math.PI * 2);
+              ctx.fill();
+            } else {
+              // strip / streamer
+              ctx.fillRect(-c.w / 2, -1, c.w, 2.5);
+            }
+
+            ctx.restore();
+          });
+
+          requestAnimationFrame(drawConfetti);
+        }
+
+        requestAnimationFrame(drawConfetti);
       }
 
     });
