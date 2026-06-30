@@ -848,28 +848,60 @@ footer {
     display: block;
   }
 
-  /* Fix for mobile slider display */
+  /* Hero / slider — fit content in viewport & clear the fixed header */
+  .hero {
+    height: auto;
+    min-height: 100vh;
+    min-height: 100svh;
+  }
+
   .hero .slide-container {
-    margin-left: 5%;
-    max-width: 90%;
+    position: absolute;
+    inset: 0;
+    top: 0;
+    transform: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 96px 1.25rem 2.5rem;
+    max-width: 100%;
   }
 
   .slanted-box {
     padding: 1.5rem;
     transform: rotate(0deg);
     border-radius: var(--radius-md);
+    width: 100%;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
   }
 
   .slanted-content {
     transform: rotate(0deg);
   }
 
+  .hero-content h1 {
+    font-size: 1.7rem;
+  }
+
+  .hero-content p {
+    font-size: 0.98rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
   h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   h2 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 
   .section {
@@ -1008,4 +1040,101 @@ footer {
 
 .subpage.def strong {
   color: var(--text-primary);
+}
+
+/* =====================================================================
+   Mobile polish — navigation, layout & spacing on small screens
+   ===================================================================== */
+@media (max-width: 768px) {
+
+  /* Make the "Lösungen" dropdown reachable inside the collapsed menu
+     (hover doesn't exist on touch devices) */
+  .dropdown-parent {
+    width: 100%;
+  }
+
+  .dropdown-parent>a::after {
+    display: none;
+  }
+
+  .dropdown-menu {
+    display: block;
+    position: static;
+    min-width: 0;
+    padding: 0.5rem 0 0;
+    margin: 0;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    animation: none;
+  }
+
+  .dropdown-menu a {
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 0.4rem;
+    color: var(--text-muted);
+  }
+
+  /* Kontakt link shown only inside the open mobile menu */
+  .mobile-only {
+    display: none;
+  }
+
+  #nav-menu.active .mobile-only {
+    display: block;
+  }
+
+  /* Company split panels: prevent long words from overflowing */
+  .company-panel {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .company-panel h3 {
+    font-size: 1.3rem;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+
+  /* Tighter vertical rhythm & gutters on phones */
+  .section {
+    padding: 48px 0;
+  }
+
+  .container {
+    padding: 0 1.25rem;
+  }
+
+  .subpage-hero {
+    padding: 7rem 0 3rem;
+  }
+
+  .feature-card {
+    padding: 1.75rem;
+  }
+
+  .section-header {
+    margin-bottom: 2rem;
+  }
+
+  /* Collapse inline multi-column grids (used across sub-pages) to a
+     single column so nothing gets squeezed or clipped */
+  [style*="grid-template-columns:1fr 1fr"],
+  [style*="grid-template-columns: 1fr 1fr"],
+  [style*="repeat(2,"],
+  [style*="repeat(2 ,"],
+  [style*="repeat(3,"],
+  [style*="repeat(3 ,"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* …but keep the compact stat tiles as a 2×2 grid */
+  .stat-grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  /* Long inline gaps look excessive once stacked */
+  [style*="gap: 4rem"] {
+    gap: 2rem !important;
+  }
 }
