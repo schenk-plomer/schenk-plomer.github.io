@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Schenk & Plomer GmbH | Referenzen</title>
-  <meta name="description" content="Referenzprojekte von Schenk & Plomer – Krankenhäuser, Fitnessstudios, Industrieanlagen und mehr.">
+  <title>Schenk & Plomer GmbH | Newsroom – Projekte & News</title>
+  <meta name="description" content="Newsroom von Schenk & Plomer – aktuelle Projekte, Referenzen und Neuigkeiten aus Lüftungs- und Klimatechnik an einem Ort.">
   <link rel="stylesheet" href="/modern.css">
   <link rel="shortcut icon" type="image/ico" href="/favicon.png">
 </head>
@@ -13,6 +13,38 @@
   <style>
     @media(max-width:768px){#nav-menu{display:none;position:absolute;top:80px;left:0;width:100%;background:white;flex-direction:column;padding:2rem;box-shadow:0 10px 15px -3px rgba(0,0,0,.1)}#nav-menu.active{display:flex}.nav-links{flex-direction:column;gap:1.5rem;text-align:center}}
 
+    /* ===== Featured Projects Slider ===== */
+    .proj-slider { position:relative; height:62vh; min-height:460px; overflow:hidden; background:var(--brand-blue); }
+    .proj-slide { position:absolute; inset:0; opacity:0; background-size:cover; background-position:center; transition:opacity 1s ease-in-out; }
+    .proj-slide.active { opacity:1; }
+    .proj-slide::after { content:''; position:absolute; inset:0; background:linear-gradient(to top, rgba(20,15,60,0.92) 0%, rgba(20,15,60,0.55) 45%, rgba(20,15,60,0.15) 100%); }
+    .proj-slide-content { position:absolute; left:0; right:0; bottom:0; z-index:2; padding-bottom:3.5rem; }
+    .proj-slide-content .inner { max-width:640px; }
+    .proj-status { display:inline-block; background:rgba(255,255,255,0.15); border:1px solid rgba(255,255,255,0.3); backdrop-filter:blur(4px); color:#fff; padding:0.35rem 1rem; border-radius:30px; font-size:0.75rem; font-weight:700; letter-spacing:0.05em; text-transform:uppercase; margin-bottom:1rem; }
+    .proj-status.laufend { background:rgba(230,126,34,0.25); border-color:rgba(230,126,34,0.6); }
+    .proj-slide-content h2 { color:#fff; font-size:clamp(1.6rem,3.5vw,2.6rem); margin-bottom:0.75rem; }
+    .proj-slide-content .network-font { color:#fff !important; }
+    .proj-slide-content p { color:rgba(255,255,255,0.9); font-size:1.05rem; max-width:560px; margin-bottom:0; }
+
+    .proj-nav { position:absolute; top:50%; transform:translateY(-50%); z-index:5; width:48px; height:48px; border-radius:50%; border:none; background:rgba(255,255,255,0.15); backdrop-filter:blur(6px); color:#fff; font-size:1.6rem; line-height:1; cursor:pointer; transition:background 0.2s ease; display:flex; align-items:center; justify-content:center; }
+    .proj-nav:hover { background:rgba(255,255,255,0.3); }
+    .proj-nav.prev { left:1.25rem; }
+    .proj-nav.next { right:1.25rem; }
+    .proj-dots { position:absolute; bottom:1.25rem; left:0; right:0; z-index:5; display:flex; gap:0.6rem; justify-content:center; }
+    .proj-dot { width:10px; height:10px; border-radius:50%; background:rgba(255,255,255,0.4); border:none; cursor:pointer; padding:0; transition:all 0.2s ease; }
+    .proj-dot.active { background:#fff; transform:scale(1.25); }
+
+    @media(max-width:768px){
+      .proj-slider { height:auto; min-height:0; }
+      .proj-slide { position:relative; opacity:1; height:56vh; min-height:340px; }
+      .proj-slide:not(.active){ display:none; }
+      .proj-slide-content { padding-bottom:2.5rem; }
+      .proj-slide-content p { font-size:0.95rem; }
+      .proj-nav { width:40px; height:40px; font-size:1.3rem; top:32%; }
+      .proj-nav.prev{ left:0.6rem; } .proj-nav.next{ right:0.6rem; }
+    }
+
+    /* ===== Projects grid & filters ===== */
     .filter-bar { display:flex; gap:0.75rem; flex-wrap:wrap; justify-content:center; margin-bottom:3rem; }
     .filter-btn { background:transparent; border:2px solid var(--brand-blue); color:var(--brand-blue); padding:0.6rem 1.5rem; border-radius:30px; cursor:pointer; font-weight:bold; font-size:0.9rem; transition:all 0.25s ease; }
     .filter-btn.active, .filter-btn:hover { background:var(--brand-blue); color:white; transform:scale(1.05); }
@@ -25,12 +57,14 @@
     .ref-card:hover .ref-bg { transform:scale(1.08); }
     .ref-card .ref-overlay { position:absolute; inset:0; background:linear-gradient(to top, rgba(49,39,131,1) 0%, rgba(49,39,131,0.6) 40%, transparent 70%); transition:background 0.3s ease; }
     .ref-card:hover .ref-overlay { background:linear-gradient(to top, rgba(49,39,131,1) 0%, rgba(49,39,131,0.7) 50%, rgba(49,39,131,0.2) 100%); }
+    .ref-card .ref-badge { position:absolute; top:1rem; left:1rem; z-index:3; background:rgba(255,255,255,0.9); color:var(--brand-blue); padding:0.25rem 0.8rem; border-radius:20px; font-size:0.7rem; font-weight:700; letter-spacing:0.05em; text-transform:uppercase; }
+    .ref-card .ref-badge.laufend { background:#e67e22; color:#fff; }
     .ref-card .ref-body { position:absolute; bottom:0; left:0; right:0; padding:2rem; z-index:2; color:white; }
     .ref-card .ref-body h3 { color:white; margin-bottom:0.5rem; font-size:1.3rem; }
     .ref-card .ref-body p { color:rgba(255,255,255,0.85); font-size:0.9rem; margin-bottom:1rem; }
     .ref-specs { display:flex; flex-wrap:wrap; gap:0.4rem; }
     .spec-badge { background:rgba(255,255,255,0.15); backdrop-filter:blur(4px); border:1px solid rgba(255,255,255,0.25); color:white; padding:0.2rem 0.7rem; border-radius:20px; font-size:0.75rem; font-weight:600; }
-    
+
     .ref-card .hover-detail { opacity:0; transform:translateY(10px); transition:all 0.3s ease; margin-top:0.75rem; font-size:0.85rem; color:rgba(255,255,255,0.9); }
     .ref-card:hover .hover-detail { opacity:1; transform:translateY(0); }
   </style>
@@ -40,46 +74,57 @@
     <section class="subpage-hero">
       <div class="container text-center">
         <h1>Unser <span class="network-font">Newsroom</span></h1>
-        <p style="margin-inline:auto;">Alle Neuigkeiten, Pressemitteilungen und eine Auswahl unserer erfolgreich abgeschlossenen Referenzprojekte.</p>
+        <p style="margin-inline:auto;">Aktuelle Projekte, ausgewählte Referenzen und Neuigkeiten aus dem Hause Schenk & Plomer – alles Neue an einem Ort.</p>
       </div>
     </section>
 
-    <section class="section" style="background:var(--bg-secondary); min-height:60vh;">
+    <!-- ===== Featured Projects Slider ===== -->
+    <section aria-label="Aktuelle Projekte">
+      <div class="proj-slider" id="projSlider">
+
+        <div class="proj-slide active" style="background-image:url('/uploads/projekte/augustiner-muenchen-1.jpg');">
+          <div class="container proj-slide-content">
+            <div class="inner">
+              <span class="proj-status">Aktuelles Projekt</span>
+              <h2>Augustiner Bräu <span class="network-font">München</span></h2>
+              <p>Aufstellung der zentralen Lüftungsgeräte auf dem Dach der Traditionsbrauerei – leistungsstarke RLT-Technik über den Dächern Münchens.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="proj-slide" style="background-image:url('/uploads/projekte/richelstrasse-muenchen-db-1.jpg'); background-position:center 35%;">
+          <div class="container proj-slide-content">
+            <div class="inner">
+              <span class="proj-status">Geliefert & aufgestellt</span>
+              <h2>Kantine DB, <span class="network-font">Richelstraße München</span></h2>
+              <p>Lüftungsgeräte für die Kantine der Deutschen Bahn – geliefert und auf dem Dach aufgestellt, mitten in München.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="proj-slide" style="background-image:url('/uploads/projekte/aldersbacher-hof-plattling-1.jpg');">
+          <div class="container proj-slide-content">
+            <div class="inner">
+              <span class="proj-status laufend">In Umsetzung</span>
+              <h2>Aldersbacher Hof, <span class="network-font">Plattling</span></h2>
+              <p>Küchen- und Gaststättenlüftung für den Aldersbacher Hof – in Zusammenarbeit mit der Fa. Oberhauser. Projekt aktuell in Umsetzung.</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="proj-nav prev" aria-label="Vorheriges Projekt">‹</button>
+        <button class="proj-nav next" aria-label="Nächstes Projekt">›</button>
+        <div class="proj-dots" id="projDots"></div>
+      </div>
+    </section>
+
+    <section class="section" style="background:var(--bg-secondary);">
       <div class="container">
 
-        <!-- Filter Bar -->
-        <!-- News Section -->
+        <!-- ===== Projekte ===== -->
         <div class="section-header" style="margin-bottom: 2rem;">
-          <h2 style="font-size: 1.8rem;">Presse & <span class="network-font">Storys</span></h2>
-        </div>
-        <div class="news-grid" style="margin-bottom: 5rem;">
-          <article class="news-card">
-            <div style="padding:2rem;background:var(--brand-blue);min-height:120px;display:flex;align-items:center;justify-content:center;"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
-            <div class="news-content">
-              <h3>Raimund Plomer spendet</h3>
-              <p>Raimund Plomer feierte seinen 60. Geburtstag und bat statt Geschenken um Spenden für die „Stille Hilfe“. Die Summe rundete er großzügig auf 3.000 Euro auf. Der Verein unterstützt seit 2014 Menschen, die unverschuldet in Not geraten sind.</p>
-            </div>
-          </article>
-          <article class="news-card">
-            <div style="padding:2rem;background:var(--brand-blue);min-height:120px;display:flex;align-items:center;justify-content:center;"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
-            <div class="news-content">
-              <h3>Neue Fertigungshalle</h3>
-              <p>Unsere neue Kanalfertigung ist im Einsatz. Auf 750 m² wöchentlicher Kapazität fertigen wir nun noch schneller und flexibler. Das ermöglicht kürzere Reaktionszeiten und höchste Qualität für unsere Projekte.</p>
-            </div>
-          </article>
-          <article class="news-card">
-            <div style="padding:2rem;background:var(--brand-blue);min-height:120px;display:flex;align-items:center;justify-content:center;"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
-            <div class="news-content">
-              <h3>Stolzer Partner des EVL</h3>
-              <p>Wir sind stolzer Sponsor und Partner des EV Landshut. Als regionales Unternehmen unterstützen wir die Leidenschaft und Energie auf dem Eis mit vollem Einsatz.</p>
-            </div>
-          </article>
-        </div>
-        
-        <hr style="border:0; height:1px; background:rgba(0,0,0,0.1); margin: 4rem 0;">
-        
-        <div class="section-header" style="margin-bottom: 2rem;">
-          <h2 style="font-size: 1.8rem;">Ausgewählte <span class="network-font">Projekte</span></h2>
+          <h2 style="font-size: 1.8rem;">Aktuelle & ausgewählte <span class="network-font">Projekte</span></h2>
+          <p>Ein Einblick in laufende Baustellen und erfolgreich abgeschlossene Referenzen.</p>
         </div>
         <div class="filter-bar">
           <button class="filter-btn active" data-filter="all">Alle Projekte</button>
@@ -91,6 +136,57 @@
 
         <!-- Reference Grid -->
         <div class="ref-grid" id="refGrid">
+
+          <!-- NEU: Augustiner Bräu München -->
+          <div class="ref-card" data-category="lueftung gewerbe">
+            <span class="ref-badge">Neu</span>
+            <img class="ref-bg" src="/uploads/projekte/augustiner-muenchen-1.jpg" alt="Augustiner Bräu München" loading="lazy">
+            <div class="ref-overlay"></div>
+            <div class="ref-body">
+              <h3>Augustiner Bräu München</h3>
+              <p>Aufstellung der zentralen Lüftungsgeräte auf dem Dach der Traditionsbrauerei.</p>
+              <div class="ref-specs">
+                <span class="spec-badge">Lüftungstechnik</span>
+                <span class="spec-badge">RLT-Geräte</span>
+                <span class="spec-badge">München</span>
+              </div>
+              <div class="hover-detail">→ Leistungsstarke Zentrallüftung über den Dächern Münchens – Aufstellung und Montage durch unser Team.</div>
+            </div>
+          </div>
+
+          <!-- NEU: Kantine DB Richelstraße München -->
+          <div class="ref-card" data-category="lueftung gewerbe">
+            <span class="ref-badge">Neu</span>
+            <img class="ref-bg" src="/uploads/projekte/richelstrasse-muenchen-db-1.jpg" alt="Kantine DB Richelstraße München" loading="lazy">
+            <div class="ref-overlay"></div>
+            <div class="ref-body">
+              <h3>Kantine DB · Richelstraße München</h3>
+              <p>Lüftungsgeräte für die Kantine der Deutschen Bahn – geliefert und auf dem Dach aufgestellt.</p>
+              <div class="ref-specs">
+                <span class="spec-badge">Küchenlüftung</span>
+                <span class="spec-badge">Großküche</span>
+                <span class="spec-badge">München</span>
+              </div>
+              <div class="hover-detail">→ Aufstellung leistungsstarker Lüftungsgeräte für die Betriebskantine mitten in München.</div>
+            </div>
+          </div>
+
+          <!-- NEU: Aldersbacher Hof Plattling (laufend) -->
+          <div class="ref-card" data-category="lueftung gewerbe">
+            <span class="ref-badge laufend">In Umsetzung</span>
+            <img class="ref-bg" src="/uploads/projekte/aldersbacher-hof-plattling-1.jpg" alt="Aldersbacher Hof Plattling" loading="lazy">
+            <div class="ref-overlay"></div>
+            <div class="ref-body">
+              <h3>Aldersbacher Hof · Plattling</h3>
+              <p>Küchen- und Gaststättenlüftung in Zusammenarbeit mit der Fa. Oberhauser.</p>
+              <div class="ref-specs">
+                <span class="spec-badge">Küchenlüftung</span>
+                <span class="spec-badge">Gastronomie</span>
+                <span class="spec-badge">Kooperation</span>
+              </div>
+              <div class="hover-detail">→ Lüftung für Küche und Gaststätte – Aufstellung der RLT-Geräte, Projekt aktuell in Umsetzung.</div>
+            </div>
+          </div>
 
           <!-- Neubau Realschule Vilsbiburg -->
           <div class="ref-card" data-category="lueftung gewerbe">
@@ -155,6 +251,8 @@
               <div class="hover-detail">→ Umsetzung moderner Lüftungskonzepte in regionalem Bildungszentrum.</div>
             </div>
           </div>
+
+          <!-- Clever Fit -->
           <div class="ref-card" data-category="klima gewerbe">
             <img class="ref-bg" src="/uploads/referenzen/CleverFIT.jpeg" alt="Clever Fit" loading="lazy">
             <div class="ref-overlay"></div>
@@ -166,7 +264,7 @@
                 <span class="spec-badge">250 kW Kühlleistung</span>
                 <span class="spec-badge">VRF-Systeme</span>
               </div>
-              <div class="hover-detail">→ Hover für Details: Multi-Split VRF-Systeme mit individueller Zonenregelung für optimales Trainingsklima bei voller Auslastung.</div>
+              <div class="hover-detail">→ Multi-Split VRF-Systeme mit individueller Zonenregelung für optimales Trainingsklima bei voller Auslastung.</div>
             </div>
           </div>
 
@@ -251,6 +349,38 @@
           </div>
 
         </div>
+
+        <hr style="border:0; height:1px; background:rgba(0,0,0,0.1); margin: 4.5rem 0;">
+
+        <!-- ===== Presse & Storys ===== -->
+        <div class="section-header" style="margin-bottom: 2rem;">
+          <h2 style="font-size: 1.8rem;">Presse & <span class="network-font">Storys</span></h2>
+          <p>Neuigkeiten, Engagement und Meilensteine aus dem Unternehmen.</p>
+        </div>
+        <div class="news-grid">
+          <article class="news-card">
+            <div style="padding:2rem;background:var(--brand-blue);min-height:120px;display:flex;align-items:center;justify-content:center;"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+            <div class="news-content">
+              <h3>Raimund Plomer spendet</h3>
+              <p>Raimund Plomer feierte seinen 60. Geburtstag und bat statt Geschenken um Spenden für die „Stille Hilfe“. Die Summe rundete er großzügig auf 3.000 Euro auf. Der Verein unterstützt seit 2014 Menschen, die unverschuldet in Not geraten sind.</p>
+            </div>
+          </article>
+          <article class="news-card">
+            <div style="padding:2rem;background:var(--brand-blue);min-height:120px;display:flex;align-items:center;justify-content:center;"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
+            <div class="news-content">
+              <h3>Neue Fertigungshalle</h3>
+              <p>Unsere neue Kanalfertigung ist im Einsatz. Auf 750 m² wöchentlicher Kapazität fertigen wir nun noch schneller und flexibler. Das ermöglicht kürzere Reaktionszeiten und höchste Qualität für unsere Projekte.</p>
+            </div>
+          </article>
+          <article class="news-card">
+            <div style="padding:2rem;background:var(--brand-blue);min-height:120px;display:flex;align-items:center;justify-content:center;"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+            <div class="news-content">
+              <h3>Stolzer Partner des EVL</h3>
+              <p>Wir sind stolzer Sponsor und Partner des EV Landshut. Als regionales Unternehmen unterstützen wir die Leidenschaft und Energie auf dem Eis mit vollem Einsatz.</p>
+            </div>
+          </article>
+        </div>
+
       </div>
     </section>
 
@@ -264,23 +394,54 @@
     </section>
 
     <script>
+      // ===== Featured Projects Slider =====
       document.addEventListener('DOMContentLoaded', () => {
+        const slider = document.getElementById('projSlider');
+        if (slider) {
+          const slides = slider.querySelectorAll('.proj-slide');
+          const dotsWrap = document.getElementById('projDots');
+          let current = 0, timer;
+
+          slides.forEach((_, i) => {
+            const dot = document.createElement('button');
+            dot.className = 'proj-dot' + (i === 0 ? ' active' : '');
+            dot.setAttribute('aria-label', 'Projekt ' + (i + 1));
+            dot.addEventListener('click', () => { go(i); reset(); });
+            dotsWrap.appendChild(dot);
+          });
+          const dots = dotsWrap.querySelectorAll('.proj-dot');
+
+          function go(n) {
+            slides[current].classList.remove('active');
+            dots[current].classList.remove('active');
+            current = (n + slides.length) % slides.length;
+            slides[current].classList.add('active');
+            dots[current].classList.add('active');
+          }
+          function next() { go(current + 1); }
+          function prev() { go(current - 1); }
+          function reset() { clearInterval(timer); timer = setInterval(next, 6000); }
+
+          slider.querySelector('.proj-nav.next').addEventListener('click', () => { next(); reset(); });
+          slider.querySelector('.proj-nav.prev').addEventListener('click', () => { prev(); reset(); });
+          reset();
+        }
+
+        // ===== Project filter =====
         const btns = document.querySelectorAll('.filter-btn');
         const cards = document.querySelectorAll('.ref-card');
-
         btns.forEach(btn => {
           btn.addEventListener('click', () => {
             btns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             const filter = btn.dataset.filter;
-
             cards.forEach((card, i) => {
               const cats = card.dataset.category.split(' ');
               const show = filter === 'all' || cats.includes(filter);
               card.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
               if (show) {
                 card.style.display = 'block';
-                setTimeout(() => { card.style.opacity = '1'; card.style.transform = 'translateY(0)'; }, i * 50);
+                setTimeout(() => { card.style.opacity = '1'; card.style.transform = 'translateY(0)'; }, i * 40);
               } else {
                 card.style.opacity = '0';
                 card.style.transform = 'translateY(20px)';
