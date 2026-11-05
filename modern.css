@@ -1138,3 +1138,29 @@ footer {
     gap: 2rem !important;
   }
 }
+/* Sticky "Angebot anfragen"-Button – nur Mobile */
+.mobile-cta { display: none; }
+@media (max-width: 768px) {
+  .mobile-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    position: fixed;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 900;
+    background: var(--brand-blue);
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0.9rem 1.5rem;
+    border-radius: var(--radius-full);
+    box-shadow: 0 8px 24px rgba(49, 39, 131, 0.4);
+    text-align: center;
+  }
+  .mobile-cta:hover { color: #fff; }
+  /* Platz, damit der Button die Footer-Rechtslinks nicht verdeckt */
+  footer { padding-bottom: 6rem; }
+}

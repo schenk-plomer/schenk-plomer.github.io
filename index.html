@@ -505,6 +505,58 @@
     </div>
   </section>
 
+  <!-- Ablauf / So arbeiten wir -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>So läuft's <span class="network-font">bei uns</span></h2>
+        <p>Von der ersten Anfrage bis zur Wartung – klar, planbar und persönlich.</p>
+      </div>
+      <div class="process-grid">
+        <div class="process-step">
+          <div class="process-num">1</div>
+          <h3>Anfrage</h3>
+          <p>Sie schildern uns Ihr Vorhaben – telefonisch oder per E-Mail. Unkompliziert und unverbindlich.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-num">2</div>
+          <h3>Beratung & Aufmaß</h3>
+          <p>Wir beraten Sie und machen uns vor Ort ein genaues Bild der Gegebenheiten.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-num">3</div>
+          <h3>Angebot & Planung</h3>
+          <p>Sie erhalten ein transparentes Angebot und eine durchdachte technische Planung.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-num">4</div>
+          <h3>Montage</h3>
+          <p>Unser eigenes Team setzt die Anlage sauber, termingerecht und fachgerecht um.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-num">5</div>
+          <h3>Service & Wartung</h3>
+          <p>Auch nach der Inbetriebnahme bleiben wir für Wartung und Service an Ihrer Seite.</p>
+        </div>
+      </div>
+    </div>
+    <style>
+      .process-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1.5rem; }
+      .process-step { text-align: center; }
+      .process-num {
+        width: 56px; height: 56px; margin: 0 auto 1rem;
+        background: var(--brand-blue); color: #fff; border-radius: 50%;
+        display: flex; align-items: center; justify-content: center;
+        font-family: var(--font-heading); font-weight: 800; font-size: 1.35rem;
+        box-shadow: var(--shadow-sm);
+      }
+      .process-step h3 { font-size: 1.05rem; margin-bottom: 0.4rem; }
+      .process-step p { font-size: 0.9rem; margin-bottom: 0; }
+      @media (max-width: 900px) { .process-grid { grid-template-columns: repeat(2, 1fr); gap: 2.25rem 1.5rem; } }
+      @media (max-width: 560px) { .process-grid { grid-template-columns: 1fr; } }
+    </style>
+  </section>
+
   <!-- News & Projekte (Cards) -->
   <section id="projekte" class="section bg-blue">
     <div class="container">
@@ -887,6 +939,7 @@
     document.head.insertAdjacentHTML('beforeend', '<style>.revealed{opacity:1!important;transform:translateY(0)!important}</style>');
   </script>
 
+  <a href="/kontakt/" class="mobile-cta">Angebot anfragen</a>
 </body>
 
 </html>
