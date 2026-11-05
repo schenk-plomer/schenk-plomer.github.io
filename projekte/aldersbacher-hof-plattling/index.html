@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aldersbacher Hof · Plattling | Projekt | Schenk & Plomer GmbH</title>
+  <meta name="description" content="Küchen- und Gaststättenlüftung in Zusammenarbeit mit der Fa. Oberhauser. Referenzprojekt von Schenk & Plomer.">
+  <link rel="stylesheet" href="/modern.css">
+  <link rel="shortcut icon" type="image/ico" href="/favicon.png">
+
+  <!-- Open Graph / Social -->
+  <link rel="canonical" href="https://schenk-plomer.de/projekte/aldersbacher-hof-plattling/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Schenk & Plomer GmbH">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:title" content="Aldersbacher Hof · Plattling | Schenk &amp; Plomer GmbH">
+  <meta property="og:description" content="Küchen- und Gaststättenlüftung in Zusammenarbeit mit der Fa. Oberhauser.">
+  <meta property="og:url" content="https://schenk-plomer.de/projekte/aldersbacher-hof-plattling/">
+  <meta property="og:image" content="https://schenk-plomer.de/uploads/projekte/aldersbacher-hof-plattling-1.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Aldersbacher Hof · Plattling | Schenk &amp; Plomer GmbH">
+  <meta name="twitter:description" content="Küchen- und Gaststättenlüftung in Zusammenarbeit mit der Fa. Oberhauser.">
+  <meta name="twitter:image" content="https://schenk-plomer.de/uploads/projekte/aldersbacher-hof-plattling-1.jpg">
+</head>
+<body>
+  <header><div class="container navbar"><a href="/" class="logo"><img src="/uploads/logos/logo_schenk_plomer.png" alt="Logo"></a><button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Menü">☰</button><nav id="nav-menu"><ul class="nav-links"><li><a href="/">Home</a></li><li class="dropdown-parent" style="position:relative;"><a href="/service/">Lösungen</a><ul class="dropdown-menu"><li><a href="/luft-und-klimatechnik/">Luft- und Klimatechnik</a></li><li><a href="/technische-geb%C3%A4udeausstattung/">Technische Gebäudeausstattung</a></li><li><a href="/service/">Service & Wartung</a></li><li><a href="/waermepumpe/">Wärmepumpe & Förderung</a></li></ul></li><li><a href="/unternehmen/">Unternehmen</a></li><li><a href="/newsroom/" class="active">Newsroom</a></li><li><a href="/karriere/">Karriere</a></li><li class="mobile-only"><a href="/kontakt/">Kontakt</a></li></ul></nav></div></header>
+  <style>
+    @media(max-width:768px){#nav-menu{display:none;position:absolute;top:80px;left:0;width:100%;background:white;flex-direction:column;padding:2rem;box-shadow:0 10px 15px -3px rgba(0,0,0,.1)}#nav-menu.active{display:flex}.nav-links{flex-direction:column;gap:1.5rem;text-align:center}}
+
+    /* ===== Featured Projects Slider ===== */
+    .proj-slider { position:relative; height:62vh; min-height:460px; overflow:hidden; background:var(--brand-blue); }
+    .proj-slide { position:absolute; inset:0; opacity:0; background-size:cover; background-position:center; transition:opacity 1s ease-in-out; }
+    .proj-slide.active { opacity:1; }
+    .proj-slide::after { content:''; position:absolute; inset:0; background:linear-gradient(to top, rgba(20,15,60,0.92) 0%, rgba(20,15,60,0.55) 45%, rgba(20,15,60,0.15) 100%); }
+    .proj-slide-content { position:absolute; left:0; right:0; bottom:0; z-index:2; padding-bottom:3.5rem; }
+    .proj-slide-content .inner { max-width:640px; }
+    .proj-status { display:inline-block; background:rgba(255,255,255,0.15); border:1px solid rgba(255,255,255,0.3); backdrop-filter:blur(4px); color:#fff; padding:0.35rem 1rem; border-radius:30px; font-size:0.75rem; font-weight:700; letter-spacing:0.05em; text-transform:uppercase; margin-bottom:1rem; }
+    .proj-status.laufend { background:rgba(230,126,34,0.25); border-color:rgba(230,126,34,0.6); }
+    .proj-slide-content h2 { color:#fff; font-size:clamp(1.6rem,3.5vw,2.6rem); margin-bottom:0.75rem; }
+    .proj-slide-content .network-font { color:#fff !important; }
+    .proj-slide-content p { color:rgba(255,255,255,0.9); font-size:1.05rem; max-width:560px; margin-bottom:0; }
+
+    .proj-nav { position:absolute; top:50%; transform:translateY(-50%); z-index:5; width:48px; height:48px; border-radius:50%; border:none; background:rgba(255,255,255,0.15); backdrop-filter:blur(6px); color:#fff; font-size:1.6rem; line-height:1; cursor:pointer; transition:background 0.2s ease; display:flex; align-items:center; justify-content:center; }
+    .proj-nav:hover { background:rgba(255,255,255,0.3); }
+    .proj-nav.prev { left:1.25rem; }
+    .proj-nav.next { right:1.25rem; }
+    .proj-dots { position:absolute; bottom:1.25rem; left:0; right:0; z-index:5; display:flex; gap:0.6rem; justify-content:center; }
+    .proj-dot { width:10px; height:10px; border-radius:50%; background:rgba(255,255,255,0.4); border:none; cursor:pointer; padding:0; transition:all 0.2s ease; }
+    .proj-dot.active { background:#fff; transform:scale(1.25); }
+
+    @media(max-width:768px){
+      .proj-slider { height:auto; min-height:0; }
+      .proj-slide { position:relative; opacity:1; height:56vh; min-height:340px; }
+      .proj-slide:not(.active){ display:none; }
+      .proj-slide-content { padding-bottom:2.5rem; }
+      .proj-slide-content p { font-size:0.95rem; }
+      .proj-nav { width:40px; height:40px; font-size:1.3rem; top:32%; }
+      .proj-nav.prev{ left:0.6rem; } .proj-nav.next{ right:0.6rem; }
+    }
+
+    /* ===== Projects grid & filters ===== */
+    .filter-bar { display:flex; gap:0.75rem; flex-wrap:wrap; justify-content:center; margin-bottom:3rem; }
+    .filter-btn { background:transparent; border:2px solid var(--brand-blue); color:var(--brand-blue); padding:0.6rem 1.5rem; border-radius:30px; cursor:pointer; font-weight:bold; font-size:0.9rem; transition:all 0.25s ease; }
+    .filter-btn.active, .filter-btn:hover { background:var(--brand-blue); color:white; transform:scale(1.05); }
+
+    .ref-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(380px, 1fr)); gap:2rem; }
+    @media(max-width:500px) { .ref-grid { grid-template-columns:1fr; } }
+
+    .ref-card { position:relative; border-radius:var(--radius-lg); overflow:hidden; height:420px; cursor:pointer; box-shadow:var(--shadow-md); }
+    .ref-card .ref-bg { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; transition:transform 0.6s ease; }
+    .ref-card:hover .ref-bg { transform:scale(1.08); }
+    .ref-card .ref-overlay { position:absolute; inset:0; background:linear-gradient(to top, rgba(49,39,131,1) 0%, rgba(49,39,131,0.6) 40%, transparent 70%); transition:background 0.3s ease; }
+    .ref-card:hover .ref-overlay { background:linear-gradient(to top, rgba(49,39,131,1) 0%, rgba(49,39,131,0.7) 50%, rgba(49,39,131,0.2) 100%); }
+    .ref-card .ref-badge { position:absolute; top:1rem; left:1rem; z-index:3; background:rgba(255,255,255,0.9); color:var(--brand-blue); padding:0.25rem 0.8rem; border-radius:20px; font-size:0.7rem; font-weight:700; letter-spacing:0.05em; text-transform:uppercase; }
+    .ref-card .ref-badge.laufend { background:#e67e22; color:#fff; }
+    .ref-card .ref-body { position:absolute; bottom:0; left:0; right:0; padding:2rem; z-index:2; color:white; }
+    .ref-card .ref-body h3 { color:white; margin-bottom:0.5rem; font-size:1.3rem; }
+    .ref-card .ref-body p { color:rgba(255,255,255,0.85); font-size:0.9rem; margin-bottom:1rem; }
+    .ref-specs { display:flex; flex-wrap:wrap; gap:0.4rem; }
+    .spec-badge { background:rgba(255,255,255,0.15); backdrop-filter:blur(4px); border:1px solid rgba(255,255,255,0.25); color:white; padding:0.2rem 0.7rem; border-radius:20px; font-size:0.75rem; font-weight:600; }
+
+    .ref-card .hover-detail { opacity:0; transform:translateY(10px); transition:all 0.3s ease; margin-top:0.75rem; font-size:0.85rem; color:rgba(255,255,255,0.9); }
+    .ref-card:hover .hover-detail { opacity:1; transform:translateY(0); }
+  </style>
+  <script>function toggleMenu(){document.getElementById('nav-menu').classList.toggle('active')}</script>
+<style>.ref-specs .spec-badge{background:var(--brand-blue);color:#fff;border-color:transparent;}</style>
+  <main>
+    <section class="subpage-hero">
+      <div class="container">
+        <span style="display:inline-block;background:#e67e22;color:#fff;padding:0.3rem 0.9rem;border-radius:20px;font-size:0.75rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;margin-bottom:1rem;">In Umsetzung</span>
+        <h1>Aldersbacher Hof · Plattling</h1>
+        <p>Küchen- und Gaststättenlüftung in Zusammenarbeit mit der Fa. Oberhauser.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container" style="max-width:820px;">
+        <p>Für den Aldersbacher Hof in Plattling setzen wir die Küchen- und Gaststättenlüftung um – in Zusammenarbeit mit der Fa. Oberhauser.</p><p>Die RLT-Geräte sind aufgestellt, das Projekt befindet sich aktuell in der Umsetzung. Fortsetzung folgt!</p>
+        <div class="ref-specs" style="display:flex;flex-wrap:wrap;gap:0.5rem;margin:1.5rem 0 0.5rem;"><span class="spec-badge" style="background:var(--brand-blue);">Küchenlüftung</span><span class="spec-badge" style="background:var(--brand-blue);">Gastronomie</span><span class="spec-badge" style="background:var(--brand-blue);">Kooperation</span></div>
+      </div>
+    </section>
+
+    <section class="section section-bg">
+      <div class="container">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;">
+          <img src="/uploads/projekte/aldersbacher-hof-plattling-1.jpg" alt="Aldersbacher Hof · Plattling" loading="lazy" style="width:100%;border-radius:var(--radius-md);box-shadow:var(--shadow-md);"><img src="/uploads/projekte/aldersbacher-hof-plattling-2.jpg" alt="Aldersbacher Hof · Plattling" loading="lazy" style="width:100%;border-radius:var(--radius-md);box-shadow:var(--shadow-md);">
+        </div>
+        <p style="text-align:center;margin-top:2.5rem;"><a href="/newsroom/" class="btn btn-outline">← Zurück zum Newsroom</a></p>
+      </div>
+    </section>
+
+    <section class="section bg-blue" style="padding:4rem 0;">
+      <div class="container text-center">
+        <h2 style="color:white;">Ihr Projekt könnte das <span class="network-font" style="color:white;">nächste</span> sein</h2>
+        <p style="color:rgba(255,255,255,0.8);max-width:500px;margin-inline:auto;">Lassen Sie uns gemeinsam Großes schaffen.</p>
+        <a href="/kontakt/" class="btn btn-primary white-bg" style="margin-top:1rem;">Projekt anfragen</a>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container"><div class="footer-grid"><div class="footer-col"><img src="/uploads/logos/logo_schenk_plomer.png" alt="Logo" style="height:60px;margin-bottom:1.5rem;"><p style="color:rgba(255,255,255,0.7);font-size:0.9rem;"><strong>Schenk & Plomer GmbH</strong><br>Dieselstraße 6<br>84051 Altheim<br><br>+49 8703 / 9226-0<br>info@schenk-plomer.de</p></div><div class="footer-col"><h4>Unternehmen</h4><ul><li><a href="/unternehmen/">Profil</a></li><li><a href="/historie/">Historie</a></li><li><a href="/newsroom/">News & Presse</a></li><li><a href="/karriere/">Karriere & Jobs</a></li></ul></div><div class="footer-col"><h4>Fachbereiche</h4><ul><li><a href="/luft-und-klimatechnik/">Luft- & Klimatechnik</a></li><li><a href="/technische-geb%C3%A4udeausstattung/">Techn. Gebäudeausstattung</a></li><li><a href="/service/">Service & Wartung</a></li><li><a href="/newsroom/">Projekte</a></li></ul></div><div class="footer-col"><h4>Sponsoring & Partner</h4><div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px;"><img src="/uploads/sponsoring/evl_neu.png" alt="EVL" style="height:35px;background:white;padding:3px;border-radius:4px;"><img src="/uploads/sponsoring/spvgg_landshut_neu.png" alt="SPVGG" style="height:35px;background:white;padding:3px;border-radius:4px;"></div></div></div><div class="footer-bottom"><div>&copy; 2026 Schenk & Plomer GmbH. Design und Konzept bei Schenk und Plomer - Maxi Schwaiger</div><div class="footer-bottom-links"><a href="/impressum/">Impressum</a><a href="/datenschutz/">Datenschutz</a><a href="/haftungsausschluss/">Haftungsausschluss</a></div></div></div></footer>
+  <a href="/kontakt/" class="mobile-cta">Angebot anfragen</a>
+</body>
+</html>
